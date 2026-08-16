@@ -191,7 +191,7 @@ zerlegbar:
 | **mela** Wanderin (§24.3) | **me·la** (KV + KV) oder **mel·a** (KVK + V) |
 | **kavla** Stadt (§24.3) | **kav·la** (KVK + KV) oder **ka·vla** (KV + KKV) |
 | **drovna** Wald (§24.4) | **drov·na** (KKVK + KV) oder **dro·vna** (KKV + KKV) |
-| **vresto** Buch (§24.4) | **vres·to**, **vre·sto** oder **vrest·o** |
+| **vresto** Buch (§24.4) | **vres·to** oder **vre·sto** — die denkbare dritte Lesart *vrest·o* setzt die Silbenform KKVKK voraus, die §5.1 **nicht** führt (K-01), und zählt daher hier nicht mit |
 
 **Wo die Lücke folgenlos ist:** für Aussprache und Betonung. Die Betonungsregel §23 zählt
 Silben von hinten und liefert bei *mela* in beiden Zerlegungen dasselbe Ergebnis.

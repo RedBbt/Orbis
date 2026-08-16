@@ -244,7 +244,7 @@ are here neither filled in nor interpreted.
 | Topic | Location |
 |---|---|
 | Sound inventory and sound groups | `PHONOLOGY.md` (§2, §3) |
-| Syllable shapes, onset and coda clusters, L-09 | `PHONOTACTICS.md` (Abschnitt 5 dieser Datei) |
+| Syllable shapes, onset and coda clusters, L-09 | `PHONOTACTICS.md`, Abschnitt 5 |
 | Sound laws (level C) and word derivation | `PROTO_ORBIS.md` (§22, §4.3) |
 | Script signs, Manus syllable formula | Grammar §26 |
 | Finding IDs and rule basis | `Orbis-Audit-0_1.md` |

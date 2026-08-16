@@ -254,7 +254,7 @@ developed". This documentation too describes exclusively Standard Orbis (§1).
 | Topic | Location |
 |---|---|
 | Sound inventory, §3.3 as against §3.4/§3.5 | `PHONOLOGY.md` (§2, §3) |
-| Syllable shapes, onset/coda clusters, K-01 | `PHONOTACTICS.md` (Abschnitt 5 dieser Datei) |
+| Syllable shapes, onset/coda clusters, K-01 | `PHONOTACTICS.md`, Abschnitt 5 |
 | Levels A and B, stress, missing IPA assignment | `PRONUNCIATION.md` (§4, §23) |
 | Word formation, prefixes, juncture rule (synchronic) | Grammar §21 |
 | Irregular verbs (law 6) | Grammar §15.2 |

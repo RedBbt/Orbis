@@ -42,7 +42,7 @@ tools/        Werkzeuge — spiegeln die Sprache, definieren sie nicht
   lexicon/      Kollisions- und Ähnlichkeitsanalyse
   documentation/ Generator für abgeleitete Markdown-Dokumentation
   migration/    5 einmalige Umbauskripte der Phase A
-tests/        92 automatisierte Tests in 6 Suiten
+tests/        103 automatisierte Tests in 7 Suiten
 docs/de, docs/en, docs/decisions, docs/generated
 reports/      Prüfberichte und eingefrorene Baselines
 archive/      Vorfassungen — nie Quelle, nur Beleg
@@ -69,7 +69,7 @@ Alle übrigen Dateien blieben zunächst am Ort; Verweise in den Governance-Dokum
 
 **Entscheidungen:** `docs/decisions/DECISIONS.md` (Register) · `ORB-ADR-0001` (entschieden: Sprachdaten als Source of Truth) · `ORB-ADR-0002…0010` als *vorbereitet* eingetragen, inhaltlich aufbereitet in `decisions/Entscheidungsvorlage-0_9_4.md`.
 
-**Fachdokumentation:** `docs/de/` und `docs/en/` mit je rund 19 Kapiteln, aus der Referenzgrammatik geschrieben, mit Paragraphenverweisen und expliziter Kennzeichnung aller offenen Punkte.
+**Fachdokumentation:** `docs/de/` und `docs/en/` mit **je 19 Kapiteln**, aus der Referenzgrammatik geschrieben, mit Paragraphenverweisen und expliziter Kennzeichnung aller offenen Punkte. Umfangreichstes Kapitel: `SATZSTELLUNG.md` / `WORD_ORDER.md` mit 22 Konstruktionen (je deutscher Satz, Orbis-Satz, englische Übersetzung, Satzmuster, gültige und ungültige Umstellungen, Regel-ID). Zwei adversariale Prüfläufe haben 12 bzw. 11 Befunde gefunden; alle sind behoben (Abschnitt 12a).
 
 **Generiert:** 566 Dateien unter `docs/generated/` (Lexikon-Detailseiten deutsch und englisch, zwei Indizes, Befundregister, Paradigmentabellen), jeweils mit `AUTO-GENERATED — DO NOT EDIT DIRECTLY`.
 
@@ -147,7 +147,7 @@ Zehn Formen entscheiden A/C und B verschieden (*velkra, velkran, zaldre, kavla, 
 
 ## 9. Tests
 
-**92 Tests in 6 Suiten**, alle grün:
+**103 Tests in 7 Suiten**, alle grün:
 
 | Suite | prüft |
 |---|---|
@@ -157,6 +157,8 @@ Zehn Formen entscheiden A/C und B verschieden (*velkra, velkran, zaldre, kavla, 
 | `tests/corpus/` | genau 150 Sätze, Kennzahlen unverändert, lückenlose IDs, de+en überall, offene Sätze ohne erfundene Form, alle kanonischen Sätze bestehen die Automatik |
 | `tests/manus/` | 281 Formen, 77 mehrdeutig, Tastaturbeispiele eindeutig, *mela* bleibt mehrdeutig, Simulation ändert keine Daten |
 | `tests/regression/` | **Ausgabe-Identität gegen die eingefrorene Baseline**, `--strict` grün, `--schema` grün, generierte Doku aktuell |
+| `tests/regression/test_dokumentation.py` | alle als korrekt gezeigten Orbis-Beispielsätze der Handdokumentation, keine Umschrift von ş/ñ/ç in Lautangaben, alle offenen Befunde benannt, Experimentelles gekennzeichnet |
+| `tests/manus/test_experimentelles.py` | Wortspuren tauchen in keiner Sprachdatei auf, 20 Kernformen = 19 + 1, L-10 bleibt offen, `ou` bleibt ungeschrieben |
 
 ---
 
@@ -209,6 +211,27 @@ Unverändert offen, jetzt maschinenlesbar in `language/findings/findings.json`:
 Neu während der Migration dokumentiert (kein Sprachbefund, sondern ein Datenzustand): **W-04** — die 281 Lexeme tragen die migrierte Wörterbuchglosse und strukturelle Angaben, aber noch keine ausformulierte Definition. Insgesamt führt das Register damit **33 Befunde** (29 aus dem Audit, dazu W-01 bis W-04).
 
 Die Kollisionsanalyse bestätigt unabhängig **W-02** (`velkran` = Akkusativ von `velkra`) als einzige harte Flexionskollision im Bestand; dazu 295 Paare mit Editierdistanz 1, die dokumentiert, aber nicht bewertet sind.
+
+---
+
+## 12a. Was die Prüfläufe gefunden haben
+
+Die Dokumentation wurde zweimal adversarial gegengeprüft. Beide Läufe fanden echte Fehler — auch in Texten, die ich selbst geschrieben hatte.
+
+**Erster Lauf (Governance-Dokumente), 12 Befunde, alle behoben.** Die schwersten:
+- Die ROADMAP hatte **L-09 teilentschieden**: sie nannte nur zwei Silbifizierungsoptionen und schloss die Testbericht-Option „freie Varianz erklären" durch ihr Abschlusskriterium aus.
+- Der Konsonant **ş war in vier Dokumenten als „sh" umschrieben**, darunter in der Verfassung, die solche Umschriften verbietet.
+- `AGENTS.md`/`CONTRIBUTING.md` nannten **W-02 als nächste freie Befund-ID**, obwohl W-02 bis W-04 vergeben sind.
+- Zwei Rechenfehler aus meinen eigenen Berichten: „die 8 Reibelaute f s ş x v z j" sind sieben; „9 von 19 Konsonanten ohne Strichstärke" sind acht.
+
+**Zweiter Lauf (Fachdokumentation), 11 Befunde, alle behoben.** Der schwerste:
+- **`vresto` wurde mit drei Zerlegungen unter der Überschrift „alle §5-konform" geführt.** Die dritte Lesart *vrest·o* setzt die Silbenform KKVKK voraus, die §5.1 gerade nicht führt — die Dokumentation erweiterte §5.1 also an genau der Stelle, die sie sonst als K-01 markiert. Betraf vier Dateien in beiden Sprachen; der Validator zählt korrekt zwei Zerlegungen.
+
+Weitere: falsche Abschnittszahl (21 statt 22), W-Befunde fälschlich dem Audit zugeschrieben, ein †-Marker („ungültig") auf einer im selben Satz als „nicht entscheidbar" bezeichneten Form (jetzt **?** für „unbelegt, aber nicht ausgeschlossen"), ein Antonym-Beleg für ein Paar, das keines ist (*luid*/*girn*), eine als „direkt belegbar" ausgegebene Ableitung, eine falsche Testnummer-Zuordnung (Test 051 prüft „Buch", nicht „Wasser"), ein Gegenbeispiel, das stillschweigend eine nach L-03 nicht bildbare Form voraussetzte, zwei unmarkierte Interpretationen in MAGNA/MANUS und eine unvollständige Umschriftregel (ñ→nn fehlte).
+
+**Ein Befund ging auf meine eigene Korrektur zurück:** Beim Entschärfen mehrdeutiger interner Verweise hatte ich `` `PHONOTAKTIK.md` (§5) `` zu „(Abschnitt 5 **dieser** Datei)" gemacht — der Verweis zeigt aber auf eine *andere* Datei. In acht Dateien nachgezogen.
+
+Aus den Prüfungen sind dauerhafte Tests geworden, damit dieselben Fehlerklassen nicht wiederkehren.
 
 ---
 

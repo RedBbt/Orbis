@@ -41,7 +41,7 @@ continue to apply unchanged.
 
 Stipulation 2 refers back to §26.2 ("Every core form must differ from every other in
 at least two features"): the embellishment may not use up the feature distance.
-Stipulation 4 protects the coda, whose legibility depends solely on size and place
+Stipulation 4 protects the coda; it is the only class of signs whose legibility depends solely on size and place [derived from §26.5–26.7; §27 states only the prohibition]
 (§26.5–26.7) and which through ornament would become confusable with a subsidiary mark or a closing
 mark.
 

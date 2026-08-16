@@ -69,7 +69,9 @@ Flexionsformen geschlossener Klassen mit rein grammatischer Bedeutung. Einzelhei
 ### 2.3 Dateinamen
 
 Der Dateiname ist eine ASCII-Umschrift des Lemmas: *ş* → `sh` (*veiş* → `veish.json`,
-*şirn* → `shirn.json`, *nauş* → `naush.json`, *şaul* → `shaul.json`). Homonyme bekommen
+*şirn* → `shirn.json`, *nauş* → `naush.json`, *şaul* → `shaul.json`), *ñ* → `nn`
+(*oñ* → `onn.json`, *şeñ* → `shenn.json`, *oñaş* → `onnash.json`) und *ç* → `ch`
+(im Bestand bisher unbelegt). Homonyme bekommen
 eine angehängte Ziffer: `fai.json` (Konjunktion „dass") und `fai__2.json`
 (Relativpronomen), ebenso `kaun`/`kaun__2` und `vran`/`vran__2` — siehe Befund **W-03**.
 Das Lemma selbst steht unverändert in Orbis-Standardschreibung im Feld `lemma`.

@@ -308,7 +308,7 @@ On keyboard planning as a whole see `KEYBOARD.md`.
 
 The running-direction rule means: in Manus text the word boundary is **not** a gap — the
 gap marks the sentence boundary. Together with the free-standing closing mark (§26.7)
-this yields two independent signals for the end of a sentence.
+this yields two independent signals for the end of a sentence [inference from §26.9, not stated there].
 
 ### 10.1 [REGELLÜCKE L-10] (rule gap) — stroke weight undefined for eight consonants
 
@@ -363,7 +363,7 @@ a further consonant) second initial consonant.
 | **mela** wanderer (§24.3) | **me·la** or **mel·a** | m core form + e dot, then l core form + inherent *a* — **or** m core form + e dot + l coda, then RUUN vowel carrier with inherent *a* |
 | **kavla** city (§24.3) | **kav·la** or **ka·vla** | *v* as coda of the first block — **or** *v* as core form with *l* as subsidiary mark beneath it (§26.3) |
 | **drovna** forest (§24.4) | **drov·na** or **dro·vna** | *v* as coda — **or** *v* as core form with *n* subsidiary mark (initial cluster *vn*, §5.2) |
-| **vresto** book (§24.4) | **vres·to**, **vre·sto** or **vrest·o** | two or three blocks with different distribution of *s* and *t*; the third variant ends in a vowel carrier |
+| **vresto** book (§24.4) | **vres·to** or **vre·sto** | two blocks with different distribution of *s* and *t*. A third reading *vrest·o* (vowel carrier at the end) would require the syllable shape KKVKK, which §5.1 does **not** list — see K-01; it is not counted here |
 
 All variants named are correct according to §5 **and** according to §26. The grammar contains
 no sentence that singles out one of them.

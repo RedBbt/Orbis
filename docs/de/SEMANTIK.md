@@ -220,15 +220,17 @@ Ohne Partner bleiben die beiden übrigen Adjektive der Liste: **loşn** (schön)
 
 Im Lexikon sind diese neun Paare als je zwei `antonym`-Relationen abgelegt, mit der
 Anmerkung „Gegensatzpaar aus dem Adjektivbestand §24.7". Sie sind der einzige Teil des
-Relationsnetzes, der aus der Grammatik direkt belegbar war.
+Relationsnetzes, der sich aus der Grammatik überhaupt ableiten ließ — aus Reihenfolge und
+Glossen der Liste in §24.7. Eine Aussage über Antonymie trifft die Grammatik nirgends; die
+Paarung ist eine **Ableitung**, kein Beleg.
 
 **Belege im Satz** (Testkorpus / §25):
 
 | Paar | Beleg | Übersetzung |
 |---|---|---|
 | granz ↔ zirv | *Xna breun granz stanat, klas xla kavla zirv vurt.* (§25.1) | Das Haus bleibt alt, aber die Stadt wird neu. |
-| luid ↔ girn/velm | *Xla luiv luid vot, xla kirva girn vot.* (§25.2) | Die Sonne war hell, die Nacht war kalt. |
-| zilv ↔ tolm | *Xla soruma xlas nauşes vran tolm vaşnat.* (§25.1) | Die Erinnerung der Zeit vergeht sehr langsam. |
+| *luid* und *girn* — **kein Paar** | *Xla luiv luid vot, xla kirva girn vot.* (§25.2) | Die Sonne war hell, die Nacht war kalt. Der Satz belegt beide Adjektive im Gebrauch, nicht ihre Gegensätzlichkeit: die Paare sind luid ↔ şaln und velm ↔ girn. |
+| *tolm* (nur eine Seite) | *Xla soruma xlas nauşes vran tolm vaşnat.* (§25.1) | Die Erinnerung der Zeit vergeht sehr langsam. Belegt ist nur *tolm*; der Partner *zilv* kommt in keinem Beleg vor. |
 
 Der letzte Satz ist zugleich Gegenstand von **K-04**: Er verwendet *tolm* adverbial ohne
 das nach §12.4 erforderliche *-un*. Das betrifft die Adjektivmorphologie, nicht die

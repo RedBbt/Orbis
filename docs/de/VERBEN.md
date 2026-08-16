@@ -82,7 +82,7 @@ nunda vandex.*), *zaubex* (§25.1: *Valnaten şevar vin zaubex?*).
 | *traivut* → *traivute* | nominalisiert (N-C, §12.5): *Kilna est xna traivute.* | §12.5, §25.2 |
 
 **[REGELUNKLARHEIT] U-02:** Ob das Partizip **attributiv** dekliniert werden darf („das
-gefundene Wasser" → *xna traivutna aul*?), sagt keine Regel. §14 definiert die Bildung,
+gefundene Buch" → *xna traivutna vresto*?), sagt keine Regel. §14 definiert die Bildung,
 §16.3 nutzt sie prädikativ, §12.5 nominalisiert sie — der attributive Gebrauch ist
 ungeregelt (Testkorpus 0.1, Test 051).
 

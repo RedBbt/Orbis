@@ -192,7 +192,7 @@ way:
 | **mela** wanderer (f.) (§24.3) | **me·la** (KV + KV) or **mel·a** (KVK + V) |
 | **kavla** city (§24.3) | **kav·la** (KVK + KV) or **ka·vla** (KV + KKV) |
 | **drovna** forest (§24.4) | **drov·na** (KKVK + KV) or **dro·vna** (KKV + KKV) |
-| **vresto** book (§24.4) | **vres·to**, **vre·sto** or **vrest·o** |
+| **vresto** book (§24.4) | **vres·to** or **vre·sto** — the conceivable third reading *vrest·o* requires the syllable shape KKVKK, which §5.1 does **not** list (K-01), and is therefore not counted here |
 
 **Where the gap has no consequences:** for pronunciation and stress. The stress rule §23
 counts syllables from the end and yields for *mela* the same result under both divisions.

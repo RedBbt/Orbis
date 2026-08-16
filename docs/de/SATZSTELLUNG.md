@@ -28,8 +28,10 @@ Jeder Abschnitt hat dieselben acht Felder:
   Beleg existiert, steht das ausdrücklich da und der Abschnitt beschreibt nur die Lage.
 - Unter (f) und (g) sind Umstellungen nötigerweise konstruiert. Sie tragen die Marke
   **[Beleg …]**, wenn die umgestellte Form selbst belegt ist, sonst **[regelabgeleitet]**.
-- **†** markiert eine nach 0.9.3 ungültige Form — so wie die Grammatik selbst in §12.2
+- **†** markiert eine nach 0.9.3 **ungültige** Form — so wie die Grammatik selbst in §12.2
   (*†Lo loşna est*).
+- **?** markiert eine **unbelegte, aber nicht ausgeschlossene** Form: Die Regeln entscheiden
+  den Fall nicht, es gibt nur keinen Beleg dafür.
 - **Diese Datei entscheidet nichts.** Wo die Grammatik schweigt oder sich widerspricht,
   steht die Befund-ID aus `Orbis-Audit-0_1.md` §A.
 
@@ -347,7 +349,7 @@ Vorfeldposition (*Kelnan vreston*, *Kellan sarlan*).
 | Form | Bruch |
 |---|---|
 | †*Talat kem?* | Fragewort nicht auf Position 1 — §18.2 [regelabgeleitet] |
-| †*Kem şet milkaş?* | Verb an Position 3 — §18.2/§17.1 [regelabgeleitet] |
+| †*Kem şet milkaş?* | Verb an Position 3 — §18.2/§17.1 [regelabgeleitet]. **Doppelt ungültig:** Der Satz setzt *kem* zugleich als Akkusativobjekt voraus; eine Akkusativform von *kem* ist nach L-03 gar nicht definiert. Auch mit V2 wäre er nicht bildbar |
 
 > **[REGELLÜCKE L-03]** *kem* und *kelt* sind nur in der Grundform gelistet. „Wen siehst du?"
 > (Test 074), „Wem gibst du das Buch?" (Test 075) und „Wessen Buch liest du?" (Test 076) sind
@@ -646,7 +648,7 @@ Topikalisierung im Passivsatz ist nach §17.1 nicht ausgeschlossen, aber **nicht
 | Form | Bruch |
 |---|---|
 | †*Şunargat xna breun.* (als Aussage) | Verb an Position 1 — §17.1 [regelabgeleitet] |
-| †*Xna breun est şunargut.* | Beim Zustandspassiv steht das Partizip in allen Belegen vor der Kopula; siehe U-13, Abschnitt 17 — die Umkehrung ist **nicht entscheidbar**, nicht belegt und darum hier nur als unbelegt vermerkt |
+| ?*Xna breun est şunargut.* | Beim Zustandspassiv steht das Partizip in allen Belegen vor der Kopula; siehe U-13, Abschnitt 17. Die Umkehrung ist **nicht entscheidbar** — sie ist unbelegt, aber durch keine Regel ausgeschlossen. Deshalb **?** (unbelegt) statt **†** (ungültig) |
 
 > **[REGELLÜCKE L-05] Agens im Passiv.** „Das Haus wird **vom Mann** gebaut" (Test 137) und
 > „Das Buch wurde **von der Frau** gelesen" (Test 138) sind **nicht bildbar**. §16.3 regelt

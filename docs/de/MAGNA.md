@@ -40,7 +40,7 @@ gelten unverändert weiter.
 
 Bestimmung 2 verweist zurück auf §26.2 („Jede Kernform muss sich von jeder anderen in
 mindestens zwei Merkmalen unterscheiden"): Die Ausschmückung darf den Merkmalsabstand nicht
-aufbrauchen. Bestimmung 4 schützt die Coda, deren Lesbarkeit allein an Größe und Ort hängt
+aufbrauchen. Bestimmung 4 schützt die Coda; sie ist die einzige Zeichenklasse, deren Lesbarkeit allein an Größe und Ort hängt [Herleitung aus §26.5–26.7, §27 nennt nur das Verbot]
 (§26.5–26.7) und die durch Ornament mit einem Beizeichen oder einem Abschlusszeichen
 verwechselbar würde.
 

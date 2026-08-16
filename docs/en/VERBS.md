@@ -82,7 +82,7 @@ dolmaş nunda vandex.*), *zaubex* (§25.1: *Valnaten şevar vin zaubex?*).
 | *traivut* → *traivute* | nominalized (N-C, §12.5): *Kilna est xna traivute.* | §12.5, §25.2 |
 
 **[REGELUNKLARHEIT]** (rule ambiguity) **U-02:** Whether the participle may be declined
-**attributively** ("the found water" → *xna traivutna aul*?) is stated by no rule. §14
+**attributively** ("the found book" → *xna traivutna vresto*?) is stated by no rule. §14
 defines the formation, §16.3 uses it predicatively, §12.5 nominalizes it — the attributive
 use is unregulated (test corpus 0.1, test 051).
 

@@ -23,9 +23,9 @@ Die Sprache ist dabei nachweislich unverändert geblieben.
 | Korpus | 150 Sätze mit stabilen IDs, dreisprachig (Orbis/Deutsch/Englisch), voll analysiert |
 | Befunde | 33 maschinenlesbar (29 aus dem Audit erhalten, W-01…W-04 ergänzt) |
 | Werkzeuge | Validator als Paket (12 Module), Doku-Generator, Kollisionsanalyse |
-| Tests | 92, alle grün; Baseline-Identität abgesichert |
+| Tests | 103, alle grün; Baseline-Identität und Dokumentation abgesichert |
 | CI | 8 Schritte inkl. Prüfsumme der Referenzgrammatik |
-| Dokumentation | `docs/de` + `docs/en` (Fachkapitel), 566 generierte Seiten |
+| Dokumentation | `docs/de` + `docs/en` mit je 19 Fachkapiteln (zweimal adversarial geprüft), 566 generierte Seiten |
 | Entscheidungen | ORB-ADR-0001 entschieden; 0002–0010 vorbereitet, warten auf die Designer |
 
 **Blockiert auf Designerentscheidung:** Grammatik 0.9.4 (L-01…L-05, K-05), Orbis Manus

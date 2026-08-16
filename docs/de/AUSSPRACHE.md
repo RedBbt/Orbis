@@ -244,7 +244,7 @@ werden hier weder gefüllt noch ausgelegt.
 | Thema | Ort |
 |---|---|
 | Lautinventar und Klanggruppen | `PHONOLOGIE.md` (§2, §3) |
-| Silbenformen, Anfangs- und Endgruppen, L-09 | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
+| Silbenformen, Anfangs- und Endgruppen, L-09 | `PHONOTAKTIK.md`, Abschnitt 5 |
 | Lautgesetze (Ebene C) und Wortherleitung | `PROTO_ORBIS.md` (§22, §4.3) |
 | Schriftzeichen, Manus-Silbenformel | Grammatik §26 |
 | Befund-IDs und Regelbasis | `Orbis-Audit-0_1.md` |

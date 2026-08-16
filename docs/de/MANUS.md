@@ -307,7 +307,7 @@ Zur Tastaturplanung insgesamt siehe `TASTATUR.md`.
 
 Die Laufrichtungsregel bedeutet: die Wortgrenze ist im Manus-Text **keine** Lücke — die
 Lücke markiert die Satzgrenze. Zusammen mit dem freistehenden Abschlusszeichen (§26.7)
-ergibt das zwei unabhängige Signale für das Satzende.
+ergibt das zwei unabhängige Signale für das Satzende [Folgerung aus §26.9, nicht dort ausgesprochen].
 
 ### 10.1 [REGELLÜCKE L-10] — Strichstärke für acht Konsonanten undefiniert
 
@@ -362,9 +362,9 @@ einem weiteren Konsonanten) zweiter Anfangskonsonant.
 | **mela** Wanderin (§24.3) | **me·la** oder **mel·a** | m-Kernform + e-Punkt, dann l-Kernform + inhärentes *a* — **oder** m-Kernform + e-Punkt + l-Coda, dann RUUN-Vokalträger mit inhärentem *a* |
 | **kavla** Stadt (§24.3) | **kav·la** oder **ka·vla** | *v* als Coda des ersten Blocks — **oder** *v* als Kernform mit *l* als Beizeichen darunter (§26.3) |
 | **drovna** Wald (§24.4) | **drov·na** oder **dro·vna** | *v* als Coda — **oder** *v* als Kernform mit *n*-Beizeichen (Anlautgruppe *vn*, §5.2) |
-| **vresto** Buch (§24.4) | **vres·to**, **vre·sto** oder **vrest·o** | zwei oder drei Blöcke mit unterschiedlicher Verteilung von *s* und *t*; die dritte Variante endet auf einen Vokalträger |
+| **vresto** Buch (§24.4) | **vres·to** oder **vre·sto** | zwei Blöcke mit unterschiedlicher Verteilung von *s* und *t*. Eine dritte Lesart *vrest·o* (Vokalträger am Ende) wäre nur mit der Silbenform KKVKK möglich, die §5.1 **nicht** führt — siehe K-01; sie zählt hier nicht mit |
 
-Alle genannten Varianten sind nach §5 **und** nach §26 korrekt. Die Grammatik enthält
+Alle **hier gezählten** Varianten sind nach §5.1 und nach §26 korrekt; Lesarten, die eine in §5.1 nicht geführte Silbenform bräuchten, sind ausgenommen (K-01). Die Grammatik enthält
 keinen Satz, der eine davon auszeichnet.
 
 ### 11.3 Die Quantifizierung
@@ -440,7 +440,7 @@ Zerlegung gilt — einschließlich der Sonderfälle *suvr-* und der Kompositions
 
 | Thema | Ort |
 |---|---|
-| Silbenformen, Anlautgruppen, Coda-Bedingungen, L-09 phonotaktisch | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
+| Silbenformen, Anlautgruppen, Coda-Bedingungen, L-09 phonotaktisch | `PHONOTAKTIK.md`, Abschnitt 5 |
 | Lautinventar, Klanggruppen, unbelegte Laute *j* und *ç* | `PHONOLOGIE.md` (§2, §3) |
 | Betonung und Lautung | `AUSSPRACHE.md` (§23) |
 | Feierliche Schriftform | `MAGNA.md` (§27) |
