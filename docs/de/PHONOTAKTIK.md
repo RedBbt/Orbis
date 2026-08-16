@@ -24,14 +24,20 @@ nicht** (Regellücke L-09, §5). Beides wird hier benannt, nicht behoben.
 
 §5.1 nennt sechs Formen. K = Konsonant, V = Vokal oder Diphthong.
 
-| Form | Aufbau | Belegtes Beispiel |
+> **V · KV · KVK · KKV · KKVK · KVKK** (letzteres selten)
+
+§5.1 selbst führt **keine Beispielwörter** auf. Die folgende Tabelle belegt jede Form
+daher mit **einsilbigen** Wörtern der Grammatik, bei denen die Zuordnung eindeutig ist —
+bei mehrsilbigen Wörtern hinge sie von der fehlenden Silbentrennungsregel ab (L-09, §7).
+
+| Form | Aufbau | Einsilbige Belege |
 |---|---|---|
-| **V** | nur Vokal | *e-* in *esex* (sein, §15.2); *a* in *aulmelna* nach Zerlegung |
-| **KV** | Konsonant + Vokal | *me-* in *mela* (Wanderin, §24.3); *xa* nicht (§24.9) |
-| **KVK** | Konsonant + Vokal + Konsonant | *kaun* Mensch, *nauş* Zeit, *şaul* Name (§24.1) |
-| **KKV** | Zweiergruppe + Vokal | *xra* (Artikel M Nom, §11.1); *zva* (§24) |
-| **KKVK** | Zweiergruppe + Vokal + Konsonant | *breun* Haus (§24.1); *grein* Erde (§24.1) |
-| **KVKK** | Konsonant + Vokal + Zweiercoda (**selten**) | *virn* Leben, *moks* Tod, *xerp* Feuer (§24.1) |
+| **V** | nur Vokal | **kein einsilbiger Beleg** — der Wortschatz enthält kein Wort aus einem bloßen Vokal. Offene V-Silben entstehen nur beim Zerlegen mehrsilbiger Wörter (z. B. *oñas* als *o·ñas*, §13.1) und hängen damit an L-09 |
+| **KV** | Konsonant + Vokal | *ro* er, *lo* sie, *no* es (§13.1) · *xa* nicht, *ze* und, *vu* oder (§24.9) · *se* sich (§13.4) |
+| **KVK** | Konsonant + Vokal + Konsonant | *kaun* Mensch, *nauş* Zeit, *şaul* Name (§24.1) · *vim* ich (§13.1) |
+| **KKV** | Zweiergruppe + Vokal | *xra · xla · xna* bestimmter Artikel, *vra · vla · vna* unbestimmter Artikel (§11) · *zva* mit, *kru* auf (§19) |
+| **KKVK** | Zweiergruppe + Vokal + Konsonant | *breun* Haus, *grein* Erde, *draun* Vater (§24.1) · *span* über, *şlim* zwischen (§19) |
+| **KVKK** | Konsonant + Vokal + Zweiercoda (**selten**) | *virn* Leben, *moks* Tod, *xerp* Feuer (§24.1) · *tolm* langsam (§24.7) · *kalm* 4, *mern* 5, *xelm* 10 (§24.8) |
 
 §3.3 verweist auf genau diese Liste und macht sie verbindlich. Drei und mehr Konsonanten
 am Silbenanfang sind „ausnahmslos verboten" (§5.2); mehr als zwei Konsonanten in der Coda
@@ -114,7 +120,7 @@ Nach Bautyp geordnet, mit Belegen aus §24/§25:
 | *f/v* + Liquid/Nasal | **fl · vl · fr · vr · vn** | **fl unbelegt** · *vlaiko* Wind · **fr unbelegt** · *vresto* Buch · *vnan* (Artikel, §11.2) |
 | *s/ş* + Konsonant | **sl · şl · şr · sk · st · sp** | **sl unbelegt** · *şlim* zwischen · **şr unbelegt** · *skelnu* Himmel · *stan-* bleiben · *span* über |
 | *x* + Konsonant | **xr · xl · xn** | *xra / xla / xna* (bestimmter Artikel, §11.1) |
-| *z* + *v* | **zv** | *zva* (§24) |
+| *z* + *v* | **zv** | *zva* mit (§19) |
 
 **Beobachtung zur Belegung** (`Orbis-Audit-0_1.md` §2.2, nachgerechnet an
 `language/lexicon/entries/`): **bl, fl, fr, sl, şr** sind zulässig, aber im eingefrorenen

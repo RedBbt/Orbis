@@ -10,6 +10,52 @@ Versionierung (Governance): Orbis Grammar (aktuell 0.9.3), Orbis Lexicon (0.x), 
 - Designentscheidungen für Grammatik 0.9.4 zu den Befunden L-01 bis L-05 und K-05 (durch die Sprachdesigner); Vorlage: `decisions/Entscheidungsvorlage-0_9_4.md`.
 - Redaktionskorrekturen K-01, K-03, K-04, U-01, U-10. (U-14 und K-02 sind Grenzfälle: die Korrekturform hängt an einer Designer-Entscheidung, siehe Entscheidungsvorlage.)
 
+## Infrastruktur 0.1 — Sprachplattform (Phase A) — 2026-08-16
+
+Umbau des Repositories zu einer versionierten Sprachplattform. **Die Sprache selbst wurde
+nicht verändert:** alle Validator-Läufe sind byte-identisch zur eingefrorenen Baseline,
+die Referenzgrammatik hat keinen Commit erhalten. Nachweis: `reports/ORBIS-INFRASTRUCTURE-MIGRATION-0_1.md`.
+
+### Hinzugefügt
+- `language/` als maschinenlesbare Source of Truth (317 JSON-Dateien): Phonologie, Morphologie,
+  Syntax, Proto-Orbis, Metadaten, Lexikon, Korpus, Befunde. Offene Regeln tragen
+  `status: open|conflict|unclear` mit Befund-ID statt einer erfundenen Regel.
+- Lexikon: 281 Lexeme (`ORB-LEX-*`) und 131 davon getrennte Konzepte (`ORB-CON-*`),
+  Wortfamilien, 9 Antonympaare; deutsche Bedeutung kanonisch, englische abgeleitet (281/281).
+- Korpus: 150 Sätze als `ORB-SENT-*` mit Orbis unverändert, Deutsch, Englisch, Syntaxanalyse,
+  Satzmuster und Lexemverweisen; zusätzlich die 71 Grammatikbelege als eigener Beispielkorpus.
+- Schemata für Lexem, Konzept, Satz und Befund; Prüfung ohne externe Abhängigkeiten.
+- Befundregister mit 33 Einträgen (29 aus dem Audit erhalten, dazu W-01 bis W-04).
+- Governance: `ORBIS_CONSTITUTION.md`, `AI_START_HERE.md`, `AGENTS.md`, `CONTRIBUTING.md`,
+  `STATUS.md`, `ROADMAP.md`, `VERSIONING.md`, `TRANSLATION_POLICY.md`.
+- Entscheidungsregister `docs/decisions/` mit `ORB-ADR-0001` (entschieden) und 0002–0010
+  (vorbereitet, Optionen in `decisions/Entscheidungsvorlage-0_9_4.md`).
+- Dokumentationsgenerator `tools/documentation/`: 566 Seiten mit AUTO-GENERATED-Kopf,
+  `--check` hält sie in CI aktuell.
+- Kollisionsanalyse `tools/lexicon/similarity.py` (Homonymie, Flexionskollision,
+  Editierdistanz, Phonemähnlichkeit, Manus-Silhouette).
+- 92 automatisierte Tests in 6 Suiten.
+- Zweisprachige Fachdokumentation unter `docs/de/` und `docs/en/`.
+
+### Geändert
+- Validator ist ein Paket (`tools/validator/`, 12 Module) und liest seine Regeldaten aus
+  `language/`. `orbis_validator.py` bleibt als Einstiegspunkt bestehen; alle dokumentierten
+  Aufrufe gelten unverändert.
+- `--sim-l09` deckt jetzt vier Silbifizierungsstrategien ab (A–D) — Analysewerkzeug, keine Regel.
+- Neue Modi `--schema`, `--ids`, `--translations`, `--relations`.
+- CI prüft zusätzlich Schema, Lexikon, Manus, Tests, generierte Doku und die Prüfsumme der
+  Referenzgrammatik.
+
+### Verschoben
+- `Orbis-Testkorpus-0.1.md` → `archive/corpus/` (Chat-Entwurf, mit Git-Historie).
+- Monolithischer Validator → `archive/orbis_validator-0_1-monolith.py`.
+
+### Unverändert (ausdrücklich)
+- `Orbis-Grammatik-0.9.3.md` — keine Zeile, keine stille Korrektur.
+- Kennzahlen: 150 Tests, 130 OK, 14/3/2/1, 86,7 %, 281 Grundformen, 77 Manus-Ambiguitäten.
+- Keine Designerentscheidung getroffen: L-01…L-05, K-05, L-09 und W-02 bleiben offen;
+  Morphem-Ebene und Wortspuren ausschließlich als EXPERIMENTAL dokumentiert.
+
 ## Stabilitätstest 0.1 — 2026-08-16
 
 ### Hinzugefügt

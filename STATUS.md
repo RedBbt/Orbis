@@ -11,6 +11,28 @@ unverändert aus `Orbis-Testbericht-0_1.md`, `Orbis-Validator-Bericht-0_1.md` un
 
 ---
 
+## Phase A — was seit dem Stabilitätstest dazugekommen ist
+
+Die Infrastruktur-Migration ist abgeschlossen (Bericht: `reports/ORBIS-INFRASTRUCTURE-MIGRATION-0_1.md`).
+Die Sprache ist dabei nachweislich unverändert geblieben.
+
+| Bereich | Stand |
+|---|---|
+| Sprachdaten | `language/` mit 317 JSON-Dateien ist Source of Truth; Validator liest daraus |
+| Lexikon | 281 Lexeme, 131 Konzepte, deutsche Bedeutung kanonisch, englische abgeleitet (281/281) |
+| Korpus | 150 Sätze mit stabilen IDs, dreisprachig (Orbis/Deutsch/Englisch), voll analysiert |
+| Befunde | 33 maschinenlesbar (29 aus dem Audit erhalten, W-01…W-04 ergänzt) |
+| Werkzeuge | Validator als Paket (12 Module), Doku-Generator, Kollisionsanalyse |
+| Tests | 92, alle grün; Baseline-Identität abgesichert |
+| CI | 8 Schritte inkl. Prüfsumme der Referenzgrammatik |
+| Dokumentation | `docs/de` + `docs/en` (Fachkapitel), 566 generierte Seiten |
+| Entscheidungen | ORB-ADR-0001 entschieden; 0002–0010 vorbereitet, warten auf die Designer |
+
+**Blockiert auf Designerentscheidung:** Grammatik 0.9.4 (L-01…L-05, K-05), Orbis Manus
+und Keyboard (L-09), Wortschatzkollision `velkran` (W-02), ausformulierte Lexikondefinitionen (W-04).
+
+
+
 ## 1. Kanonische Versionen
 
 | Komponente | Version | Zustand |
