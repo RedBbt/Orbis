@@ -32,6 +32,8 @@
           "affected_words": { "type": "array", "items": { "type": "string" } },
           "affected_sentences": { "type": "array", "items": { "type": "string" } },
           "introduced_version": { "type": ["string", "null"] },
+          "id_vergeben_in": { "type": ["string", "null"],
+            "description": "Version, in der die ID vergeben wurde, falls sie spaeter entstand als der Befund selbst." },
           "resolved_version": { "type": ["string", "null"] },
           "decision_id": { "type": ["string", "null"] },
           "quelle": { "type": ["string", "null"] }

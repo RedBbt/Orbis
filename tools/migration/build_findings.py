@@ -114,8 +114,8 @@ F = [
  ("L-10","gap","P3",
   "Strichstaerkenregel deckt nicht alle Konsonanten",
   "§26.9 definiert duenn/mittel/dick fuer Vokale, Fliesslaute/Nasale und Verschlusslaute. "
-  "Fuer die acht Reibelaute f s ş x v z j und die Affrikate ç fehlt jede Zuordnung.",
-  "§26.9 leaves stroke weight undefined for the eight fricatives and the affricate.",
+  "Fuer die sieben Reibelaute f s ş x v z j und die Affrikate ç fehlt jede Zuordnung; 8 der 19 Konsonanten bleiben damit ohne Strichstaerke.",
+  "§26.9 leaves stroke weight undefined for the seven fricatives and the affricate — 8 of the 19 consonants have no stroke weight.",
   ["§26.9"], [], []),
  ("U-01","unclear","P3",
   "§15.2-Formel deckt die eigenen Tabellen nicht",
@@ -236,6 +236,17 @@ F = [
   ["\u00a724"], [], []),
 ]
 
+# Herkunft abweichender IDs: (introduced_version, id_vergeben_in)
+# K-xx/L-xx/U-xx und W-01 stammen mit ihrer ID aus Orbis-Audit-0_1.md bzw.
+# Orbis-Testbericht-0_1.md. W-02 und W-03 beschreiben Befunde, die der Testbericht in
+# Phase 7 OHNE ID fuehrt; die IDs wurden bei der Migration vergeben. W-04 ist waehrend
+# der Migration neu dokumentiert worden (Datenzustand, kein Sprachbefund).
+HERKUNFT = {
+    "W-02": ("test-0.1 (Phase 7, dort ohne ID)", "infrastructure-0.1"),
+    "W-03": ("test-0.1 (Phase 7, dort ohne ID)", "infrastructure-0.1"),
+    "W-04": ("infrastructure-0.1", "infrastructure-0.1"),
+}
+
 TYP_LABEL = {"conflict": "REGELKONFLIKT", "gap": "REGELLUECKE", "unclear": "REGELUNKLARHEIT",
              "lexical_gap": "WORTSCHATZLUECKE", "lexical_collision": "WORTSCHATZKOLLISION",
              "documentation_gap": "DOKUMENTATIONSLUECKE"}
@@ -256,7 +267,8 @@ def main():
             "affected_rules": paras,
             "affected_words": woerter,
             "affected_sentences": ["ORB-SENT-" + s.zfill(6) for s in saetze],
-            "introduced_version": "grammar-0.9.3",
+            "introduced_version": HERKUNFT.get(fid, ("grammar-0.9.3", None))[0],
+            "id_vergeben_in": HERKUNFT.get(fid, ("grammar-0.9.3", None))[1],
             "resolved_version": None,
             "decision_id": None,
             "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md",
@@ -266,6 +278,12 @@ def main():
         "erzeugt_von": "tools/migration/build_findings.py",
         "hinweis": "Register bestehender Befunde. Keine Loesungen, keine Bewertungsaenderung. "
                    "Status-Werte: open / accepted / resolved / deferred / wont_fix.",
+        "zaehlweise": "Orbis-Testbericht-0_1.md zaehlt 30 Befunde (29 mit Audit-ID plus W-01) und "
+                      "fuehrt die uebrigen Wortschatzbefunde als unnummerierte Phase-7-Liste. "
+                      "Dieses Register vergibt dafuer die IDs W-02 und W-03 und ergaenzt W-04 "
+                      "(Datenzustand aus der Migration). Die Differenz in den P2-/P3-Summen "
+                      "gegenueber dem Testbericht erklaert sich vollstaendig aus diesen drei IDs; "
+                      "das Feld id_vergeben_in weist sie aus.",
         "status_werte": ["open", "accepted", "resolved", "deferred", "wont_fix"],
         "anzahl": len(findings),
         "nach_prioritaet": {p: sum(1 for f in findings if f["prioritaet"] == p)

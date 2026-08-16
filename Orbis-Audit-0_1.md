@@ -380,7 +380,7 @@ Befunde:
 > Orbis hat 19 Konsonanten; die 20. Kernform ist der **Vokalträger** (§26.2), der kein Konsonant ist. Korrekt wäre „19 Konsonantentasten + 1 Vokalträgertaste" (Summe 31 Belegungen bleibt richtig). Reiner Dokumentationsfehler.
 
 > **[REGELLÜCKE L-10] Strichstärkenregel deckt nicht alle 19 Konsonanten.**
-> §26.9: „dünn = Vokal, mittel = Fließlaut und Nasal, dick = Verschlusslaut". Damit sind nur l r (Fließlaute), m n ñ (Nasale) und p t k b d g (Verschlusslaute) erfasst — für die **8 Reibelaute f s ş x v z j** und die **Affrikate ç** ist keine Strichstärke definiert.
+> §26.9: „dünn = Vokal, mittel = Fließlaut und Nasal, dick = Verschlusslaut". Damit sind nur l r (Fließlaute), m n ñ (Nasale) und p t k b d g (Verschlusslaute) erfasst — für die **sieben Reibelaute f s ş x v z j** und die **Affrikate ç** ist keine Strichstärke definiert — **8 der 19 Konsonanten** bleiben ohne Zuordnung.
 
 **Orbis Magna (§27):** stilistische Schicht über denselben Kernformen; Spiralregeln [NOCH ZU ENTSCHEIDEN] — offen, kein Prüfbefund.
 

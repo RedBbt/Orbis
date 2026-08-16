@@ -72,7 +72,7 @@ Wer Werkzeuge baut oder mit einem Assistenzsystem arbeitet, liest zusaetzlich `A
 | Stabilitaetsquote | 86,7 % |
 | Urteil | NOT READY fuer einen direkten 1.0-Sprung; kein P0, 6 P1-Probleme, alle additiv loesbar |
 | Baseline | `orbis_baseline.json`, 39 bekannte Validatormeldungen |
-| Befundregister | `language/findings/findings.json`, 32 Befunde |
+| Befundregister | `language/findings/findings.json`, 33 Befunde |
 
 Diese Zahlen sind Bezugspunkte. Wenn ein Beitrag sie veraendert, muss das gewollt, begruendet
 und im `CHANGELOG.md` vermerkt sein.
@@ -129,7 +129,9 @@ Format, Marker (`[REGELLUECKE]`, `[REGELKONFLIKT]`, `[REGELUNKLARHEIT]`), ID-Ver
 Registereintrag sind in `AGENTS.md` Abschnitt 7 beschrieben; die Regeln gelten fuer Menschen
 und Werkzeuge gleichermassen. Kurz:
 
-- Neue Befunde erhalten die naechste freie Nummer ihrer Klasse (`K-06`, `L-11`, `U-15`, `W-02`).
+- Neue Befunde erhalten die naechste freie Nummer ihrer Klasse. Der aktuelle Stand steht in
+  `language/findings/findings.json` (derzeit vergeben: K-01…K-05, L-01…L-10, U-01…U-14,
+  W-01…W-04); die naechsten freien Nummern sind also `K-06`, `L-11`, `U-15`, `W-05`.
 - IDs werden nie wiederverwendet und nie umnummeriert.
 - Die Prioritaet (P0…P4) ist im Beitrag immer ein **Vorschlag**; die Einstufung nehmen die
   Sprachdesigner vor.

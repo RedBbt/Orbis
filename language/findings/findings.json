@@ -2,6 +2,7 @@
   "quelle": "Orbis-Audit-0_1.md, Orbis-Testbericht-0_1.md",
   "erzeugt_von": "tools/migration/build_findings.py",
   "hinweis": "Register bestehender Befunde. Keine Loesungen, keine Bewertungsaenderung. Status-Werte: open / accepted / resolved / deferred / wont_fix.",
+  "zaehlweise": "Orbis-Testbericht-0_1.md zaehlt 30 Befunde (29 mit Audit-ID plus W-01) und fuehrt die uebrigen Wortschatzbefunde als unnummerierte Phase-7-Liste. Dieses Register vergibt dafuer die IDs W-02 und W-03 und ergaenzt W-04 (Datenzustand aus der Migration). Die Differenz in den P2-/P3-Summen gegenueber dem Testbericht erklaert sich vollstaendig aus diesen drei IDs; das Feld id_vergeben_in weist sie aus.",
   "status_werte": [
     "open",
     "accepted",
@@ -64,6 +65,7 @@
         "ORB-SENT-000041"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -90,6 +92,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -113,6 +116,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -139,6 +143,7 @@
         "ORB-SENT-000060"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -164,6 +169,7 @@
         "ORB-SENT-000105"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -189,6 +195,7 @@
         "ORB-SENT-000039"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -218,6 +225,7 @@
         "ORB-SENT-000149"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -245,6 +253,7 @@
         "ORB-SENT-000076"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -270,6 +279,7 @@
         "ORB-SENT-000035"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -294,6 +304,7 @@
         "ORB-SENT-000138"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -327,6 +338,7 @@
         "ORB-SENT-000088"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -352,6 +364,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -375,6 +388,7 @@
         "ORB-SENT-000070"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -407,6 +421,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -419,14 +434,15 @@
       "prioritaet": "P3",
       "status": "open",
       "titel_de": "Strichstaerkenregel deckt nicht alle Konsonanten",
-      "description_de": "§26.9 definiert duenn/mittel/dick fuer Vokale, Fliesslaute/Nasale und Verschlusslaute. Fuer die acht Reibelaute f s ş x v z j und die Affrikate ç fehlt jede Zuordnung.",
-      "description_en": "§26.9 leaves stroke weight undefined for the eight fricatives and the affricate.",
+      "description_de": "§26.9 definiert duenn/mittel/dick fuer Vokale, Fliesslaute/Nasale und Verschlusslaute. Fuer die sieben Reibelaute f s ş x v z j und die Affrikate ç fehlt jede Zuordnung; 8 der 19 Konsonanten bleiben damit ohne Strichstaerke.",
+      "description_en": "§26.9 leaves stroke weight undefined for the seven fricatives and the affricate — 8 of the 19 consonants have no stroke weight.",
       "affected_rules": [
         "§26.9"
       ],
       "affected_words": [],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -454,6 +470,7 @@
         "ORB-SENT-000133"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -478,6 +495,7 @@
         "ORB-SENT-000051"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -507,6 +525,7 @@
         "ORB-SENT-000111"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -530,6 +549,7 @@
         "ORB-SENT-000071"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -557,6 +577,7 @@
         "ORB-SENT-000146"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -583,6 +604,7 @@
         "ORB-SENT-000056"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -609,6 +631,7 @@
         "ORB-SENT-000095"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -632,6 +655,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -655,6 +679,7 @@
         "ORB-SENT-000067"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -677,6 +702,7 @@
       "affected_words": [],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -699,6 +725,7 @@
       "affected_words": [],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -725,6 +752,7 @@
       ],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -750,6 +778,7 @@
         "ORB-SENT-000121"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -779,6 +808,7 @@
         "ORB-SENT-000134"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -801,6 +831,7 @@
         "ORB-SENT-000104"
       ],
       "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -824,7 +855,8 @@
         "velkra"
       ],
       "affected_sentences": [],
-      "introduced_version": "grammar-0.9.3",
+      "introduced_version": "test-0.1 (Phase 7, dort ohne ID)",
+      "id_vergeben_in": "infrastructure-0.1",
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -864,7 +896,8 @@
         "xerp"
       ],
       "affected_sentences": [],
-      "introduced_version": "grammar-0.9.3",
+      "introduced_version": "test-0.1 (Phase 7, dort ohne ID)",
+      "id_vergeben_in": "infrastructure-0.1",
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
@@ -884,7 +917,8 @@
       ],
       "affected_words": [],
       "affected_sentences": [],
-      "introduced_version": "grammar-0.9.3",
+      "introduced_version": "infrastructure-0.1",
+      "id_vergeben_in": "infrastructure-0.1",
       "resolved_version": null,
       "decision_id": null,
       "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"

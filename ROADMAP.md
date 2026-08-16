@@ -146,12 +146,13 @@ unverändert bestehen.
 - Entscheidung zu **L-01** (Stellung des Genitivattributs): Nachstellung normieren oder
   beide Stellungen zulassen; Stapelung von Genitiv und Possessiv mitentscheiden.
 - Entscheidung zu **L-03** (Deklination der Fragewörter): Kernwortmuster, pronominales
-  Muster oder indeklinabel; adjektivische Deklination von `kel-` als Regel aussprechen
-  (§18.2).
+  Muster oder indeklinabel. Mitzuentscheiden ist, ob die adjektivische Kongruenz von `kel-`,
+  die §18.2 bisher nur an einem Beispiel zeigt, als Regel ausgesprochen wird.
 - Entscheidung zu **L-04** (Reflexivpronomen `se`): indeklinabel, voll dekliniert oder
   für alle Personen.
-- Entscheidung zu **L-05** (Agens im Passiv): `ven` mit Zweitfunktion, eigene
-  Agens-Präposition oder kein Passiv-Agens.
+- Entscheidung zu **L-05** (Agens im Passiv): eine bestehende Präposition mit einer
+  Zweitfunktion betrauen (der Testbericht nennt `ven` + Dativ als Beispiel, nicht als Vorgabe),
+  eine eigene Agens-Präposition schaffen oder auf ein Passiv-Agens verzichten.
 - Redaktionskorrekturen entscheiden: K-01, K-03, K-04, U-01 sowie U-10 (§26.8 nennt
   fälschlich „20 Konsonantentasten"; korrekt sind 19 Konsonanten und 1 Vokalträger).
 - Grenzfälle K-02 und U-14 entscheiden, deren Korrekturform von den Entscheidungen oben
@@ -360,11 +361,14 @@ Schriftfassung. Schrift und Grammatik bleiben dabei getrennte Ebenen.
 
 ### Arbeitspakete
 
-- **L-09 entscheiden** (Silbifizierung): Diphthong-Vorrang mit Onset-Maximierung
-  (löst 280 von 281 Grundformen eindeutig, darunter alle 77 mehrdeutigen) oder
-  Diphthong-Vorrang mit Minimal-Onset (279 von 281). Sonderfälle `suvr-` und die
-  Kompositionsfuge in `taivbreun` ausdrücklich mitentscheiden.
-- **L-10 entscheiden**: Strichstärke für `f`, `s`, `sh`, `x`, `v`, `z`, `j`, `ç`.
+- **L-09 entscheiden** (Silbifizierung). Die Simulation (`--sim-l09`) liefert Zahlen zu vier
+  Kandidatenstrategien — Onset-Maximierung ohne Diphthong-Vorrang (280/281), Minimal-Onset mit
+  Diphthong-Vorrang (279/281), Onset-Maximierung mit Diphthong-Vorrang (280/281), lexikalisch
+  gespeicherte Grenzen (0/281, da §5 keine festlegt). Der Testbericht nennt zusätzlich die
+  Möglichkeit, **freie Varianz zu erklären** und die Schrift mehrdeutig zu lassen.
+  Die Auswahl ist offen und trifft ausschließlich der Sprachdesigner; die Sonderfälle `suvr-`
+  und die Kompositionsfuge in `taivbreun` sind mitzuentscheiden.
+- **L-10 entscheiden**: Strichstärke für `f`, `s`, `ş`, `x`, `v`, `z`, `j`, `ç`.
 - **U-10 nachziehen**: §26.8 nennt 20 Konsonantentasten; korrekt sind 19 Konsonanten und
   1 Vokalträger. Die Korrektur erscheint in der jeweils gültigen Grammatikversion, nicht
   durch Änderung der 0.9.3.
@@ -383,7 +387,7 @@ Schriftfassung. Schrift und Grammatik bleiben dabei getrennte Ebenen.
 ### Abschlusskriterien
 
 - L-09 und L-10 sind als ADR entschieden; die §26.8-Korrektur ist nachgezogen.
-- Der gesamte Grundformenbestand ist eindeutig zerlegbar; die 77 mehrdeutigen Fälle sind
+- Die getroffene L-09-Entscheidung ist umgesetzt und ihre Folgen für den Grundformenbestand sind dokumentiert (bei einer Präferenzregel: eindeutige Zerlegung; bei erklärter freier Varianz: dokumentierte Mehrdeutigkeit); die 77 mehrdeutigen Fälle sind
   aufgelöst, verbleibende Ausnahmen sind einzeln benannt und begründet.
 - Jedes Zeichen hat ID, Strichstärke, Schreibrichtung und Referenzform; kein Zeichen ist
   nur in Prosa beschrieben.

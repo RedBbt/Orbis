@@ -35,7 +35,7 @@ Jede Grundform wird per Rückverfolgungssuche in alle §5-konformen Silbenfolgen
 ## 4. Dokumentations- und Regelbefunde zu §26
 
 1. **[U-10] §26.8 „20 Konsonantentasten“ ist terminologisch falsch.** Orbis hat 19 Konsonanten; die 20. Kernform ist der Vokalträger (§26.2), kein Konsonant. Korrekt: „19 Konsonantentasten + 1 Vokalträgertaste“ (an der Summe von 31 Tasten ändert sich nichts). Dokumentationsfehler, kein Systemfehler.
-2. **[L-10] Strichstärkenregel unvollständig.** §26.9 definiert: dünn = Vokalzeichen, mittel = Fließlaute und Nasale (l r m n ñ), dick = Verschlusslaute (p t k b d g). **Für die 8 Reibelaute f s ş x v z j und die Affrikate ç ist keine Strichstärke definiert** — 9 der 19 Konsonantenklassen sind nicht erfasst.
+2. **[L-10] Strichstärkenregel unvollständig.** §26.9 definiert: dünn = Vokalzeichen, mittel = Fließlaute und Nasale (l r m n ñ), dick = Verschlusslaute (p t k b d g). **Für die sieben Reibelaute f s ş x v z j und die Affrikate ç ist keine Strichstärke definiert** — 8 der 19 Konsonanten sind nicht erfasst (erfasst sind l r, m n ñ und p t k b d g = 11).
 3. **[L-09] Silbifizierungs-Präferenzregel fehlt** (siehe oben; Details Audit §2.4). Betrifft §5 und §26 gemeinsam.
 4. Kein Befund: Silbenformel §26.1, Vokalpunktsystem §26.4, Coda-Platzierung §26.5–26.6 und die 6 Abschlusszeichen §26.7 sind in sich vollständig und decken alle im strikten wie erweiterten Modus zerlegbaren Silben ab (max. 2 Anfangskonsonanten, max. 2 Codas — deckungsgleich mit §5).
 

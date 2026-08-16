@@ -31,8 +31,8 @@ grammatisch ist, steht ausschließlich in der jeweils gültigen Referenzgrammati
 **Entscheidungshoheit:** Alle Sprach- und Designentscheidungen treffen die Sprachdesigner.
 Werkzeuge, Berichte und KI-Systeme prüfen, markieren und schlagen vor; sie entscheiden nicht.
 
-**Getrennte Versionierung:** Orbis Grammar, Orbis Lexicon, Orbis Manus, Orbis Keyboard und
-Orbis Corpus werden getrennt versioniert und nicht zusammengelegt.
+**Getrennte Versionierung:** Orbis Grammar, Orbis Lexicon, Orbis Manus, Orbis Keyboard,
+Orbis Corpus und Orbis Tools werden getrennt versioniert und nicht zusammengelegt.
 
 ---
 
@@ -375,7 +375,7 @@ Trennung erlaubt es, Manus und Keyboard eigenständig zu versionieren, ohne die 
 Grammatik anzufassen. Berührungspunkte werden ausdrücklich als Schnittstelle beschrieben.
 
 *Beispiel:* Befund L-09 (77 von 281 Grundformen sind mehrdeutig zerlegbar) und L-10 (undefinierte
-Strichstärke für f, s, sh, x, v, z, j, ç) sind Schriftbefunde. Die Silbifizierungs-Simulation
+Strichstärke für f, s, ş, x, v, z, j, ç) sind Schriftbefunde. Die Silbifizierungs-Simulation
 `orbis_validator.py --sim-l09` ist ein Analysewerkzeug und darf nie als Sprachregel zitiert
 werden.
 

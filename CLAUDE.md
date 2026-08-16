@@ -43,8 +43,10 @@ Sprachpolitik, Versionsregeln und Verfassung, Trennung von Bestand und Archiv.
 **Phase A aendert die Sprache nicht.** Alles, was hier entsteht, ist Abbild bestehender
 Regeln, nicht neue Regel; die Grammatik 0.9.3 bleibt waehrend der Migration unveraendert
 und nicht aenderbar. Vorhanden: `language/` (metadata, phonology, morphology, syntax,
-proto, findings), `tools/migration/`, `reports/baseline/`. Offen: `language/lexicon`,
-`language/corpus`, `script/`, `tests/`, `docs/`, `keyboard/`.
+proto, findings, lexicon, corpus), `tools/` (validator, migration, lexicon, documentation),
+`tests/`, `docs/` (de, en, decisions, generated), `reports/`, `archive/`. Angelegt, aber noch
+nicht gefuellt: `script/` (manus, magna, traces) und `keyboard/` — sie warten auf die
+Entscheidungen zu L-09 und L-10.
 
 ## 5. Was READ ONLY ist
 - `Orbis-Grammatik-0.9.3.md` — eingefroren. Niemals aendern, auch nicht "still"
@@ -141,7 +143,7 @@ Grammatik mit Punkten (`Orbis-Grammatik-0.9.3.md`).
   gesprochene Sprache sind getrennt modellierte Ebenen. Silbifizierungs-Simulationen
   (`--sim-l09`) sind Analysewerkzeuge, keine Sprachregeln — nie als Regel zitieren.
 - Offene Befunde: L-09 (77 von 281 Grundformen mehrdeutig zerlegbar), L-10 (Strichstaerke
-  fuer f s sh x v z j ç undefiniert), U-10 (§26.8 nennt faelschlich "20 Konsonantentasten";
+  fuer f s ş x v z j ç undefiniert), U-10 (§26.8 nennt faelschlich "20 Konsonantentasten";
   korrekt 19 Konsonanten + 1 Vokaltraeger — Redaktionsfehler, nicht eigenmaechtig zu
   korrigieren).
 - Morphem-Ebene fuer Manus/Keyboard (sichtbare Kasus-/Tempuszeichen) und Wortspuren

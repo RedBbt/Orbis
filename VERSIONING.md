@@ -106,7 +106,7 @@ Eine Aenderung ausschliesslich an einer englischen Ableitung ist deshalb nie ein
 Major-Sprung; weicht sie inhaltlich ab, ist das ein Befund und kein Versionsanlass.
 
 Neue Lexeme entstehen ausschliesslich auf expliziten Auftrag der Sprachdesigner
-(CLAUDE.md §2). Ein Minor-Sprung des Lexikons ist damit immer die Folge einer
+(CLAUDE.md). Ein Minor-Sprung des Lexikons ist damit immer die Folge einer
 Beauftragung, nie das Ergebnis einer Werkzeuglaufzeit.
 
 ### 3.3 Orbis Manus
@@ -114,10 +114,10 @@ Beauftragung, nie das Ergebnis einer Werkzeuglaufzeit.
 | Sprung | Bedeutung | Beispiele |
 |---|---|---|
 | **Major** | Aenderung der Zeichenzuordnung oder der Zerlegungslogik: bereits geschriebene Texte werden anders oder gar nicht mehr lesbar. | Neuzuweisung eines Grundzeichens, Umbau der Silbengliederung |
-| **Minor** | Neue Zeichen, neue Varianten oder erstmalige Festlegung eines bisher undefinierten Merkmals, ohne bestehende Zeichen umzudeuten. | Festlegung der Strichstaerke fuer `f s sh x v z j ç` (L-10) |
+| **Minor** | Neue Zeichen, neue Varianten oder erstmalige Festlegung eines bisher undefinierten Merkmals, ohne bestehende Zeichen umzudeuten. | Festlegung der Strichstaerke fuer `f s ş x v z j ç` (L-10) |
 | **Patch** | Redaktion und Darstellung ohne Wirkung auf Lesbarkeit oder Zuordnung. | Korrektur der Tastenzahl-Angabe in §26.8 (U-10) |
 
-Manus-Regeln und Grammatikregeln werden nicht vermischt (CLAUDE.md §5). Ein
+Manus-Regeln und Grammatikregeln werden nicht vermischt (CLAUDE.md). Ein
 Manus-Sprung loest daher **keinen** Grammar-Sprung aus und umgekehrt. Ausnahme
 ist der Fall, dass eine Designer-Entscheidung beide Ebenen zugleich betrifft;
 dann werden zwei getrennte Versionsspruenge gefuehrt, die im selben ADR begruendet sind.
@@ -155,12 +155,12 @@ Der aktuelle Stand von Corpus 0.1: 150 Tests, 130 OK, 14 REGELLUECKE,
 | **Patch** | Fehlerbehebung ohne Schnittstellenaenderung; die Menge der gemeldeten Befunde bleibt gleich oder wird korrekter. | Behebung eines Falschalarms |
 
 Der Validator spiegelt die Grammatik nur wider; er ist nie ihre Quelle
-(CLAUDE.md §6). Eine Abweichung zwischen Validator und Grammatik ist ein Befund
+(CLAUDE.md). Eine Abweichung zwischen Validator und Grammatik ist ein Befund
 und wird gemeldet, nicht durch eine Werkzeugversion "weggefixt".
 
 Eine Aenderung von `orbis_baseline.json` ist **kein** Tools-Versionssprung,
 sondern ein dokumentationspflichtiger Vorgang: `--update-baseline` wird nur nach
-Ruecksprache bzw. auf expliziten Auftrag ausgefuehrt (CLAUDE.md §4), und die neue
+Ruecksprache bzw. auf expliziten Auftrag ausgefuehrt (CLAUDE.md), und die neue
 Befundzahl wird im CHANGELOG vermerkt. Aktueller Stand: 39 bekannte Befunde.
 
 ---
@@ -203,7 +203,7 @@ Insbesondere loesen **keine** neue Grammatikversion aus:
 
 Befunde sind **Eingangsmaterial** fuer Entscheidungen, nicht die Entscheidung
 selbst. Regelluecken und Regelkonflikte werden markiert, nicht entschieden
-(CLAUDE.md §3).
+(CLAUDE.md).
 
 Der Weg von einem Befund zu einer neuen Grammatikversion:
 
@@ -214,7 +214,7 @@ Der Weg von einem Befund zu einer neuen Grammatikversion:
 3. **Entscheidung** durch die Sprachdesigner, festgehalten als ADR mit Status
    "entschieden" und Angabe der betroffenen Befund-IDs.
 4. **Neue Datei** mit der neuen Versionsnummer. Die alte Fassung wird nie
-   ueberschrieben (CLAUDE.md §1); `Orbis-Grammatik-0.9.3.md` bleibt unveraendert
+   ueberschrieben (CLAUDE.md); `Orbis-Grammatik-0.9.3.md` bleibt unveraendert
    bestehen.
 5. **Regressionslauf** nach Abschnitt 6.
 6. **CHANGELOG-Eintrag** mit Nennung der Komponente, der neuen Version und der
@@ -257,7 +257,7 @@ Regeln dazu:
   Absinken ist begruendungspflichtig.
 - Weitere Laeufe nach Bedarf: `--all`, `--lexicon`, `--examples`, `--tables`,
   `--manus`, `--json DATEI`. `--sim-l09` ist ein Analysewerkzeug und **keine
-  Sprachregel**; seine Ausgabe wird nie als Regel zitiert (CLAUDE.md §5).
+  Sprachregel**; seine Ausgabe wird nie als Regel zitiert (CLAUDE.md).
 - Die CI (`.github/workflows/orbis-ci.yml`) fuehrt den Strict-Lauf ebenfalls aus.
   Ein roter CI-Lauf blockiert den Versionswechsel unabhaengig vom lokalen Ergebnis.
 - Bei einem Grammar-Versionswechsel wird zusaetzlich geprueft, ob der Validator

@@ -119,25 +119,27 @@ Der Validator bestaetigt dann seine eigene Kopie statt die Sprache. Genau diese 
 wuerde jede Regressionsaussage wertlos machen, weil ein gruener Lauf nichts mehr ueber die
 Grammatik aussagt.
 
-**Bekannte Migrationsschuld — nicht vermehren.** `orbis_validator.py` traegt seine Sprachdaten
-derzeit als Python-Konstanten (u. a. `CLASS_CONS`, `CORE_NOUNS`, `TENPCT_NOUNS`,
-`REGULAR_NOUNS`, `COMPOUND_NOUNS`, `REGULAR_VERB_ROOTS`, `IRREGULAR_VERBS`, `ADJECTIVES`,
-`PREPOSITIONS`, `PARTICLES`, `GRAMMAR_EXAMPLES`) und liest aus JSON bislang nur die Baseline.
-Das ist der Ausgangszustand der Migration, kein Vorbild. Fuer Agenten heisst das:
+**Stand nach der Migration.** Die frueher hartkodierten Sprachdaten (u. a. `CLASS_CONS`,
+`CORE_NOUNS`, `TENPCT_NOUNS`, `REGULAR_NOUNS`, `COMPOUND_NOUNS`, `REGULAR_VERB_ROOTS`,
+`IRREGULAR_VERBS`, `ADJECTIVES`, `PREPOSITIONS`, `PARTICLES`, `GRAMMAR_EXAMPLES`) werden
+inzwischen in `tools/validator/data.py` aus `language/*.json` geladen; `orbis_validator.py`
+ist nur noch ein Einstiegspunkt. Der Nachweis, dass die Umstellung nichts an der Sprache
+geaendert hat, steht in `reports/ORBIS-INFRASTRUCTURE-MIGRATION-0_1.md` (Abschnitt 11) und in
+`docs/decisions/ORB-ADR-0001-sprachdaten-als-source-of-truth.md`. Fuer Agenten heisst das:
 
 - **Neue** Werkzeuge lesen aus `language/` und `script/`; sie legen keine neuen Konstanten an.
 - Bestehende Konstanten werden **im Rahmen beauftragter Migrationsschritte** gegen die
   JSON-Quellen aufgeloest, nicht nebenbei und nicht in einem Commit, der noch etwas anderes tut.
 - Wird beim Aufloesen eine Abweichung zwischen Python-Konstante und Grammatik sichtbar, gilt
   die Grammatik. Die Abweichung ist ein Befund und wird gemeldet, nicht stillschweigend in
-  die eine oder andere Richtung angeglichen (`CLAUDE.md` §6, `VERSIONING.md` §3.6).
+  die eine oder andere Richtung angeglichen (`CLAUDE.md`, `VERSIONING.md` §3.6).
 
 ### 2.3 Weitere Grenzen
 
 - **Der Validator ist Spiegel, nie Quelle.** Weicht er von der Grammatik ab, ist die Grammatik
   richtig und der Validator hat einen Befund.
 - **`--sim-l09` ist ein Analysewerkzeug.** Seine Ausgabe ist nie eine Sprachregel und wird nie
-  als Regel zitiert (`CLAUDE.md` §5).
+  als Regel zitiert (`CLAUDE.md`).
 - **Schrift und Grammatik bleiben getrennt.** Ein Manus-Befund loest keinen Grammatikschritt
   aus und umgekehrt (`VERSIONING.md` §3.3).
 - **Keine neuen Bezeichner ohne Not.** Dateinamen, IDs, Regelnummern, Feldnamen und Befund-IDs
@@ -418,7 +420,7 @@ Genau drei Marker, unveraendert und in dieser deutschen Form, auch in englischen
 - Bestehende IDs: `K-01`…`K-05` (Konflikte), `L-01`…`L-10` (Luecken), `U-01`…`U-14`
   (Unklarheiten), `W-01` (Wortschatzluecke).
 - Ein **neuer** Befund erhaelt die naechste freie Nummer seiner Klasse (also `K-06`, `L-11`,
-  `U-15`, `W-02`). Die Vergabe einer ID ist keine Sprachentscheidung.
+  `U-15`, `W-05`). Die naechste freie Nummer ergibt sich aus `language/findings/findings.json` — nachsehen, nicht schaetzen. Die Vergabe einer ID ist keine Sprachentscheidung.
 - **IDs werden nie wiederverwendet, nie umnummeriert, nie nachtraeglich verschoben**
   (`ORBIS-VERF Art. 7`). Ein zurueckgezogener Befund bleibt mit seiner ID und dem Vermerk der
   Ruecknahme stehen.

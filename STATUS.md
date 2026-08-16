@@ -44,7 +44,7 @@ und Keyboard (L-09), Wortschatzkollision `velkran` (W-02), ausformulierte Lexiko
 | Orbis Corpus | 0.1 | `Orbis-Testkorpus-0_1.md`, 150 Tests |
 | Orbis Tools | 0.2 | `orbis_validator.py` + `orbis_baseline.json` |
 
-Die vier bzw. sechs Stränge werden getrennt versioniert und dürfen nicht zusammengelegt werden.
+Die sechs Stränge werden getrennt versioniert und dürfen nicht zusammengelegt werden.
 
 ---
 
@@ -128,7 +128,7 @@ mit bestehenden Regeln, keine erfordert neue Wörter außer gegebenenfalls L-05 
 - **U-12** — Imperativ-Stütz-e prüft nur §5.3; Dremn!/Prens!/Vlent! hätten KKVKK-Form (hängt an K-01).
 - **U-13** — Prädikativ steht in allen Beispielen vor dem Verb (Lo loşn est = V3); Verhältnis zur V2-Regel ungesagt (§12.2 ↔ §17.1).
 - **U-14** — §18.3-Beispiel „Vim xa num vna breun" lässt das Objekt unmarkiert; regelkonform wäre vnan breunen (aus der P3/P4-Restliste des Testberichts).
-- **L-10** — Strichstärke für f s ş x v z j ç undefiniert; 9 von 19 Konsonantenklassen nicht erfasst (§26.9).
+- **L-10** — Strichstärke für f s ş x v z j ç undefiniert; 8 von 19 Konsonanten nicht erfasst (§26.9).
 
 ---
 
@@ -181,7 +181,7 @@ Befunde werden markiert, nicht per Interpretation repariert.
 |---|---|---|
 | Grammar 0.9.4 | Entscheidung der Sprachdesigner zu den 6 P1-Befunden (L-01, L-02, L-03, L-04, L-05, K-05) | Ohne sie bleibt das Urteil NOT READY; mit ihnen werden die 20 offenen Tests bearbeitbar |
 | Manus-Freigabe | Entscheidung zu L-09 (Silbifizierungs-Präferenz, z. B. Onset-Maximierung + Diphthong-Vorrang) | Löst die 77 mehrdeutigen Grundformen und entblockt die Rückübertragung aus der Lateinschreibung |
-| Manus-Strichstärken | Entscheidung zu L-10 (Strichstärke für die 8 Reibelaute und die Affrikate) | Vervollständigt §26.9 |
+| Manus-Strichstärken | Entscheidung zu L-10 (Strichstärke für die sieben Reibelaute und die Affrikate) | Vervollständigt §26.9 |
 | Keyboard 0.x | Manus-Freigabe (L-09, L-10) | Erst danach ist ein belastbares Tastaturlayout definierbar |
 | Redaktionelle 0.9.4-Fixes | Entscheidung zu K-01, K-03, K-04, U-01, U-10 | Reine Dokumentationskorrekturen, kein Wort und keine Form ändert sich |
 | Wortschatzerweiterung | Entscheidung zu W-01 („sagen", „zeigen", „suchen", „es gibt") und ggf. L-05 | Einzige Punkte, die neue Wörter erfordern könnten; ohne Auftrag werden keine Wörter erfunden |
