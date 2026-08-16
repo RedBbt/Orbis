@@ -1,0 +1,29 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§9, §10.3",
+  "regel_id": "ORB-GRAM-MOR-003",
+  "status": "canonical",
+  "befunde": [
+    "U-09"
+  ],
+  "regulaer": {
+    "marker": "ñ",
+    "position": "zwischen Themavokal und Kasusmarker",
+    "obliquer_echovokal": "Themavokal des Nomens; bei Artikel und Adjektiv immer a",
+    "unklarheit": {
+      "befund": "U-09",
+      "beschreibung": "Der Begriff Echovokal ist nirgends definiert; er ergibt sich nur aus den Tabellen."
+    }
+  },
+  "kernwoerter": {
+    "marker": "ei",
+    "hinweis": "§9/§10.3, den 15 Kernwoertern vorbehalten"
+  },
+  "zehn_prozent_gruppe": {
+    "status": "open",
+    "befund": "L-07",
+    "beschreibung": "Plural der Gruppe velkran/soralm/prilm ist nicht geregelt."
+  }
+}

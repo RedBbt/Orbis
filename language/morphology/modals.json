@@ -1,0 +1,49 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§16.1",
+  "regel_id": "ORB-GRAM-MOR-011",
+  "status": "canonical",
+  "befunde": [
+    "U-03",
+    "K-05"
+  ],
+  "wurzeln": [
+    {
+      "wurzel": "valn",
+      "bedeutung_de": "können"
+    },
+    {
+      "wurzel": "dolm",
+      "bedeutung_de": "müssen"
+    },
+    {
+      "wurzel": "vlek",
+      "bedeutung_de": "dürfen"
+    },
+    {
+      "wurzel": "tirn",
+      "bedeutung_de": "sollen"
+    },
+    {
+      "wurzel": "nest",
+      "bedeutung_de": "wollen"
+    },
+    {
+      "wurzel": "suvr",
+      "bedeutung_de": "mögen"
+    }
+  ],
+  "konstruktion": "konjugiertes Modalverb auf Position 2, Vollverb im Infinitiv am Satzende (Verbklammer)",
+  "vollverbgebrauch": {
+    "status": "unclear",
+    "befund": "U-03"
+  },
+  "im_nebensatz": {
+    "status": "conflict",
+    "befund": "K-05",
+    "beschreibung": "§16.1 (Infinitiv am Satzende) und §17.2 (finites Verb am Ende) beanspruchen dieselbe Position."
+  },
+  "imperativ": "Modalverben bilden im Normalfall keinen Imperativ (§14)."
+}

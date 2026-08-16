@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000085",
+  "lemma": "mald",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "zeit"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "warten",
+    "definition": "warten. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to wait",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "mald",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "maldex",
+    "partizip": "maldut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "maldam",
+        "2sg": "maldaş",
+        "3sg": "maldat",
+        "1pl": "maldamen",
+        "2pl": "maldaşen",
+        "3pl": "maldaten"
+      },
+      "vgh": {
+        "1sg": "maldom",
+        "2sg": "maldoş",
+        "3sg": "maldot",
+        "1pl": "maldomen",
+        "2pl": "maldoşen",
+        "3pl": "maldoten"
+      },
+      "fut": {
+        "1sg": "maldaim",
+        "2sg": "maldaiş",
+        "3sg": "maldait",
+        "1pl": "maldaimen",
+        "2pl": "maldaişen",
+        "3pl": "maldaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "a",
+      "l",
+      "d"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "mald"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "mald"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000085"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

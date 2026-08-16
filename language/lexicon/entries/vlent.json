@@ -1,0 +1,133 @@
+{
+  "lexeme_id": "ORB-LEX-000081",
+  "lemma": "vlent",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "bewegung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "laufen",
+    "definition": "laufen. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to run",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "vlent",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "vlentex",
+    "partizip": "vlentut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "vlentam",
+        "2sg": "vlentaş",
+        "3sg": "vlentat",
+        "1pl": "vlentamen",
+        "2pl": "vlentaşen",
+        "3pl": "vlentaten"
+      },
+      "vgh": {
+        "1sg": "vlentom",
+        "2sg": "vlentoş",
+        "3sg": "vlentot",
+        "1pl": "vlentomen",
+        "2pl": "vlentoşen",
+        "3pl": "vlentoten"
+      },
+      "fut": {
+        "1sg": "vlentaim",
+        "2sg": "vlentaiş",
+        "3sg": "vlentait",
+        "1pl": "vlentaimen",
+        "2pl": "vlentaişen",
+        "3pl": "vlentaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "l",
+      "e",
+      "n",
+      "t"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "vlent"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "vlent"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000081"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

@@ -1,0 +1,927 @@
+{
+  "quelle": "Orbis-Audit-0_1.md, Orbis-Testbericht-0_1.md",
+  "erzeugt_von": "tools/migration/build_findings.py",
+  "hinweis": "Register bestehender Befunde. Keine Loesungen, keine Bewertungsaenderung. Status-Werte: open / accepted / resolved / deferred / wont_fix.",
+  "zaehlweise": "Orbis-Testbericht-0_1.md zaehlt 30 Befunde (29 mit Audit-ID plus W-01) und fuehrt die uebrigen Wortschatzbefunde als unnummerierte Phase-7-Liste. Dieses Register vergibt dafuer die IDs W-02 und W-03 und ergaenzt W-04 (Datenzustand aus der Migration). Die Differenz in den P2-/P3-Summen gegenueber dem Testbericht erklaert sich vollstaendig aus diesen drei IDs; das Feld id_vergeben_in weist sie aus.",
+  "status_werte": [
+    "open",
+    "accepted",
+    "resolved",
+    "deferred",
+    "wont_fix"
+  ],
+  "anzahl": 33,
+  "nach_prioritaet": {
+    "P0": 0,
+    "P1": 6,
+    "P2": 11,
+    "P3": 16,
+    "P4": 0
+  },
+  "nach_typ": {
+    "conflict": 5,
+    "gap": 10,
+    "unclear": 14,
+    "lexical_gap": 1,
+    "lexical_collision": 2,
+    "documentation_gap": 1
+  },
+  "findings": [
+    {
+      "id": "K-01",
+      "global_id": "ORB-FIND-K-01",
+      "typ": "conflict",
+      "typ_label_de": "REGELKONFLIKT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Silbenformenliste deckt den eigenen Wortschatz nicht",
+      "description_de": "§5.1 listet nur V, KV, KVK, KKV, KKVK, KVKK. Der eingefrorene Wortschatz und die Beispielsaetze der Grammatik benoetigen zusaetzlich VK/VKK und KKVKK. §5.3 nennt granz und prens sogar selbst als Coda-Beispiele.",
+      "description_en": "§5.1 lists only V, KV, KVK, KKV, KKVK, KVKK. The frozen lexicon and the grammar's own example sentences additionally require VK/VKK and KKVKK.",
+      "affected_rules": [
+        "§5.1",
+        "§5.3",
+        "§10.2",
+        "§15.2",
+        "§24",
+        "§25"
+      ],
+      "affected_words": [
+        "aul",
+        "eird",
+        "ain",
+        "oñ",
+        "es",
+        "granz",
+        "trelm",
+        "vresn",
+        "skirm",
+        "prilm",
+        "prens",
+        "dremn",
+        "vlent"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000012",
+        "ORB-SENT-000041"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "K-02",
+      "global_id": "ORB-FIND-K-02",
+      "typ": "conflict",
+      "typ_label_de": "REGELKONFLIKT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Pronomenformen verletzen die Fugenregel",
+      "description_de": "killa, dolla und kella(n) enthalten eine unverschmolzene l+l-Fuge, obwohl §21.4 ausdruecklich auch fuer Endungen gilt (vgl. mel+la → mela).",
+      "description_en": "killa, dolla and kella(n) keep an unmerged l+l boundary although §21.4 explicitly covers endings as well.",
+      "affected_rules": [
+        "§13.4",
+        "§18.2",
+        "§21.4"
+      ],
+      "affected_words": [
+        "killa",
+        "dolla",
+        "kella"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "K-03",
+      "global_id": "ORB-FIND-K-03",
+      "typ": "conflict",
+      "typ_label_de": "REGELKONFLIKT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Zahlkompositum verletzt die Fugenregel",
+      "description_de": "telnxelmmern (35) traegt eine m+m-Fuge; nach §21.4 muesste es telnxelmern lauten.",
+      "description_en": "telnxelmmern (35) keeps an m+m boundary; §21.4 would require telnxelmern.",
+      "affected_rules": [
+        "§24.8",
+        "§21.4"
+      ],
+      "affected_words": [
+        "telnxelmmern"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "K-04",
+      "global_id": "ORB-FIND-K-04",
+      "typ": "conflict",
+      "typ_label_de": "REGELKONFLIKT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Beispielsatz widerspricht der Adverbregel",
+      "description_de": "§12.4 verlangt Adverbien auf -un. Der Referenzsatz in §25.1 verwendet tolm adverbial ohne -un.",
+      "description_en": "§12.4 requires adverbs in -un, but the reference sentence in §25.1 uses tolm adverbially without -un.",
+      "affected_rules": [
+        "§12.4",
+        "§25.1"
+      ],
+      "affected_words": [
+        "tolm",
+        "tolmun"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000060"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "K-05",
+      "global_id": "ORB-FIND-K-05",
+      "typ": "conflict",
+      "typ_label_de": "REGELKONFLIKT",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Modalverb im Nebensatz: zwei Regeln beanspruchen das Satzende",
+      "description_de": "§16.1 verlangt den Vollverb-Infinitiv am Satzende, §17.2 das finite Verb am Nebensatzende. Kein Beispiel entscheidet die Reihenfolge; mit Negation kommt die xa-Position hinzu.",
+      "description_en": "§16.1 places the infinitive at the end of the clause while §17.2 places the finite verb there; no example resolves the order.",
+      "affected_rules": [
+        "§16.1",
+        "§17.2",
+        "§18.3"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000103",
+        "ORB-SENT-000105"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-01",
+      "global_id": "ORB-FIND-L-01",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Stellung des Genitivattributs nicht festgelegt",
+      "description_de": "§8 definiert den Genitiv nur morphologisch, §17 schweigt zur Attributstellung. Alle Beispiele stellen nach; §13.3 regelt nur das Possessiv. Offen ist auch die Stapelung Genitiv + Possessiv.",
+      "description_en": "The position of the genitive attribute is undefined; all examples postpose it, but no rule states this, and stacking with a possessive is unresolved.",
+      "affected_rules": [
+        "§8",
+        "§13.3",
+        "§17"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000036",
+        "ORB-SENT-000039"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-02",
+      "global_id": "ORB-FIND-L-02",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Relativsatzbau fehlt vollstaendig",
+      "description_de": "fai ist als Relativpronomen gelistet, aber Kasus, Kongruenz und Verbstellung des Relativsatzes sind nirgends definiert. Zusaetzlich Homonymie mit fai 'dass'.",
+      "description_en": "fai is listed as a relative pronoun, but case, agreement and clause structure are undefined; it is also homonymous with the complementiser fai.",
+      "affected_rules": [
+        "§13.4",
+        "§17.2",
+        "§20"
+      ],
+      "affected_words": [
+        "fai"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000100",
+        "ORB-SENT-000101",
+        "ORB-SENT-000102",
+        "ORB-SENT-000149"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-03",
+      "global_id": "ORB-FIND-L-03",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Deklination der Fragewoerter kem/kelt undefiniert",
+      "description_de": "§18.2 listet nur Grundformen. 'Wen', 'wem', 'wessen' sind nicht bildbar; auch Indeklinabilitaet ist nicht festgelegt.",
+      "description_en": "§18.2 lists base forms only; accusative, dative and genitive of kem/kelt cannot be formed.",
+      "affected_rules": [
+        "§18.2"
+      ],
+      "affected_words": [
+        "kem",
+        "kelt"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000074",
+        "ORB-SENT-000075",
+        "ORB-SENT-000076"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-04",
+      "global_id": "ORB-FIND-L-04",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Reflexivpronomen se ohne Kasusformen",
+      "description_de": "se ist gelistet, hat aber keine Kasusformen; der Personenbereich (nur 3. Person?) ist ebenfalls offen.",
+      "description_en": "se is listed without case forms, and its person range is undefined.",
+      "affected_rules": [
+        "§13.4"
+      ],
+      "affected_words": [
+        "se"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000033",
+        "ORB-SENT-000035"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-05",
+      "global_id": "ORB-FIND-L-05",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P1",
+      "status": "open",
+      "titel_de": "Agens im Passiv nicht ausdrueckbar",
+      "description_de": "§16.3 regelt nur die Vorsilbe şu-. Wie 'vom Mann gebaut' ausgedrueckt wird, ist nicht definiert; keine Praeposition ist dafuer ausgewiesen.",
+      "description_en": "§16.3 only defines the passive prefix şu-; there is no way to express the agent.",
+      "affected_rules": [
+        "§16.3",
+        "§19"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000137",
+        "ORB-SENT-000138"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-06",
+      "global_id": "ORB-FIND-L-06",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Deklination der Demonstrativa und Indefinita undefiniert",
+      "description_de": "§13.4 listet nur Grundformen von kilra/dolra usw. und kelsu/xakaun/kelte/xakelte.",
+      "description_en": "§13.4 lists base forms of demonstratives and indefinites only.",
+      "affected_rules": [
+        "§13.4"
+      ],
+      "affected_words": [
+        "kilra",
+        "killa",
+        "kilna",
+        "dolra",
+        "dolla",
+        "dolna",
+        "kelsu",
+        "xakaun",
+        "kelte",
+        "xakelte"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000088"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-07",
+      "global_id": "ORB-FIND-L-07",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Plural der 10-Prozent-Gruppe nicht bildbar",
+      "description_de": "§10.1 regelt nur den Singular. Der regulaere Plural ist mangels Themavokal unanwendbar, der Kernwortplural -ei ist den 15 Kernwoertern vorbehalten.",
+      "description_en": "§10.1 covers the singular only; neither plural system applies to velkran, soralm, prilm.",
+      "affected_rules": [
+        "§10.1",
+        "§9"
+      ],
+      "affected_words": [
+        "velkran",
+        "soralm",
+        "prilm"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-08",
+      "global_id": "ORB-FIND-L-08",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Syntax der Kardinalzahlen undefiniert",
+      "description_de": "Weder Kongruenz noch Numerus/Kasus des gezaehlten Nomens sind geregelt; kein Beispiel verwendet eine Kardinalzahl attributiv.",
+      "description_en": "Neither agreement nor the number/case of the counted noun is defined.",
+      "affected_rules": [
+        "§24.8",
+        "§9"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000070"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-09",
+      "global_id": "ORB-FIND-L-09",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Keine Silbifizierungs-Praeferenzregel",
+      "description_de": "§5 legt erlaubte Silbenformen fest, aber nicht, wie eine Lautkette zerlegt wird. 77 von 281 Grundformen sind dadurch mehrdeutig zerlegbar. Fuer Orbis Manus und eine kuenftige Tastatur ist der Befund blockierend (Keyboard-P1).",
+      "description_en": "§5 defines permitted syllable shapes but no parsing preference; 77 of 281 base forms are ambiguous, which blocks a deterministic Manus composer.",
+      "affected_rules": [
+        "§5",
+        "§26"
+      ],
+      "affected_words": [
+        "mela",
+        "kavla",
+        "drovna",
+        "vresto",
+        "melisto",
+        "talisto",
+        "nestuma",
+        "luivresto",
+        "velkra",
+        "zaldre"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "L-10",
+      "global_id": "ORB-FIND-L-10",
+      "typ": "gap",
+      "typ_label_de": "REGELLUECKE",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Strichstaerkenregel deckt nicht alle Konsonanten",
+      "description_de": "§26.9 definiert duenn/mittel/dick fuer Vokale, Fliesslaute/Nasale und Verschlusslaute. Fuer die sieben Reibelaute f s ş x v z j und die Affrikate ç fehlt jede Zuordnung; 8 der 19 Konsonanten bleiben damit ohne Strichstaerke.",
+      "description_en": "§26.9 leaves stroke weight undefined for the seven fricatives and the affricate — 8 of the 19 consonants have no stroke weight.",
+      "affected_rules": [
+        "§26.9"
+      ],
+      "affected_words": [],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-01",
+      "global_id": "ORB-FIND-U-01",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "§15.2-Formel deckt die eigenen Tabellen nicht",
+      "description_de": "Die Beschreibung 'Ablautstamm + Bindevokal -e- + Personendung' passt nicht auf esex (suppletiv, vo+Endung ohne -e-, Futurstamm vai-) und nicht auf die kontrahierten Praesensstaemme nu-/vur-. Die Formen selbst sind vollstaendig belegt.",
+      "description_en": "The stated formula does not cover the suppletive esex nor the contracted present stems of nuvex and vurnex; the tables themselves are complete.",
+      "affected_rules": [
+        "§15.2"
+      ],
+      "affected_words": [
+        "esex",
+        "nuvex",
+        "vurnex"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000121",
+        "ORB-SENT-000133"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-02",
+      "global_id": "ORB-FIND-U-02",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Partizip als attributives Adjektiv ungeregelt",
+      "description_de": "§14 definiert das Partizip, §16.3 nutzt es praedikativ, §12.5 nominalisiert es. Ob es attributiv dekliniert werden darf, sagt keine Regel.",
+      "description_en": "No rule states whether the participle may be declined attributively.",
+      "affected_rules": [
+        "§12",
+        "§14",
+        "§16.3"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000051"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-03",
+      "global_id": "ORB-FIND-U-03",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Modalverb ohne Infinitiv ungeregelt",
+      "description_de": "§16.1 beschreibt Modalverben nur in der Klammerkonstruktion. Ob sie als Vollverb mit direktem Objekt stehen duerfen, ist offen.",
+      "description_en": "§16.1 describes modals only in the bracket construction; full-verb use is undefined.",
+      "affected_rules": [
+        "§16.1"
+      ],
+      "affected_words": [
+        "suvr",
+        "nest",
+        "valn",
+        "dolm",
+        "vlek",
+        "tirn"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000111"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-04",
+      "global_id": "ORB-FIND-U-04",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Subjektauslassung nur Beispielpraxis",
+      "description_de": "Die §18-Beispiele lassen das Subjektpronomen in Fragen weg, alle Aussagesatzbeispiele behalten es. Eine Regel fehlt.",
+      "description_en": "Pro-drop appears in question examples only; no rule governs it.",
+      "affected_rules": [
+        "§18",
+        "§13.1"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000071"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-05",
+      "global_id": "ORB-FIND-U-05",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Objektreihenfolge Dativ vor Akkusativ nur Praxis",
+      "description_de": "Alle Doppelobjekt-Beispiele zeigen Dativ vor Akkusativ; geregelt ist die Reihenfolge nicht.",
+      "description_en": "All ditransitive examples show dative before accusative, but the order is not stated.",
+      "affected_rules": [
+        "§17"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000023",
+        "ORB-SENT-000025",
+        "ORB-SENT-000026",
+        "ORB-SENT-000064",
+        "ORB-SENT-000120",
+        "ORB-SENT-000146"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-06",
+      "global_id": "ORB-FIND-U-06",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Kasus nach kon/zil nicht festgelegt",
+      "description_de": "Beide Vergleichsbeispiele zeigen den Nominativ; eine Regel fehlt.",
+      "description_en": "Both comparison examples use the nominative, but no rule states the case.",
+      "affected_rules": [
+        "§12.3"
+      ],
+      "affected_words": [
+        "kon",
+        "zil"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000054",
+        "ORB-SENT-000056"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-07",
+      "global_id": "ORB-FIND-U-07",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Ableitungsbehauptung bei Konjunktionen trifft nicht zu",
+      "description_de": "§20 behauptet, die unterordnenden Konjunktionen seien systematisch aus Praepositionen mit Suffix -i abgeleitet. Fuer dremi, tund und fai gilt das nicht.",
+      "description_en": "§20 claims subordinators derive from prepositions plus -i; this fails for dremi, tund, fai.",
+      "affected_rules": [
+        "§20"
+      ],
+      "affected_words": [
+        "dremi",
+        "tund",
+        "fai"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000095"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-08",
+      "global_id": "ORB-FIND-U-08",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Deklination von Komposita mit Kernwort-Kopf",
+      "description_de": "§21.3 vererbt Geschlecht und Klasse vom letzten Glied. Kernwoerter haben aber keine Klasse; taivbreun bleibt dadurch ungeregelt.",
+      "description_en": "§21.3 inherits gender and class from the head, but core nouns have no class, leaving taivbreun undefined.",
+      "affected_rules": [
+        "§21.3",
+        "§10"
+      ],
+      "affected_words": [
+        "taivbreun"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-09",
+      "global_id": "ORB-FIND-U-09",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Begriff Echovokal nicht definiert",
+      "description_de": "Aus den Tabellen ergibt sich: Echovokal = Themavokal des Nomens, bei Artikel und Adjektiv immer a. Als Regel formuliert ist das nirgends.",
+      "description_en": "The term echo vowel is only implied by the tables, never defined.",
+      "affected_rules": [
+        "§9"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000062",
+        "ORB-SENT-000067"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-10",
+      "global_id": "ORB-FIND-U-10",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "§26.8 nennt faelschlich 20 Konsonantentasten",
+      "description_de": "Orbis hat 19 Konsonanten; die 20. Kernform ist der Vokaltraeger (§26.2) und kein Konsonant. Korrekt waere '19 Konsonantentasten + 1 Vokaltraegertaste'.",
+      "description_en": "§26.8 says 20 consonant keys; Orbis has 19 consonants plus one vowel carrier.",
+      "affected_rules": [
+        "§26.8",
+        "§26.2",
+        "§2.1"
+      ],
+      "affected_words": [],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-11",
+      "global_id": "ORB-FIND-U-11",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Temporaler Dativ ohne Praeposition",
+      "description_de": "§25.2 verwendet Vraş zaldreş als blosse Dativ-Zeitangabe. Diese Konstruktion ist in §8, §17 und §19 nicht vorgesehen.",
+      "description_en": "§25.2 uses a bare dative as a temporal adjunct, a construction not provided for elsewhere.",
+      "affected_rules": [
+        "§25.2",
+        "§8",
+        "§19"
+      ],
+      "affected_words": [],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-12",
+      "global_id": "ORB-FIND-U-12",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Imperativ-Stuetz-e prueft nur §5.3",
+      "description_de": "Die Wurzeln dremn-, prens-, vlent- haben §5.3-konforme Codas, ihre Imperative haetten aber die Silbenform KKVKK, die §5.1 nicht fuehrt (haengt an K-01).",
+      "description_en": "The supporting -e is triggered by §5.3 only; the KKVKK shape issue of K-01 remains.",
+      "affected_rules": [
+        "§14",
+        "§5.1",
+        "§5.3"
+      ],
+      "affected_words": [
+        "dremn",
+        "prens",
+        "vlent"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-13",
+      "global_id": "ORB-FIND-U-13",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Praedikativstellung reibt sich an der V2-Regel",
+      "description_de": "Alle Beispiele stellen das Praedikativ vor das Verb (Lo loşn est = Verb an Position 3). Ob Praedikativ und Kopula als eine Position zaehlen, ist ungesagt.",
+      "description_en": "All examples place the predicative before the copula, leaving its relation to V2 unstated.",
+      "affected_rules": [
+        "§12.2",
+        "§17.1"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000055",
+        "ORB-SENT-000057",
+        "ORB-SENT-000121"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "U-14",
+      "global_id": "ORB-FIND-U-14",
+      "typ": "unclear",
+      "typ_label_de": "REGELUNKLARHEIT",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Negationsbeispiel laesst das Objekt unmarkiert",
+      "description_de": "§18.3 schreibt 'Vim xa num vna breun'. Regelkonform nach §8/§10.3/§11 waere vnan breunen.",
+      "description_en": "The §18.3 example leaves the object unmarked where §8/§10.3/§11 would require inflection.",
+      "affected_rules": [
+        "§18.3",
+        "§8",
+        "§10.3",
+        "§11"
+      ],
+      "affected_words": [
+        "breun"
+      ],
+      "affected_sentences": [
+        "ORB-SENT-000083",
+        "ORB-SENT-000122",
+        "ORB-SENT-000134"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "W-01",
+      "global_id": "ORB-FIND-W-01",
+      "typ": "lexical_gap",
+      "typ_label_de": "WORTSCHATZLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Wortschatzluecken fuer Grundkommunikation",
+      "description_de": "Es fehlen gaengige Grundverben und Konstruktionen, u. a. 'sagen', 'zeigen', 'suchen' sowie eine Existenzkonstruktion ('es gibt').",
+      "description_en": "Basic vocabulary is missing, including verbs for say, show, search and an existential construction.",
+      "affected_rules": [
+        "§24"
+      ],
+      "affected_words": [],
+      "affected_sentences": [
+        "ORB-SENT-000104"
+      ],
+      "introduced_version": "grammar-0.9.3",
+      "id_vergeben_in": null,
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "W-02",
+      "global_id": "ORB-FIND-W-02",
+      "typ": "lexical_collision",
+      "typ_label_de": "WORTSCHATZKOLLISION",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Formkollision velkran",
+      "description_de": "velkran 'Freundschaft' (Nominativ, 10-Prozent-Gruppe) ist formgleich mit dem Akkusativ von velkra 'Freund'. Beide gehoeren zum selben semantischen Feld; artikellose Kontexte sind mehrdeutig. Der Wortschatz-Freeze erlaubt Aenderungen bei echten Kollisionen.",
+      "description_en": "velkran 'friendship' is formally identical to the accusative of velkra 'friend'.",
+      "affected_rules": [
+        "§10.1",
+        "§24.2"
+      ],
+      "affected_words": [
+        "velkran",
+        "velkra"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "test-0.1 (Phase 7, dort ohne ID)",
+      "id_vergeben_in": "infrastructure-0.1",
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "W-03",
+      "global_id": "ORB-FIND-W-03",
+      "typ": "lexical_collision",
+      "typ_label_de": "WORTSCHATZKOLLISION",
+      "prioritaet": "P3",
+      "status": "open",
+      "titel_de": "Weitere Homonyme und Verwechselbarkeiten",
+      "description_de": "vran (unbestimmter Artikel M Akk / 'sehr'), kaun (Kernwort 'Mensch' / Indefinit 'man'), fai ('dass' / Relativpronomen, siehe L-02), xa ('nicht' / Gegenteilsvorsilbe). Dazu aehnliche Paare wie nest-/nast-, tolm/dolm-, şaln/şlan, kalm/kolm, xer/xerp.",
+      "description_en": "Further homonyms and near-homonyms are documented; none is resolved automatically.",
+      "affected_rules": [
+        "§11",
+        "§13.4",
+        "§18.3",
+        "§20",
+        "§21.2",
+        "§24"
+      ],
+      "affected_words": [
+        "vran",
+        "kaun",
+        "fai",
+        "xa",
+        "nest",
+        "nast",
+        "tolm",
+        "dolm",
+        "şaln",
+        "şlan",
+        "kalm",
+        "kolm",
+        "xer",
+        "xerp"
+      ],
+      "affected_sentences": [],
+      "introduced_version": "test-0.1 (Phase 7, dort ohne ID)",
+      "id_vergeben_in": "infrastructure-0.1",
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "W-04",
+      "global_id": "ORB-FIND-W-04",
+      "typ": "documentation_gap",
+      "typ_label_de": "DOKUMENTATIONSLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Lexikoneintraege ohne ausformulierte Definition",
+      "description_de": "Die 281 migrierten Lexeme tragen die Woerterbuchglosse der Grammatik 0.9.3 plus strukturelle Angaben (Klasse, Ableitung, Fundstelle). Ausformulierte Definitionen, Bedeutungsnuancen, Kollokationen und Synonymabgrenzungen fehlen noch. Das ist kein Sprachbefund, sondern offene Redaktionsarbeit der Sprachdesigner; Werkzeuge duerfen Definitionen nicht selbst erfinden (ORBIS_CONSTITUTION Art. 6 und 16).",
+      "description_en": "The 281 migrated lexemes carry the dictionary gloss plus structural data; full definitions, nuances and collocations remain outstanding editorial work.",
+      "affected_rules": [
+        "§24"
+      ],
+      "affected_words": [],
+      "affected_sentences": [],
+      "introduced_version": "infrastructure-0.1",
+      "id_vergeben_in": "infrastructure-0.1",
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    }
+  ]
+}

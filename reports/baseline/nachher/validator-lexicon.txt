@@ -1,0 +1,24 @@
+== LEXIKONPRÜFUNG (Prüfungen 1–6) ==
+[§5.1-BEFUND] aul (Kernwort-N): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] eird (Kernwort-F): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] prilm (Nomen10%-F): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] aulmelna (Nomen-Komp-N): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] dremn (Verbwurzel): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] prens (Verbwurzel): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] vlent (Verbwurzel): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[FEHLER] suvr (Modalwurzel): keine §5-konforme Silbenzerlegung
+[§5.1-BEFUND] es (Verbwurzel-irr): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] granz (Adjektiv): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] trelm (Adjektiv): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] vresn (Adjektiv): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[GEMINATE] kella (Fragewort-adj): Doppelkonsonanz ll — kollidiert mit Fugenregel §21.4
+[GEMINATE] killa (Demonstrativ): Doppelkonsonanz ll — kollidiert mit Fugenregel §21.4
+[GEMINATE] dolla (Demonstrativ): Doppelkonsonanz ll — kollidiert mit Fugenregel §21.4
+[GEMINATE] telnxelmmern (Zahl-Komp): Doppelkonsonanz mm — kollidiert mit Fugenregel §21.4
+[§5.1-BEFUND] skirm (Partikel/Adverb): nur mit Silbenform KKVKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] ain (Partikel/Adverb): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[§5.1-BEFUND] oñ (Pronomenform): nur mit Silbenform VK/VKK parsebar; §5.1 nennt diese Form nicht
+[HOMONYM] kaun (Indefinit/Kernwort-M): Kernwort-M: Mensch | Indefinit: man (homonym: Mensch)
+[HOMONYM] fai (Konj-sub/Relativ): Relativ: der/die/das | Konj-sub: dass
+[HOMONYM] vran (Artikelform/Partikel/Adverb): Partikel/Adverb: sehr (homonym: vran = unbest. Artikel M Akk) | Artikelform: ('unbestimmt', 'M', 'akk')
+

@@ -1,0 +1,129 @@
+{
+  "lexeme_id": "ORB-LEX-000104",
+  "lemma": "zav",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "unregelmaessig",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "denken"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "wissen",
+    "definition": "wissen. Unregelmaessiges Verb; die belegten Tabellen sind massgeblich, die Formelbeschreibung in §15.2 deckt sie nicht vollstaendig (U-01). (Migrierte Woerterbuchglosse aus §15.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to know",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "zav",
+    "konjugationsklasse": "unregelmaessig",
+    "infinitiv": "zavex",
+    "partizip": "zavut",
+    "unregelmaessige_formen": {
+      "praesens": {
+        "1sg": "zavam",
+        "2sg": "zavaş",
+        "3sg": "zavat",
+        "1pl": "zavamen",
+        "2pl": "zavaşen",
+        "3pl": "zavaten"
+      },
+      "vergangenheit": {
+        "1sg": "zovem",
+        "2sg": "zoveş",
+        "3sg": "zovet",
+        "1pl": "zovemen",
+        "2pl": "zoveşen",
+        "3pl": "zoveten"
+      },
+      "zukunft": {
+        "1sg": "zavaim",
+        "2sg": "zavaiş",
+        "3sg": "zavait",
+        "1pl": "zavaimen",
+        "2pl": "zavaişen",
+        "3pl": "zavaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "z",
+      "a",
+      "v"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "zav"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "zav"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000104"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "U-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§15.2"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§12",
+  "regel_id": "ORB-GRAM-MOR-007",
+  "status": "canonical",
+  "befunde": [
+    "U-02",
+    "U-13",
+    "K-04"
+  ],
+  "attributiv": {
+    "aufbau": "Stamm + r/l/n + a + Kasus-/Pluralmarker",
+    "fugenregel": "identische Konsonanten an der Fuge verschmelzen (§21.4): şaln+na → şalna"
+  },
+  "praedikativ": {
+    "regel": "Grundform, unveraendert, auch im Plural",
+    "nach": [
+      "esex",
+      "vurnex",
+      "stanex"
+    ],
+    "unklarheit": {
+      "befund": "U-13",
+      "beschreibung": "Alle Beispiele stellen das Praedikativ VOR das Verb; das Verhaeltnis zur V2-Regel ist ungesagt."
+    }
+  },
+  "steigerung": {
+    "komparativ_infix": "vi",
+    "superlativ_infix": "vax",
+    "vergleichswoerter": {
+      "kon": "als",
+      "zil": "wie"
+    },
+    "kasus_nach_vergleich": {
+      "status": "unclear",
+      "befund": "U-06"
+    }
+  },
+  "adverb": {
+    "suffix": "un",
+    "paragraph": "§12.4",
+    "konflikt": {
+      "befund": "K-04",
+      "beschreibung": "§25.1 verwendet tolm adverbial ohne -un."
+    }
+  },
+  "nominalisierung": {
+    "-ru": "M-A Person m",
+    "-la": "F-A Person f",
+    "-te": "N-C Sache",
+    "partizip": "-ut + -te → -ute"
+  },
+  "partizip_attributiv": {
+    "status": "unclear",
+    "befund": "U-02"
+  },
+  "grundadjektive": [
+    {
+      "lemma": "vlaid",
+      "bedeutung_de": "groß"
+    },
+    {
+      "lemma": "nirm",
+      "bedeutung_de": "klein"
+    },
+    {
+      "lemma": "selv",
+      "bedeutung_de": "gut"
+    },
+    {
+      "lemma": "morn",
+      "bedeutung_de": "schlecht"
+    },
+    {
+      "lemma": "loşn",
+      "bedeutung_de": "schön"
+    },
+    {
+      "lemma": "granz",
+      "bedeutung_de": "alt"
+    },
+    {
+      "lemma": "zirv",
+      "bedeutung_de": "neu"
+    },
+    {
+      "lemma": "trelm",
+      "bedeutung_de": "lang"
+    },
+    {
+      "lemma": "misn",
+      "bedeutung_de": "kurz"
+    },
+    {
+      "lemma": "velm",
+      "bedeutung_de": "warm"
+    },
+    {
+      "lemma": "girn",
+      "bedeutung_de": "kalt"
+    },
+    {
+      "lemma": "luid",
+      "bedeutung_de": "hell"
+    },
+    {
+      "lemma": "şaln",
+      "bedeutung_de": "dunkel"
+    },
+    {
+      "lemma": "xarn",
+      "bedeutung_de": "stark"
+    },
+    {
+      "lemma": "vresn",
+      "bedeutung_de": "schwach"
+    },
+    {
+      "lemma": "zilv",
+      "bedeutung_de": "schnell"
+    },
+    {
+      "lemma": "tolm",
+      "bedeutung_de": "langsam"
+    },
+    {
+      "lemma": "klaun",
+      "bedeutung_de": "wahr"
+    },
+    {
+      "lemma": "norv",
+      "bedeutung_de": "falsch"
+    },
+    {
+      "lemma": "xan",
+      "bedeutung_de": "kein"
+    }
+  ]
+}

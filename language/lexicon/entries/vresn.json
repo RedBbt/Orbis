@@ -1,0 +1,137 @@
+{
+  "lexeme_id": "ORB-LEX-000120",
+  "lemma": "vresn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "koerper"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "schwach",
+    "definition": "schwach. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "weak",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "vresnvi",
+      "superlativ": "vresnvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "vresnra",
+      "M_nom_pl": "vresnrañ",
+      "M_akk_sg": "vresnran",
+      "M_akk_pl": "vresnrañan",
+      "M_dat_sg": "vresnraş",
+      "M_dat_pl": "vresnrañaş",
+      "M_gen_sg": "vresnras",
+      "M_gen_pl": "vresnrañas",
+      "F_nom_sg": "vresnla",
+      "F_nom_pl": "vresnlañ",
+      "F_akk_sg": "vresnlan",
+      "F_akk_pl": "vresnlañan",
+      "F_dat_sg": "vresnlaş",
+      "F_dat_pl": "vresnlañaş",
+      "F_gen_sg": "vresnlas",
+      "F_gen_pl": "vresnlañas",
+      "N_nom_sg": "vresna",
+      "N_nom_pl": "vresnañ",
+      "N_akk_sg": "vresnan",
+      "N_akk_pl": "vresnañan",
+      "N_dat_sg": "vresnaş",
+      "N_dat_pl": "vresnañaş",
+      "N_gen_sg": "vresnas",
+      "N_gen_pl": "vresnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "r",
+      "e",
+      "s",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "vresn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "vresn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000120"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000119",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

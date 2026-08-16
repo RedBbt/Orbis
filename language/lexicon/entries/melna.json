@@ -1,0 +1,117 @@
+{
+  "lexeme_id": "ORB-LEX-000049",
+  "lemma": "melna",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "raum"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Weg",
+    "definition": "Weg. Regulaeres Nomen der Klasse N-A (Themavokal -a). (Migrierte Woerterbuchglosse aus §24.4; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "way",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "N",
+    "klasse": "N-A",
+    "unterklasse": "A",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "melna",
+      "akk_sg": "melnan",
+      "dat_sg": "melnaş",
+      "gen_sg": "melnas",
+      "nom_pl": "melnañ",
+      "akk_pl": "melnañan",
+      "dat_pl": "melnañaş",
+      "gen_pl": "melnañas"
+    },
+    "plural": "melnañ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "e",
+      "l",
+      "n",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "mel·na",
+      "meln·a"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000049"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": "mel-",
+    "family_id": "ORB-FAM-mel",
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.4"
+  }
+}

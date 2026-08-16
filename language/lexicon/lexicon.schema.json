@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RedBbt/Orbis/language/lexicon/lexicon.schema.json",
+  "title": "Orbis Lexem-Eintrag",
+  "description": "Schema eines Lexikoneintrags. Deutsch ist semantische Autoritaet; englische Felder werden aus der deutschen kanonischen Bedeutung abgeleitet (TRANSLATION_POLICY.md). Ein Eintrag mit status=canonical muss die unter 'required_for_canonical' genannten Felder tragen.",
+  "type": "object",
+  "required": ["lexeme_id", "lemma", "status", "wortart", "de", "phonologie", "qualitaet"],
+  "additionalProperties": false,
+  "properties": {
+
+    "lexeme_id": {
+      "type": "string", "pattern": "^ORB-LEX-[0-9]{6}$",
+      "description": "Stabile ID. Wechselt NIE, auch nicht bei Umbenennung des Lemmas."
+    },
+    "lemma": { "type": "string", "minLength": 1,
+      "description": "Grundform in Orbis-Standardschreibung." },
+    "status": {
+      "enum": ["draft", "proposed", "review", "canonical", "deprecated",
+               "historical", "experimental", "rejected"],
+      "description": "Nur canonical darf ohne Warnung in offiziellen Beispielen verwendet werden."
+    },
+    "eingefuehrt_in": { "type": ["string", "null"],
+      "description": "Version, in der das Lexem eingefuehrt wurde, z. B. grammar-0.9.3." },
+    "letzte_aenderung": { "type": ["string", "null"], "description": "ISO-Datum." },
+
+    "wortart": {
+      "enum": ["nomen", "verb", "adjektiv", "adverb", "pronomen", "artikel",
+               "praeposition", "konjunktion", "partikel", "zahl", "interjektion",
+               "affix", "wurzel"]
+    },
+    "grammatische_kategorie": { "type": ["string", "null"],
+      "description": "Feinere Einordnung, z. B. 'kernwort', 'modalverb', 'demonstrativ'." },
+    "register": { "enum": ["neutral", "formell", "informell", "poetisch", "fachlich",
+                           "archaisch", "unbestimmt"], "default": "neutral" },
+    "haeufigkeit": {
+      "enum": ["CORE", "VERY_COMMON", "COMMON", "STANDARD", "SPECIALIZED", "RARE",
+               "ARCHAIC", "POETIC", "UNRATED"],
+      "description": "Orbis-interne Zielhaeufigkeit (designer_frequency), KEINE gemessene Korpusstatistik."
+    },
+    "produktivitaet": { "enum": ["produktiv", "eingeschraenkt", "unproduktiv", "unbekannt"],
+      "description": "Ob das Lexem als Basis fuer Ableitungen dient." },
+    "domaenen": { "type": "array", "items": { "type": "string" },
+      "description": "Semantische Domaenen-IDs, z. B. 'natur', 'zeit', 'familie'." },
+    "lernstufe": { "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2", "unbestimmt"],
+      "description": "Orbis-eigene Lernklassifikation, nicht CEFR-zertifiziert." },
+
+    "de": {
+      "type": "object", "required": ["short", "definition"], "additionalProperties": false,
+      "description": "KANONISCHE Bedeutung. Autoritativ.",
+      "properties": {
+        "short": { "type": "string", "minLength": 1, "description": "Kurzglosse." },
+        "definition": { "type": "string", "minLength": 1, "description": "Vollstaendige Definition." },
+        "alternativen": { "type": "array", "items": { "type": "string" } },
+        "gebrauchshinweis": { "type": ["string", "null"] }
+      }
+    },
+    "en": {
+      "type": "object", "additionalProperties": false,
+      "description": "Aus de abgeleitet. Darf den Bedeutungsumfang nicht veraendern.",
+      "properties": {
+        "short": { "type": ["string", "null"] },
+        "definition": { "type": ["string", "null"] },
+        "alternativen": { "type": "array", "items": { "type": "string" } },
+        "usage_note": { "type": ["string", "null"] },
+        "status": { "enum": ["missing", "draft", "derived", "reviewed"], "default": "missing" }
+      }
+    },
+
+    "grammatik": {
+      "type": "object", "additionalProperties": true,
+      "description": "Wortartabhaengige Angaben. Nur belegte Werte; fehlende Regeln als null plus Befund-ID in qualitaet.offene_befunde.",
+      "properties": {
+        "genus": { "enum": ["M", "F", "N", null] },
+        "klasse": { "type": ["string", "null"], "description": "z. B. 'M-A', 'kernwort', '10prozent'." },
+        "unterklasse": { "enum": ["A", "B", "C", null] },
+        "themavokal": { "type": ["string", "null"] },
+        "deklination": { "type": ["string", "null"],
+          "description": "Verweis auf das Paradigma: 'regulaer', 'kernwort', '10prozent', 'undefiniert'." },
+        "kasusformen": { "type": ["object", "null"],
+          "description": "Erzeugte Vollformen je Kasus/Numerus (aus den Regeldaten generiert)." },
+        "plural": { "type": ["string", "null"] },
+        "verbwurzel": { "type": ["string", "null"] },
+        "konjugationsklasse": { "enum": ["regelmaessig", "unregelmaessig", "modal", null] },
+        "unregelmaessige_formen": { "type": ["object", "null"] },
+        "infinitiv": { "type": ["string", "null"] },
+        "partizip": { "type": ["string", "null"] },
+        "steigerung": { "type": ["object", "null"] },
+        "rektion": { "type": ["array", "null"], "items": { "type": "string" },
+          "description": "Verlangter Kasus, z. B. bei Praepositionen." },
+        "valenz": { "type": ["integer", "null"] },
+        "transitivitaet": { "enum": ["transitiv", "intransitiv", "beides", null] },
+        "zaehlbarkeit": { "enum": ["zaehlbar", "unzaehlbar", "unbestimmt", null] }
+      }
+    },
+
+    "phonologie": {
+      "type": "object", "required": ["phonemfolge"], "additionalProperties": false,
+      "properties": {
+        "phonemfolge": { "type": "array", "items": { "type": "string" } },
+        "ipa": { "type": ["string", "null"],
+          "description": "Erst zu fuellen, wenn eine verbindliche IPA-Zuordnung beschlossen ist." },
+        "silbifizierung": { "type": ["array", "null"],
+          "description": "Nur wenn eindeutig; bei Mehrdeutigkeit null und manus.ambiguitaet setzen (L-09)." },
+        "silbifizierung_kandidaten": { "type": ["array", "null"] },
+        "betonung": { "type": ["string", "null"] },
+        "phonotaktik_status": { "enum": ["ok", "K-01", "verstoss", "ungeprueft"] }
+      }
+    },
+
+    "manus": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "silben": { "type": ["array", "null"] },
+        "kompositionsdaten": { "type": ["object", "null"] },
+        "status": { "enum": ["canonical", "provisional", "blocked", "ungeprueft"] },
+        "ambiguitaet": { "type": "boolean", "default": false },
+        "ambiguitaet_anzahl": { "type": ["integer", "null"] },
+        "befund": { "type": ["string", "null"] }
+      }
+    },
+
+    "semantik": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "concept_ids": { "type": "array", "items": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" } },
+        "synonyme": {
+          "type": "array",
+          "description": "Synonymrelation MIT Bedeutungsunterschied. Eine blosse Liste genuegt nicht (ORBIS_CONSTITUTION Art. 12).",
+          "items": {
+            "type": "object", "required": ["lexeme_id", "staerke"], "additionalProperties": false,
+            "properties": {
+              "lexeme_id": { "type": "string", "pattern": "^ORB-LEX-[0-9]{6}$" },
+              "staerke": { "enum": ["synonym", "near_synonym", "lose_verwandt"] },
+              "austauschbar": { "enum": ["ja", "nein", "teilweise"] },
+              "bedeutungsunterschied_de": { "type": "string" },
+              "registerunterschied": { "type": ["string", "null"] },
+              "konnotationsunterschied": { "type": ["string", "null"] },
+              "typische_kontexte": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "relationen": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["typ", "ziel"], "additionalProperties": false,
+            "properties": {
+              "typ": { "enum": ["antonym", "hypernym", "hyponym", "part_of", "related",
+                                "derived_from", "historical_relation", "metaphorical_extension"] },
+              "ziel": { "type": "string", "description": "ORB-LEX-* oder ORB-CON-*." },
+              "anmerkung_de": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "konnotation": { "type": ["string", "null"] },
+        "bedeutungsnuancen": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "wortfamilie": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "wurzel": { "type": ["string", "null"] },
+        "family_id": { "type": ["string", "null"] },
+        "abgeleitete": { "type": "array", "items": { "type": "string" } },
+        "komposita": { "type": "array", "items": { "type": "string" } },
+        "verwandte_wurzeln": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "etymologie": {
+      "type": "object", "additionalProperties": false,
+      "description": "Keine Etymologie erfinden. Ohne Beleg status=unknown.",
+      "properties": {
+        "status": { "enum": ["documented", "reconstructed", "provisional", "unknown"] },
+        "proto_form": { "type": ["string", "null"] },
+        "zwischenformen": { "type": "array", "items": { "type": "string" } },
+        "lautgesetze": { "type": "array", "items": { "type": "string" } },
+        "bedeutungsentwicklung": { "type": ["string", "null"] },
+        "besonderheiten": { "type": ["string", "null"] }
+      }
+    },
+
+    "gebrauch": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "kollokationen": { "type": "array", "items": { "type": "string" } },
+        "typische_konstruktionen": { "type": "array", "items": { "type": "string" } },
+        "typische_praepositionen": { "type": "array", "items": { "type": "string" } },
+        "typische_objekte": { "type": "array", "items": { "type": "string" } },
+        "typische_subjekte": { "type": "array", "items": { "type": "string" } },
+        "stil": { "type": ["string", "null"] },
+        "bereich": { "type": ["string", "null"] }
+      }
+    },
+
+    "beispiele": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["sentence_id"], "additionalProperties": false,
+        "properties": {
+          "sentence_id": { "type": "string", "pattern": "^ORB-SENT-[0-9]{6}$" },
+          "orbis": { "type": ["string", "null"] },
+          "de": { "type": ["string", "null"] },
+          "en": { "type": ["string", "null"] }
+        }
+      }
+    },
+
+    "qualitaet": {
+      "type": "object", "required": ["geprueft", "validatorstatus"], "additionalProperties": false,
+      "properties": {
+        "geprueft": { "type": "boolean" },
+        "validatorstatus": { "enum": ["ok", "befund", "ungeprueft"] },
+        "offene_befunde": { "type": "array", "items": { "type": "string" } },
+        "letzte_pruefung": { "type": ["string", "null"] },
+        "quelle": { "type": ["string", "null"],
+          "description": "Fundstelle in der Referenzgrammatik, z. B. '§24.2'." }
+      }
+    }
+  },
+
+  "required_for_canonical": [
+    "de.short", "de.definition", "en.short", "en.definition",
+    "wortart", "phonologie.phonemfolge", "qualitaet.validatorstatus"
+  ]
+}

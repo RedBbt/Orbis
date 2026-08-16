@@ -1,0 +1,121 @@
+{
+  "lexeme_id": "ORB-LEX-000058",
+  "lemma": "talisto",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "werkzeug"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Instrument",
+    "definition": "Instrument. Regulaeres Nomen der Klasse N-C (Themavokal -o). (Migrierte Woerterbuchglosse aus §24.4; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "instrument",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "N",
+    "klasse": "N-C",
+    "unterklasse": "C",
+    "themavokal": "o",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "talisto",
+      "akk_sg": "taliston",
+      "dat_sg": "talistoş",
+      "gen_sg": "talistos",
+      "nom_pl": "talistoñ",
+      "akk_pl": "talistoñon",
+      "dat_pl": "talistoñoş",
+      "gen_pl": "talistoños"
+    },
+    "plural": "talistoñ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "a",
+      "l",
+      "i",
+      "s",
+      "t",
+      "o"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "ta·li·sto",
+      "ta·lis·to",
+      "ta·list·o",
+      "tal·i·sto"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 4,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000058"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": "tal-",
+    "family_id": "ORB-FAM-tal",
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.4"
+  }
+}

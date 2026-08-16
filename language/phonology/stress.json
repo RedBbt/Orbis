@@ -1,0 +1,32 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§23",
+  "regel_id": "ORB-GRAM-PHON-007",
+  "status": "canonical",
+  "grundregel": "vorletzte Silbe",
+  "ausnahmen": [
+    {
+      "muster": "-uma",
+      "regel": "Stammbetonung"
+    },
+    {
+      "muster": "-isto",
+      "regel": "Stammbetonung"
+    },
+    {
+      "muster": "15 Kernwoerter",
+      "regel": "letzte Silbe"
+    },
+    {
+      "muster": "Zusammensetzungen",
+      "regel": "erstes Glied"
+    },
+    {
+      "muster": "Vorsilben",
+      "regel": "unbetont"
+    }
+  ],
+  "vorhersagbarkeit_laut_grammatik": "ca. 85 %"
+}

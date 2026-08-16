@@ -1,0 +1,117 @@
+{
+  "lexeme_id": "ORB-LEX-000033",
+  "lemma": "prila",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "koerper"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Hand",
+    "definition": "Hand. Regulaeres Nomen der Klasse F-A (Themavokal -a). (Migrierte Woerterbuchglosse aus §24.3; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "hand",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "F-A",
+    "unterklasse": "A",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "prila",
+      "akk_sg": "prilan",
+      "dat_sg": "prilaş",
+      "gen_sg": "prilas",
+      "nom_pl": "prilañ",
+      "akk_pl": "prilañan",
+      "dat_pl": "prilañaş",
+      "gen_pl": "prilañas"
+    },
+    "plural": "prilañ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "p",
+      "r",
+      "i",
+      "l",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "pri·la",
+      "pril·a"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000033"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.3"
+  }
+}

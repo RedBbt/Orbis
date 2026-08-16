@@ -1,0 +1,45 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Rein diachron (§4.3). Fuer synchrone Pruefungen ohne Wirkung.",
+  "paragraph": "§22",
+  "regel_id": "ORB-GRAM-PHON-020",
+  "status": "canonical",
+  "gesetze": [
+    {
+      "nr": 1,
+      "name": "Endvokalschwund"
+    },
+    {
+      "nr": 2,
+      "name": "Diphthongierung"
+    },
+    {
+      "nr": 3,
+      "name": "Erweichung"
+    },
+    {
+      "nr": 4,
+      "name": "Assimilation"
+    },
+    {
+      "nr": 5,
+      "name": "Verlust vor Nasal"
+    },
+    {
+      "nr": 6,
+      "name": "Ablaut"
+    },
+    {
+      "nr": 7,
+      "name": "Reduktion"
+    }
+  ],
+  "arbeitsanweisung_neue_woerter": "Proto-Form → Lautgesetze → §3.3 (verbindlich) → §3.4 (Klangrichtlinien)",
+  "status_werte_etymologie": [
+    "documented",
+    "reconstructed",
+    "provisional",
+    "unknown"
+  ]
+}

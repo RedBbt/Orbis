@@ -1,0 +1,117 @@
+{
+  "lexeme_id": "ORB-LEX-000012",
+  "lemma": "eird",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kernwort",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "natur"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Welt",
+    "definition": "Welt. Historisches Kernwort (F); dekliniert mit Bindevokal -e- im Singular und -ei im Plural (§10.3). (Migrierte Woerterbuchglosse aus §24.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "world",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "kernwort",
+    "unterklasse": null,
+    "themavokal": null,
+    "deklination": "kernwort",
+    "kasusformen": {
+      "nom_sg": "eird",
+      "akk_sg": "eirden",
+      "dat_sg": "eirdeş",
+      "gen_sg": "eirdes",
+      "nom_pl": "eirdei",
+      "akk_pl": "eirdein",
+      "dat_pl": "eirdeiş",
+      "gen_pl": "eirdeis"
+    },
+    "plural": "eirdei",
+    "zaehlbarkeit": "unbestimmt"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "e",
+      "i",
+      "r",
+      "d"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "e·ird",
+      "eird"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000012"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.1"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "lexeme_id": "ORB-LEX-000044",
+  "lemma": "klerma",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "abstrakta"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Freiheit",
+    "definition": "Freiheit. Regulaeres Nomen der Klasse F-C (Themavokal -a). (Migrierte Woerterbuchglosse aus §24.3; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "freedom",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "F-C",
+    "unterklasse": "C",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "klerma",
+      "akk_sg": "klerman",
+      "dat_sg": "klermaş",
+      "gen_sg": "klermas",
+      "nom_pl": "klermañ",
+      "akk_pl": "klermañan",
+      "dat_pl": "klermañaş",
+      "gen_pl": "klermañas"
+    },
+    "plural": "klermañ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "k",
+      "l",
+      "e",
+      "r",
+      "m",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "kler",
+      "ma"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "kler",
+      "ma"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000044"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.3"
+  }
+}

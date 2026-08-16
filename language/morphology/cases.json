@@ -1,0 +1,31 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§8",
+  "regel_id": "ORB-GRAM-MOR-001",
+  "status": "canonical",
+  "kasus": [
+    {
+      "name": "nom",
+      "marker": "",
+      "bezeichnung": "Nominativ"
+    },
+    {
+      "name": "akk",
+      "marker": "n",
+      "bezeichnung": "Akkusativ"
+    },
+    {
+      "name": "dat",
+      "marker": "ş",
+      "bezeichnung": "Dativ"
+    },
+    {
+      "name": "gen",
+      "marker": "s",
+      "bezeichnung": "Genitiv"
+    }
+  ],
+  "aufbau": "Stamm + Klassenkonsonant + Themavokal + Kasusmarker"
+}

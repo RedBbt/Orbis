@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000094",
+  "lemma": "vlek",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "modalverb",
+  "register": "neutral",
+  "haeufigkeit": "VERY_COMMON",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "grammatik"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "dürfen",
+    "definition": "dürfen. Modalverb; steht auf Position 2, das Vollverb im Infinitiv am Satzende (Verbklammer §16.1). Der Vollverbgebrauch ohne Infinitiv ist ungeregelt (U-03); die Stellung im Nebensatz ist offen (K-05). (Migrierte Woerterbuchglosse aus §16.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "may, to be allowed to",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "vlek",
+    "konjugationsklasse": "modal",
+    "infinitiv": "vlekex",
+    "partizip": "vlekut",
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "vlekam",
+        "2sg": "vlekaş",
+        "3sg": "vlekat",
+        "1pl": "vlekamen",
+        "2pl": "vlekaşen",
+        "3pl": "vlekaten"
+      },
+      "vgh": {
+        "1sg": "vlekom",
+        "2sg": "vlekoş",
+        "3sg": "vlekot",
+        "1pl": "vlekomen",
+        "2pl": "vlekoşen",
+        "3pl": "vlekoten"
+      },
+      "fut": {
+        "1sg": "vlekaim",
+        "2sg": "vlekaiş",
+        "3sg": "vlekait",
+        "1pl": "vlekaimen",
+        "2pl": "vlekaişen",
+        "3pl": "vlekaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "l",
+      "e",
+      "k"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "vlek"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "vlek"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000094"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-05",
+      "U-03",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§16.1"
+  }
+}

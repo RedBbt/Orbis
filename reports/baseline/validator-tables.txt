@@ -1,0 +1,229 @@
+== 45 ENDUNGEN — [TESTFORM]-Stamm 'pren-' ==
+| Klasse | Endung | Nom Sg | Akk Sg | Dat Sg | Gen Sg | Nom Pl | Akk Pl | Dat Pl | Gen Pl |
+|---|---|---|---|---|---|---|---|---|---|
+| M-A | -ra | prenra | prenran | prenraş | prenras | prenrañ | prenrañan | prenrañaş | prenrañas |
+| M-A | -re | prenre | prenren | prenreş | prenres | prenreñ | prenreñen | prenreñeş | prenreñes |
+| M-A | -ri | prenri | prenrin | prenriş | prenris | prenriñ | prenriñin | prenriñiş | prenriñis |
+| M-A | -ro | prenro | prenron | prenroş | prenros | prenroñ | prenroñon | prenroñoş | prenroños |
+| M-A | -ru | prenru | prenrun | prenruş | prenrus | prenruñ | prenruñun | prenruñuş | prenruñus |
+| M-B | -ka | prenka | prenkan | prenkaş | prenkas | prenkañ | prenkañan | prenkañaş | prenkañas |
+| M-B | -ke | prenke | prenken | prenkeş | prenkes | prenkeñ | prenkeñen | prenkeñeş | prenkeñes |
+| M-B | -ki | prenki | prenkin | prenkiş | prenkis | prenkiñ | prenkiñin | prenkiñiş | prenkiñis |
+| M-B | -ko | prenko | prenkon | prenkoş | prenkos | prenkoñ | prenkoñon | prenkoñoş | prenkoños |
+| M-B | -ku | prenku | prenkun | prenkuş | prenkus | prenkuñ | prenkuñun | prenkuñuş | prenkuñus |
+| M-C | -da | prenda | prendan | prendaş | prendas | prendañ | prendañan | prendañaş | prendañas |
+| M-C | -de | prende | prenden | prendeş | prendes | prendeñ | prendeñen | prendeñeş | prendeñes |
+| M-C | -di | prendi | prendin | prendiş | prendis | prendiñ | prendiñin | prendiñiş | prendiñis |
+| M-C | -do | prendo | prendon | prendoş | prendos | prendoñ | prendoñon | prendoñoş | prendoños |
+| M-C | -du | prendu | prendun | prenduş | prendus | prenduñ | prenduñun | prenduñuş | prenduñus |
+| F-A | -la | prenla | prenlan | prenlaş | prenlas | prenlañ | prenlañan | prenlañaş | prenlañas |
+| F-A | -le | prenle | prenlen | prenleş | prenles | prenleñ | prenleñen | prenleñeş | prenleñes |
+| F-A | -li | prenli | prenlin | prenliş | prenlis | prenliñ | prenliñin | prenliñiş | prenliñis |
+| F-A | -lo | prenlo | prenlon | prenloş | prenlos | prenloñ | prenloñon | prenloñoş | prenloños |
+| F-A | -lu | prenlu | prenlun | prenluş | prenlus | prenluñ | prenluñun | prenluñuş | prenluñus |
+| F-B | -va | prenva | prenvan | prenvaş | prenvas | prenvañ | prenvañan | prenvañaş | prenvañas |
+| F-B | -ve | prenve | prenven | prenveş | prenves | prenveñ | prenveñen | prenveñeş | prenveñes |
+| F-B | -vi | prenvi | prenvin | prenviş | prenvis | prenviñ | prenviñin | prenviñiş | prenviñis |
+| F-B | -vo | prenvo | prenvon | prenvoş | prenvos | prenvoñ | prenvoñon | prenvoñoş | prenvoños |
+| F-B | -vu | prenvu | prenvun | prenvuş | prenvus | prenvuñ | prenvuñun | prenvuñuş | prenvuñus |
+| F-C | -ma | prenma | prenman | prenmaş | prenmas | prenmañ | prenmañan | prenmañaş | prenmañas |
+| F-C | -me | prenme | prenmen | prenmeş | prenmes | prenmeñ | prenmeñen | prenmeñeş | prenmeñes |
+| F-C | -mi | prenmi | prenmin | prenmiş | prenmis | prenmiñ | prenmiñin | prenmiñiş | prenmiñis |
+| F-C | -mo | prenmo | prenmon | prenmoş | prenmos | prenmoñ | prenmoñon | prenmoñoş | prenmoños |
+| F-C | -mu | prenmu | prenmun | prenmuş | prenmus | prenmuñ | prenmuñun | prenmuñuş | prenmuñus |
+| N-A | -na | prenna | prennan | prennaş | prennas | prennañ | prennañan | prennañaş | prennañas |
+| N-A | -ne | prenne | prennen | prenneş | prennes | prenneñ | prenneñen | prenneñeş | prenneñes |
+| N-A | -ni | prenni | prennin | prenniş | prennis | prenniñ | prenniñin | prenniñiş | prenniñis |
+| N-A | -no | prenno | prennon | prennoş | prennos | prennoñ | prennoñon | prennoñoş | prennoños |
+| N-A | -nu | prennu | prennun | prennuş | prennus | prennuñ | prennuñun | prennuñuş | prennuñus |
+| N-B | -sa | prensa | prensan | prensaş | prensas | prensañ | prensañan | prensañaş | prensañas |
+| N-B | -se | prense | prensen | prenseş | prenses | prenseñ | prenseñen | prenseñeş | prenseñes |
+| N-B | -si | prensi | prensin | prensiş | prensis | prensiñ | prensiñin | prensiñiş | prensiñis |
+| N-B | -so | prenso | prenson | prensoş | prensos | prensoñ | prensoñon | prensoñoş | prensoños |
+| N-B | -su | prensu | prensun | prensuş | prensus | prensuñ | prensuñun | prensuñuş | prensuñus |
+| N-C | -ta | prenta | prentan | prentaş | prentas | prentañ | prentañan | prentañaş | prentañas |
+| N-C | -te | prente | prenten | prenteş | prentes | prenteñ | prenteñen | prenteñeş | prenteñes |
+| N-C | -ti | prenti | prentin | prentiş | prentis | prentiñ | prentiñin | prentiñiş | prentiñis |
+| N-C | -to | prento | prenton | prentoş | prentos | prentoñ | prentoñon | prentoñoş | prentoños |
+| N-C | -tu | prentu | prentun | prentuş | prentus | prentuñ | prentuñun | prentuñuş | prentuñus |
+
+== REGELMÄSSIGES VERB milk- (6 Personen × 3 Zeiten) ==
+präs  1sg  milkam
+präs  2sg  milkaş
+präs  3sg  milkat
+präs  1pl  milkamen
+präs  2pl  milkaşen
+präs  3pl  milkaten
+vgh   1sg  milkom
+vgh   2sg  milkoş
+vgh   3sg  milkot
+vgh   1pl  milkomen
+vgh   2pl  milkoşen
+vgh   3pl  milkoten
+fut   1sg  milkaim
+fut   2sg  milkaiş
+fut   3sg  milkait
+fut   1pl  milkaimen
+fut   2pl  milkaişen
+fut   3pl  milkaiten
+
+== UNREGELMÄSSIG esex (sein) ==
+präs  1sg  em
+präs  2sg  eş
+präs  3sg  est
+präs  1pl  emen
+präs  2pl  eşen
+präs  3pl  esten
+vgh   1sg  vom
+vgh   2sg  voş
+vgh   3sg  vot
+vgh   1pl  vomen
+vgh   2pl  voşen
+vgh   3pl  voten
+fut   1sg  vaim
+fut   2sg  vaiş
+fut   3sg  vait
+fut   1pl  vaimen
+fut   2pl  vaişen
+fut   3pl  vaiten
+
+== UNREGELMÄSSIG nuvex (haben) ==
+präs  1sg  num
+präs  2sg  nuş
+präs  3sg  nut
+präs  1pl  numen
+präs  2pl  nuşen
+präs  3pl  nuten
+vgh   1sg  novem
+vgh   2sg  noveş
+vgh   3sg  novet
+vgh   1pl  novemen
+vgh   2pl  noveşen
+vgh   3pl  noveten
+fut   1sg  nuvaim
+fut   2sg  nuvaiş
+fut   3sg  nuvait
+fut   1pl  nuvaimen
+fut   2pl  nuvaişen
+fut   3pl  nuvaiten
+
+== UNREGELMÄSSIG vurnex (werden) ==
+präs  1sg  vurm
+präs  2sg  vurş
+präs  3sg  vurt
+präs  1pl  vurmen
+präs  2pl  vurşen
+präs  3pl  vurten
+vgh   1sg  vorem
+vgh   2sg  voreş
+vgh   3sg  voret
+vgh   1pl  voremen
+vgh   2pl  voreşen
+vgh   3pl  voreten
+fut   1sg  vurnaim
+fut   2sg  vurnaiş
+fut   3sg  vurnait
+fut   1pl  vurnaimen
+fut   2pl  vurnaişen
+fut   3pl  vurnaiten
+
+== UNREGELMÄSSIG melex (gehen) ==
+präs  1sg  melam
+präs  2sg  melaş
+präs  3sg  melat
+präs  1pl  melamen
+präs  2pl  melaşen
+präs  3pl  melaten
+vgh   1sg  molem
+vgh   2sg  moleş
+vgh   3sg  molet
+vgh   1pl  molemen
+vgh   2pl  moleşen
+vgh   3pl  moleten
+fut   1sg  melaim
+fut   2sg  melaiş
+fut   3sg  melait
+fut   1pl  melaimen
+fut   2pl  melaişen
+fut   3pl  melaiten
+
+== UNREGELMÄSSIG vandex (kommen) ==
+präs  1sg  vandam
+präs  2sg  vandaş
+präs  3sg  vandat
+präs  1pl  vandamen
+präs  2pl  vandaşen
+präs  3pl  vandaten
+vgh   1sg  vendem
+vgh   2sg  vendeş
+vgh   3sg  vendet
+vgh   1pl  vendemen
+vgh   2pl  vendeşen
+vgh   3pl  vendeten
+fut   1sg  vandaim
+fut   2sg  vandaiş
+fut   3sg  vandait
+fut   1pl  vandaimen
+fut   2pl  vandaişen
+fut   3pl  vandaiten
+
+== UNREGELMÄSSIG nargex (machen) ==
+präs  1sg  nargam
+präs  2sg  nargaş
+präs  3sg  nargat
+präs  1pl  nargamen
+präs  2pl  nargaşen
+präs  3pl  nargaten
+vgh   1sg  norgem
+vgh   2sg  norgeş
+vgh   3sg  norget
+vgh   1pl  norgemen
+vgh   2pl  norgeşen
+vgh   3pl  norgeten
+fut   1sg  nargaim
+fut   2sg  nargaiş
+fut   3sg  nargait
+fut   1pl  nargaimen
+fut   2pl  nargaişen
+fut   3pl  nargaiten
+
+== UNREGELMÄSSIG zavex (wissen) ==
+präs  1sg  zavam
+präs  2sg  zavaş
+präs  3sg  zavat
+präs  1pl  zavamen
+präs  2pl  zavaşen
+präs  3pl  zavaten
+vgh   1sg  zovem
+vgh   2sg  zoveş
+vgh   3sg  zovet
+vgh   1pl  zovemen
+vgh   2pl  zoveşen
+vgh   3pl  zoveten
+fut   1sg  zavaim
+fut   2sg  zavaiş
+fut   3sg  zavait
+fut   1pl  zavaimen
+fut   2pl  zavaişen
+fut   3pl  zavaiten
+
+== UNREGELMÄSSIG dalvex (geben) ==
+präs  1sg  dalvam
+präs  2sg  dalvaş
+präs  3sg  dalvat
+präs  1pl  dalvamen
+präs  2pl  dalvaşen
+präs  3pl  dalvaten
+vgh   1sg  dolvem
+vgh   2sg  dolveş
+vgh   3sg  dolvet
+vgh   1pl  dolvemen
+vgh   2pl  dolveşen
+vgh   3pl  dolveten
+fut   1sg  dalvaim
+fut   2sg  dalvaiş
+fut   3sg  dalvait
+fut   1pl  dalvaimen
+fut   2pl  dalvaişen
+fut   3pl  dalvaiten
+

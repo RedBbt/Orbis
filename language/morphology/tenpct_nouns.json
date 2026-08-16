@@ -1,0 +1,34 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§10.1",
+  "regel_id": "ORB-GRAM-MOR-005",
+  "status": "provisional",
+  "befunde": [
+    "L-07"
+  ],
+  "beschreibung": "Endvokal geschwunden; Geschlecht am Restkonsonanten erkennbar.",
+  "deklination_singular": "Stamm + Bindevokal -e- + Kasusmarker",
+  "deklination_plural": {
+    "status": "open",
+    "befund": "L-07"
+  },
+  "woerter": [
+    {
+      "lemma": "velkran",
+      "genus": "N",
+      "bedeutung_de": "Freundschaft"
+    },
+    {
+      "lemma": "soralm",
+      "genus": "F",
+      "bedeutung_de": "Denkmal"
+    },
+    {
+      "lemma": "prilm",
+      "genus": "F",
+      "bedeutung_de": "Handwerk"
+    }
+  ]
+}

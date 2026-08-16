@@ -1,0 +1,139 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§17–§18",
+  "regel_id": "ORB-GRAM-SYN-003",
+  "status": "canonical",
+  "befunde": [
+    "L-01",
+    "L-02",
+    "K-05",
+    "U-04",
+    "U-05",
+    "U-11",
+    "U-13"
+  ],
+  "regeln": [
+    {
+      "id": "ORB-GRAM-SYN-010",
+      "name": "Hauptsatz V2",
+      "paragraph": "§17.1",
+      "status": "canonical",
+      "beschreibung": "Das finite Verb steht im Aussagehauptsatz an zweiter Position."
+    },
+    {
+      "id": "ORB-GRAM-SYN-011",
+      "name": "Nebensatz Verbendstellung",
+      "paragraph": "§17.2",
+      "status": "canonical",
+      "beschreibung": "Im Nebensatz steht das finite Verb am Ende."
+    },
+    {
+      "id": "ORB-GRAM-SYN-012",
+      "name": "Nebensatz im Vorfeld",
+      "paragraph": "§17.1",
+      "status": "canonical",
+      "beschreibung": "Steht ein Nebensatz auf Position 1, folgt das finite Verb des Hauptsatzes unmittelbar."
+    },
+    {
+      "id": "ORB-GRAM-SYN-013",
+      "name": "Verbklammer",
+      "paragraph": "§17.3",
+      "status": "canonical",
+      "einschraenkung": "im Nebensatz ungeklaert (K-05)",
+      "beschreibung": "Modalverb Position 2, Infinitiv am Satzende."
+    },
+    {
+      "id": "ORB-GRAM-SYN-014",
+      "name": "Satzgliedfolge",
+      "paragraph": "§17.4",
+      "status": "provisional",
+      "beschreibung": "Zeit – Grund – Art – Ort; ausdrueckliche Tendenz, keine harte Regel."
+    },
+    {
+      "id": "ORB-GRAM-SYN-015",
+      "name": "Keine Kopula-Auslassung",
+      "paragraph": "§17.5",
+      "status": "canonical",
+      "beschreibung": "Die Kopula wird nicht ausgelassen."
+    },
+    {
+      "id": "ORB-GRAM-SYN-016",
+      "name": "Ja/Nein-Frage V1",
+      "paragraph": "§18.1",
+      "status": "canonical",
+      "beschreibung": "Das finite Verb steht an Position 1."
+    },
+    {
+      "id": "ORB-GRAM-SYN-017",
+      "name": "W-Frage",
+      "paragraph": "§18.2",
+      "status": "canonical",
+      "einschraenkung": "Kasusformen von kem/kelt fehlen (L-03)",
+      "beschreibung": "Fragewort Position 1, finites Verb Position 2."
+    },
+    {
+      "id": "ORB-GRAM-SYN-018",
+      "name": "Negation",
+      "paragraph": "§18.3",
+      "status": "canonical",
+      "beschreibung": "Partikel xa unmittelbar vor dem finiten Verb; attributiv xan-."
+    },
+    {
+      "id": "ORB-GRAM-SYN-019",
+      "name": "Passiv",
+      "paragraph": "§16.3",
+      "status": "provisional",
+      "einschraenkung": "Agens undefiniert (L-05)",
+      "beschreibung": "Vorsilbe şu-; Zustandspassiv Partizip + esex."
+    },
+    {
+      "id": "ORB-GRAM-SYN-020",
+      "name": "Moeglichkeitsform mai",
+      "paragraph": "§16.2",
+      "status": "canonical",
+      "beschreibung": "Partikel mai unmittelbar vor dem finiten Verb; mai + Verb bilden eine Satzposition."
+    },
+    {
+      "id": "ORB-GRAM-SYN-021",
+      "name": "Genitivattribut-Stellung",
+      "paragraph": "§8, §17",
+      "status": "open",
+      "befund": "L-01",
+      "beschreibung": "Nicht festgelegt. Alle Beispiele stellen nach; §13.3 regelt nur das Possessiv."
+    },
+    {
+      "id": "ORB-GRAM-SYN-022",
+      "name": "Relativsatz",
+      "paragraph": "§13.4",
+      "status": "open",
+      "befund": "L-02",
+      "beschreibung": "Kein Satzbau definiert (Kasus, Kongruenz, Verbstellung)."
+    },
+    {
+      "id": "ORB-GRAM-SYN-023",
+      "name": "Objektreihenfolge",
+      "paragraph": "§17",
+      "status": "provisional",
+      "befund": "U-05",
+      "beschreibung": "Dativ vor Akkusativ ist Beispielpraxis, keine Regel."
+    },
+    {
+      "id": "ORB-GRAM-SYN-024",
+      "name": "Subjektauslassung",
+      "paragraph": "§18",
+      "status": "open",
+      "befund": "U-04",
+      "beschreibung": "Pro-Drop erscheint in Fragebeispielen, ist aber nicht geregelt."
+    },
+    {
+      "id": "ORB-GRAM-SYN-025",
+      "name": "Temporaler Dativ",
+      "paragraph": "§25.2",
+      "status": "unclear",
+      "befund": "U-11",
+      "beschreibung": "Vraş zaldreş als blosse Dativ-Zeitangabe ist nicht vorgesehen."
+    }
+  ]
+}

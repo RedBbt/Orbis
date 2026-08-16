@@ -1,0 +1,137 @@
+{
+  "lexeme_id": "ORB-LEX-000101",
+  "lemma": "mel",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "unregelmaessig",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "bewegung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "gehen",
+    "definition": "gehen. Unregelmaessiges Verb; die belegten Tabellen sind massgeblich, die Formelbeschreibung in §15.2 deckt sie nicht vollstaendig (U-01). (Migrierte Woerterbuchglosse aus §15.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to go",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "mel",
+    "konjugationsklasse": "unregelmaessig",
+    "infinitiv": "melex",
+    "partizip": "melut",
+    "unregelmaessige_formen": {
+      "praesens": {
+        "1sg": "melam",
+        "2sg": "melaş",
+        "3sg": "melat",
+        "1pl": "melamen",
+        "2pl": "melaşen",
+        "3pl": "melaten"
+      },
+      "vergangenheit": {
+        "1sg": "molem",
+        "2sg": "moleş",
+        "3sg": "molet",
+        "1pl": "molemen",
+        "2pl": "moleşen",
+        "3pl": "moleten"
+      },
+      "zukunft": {
+        "1sg": "melaim",
+        "2sg": "melaiş",
+        "3sg": "melait",
+        "1pl": "melaimen",
+        "2pl": "melaişen",
+        "3pl": "melaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "e",
+      "l"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "mel"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "mel"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000101"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [
+      "melex",
+      "melru",
+      "mela",
+      "melna",
+      "melisto",
+      "melvi",
+      "meluma"
+    ],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "U-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§15.2"
+  }
+}

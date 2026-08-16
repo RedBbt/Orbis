@@ -1,0 +1,127 @@
+{
+  "lexeme_id": "ORB-LEX-000070",
+  "lemma": "aulmelna",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kompositum",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "raum"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Kanal",
+    "definition": "Kanal. Zusammensetzung; Kopf melna = N-A regulär. (Migrierte Woerterbuchglosse aus §21.3; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "canal",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "N",
+    "klasse": "kompositum",
+    "deklination": "regulaer",
+    "kompositionshinweis": "Kopf melna = N-A regulär",
+    "kasusformen": {
+      "nom_sg": "aulmelna",
+      "akk_sg": "aulmelnan",
+      "dat_sg": "aulmelnaş",
+      "gen_sg": "aulmelnas",
+      "nom_pl": "aulmelnañ",
+      "akk_pl": "aulmelnañan",
+      "dat_pl": "aulmelnañaş",
+      "gen_pl": "aulmelnañas"
+    },
+    "plural": "aulmelnañ"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "a",
+      "u",
+      "l",
+      "m",
+      "e",
+      "l",
+      "n",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "a·ul·mel·na",
+      "a·ul·meln·a",
+      "a·ulm·el·na",
+      "a·ulm·eln·a",
+      "aul·mel·na",
+      "aul·meln·a",
+      "aulm·el·na",
+      "aulm·eln·a"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 8,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000070"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [
+      "aulmelna"
+    ],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§21.3"
+  }
+}

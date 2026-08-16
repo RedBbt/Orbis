@@ -1,0 +1,117 @@
+{
+  "lexeme_id": "ORB-LEX-000025",
+  "lemma": "larki",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "natur"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Stein",
+    "definition": "Stein. Regulaeres Nomen der Klasse M-B (Themavokal -i). (Migrierte Woerterbuchglosse aus §24.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "stone",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "M-B",
+    "unterklasse": "B",
+    "themavokal": "i",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "larki",
+      "akk_sg": "larkin",
+      "dat_sg": "larkiş",
+      "gen_sg": "larkis",
+      "nom_pl": "larkiñ",
+      "akk_pl": "larkiñin",
+      "dat_pl": "larkiñiş",
+      "gen_pl": "larkiñis"
+    },
+    "plural": "larkiñ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "l",
+      "a",
+      "r",
+      "k",
+      "i"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "lar·ki",
+      "lark·i"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000025"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.2"
+  }
+}

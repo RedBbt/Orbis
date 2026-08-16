@@ -1,0 +1,243 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§15.2",
+  "regel_id": "ORB-GRAM-MOR-010",
+  "status": "canonical",
+  "befunde": [
+    "U-01"
+  ],
+  "anzahl": 8,
+  "beschreibung_laut_grammatik": "Ablautstamm + Bindevokal -e- + Personendung",
+  "unklarheit": {
+    "befund": "U-01",
+    "beschreibung": "Die Formel deckt es- (suppletiv: em/eş/est, vo+Endung ohne -e-, Futurstamm vai-) sowie die kontrahierten Praesensstaemme nu-/vur- nicht. Massgeblich sind die belegten Tabellen."
+  },
+  "verben": {
+    "es": {
+      "infinitiv": "esex",
+      "bedeutung_de": "sein",
+      "praesens": {
+        "1sg": "em",
+        "2sg": "eş",
+        "3sg": "est",
+        "1pl": "emen",
+        "2pl": "eşen",
+        "3pl": "esten"
+      },
+      "vergangenheit": {
+        "1sg": "vom",
+        "2sg": "voş",
+        "3sg": "vot",
+        "1pl": "vomen",
+        "2pl": "voşen",
+        "3pl": "voten"
+      },
+      "zukunft": {
+        "1sg": "vaim",
+        "2sg": "vaiş",
+        "3sg": "vait",
+        "1pl": "vaimen",
+        "2pl": "vaişen",
+        "3pl": "vaiten"
+      }
+    },
+    "nuv": {
+      "infinitiv": "nuvex",
+      "bedeutung_de": "haben",
+      "praesens": {
+        "1sg": "num",
+        "2sg": "nuş",
+        "3sg": "nut",
+        "1pl": "numen",
+        "2pl": "nuşen",
+        "3pl": "nuten"
+      },
+      "vergangenheit": {
+        "1sg": "novem",
+        "2sg": "noveş",
+        "3sg": "novet",
+        "1pl": "novemen",
+        "2pl": "noveşen",
+        "3pl": "noveten"
+      },
+      "zukunft": {
+        "1sg": "nuvaim",
+        "2sg": "nuvaiş",
+        "3sg": "nuvait",
+        "1pl": "nuvaimen",
+        "2pl": "nuvaişen",
+        "3pl": "nuvaiten"
+      }
+    },
+    "vurn": {
+      "infinitiv": "vurnex",
+      "bedeutung_de": "werden",
+      "praesens": {
+        "1sg": "vurm",
+        "2sg": "vurş",
+        "3sg": "vurt",
+        "1pl": "vurmen",
+        "2pl": "vurşen",
+        "3pl": "vurten"
+      },
+      "vergangenheit": {
+        "1sg": "vorem",
+        "2sg": "voreş",
+        "3sg": "voret",
+        "1pl": "voremen",
+        "2pl": "voreşen",
+        "3pl": "voreten"
+      },
+      "zukunft": {
+        "1sg": "vurnaim",
+        "2sg": "vurnaiş",
+        "3sg": "vurnait",
+        "1pl": "vurnaimen",
+        "2pl": "vurnaişen",
+        "3pl": "vurnaiten"
+      }
+    },
+    "mel": {
+      "infinitiv": "melex",
+      "bedeutung_de": "gehen",
+      "praesens": {
+        "1sg": "melam",
+        "2sg": "melaş",
+        "3sg": "melat",
+        "1pl": "melamen",
+        "2pl": "melaşen",
+        "3pl": "melaten"
+      },
+      "vergangenheit": {
+        "1sg": "molem",
+        "2sg": "moleş",
+        "3sg": "molet",
+        "1pl": "molemen",
+        "2pl": "moleşen",
+        "3pl": "moleten"
+      },
+      "zukunft": {
+        "1sg": "melaim",
+        "2sg": "melaiş",
+        "3sg": "melait",
+        "1pl": "melaimen",
+        "2pl": "melaişen",
+        "3pl": "melaiten"
+      }
+    },
+    "vand": {
+      "infinitiv": "vandex",
+      "bedeutung_de": "kommen",
+      "praesens": {
+        "1sg": "vandam",
+        "2sg": "vandaş",
+        "3sg": "vandat",
+        "1pl": "vandamen",
+        "2pl": "vandaşen",
+        "3pl": "vandaten"
+      },
+      "vergangenheit": {
+        "1sg": "vendem",
+        "2sg": "vendeş",
+        "3sg": "vendet",
+        "1pl": "vendemen",
+        "2pl": "vendeşen",
+        "3pl": "vendeten"
+      },
+      "zukunft": {
+        "1sg": "vandaim",
+        "2sg": "vandaiş",
+        "3sg": "vandait",
+        "1pl": "vandaimen",
+        "2pl": "vandaişen",
+        "3pl": "vandaiten"
+      }
+    },
+    "narg": {
+      "infinitiv": "nargex",
+      "bedeutung_de": "machen",
+      "praesens": {
+        "1sg": "nargam",
+        "2sg": "nargaş",
+        "3sg": "nargat",
+        "1pl": "nargamen",
+        "2pl": "nargaşen",
+        "3pl": "nargaten"
+      },
+      "vergangenheit": {
+        "1sg": "norgem",
+        "2sg": "norgeş",
+        "3sg": "norget",
+        "1pl": "norgemen",
+        "2pl": "norgeşen",
+        "3pl": "norgeten"
+      },
+      "zukunft": {
+        "1sg": "nargaim",
+        "2sg": "nargaiş",
+        "3sg": "nargait",
+        "1pl": "nargaimen",
+        "2pl": "nargaişen",
+        "3pl": "nargaiten"
+      }
+    },
+    "zav": {
+      "infinitiv": "zavex",
+      "bedeutung_de": "wissen",
+      "praesens": {
+        "1sg": "zavam",
+        "2sg": "zavaş",
+        "3sg": "zavat",
+        "1pl": "zavamen",
+        "2pl": "zavaşen",
+        "3pl": "zavaten"
+      },
+      "vergangenheit": {
+        "1sg": "zovem",
+        "2sg": "zoveş",
+        "3sg": "zovet",
+        "1pl": "zovemen",
+        "2pl": "zoveşen",
+        "3pl": "zoveten"
+      },
+      "zukunft": {
+        "1sg": "zavaim",
+        "2sg": "zavaiş",
+        "3sg": "zavait",
+        "1pl": "zavaimen",
+        "2pl": "zavaişen",
+        "3pl": "zavaiten"
+      }
+    },
+    "dalv": {
+      "infinitiv": "dalvex",
+      "bedeutung_de": "geben",
+      "praesens": {
+        "1sg": "dalvam",
+        "2sg": "dalvaş",
+        "3sg": "dalvat",
+        "1pl": "dalvamen",
+        "2pl": "dalvaşen",
+        "3pl": "dalvaten"
+      },
+      "vergangenheit": {
+        "1sg": "dolvem",
+        "2sg": "dolveş",
+        "3sg": "dolvet",
+        "1pl": "dolvemen",
+        "2pl": "dolveşen",
+        "3pl": "dolveten"
+      },
+      "zukunft": {
+        "1sg": "dalvaim",
+        "2sg": "dalvaiş",
+        "3sg": "dalvait",
+        "1pl": "dalvaimen",
+        "2pl": "dalvaişen",
+        "3pl": "dalvaiten"
+      }
+    }
+  }
+}

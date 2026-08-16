@@ -1,0 +1,87 @@
+== L-09-SIMULATION (KEINE SPRACHREGEL) ==
+Vier Kandidatenstrategien fuer die fehlende Silbifizierungsregel.
+Ergebnis ist ein Bericht — die Grammatik 0.9.3 bleibt unveraendert.
+
+Strategie A — Onset-Maximierung ohne Diphthong-Vorrang
+   eindeutig zerlegt: 280/281 | davon vormals mehrdeutig: 77/77
+   Fehlschlaege: 1
+      suvr: Endgruppe 'vr' unzulaessig (§5.3)
+
+Strategie B — nur Diphthong-Vorrang (Minimal-Onset)
+   eindeutig zerlegt: 279/281 | davon vormals mehrdeutig: 77/77
+   Fehlschlaege: 2
+      taivbreun: Restcoda 'vb' unzulaessig (§5.3)
+      suvr: Endgruppe 'vr' unzulaessig (§5.3)
+
+Strategie C — Onset-Maximierung + Diphthong-Vorrang
+   eindeutig zerlegt: 280/281 | davon vormals mehrdeutig: 77/77
+   Fehlschlaege: 1
+      suvr: Endgruppe 'vr' unzulaessig (§5.3)
+
+Strategie D — lexikalisch gespeicherte Silbengrenzen
+   eindeutig zerlegt: 0/281 | davon vormals mehrdeutig: 0/77
+   Fehlschlaege: 281
+      kaun: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      veiş: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      draun: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      şirn: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      aul: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      xerp: keine lexikalische Silbengrenze hinterlegt (§5 definiert keine)
+      … und 275 weitere
+
+== WO DIE STRATEGIEN VERSCHIEDEN ENTSCHEIDEN ==
+(nur hier ist die Wahl ueberhaupt sichtbar; Designerentscheidung noetig)
+
+   kaun:  A: ka·un   |   B/C: kaun
+   veiş:  A: ve·iş   |   B/C: veiş
+   draun:  A: dra·un   |   B/C: draun
+   aul:  A: a·ul   |   B/C: aul
+   luiv:  A: lu·iv   |   B/C: luiv
+   grein:  A: gre·in   |   B/C: grein
+   nauş:  A: na·uş   |   B/C: nauş
+   eird:  A: e·ird   |   B/C: eird
+   şaul:  A: şa·ul   |   B/C: şaul
+   taiv:  A: ta·iv   |   B/C: taiv
+   breun:  A: bre·un   |   B/C: breun
+   velkran:  A/C: vel·kran   |   B: velk·ran
+   velkra:  A/C: vel·kra   |   B: velk·ra
+   zaldre:  A/C: zal·dre   |   B: zald·re
+   vlaiko:  A: vla·i·ko   |   B/C: vlai·ko
+   kavla:  A/C: ka·vla   |   B: kav·la
+   drovna:  A/C: dro·vna   |   B: drov·na
+   taisa:  A: ta·i·sa   |   B/C: tai·sa
+   vresto:  A/C: vre·sto   |   B: vres·to
+   melisto:  A/C: me·li·sto   |   B: me·lis·to
+   talisto:  A/C: ta·li·sto   |   B: ta·lis·to
+   klaunuma:  A: kla·u·nu·ma   |   B/C: klau·nu·ma
+   nestuma:  A/C: ne·stu·ma   |   B: nes·tu·ma
+   şauluma:  A: şa·u·lu·ma   |   B/C: şau·lu·ma
+   saivuma:  A: sa·i·vu·ma   |   B/C: sai·vu·ma
+   taivbreun:  A: ta·iv·bre·un   |   C: taiv·breun
+   aulmelna:  A: a·ul·mel·na   |   B/C: aul·mel·na
+   luivresto:  A: lu·i·vre·sto   |   B: luiv·res·to   |   C: lui·vre·sto
+   zaub:  A: za·ub   |   B/C: zaub
+   saiv:  A: sa·iv   |   B/C: saiv
+   traiv:  A: tra·iv   |   B/C: traiv
+   vlaid:  A: vla·id   |   B/C: vlaid
+   luid:  A: lu·id   |   B/C: luid
+   klaun:  A: kla·un   |   B/C: klaun
+   grais:  A: gra·is   |   B/C: grais
+   kaun:  A: ka·un   |   B/C: kaun
+   xakaun:  A: xa·ka·un   |   B/C: xa·kaun
+   fai:  A: fa·i   |   B/C: fai
+   prai:  A: pra·i   |   B/C: prai
+   traus:  A: tra·us   |   B/C: traus
+   fai:  A: fa·i   |   B/C: fai
+   trausi:  A: tra·u·si   |   B/C: trau·si
+   ain:  A: a·in   |   B/C: ain
+   xaus:  A: xa·us   |   B/C: xaus
+   mai:  A: ma·i   |   B/C: mai
+   selvai:  A: sel·va·i   |   B/C: sel·vai
+   melai:  A: me·la·i   |   B/C: me·lai
+   praum:  A: pra·um   |   B/C: praum
+
+48 Formen mit abweichender Zerlegung.
+77 der 281 Grundformen sind ohne Regel mehrdeutig (Befund L-09).
+
+HINWEIS: Dieses Werkzeug entscheidet nichts. Die Aufnahme einer Silbifizierungsregel in die Grammatik ist eine Designerentscheidung (siehe decisions/Entscheidungsvorlage-0_9_4.md, E7).

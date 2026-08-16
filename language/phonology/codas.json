@@ -1,0 +1,25 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§5.3",
+  "regel_id": "ORB-GRAM-PHON-004",
+  "status": "canonical",
+  "max_konsonanten": 2,
+  "bedingungen": {
+    "a_erster_laut": [
+      "l",
+      "m",
+      "n",
+      "r"
+    ],
+    "b_zweiter_laut": "s",
+    "c_feste_gruppen": [
+      "sk",
+      "sn",
+      "st",
+      "şn"
+    ]
+  },
+  "regel": "Eine Zweiergruppe ist erlaubt, wenn (a) der erste Laut ein Fliesslaut oder Nasal ist, ODER (b) der zweite Laut s ist, ODER (c) die Gruppe in der festen Liste steht."
+}

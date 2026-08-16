@@ -1,0 +1,71 @@
+{
+  "anzahl": 2,
+  "quelle": "§21.1",
+  "hinweis": "Nur die in der Grammatik ausdruecklich belegten Familien.",
+  "familien": [
+    {
+      "family_id": "ORB-FAM-mel",
+      "wurzel": "mel-",
+      "grundbedeutung_de": "gehen / sich fortbewegen",
+      "quelle": "§21.1",
+      "mitglieder": [
+        {
+          "form": "melex",
+          "status": "abgeleitete Form, kein eigener Eintrag"
+        },
+        "ORB-LEX-000022",
+        "ORB-LEX-000036",
+        "ORB-LEX-000049",
+        "ORB-LEX-000057",
+        {
+          "form": "melvi",
+          "status": "abgeleitete Form, kein eigener Eintrag"
+        },
+        "ORB-LEX-000046"
+      ],
+      "produktive_ableitungen": [
+        "melex",
+        "melru",
+        "mela",
+        "melna",
+        "melisto",
+        "melvi",
+        "meluma"
+      ],
+      "blockierte_formen": [],
+      "semantische_veraenderungen": null
+    },
+    {
+      "family_id": "ORB-FAM-tal",
+      "wurzel": "tal-",
+      "grundbedeutung_de": "sprechen",
+      "quelle": "§21.1",
+      "mitglieder": [
+        {
+          "form": "talex",
+          "status": "abgeleitete Form, kein eigener Eintrag"
+        },
+        "ORB-LEX-000023",
+        "ORB-LEX-000037",
+        "ORB-LEX-000052",
+        "ORB-LEX-000058",
+        {
+          "form": "talvi",
+          "status": "abgeleitete Form, kein eigener Eintrag"
+        },
+        "ORB-LEX-000045"
+      ],
+      "produktive_ableitungen": [
+        "talex",
+        "talru",
+        "tala",
+        "talna",
+        "talisto",
+        "talvi",
+        "taluma"
+      ],
+      "blockierte_formen": [],
+      "semantische_veraenderungen": null
+    }
+  ]
+}

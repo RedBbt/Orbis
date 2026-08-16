@@ -1,0 +1,26 @@
+{
+  "quelle": "Arbeitsgliederung des Projekts (keine Grammatikregel)",
+  "hinweis": "Semantische Domaenen fuer den Lexikonausbau. Die Liste ordnet Lexeme, sie definiert keine Sprache. Neue Domaenen duerfen ergaenzt werden; bestehende IDs bleiben stabil.",
+  "vergeben_bisher": 27,
+  "domaenen": [
+    {"id": "mensch", "de": "Menschen"}, {"id": "familie", "de": "Familie"},
+    {"id": "koerper", "de": "Körper"}, {"id": "gesundheit", "de": "Gesundheit"},
+    {"id": "essen", "de": "Essen und Trinken"}, {"id": "wohnen", "de": "Wohnen"},
+    {"id": "arbeit", "de": "Arbeit"}, {"id": "werkzeug", "de": "Werkzeug"},
+    {"id": "technik", "de": "Technik"}, {"id": "bewegung", "de": "Bewegung"},
+    {"id": "transport", "de": "Transport"}, {"id": "natur", "de": "Natur"},
+    {"id": "wetter", "de": "Wetter"}, {"id": "tiere", "de": "Tiere"},
+    {"id": "pflanzen", "de": "Pflanzen"}, {"id": "raum", "de": "Raum"},
+    {"id": "zeit", "de": "Zeit"}, {"id": "zahlen", "de": "Zahlen"},
+    {"id": "gefuehle", "de": "Gefühle"}, {"id": "wahrnehmung", "de": "Wahrnehmung"},
+    {"id": "denken", "de": "Denken"}, {"id": "kommunikation", "de": "Kommunikation"},
+    {"id": "beziehungen", "de": "Beziehungen"}, {"id": "gesellschaft", "de": "Gesellschaft"},
+    {"id": "kultur", "de": "Kultur"}, {"id": "kunst", "de": "Kunst"},
+    {"id": "musik", "de": "Musik"}, {"id": "wissenschaft", "de": "Wissenschaft"},
+    {"id": "mathematik", "de": "Mathematik"}, {"id": "philosophie", "de": "Philosophie"},
+    {"id": "abstrakta", "de": "Abstrakta"}, {"id": "bewertung", "de": "Bewertung"},
+    {"id": "existenz", "de": "Existenz"}, {"id": "recht", "de": "Recht"},
+    {"id": "wirtschaft", "de": "Wirtschaft"}, {"id": "digitales", "de": "Digitales"},
+    {"id": "grammatik", "de": "Grammatische Funktionswörter"}
+  ]
+}

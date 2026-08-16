@@ -1,0 +1,112 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§2.1–2.2",
+  "regel_id": "ORB-GRAM-PHON-001",
+  "status": "canonical",
+  "konsonanten": {
+    "anzahl": 19,
+    "gruppen": {
+      "stimmlose_verschlusslaute": [
+        "p",
+        "t",
+        "k"
+      ],
+      "stimmhafte_verschlusslaute": [
+        "b",
+        "d",
+        "g"
+      ],
+      "affrikate": [
+        "ç"
+      ],
+      "stimmlose_reibelaute": [
+        "f",
+        "s",
+        "ş",
+        "x"
+      ],
+      "stimmhafte_reibelaute": [
+        "v",
+        "z",
+        "j"
+      ],
+      "nasale": [
+        "m",
+        "n",
+        "ñ"
+      ],
+      "fliesslaute": [
+        "l",
+        "r"
+      ]
+    },
+    "alle": [
+      "b",
+      "d",
+      "f",
+      "g",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "t",
+      "v",
+      "x",
+      "z",
+      "ç",
+      "ñ",
+      "ş"
+    ]
+  },
+  "vokale": {
+    "anzahl": 5,
+    "alle": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "hinweis": "voll, kein Schwa (§2.2)"
+  },
+  "nicht_vorhanden": [
+    "h",
+    "w",
+    "th",
+    "pf",
+    "ts",
+    "ng (als eigener Laut)"
+  ],
+  "klanggruppen": {
+    "paragraph": "§3.2",
+    "fliesslaute": [
+      "l",
+      "r",
+      "n",
+      "m",
+      "ñ",
+      "v",
+      "z",
+      "s",
+      "j"
+    ],
+    "haertelaute": [
+      "p",
+      "t",
+      "k",
+      "b",
+      "d",
+      "g",
+      "f",
+      "x",
+      "ş",
+      "ç"
+    ]
+  }
+}

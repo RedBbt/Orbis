@@ -1,0 +1,133 @@
+{
+  "lexeme_id": "ORB-LEX-000078",
+  "lemma": "dremn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "denken"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "denken",
+    "definition": "denken. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to think",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "dremn",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "dremnex",
+    "partizip": "dremnut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "dremnam",
+        "2sg": "dremnaş",
+        "3sg": "dremnat",
+        "1pl": "dremnamen",
+        "2pl": "dremnaşen",
+        "3pl": "dremnaten"
+      },
+      "vgh": {
+        "1sg": "dremnom",
+        "2sg": "dremnoş",
+        "3sg": "dremnot",
+        "1pl": "dremnomen",
+        "2pl": "dremnoşen",
+        "3pl": "dremnoten"
+      },
+      "fut": {
+        "1sg": "dremnaim",
+        "2sg": "dremnaiş",
+        "3sg": "dremnait",
+        "1pl": "dremnaimen",
+        "2pl": "dremnaişen",
+        "3pl": "dremnaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "d",
+      "r",
+      "e",
+      "m",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "dremn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "dremn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000078"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

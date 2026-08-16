@@ -1,0 +1,130 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§19",
+  "regel_id": "ORB-GRAM-SYN-001",
+  "status": "canonical",
+  "praepositionen": [
+    {
+      "lemma": "dral",
+      "kasus": [
+        "akk"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "drel",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "dun",
+      "kasus": [
+        "dat"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "glem",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "gral",
+      "kasus": [
+        "gen"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "kru",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "nul",
+      "kasus": [
+        "dat"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "prai",
+      "kasus": [
+        "akk"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "span",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "tel",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "traus",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    },
+    {
+      "lemma": "ven",
+      "kasus": [
+        "dat"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "xun",
+      "kasus": [
+        "akk"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "zva",
+      "kasus": [
+        "dat"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "şlan",
+      "kasus": [
+        "gen"
+      ],
+      "typ": "fest"
+    },
+    {
+      "lemma": "şlim",
+      "kasus": [
+        "akk",
+        "dat"
+      ],
+      "typ": "wechsel"
+    }
+  ],
+  "wechselregel": "Dativ bei Ort, Akkusativ bei Richtung"
+}

@@ -1,0 +1,47 @@
+name: Orbis CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # --- Sprachdaten: Struktur, IDs, Referenzen, Übersetzungsfelder ---
+      - name: Schema- und Integritätsprüfung der Sprachdaten
+        run: python3 -m tools.validator --schema
+
+      # --- Sprache: bekannte Befunde gegen Baseline, neue schlagen fehl ---
+      - name: Validator strikt (Baseline-Vergleich)
+        run: python3 orbis_validator.py --strict
+
+      - name: Korpus-Regression (150 Testsätze)
+        run: python3 orbis_validator.py --corpus Orbis-Testkorpus-0_1.md
+
+      - name: Lexikonprüfung
+        run: python3 orbis_validator.py --lexicon
+
+      - name: Manus-Zerlegung (§26)
+        run: python3 orbis_validator.py --manus
+
+      # --- Werkzeuge: Unit- und Regressionstests ---
+      - name: Testabhängigkeiten
+        run: python3 -m pip install --quiet pytest
+
+      - name: Unit- und Regressionstests
+        run: python3 -m pytest tests/ -q
+
+      # --- Datenhaltung ---
+      - name: Testdaten-JSON prüfbar
+        run: python3 -c "import json; json.load(open('Orbis-Testdaten.json'))"
+
+      - name: Referenzgrammatik unverändert (READ ONLY)
+        run: |
+          echo "8bfec2c1810011225ddb870839b6da20  Orbis-Grammatik-0.9.3.md" | md5sum -c -

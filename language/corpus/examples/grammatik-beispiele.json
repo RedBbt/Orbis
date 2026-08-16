@@ -1,0 +1,861 @@
+{
+  "korpus_id": "grammatik-beispiele-0.9.3",
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/build_corpus.py (Beispielextraktion)",
+  "hinweis": "Alle im Grammatiktext belegten Orbis-Beispiele. Dienen als Regressionsgrundlage: sie muessen mit den Regeldaten vereinbar bleiben. Deutsche/englische Zeilen sind nicht Teil der Grammatik und bleiben null.",
+  "anzahl": 71,
+  "saetze": [
+    {
+      "id": "ORB-SENT-900001",
+      "fundstelle": "§12.2",
+      "orbis": "Lo loşn est.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900002",
+      "fundstelle": "§12.2",
+      "orbis": "Xla kirva girn vot.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900003",
+      "fundstelle": "§12.2",
+      "orbis": "Xra valru xarn vurt.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900004",
+      "fundstelle": "§12.2",
+      "orbis": "Xna breun granz stanat.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900005",
+      "fundstelle": "§12.2",
+      "orbis": "Xrañ larkiñ girn esten.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900006",
+      "fundstelle": "§12.3",
+      "orbis": "Ro vlaidvi est kon vim.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900007",
+      "fundstelle": "§12.3",
+      "orbis": "Lo loşn est zil luiv.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900008",
+      "fundstelle": "§12.3",
+      "orbis": "Xra vlaidvaxra vrondo",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900009",
+      "fundstelle": "§12.1",
+      "orbis": "xra vlaidra valru",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900010",
+      "fundstelle": "§12.1",
+      "orbis": "xlan vlaidlan sarlan",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900011",
+      "fundstelle": "§12.1",
+      "orbis": "xnañaş vlaidnañaş milneñeş",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900012",
+      "fundstelle": "§13.2",
+      "orbis": "Şet melaş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900013",
+      "fundstelle": "§13.2",
+      "orbis": "Şevar melaten.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900014",
+      "fundstelle": "§13.3",
+      "orbis": "xna breun vis",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900015",
+      "fundstelle": "§13.3",
+      "orbis": "xla sarla şes",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900016",
+      "fundstelle": "§13.3",
+      "orbis": "xrañ valruñ oñas",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900017",
+      "fundstelle": "§11.3",
+      "orbis": "xnaş şirneş",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900018",
+      "fundstelle": "§11.3",
+      "orbis": "xlan eirden",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900019",
+      "fundstelle": "§11.3",
+      "orbis": "xnan aulen",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900020",
+      "fundstelle": "§14",
+      "orbis": "Mel!",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900021",
+      "fundstelle": "§14",
+      "orbis": "Meleñ!",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900022",
+      "fundstelle": "§14",
+      "orbis": "Melaten!",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900023",
+      "fundstelle": "§14",
+      "orbis": "Suvre!",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900024",
+      "fundstelle": "§16.1",
+      "orbis": "Vim valnam xnan melnan milkex.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900025",
+      "fundstelle": "§16.1",
+      "orbis": "Şet dolmaş nunda vandex.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900026",
+      "fundstelle": "§16.2",
+      "orbis": "Vim mai melam.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900027",
+      "fundstelle": "§16.2",
+      "orbis": "Tund vim vra vlaidra valru mai em, mai traivam vim xlan eirden.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900028",
+      "fundstelle": "§16.3",
+      "orbis": "Xna breun şunargat.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900029",
+      "fundstelle": "§16.3",
+      "orbis": "Xna breun şunargut est.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900030",
+      "fundstelle": "§17.1",
+      "orbis": "Xra valru milkat xran narkun.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900031",
+      "fundstelle": "§17.1",
+      "orbis": "Xran narkun milkat xra valru.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900032",
+      "fundstelle": "§17.1",
+      "orbis": "Nunda milkat xra valru xran narkun.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900033",
+      "fundstelle": "§17.2",
+      "orbis": "Vim zavam, fai şet nunda dun xnaş breuneş melaş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900034",
+      "fundstelle": "§17.3",
+      "orbis": "Vim valnam nunda zva xraş velkraş dun xlaş kavlaş melex.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900035",
+      "fundstelle": "§17.4",
+      "orbis": "Vim melaim zirna gral xlas talumas zva xraş velkraş dun xlaş kavlaş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900036",
+      "fundstelle": "§17.5",
+      "orbis": "Xla luiv luid vot, xla kirva girn vot.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900037",
+      "fundstelle": "§18.1",
+      "orbis": "Melaş nunda?",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900038",
+      "fundstelle": "§18.2",
+      "orbis": "Kan melaş?",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900039",
+      "fundstelle": "§18.2",
+      "orbis": "Grais xa vandat?",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900040",
+      "fundstelle": "§18.2",
+      "orbis": "Kellan sarlan milkoş?",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900041",
+      "fundstelle": "§18.3",
+      "orbis": "Vim xa melam.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900042",
+      "fundstelle": "§18.3",
+      "orbis": "Vim xa num vna breun.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900043",
+      "fundstelle": "§18.3",
+      "orbis": "xanra valru",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900044",
+      "fundstelle": "§19",
+      "orbis": "Vim melam tel xlan kavlan.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900045",
+      "fundstelle": "§19",
+      "orbis": "Vim em tel xlaş kavlaş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900046",
+      "fundstelle": "§25.1",
+      "orbis": "Xra valru milkat xran narkun.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900047",
+      "fundstelle": "§25.1",
+      "orbis": "Nunda melam vim dun xnaş breuneş vis.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900048",
+      "fundstelle": "§25.1",
+      "orbis": "Vim zavam, fai şet zirna vandaiş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900049",
+      "fundstelle": "§25.1",
+      "orbis": "Vim xa valnam soñex, grali xla kirva vran luid est.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900050",
+      "fundstelle": "§25.1",
+      "orbis": "Tund vim vra vlaidra valru mai em, mai traivam vim xlan eirden.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900051",
+      "fundstelle": "§25.1",
+      "orbis": "Valnaten şevar vin zaubex?",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900052",
+      "fundstelle": "§25.1",
+      "orbis": "Xla veiş dolvet xnaş şirneş xnan brasin.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900053",
+      "fundstelle": "§25.1",
+      "orbis": "Xrañ melruñ moleten span xran vrondon.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900054",
+      "fundstelle": "§25.1",
+      "orbis": "Xna breun granz stanat, klas xla kavla zirv vurt.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900055",
+      "fundstelle": "§25.1",
+      "orbis": "Xnan melnan traivamen viñ, tund xla luiv luid est.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900056",
+      "fundstelle": "§25.1",
+      "orbis": "Xla soruma xlas nauşes vran tolm vaşnat.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900057",
+      "fundstelle": "§25.2",
+      "orbis": "Vra melru molet dral xrañan trelmrañan zaldreñen.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900058",
+      "fundstelle": "§25.2",
+      "orbis": "Xla luiv luid vot, xla kirva girn vot.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900059",
+      "fundstelle": "§25.2",
+      "orbis": "Ro xa zovet, kur xna melna molet, klas ro molet.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900060",
+      "fundstelle": "§25.2",
+      "orbis": "Vraş zaldreş traivot ro vnan aulen şlim xrañaş larkiñiş.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900061",
+      "fundstelle": "§25.2",
+      "orbis": "Ze ro dremnot: Kilna est xna traivute.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900062",
+      "fundstelle": "§25.2",
+      "orbis": "Ro nastot, ro prevot, ze ro soñot.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900063",
+      "fundstelle": "§25.2",
+      "orbis": "Tel xraş navildoş milkot ro xlan luiven xlas eirdes.",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900064",
+      "fundstelle": "§21.1",
+      "orbis": "melex melru mela melna melisto melvi meluma",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900065",
+      "fundstelle": "§21.1",
+      "orbis": "talex talru tala talna talisto talvi taluma",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900066",
+      "fundstelle": "§13.2",
+      "orbis": "selvai melai selves praum",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900067",
+      "fundstelle": "§24.6",
+      "orbis": "Vim salvam xnan vreston",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900068",
+      "fundstelle": "§24.6",
+      "orbis": "Xla soruma vaşnat",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900069",
+      "fundstelle": "§24.8",
+      "orbis": "nelostra dramostla telnostna",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900070",
+      "fundstelle": "§24.8",
+      "orbis": "xelmnel dramxelm telnxelmmern",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    },
+    {
+      "id": "ORB-SENT-900071",
+      "fundstelle": "§21.2",
+      "orbis": "şunargat xaselvra revandat dramilkat suluidra",
+      "de": null,
+      "en": null,
+      "rollen": [
+        "example"
+      ],
+      "status": "canonical",
+      "hinweis": "Beispielbeleg der Referenzgrammatik 0.9.3, unveraendert uebernommen."
+    }
+  ]
+}

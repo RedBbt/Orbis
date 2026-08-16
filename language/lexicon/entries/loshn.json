@@ -1,0 +1,129 @@
+{
+  "lexeme_id": "ORB-LEX-000110",
+  "lemma": "loşn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "bewertung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "schön",
+    "definition": "schön. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "beautiful",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "loşnvi",
+      "superlativ": "loşnvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "loşnra",
+      "M_nom_pl": "loşnrañ",
+      "M_akk_sg": "loşnran",
+      "M_akk_pl": "loşnrañan",
+      "M_dat_sg": "loşnraş",
+      "M_dat_pl": "loşnrañaş",
+      "M_gen_sg": "loşnras",
+      "M_gen_pl": "loşnrañas",
+      "F_nom_sg": "loşnla",
+      "F_nom_pl": "loşnlañ",
+      "F_akk_sg": "loşnlan",
+      "F_akk_pl": "loşnlañan",
+      "F_dat_sg": "loşnlaş",
+      "F_dat_pl": "loşnlañaş",
+      "F_gen_sg": "loşnlas",
+      "F_gen_pl": "loşnlañas",
+      "N_nom_sg": "loşna",
+      "N_nom_pl": "loşnañ",
+      "N_akk_sg": "loşnan",
+      "N_akk_pl": "loşnañan",
+      "N_dat_sg": "loşnaş",
+      "N_dat_pl": "loşnañaş",
+      "N_gen_sg": "loşnas",
+      "N_gen_pl": "loşnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "l",
+      "o",
+      "ş",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "loşn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "loşn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000110"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

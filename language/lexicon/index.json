@@ -1,0 +1,2536 @@
+{
+  "anzahl": 281,
+  "lexicon_version": "0.1",
+  "grammar_version": "0.9.3",
+  "eintraege": [
+    {
+      "lexeme_id": "ORB-LEX-000001",
+      "lemma": "kaun",
+      "wortart": "nomen",
+      "de": "Mensch",
+      "en": "human being",
+      "status": "canonical",
+      "datei": "entries/kaun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000002",
+      "lemma": "veiş",
+      "wortart": "nomen",
+      "de": "Mutter",
+      "en": "mother",
+      "status": "canonical",
+      "datei": "entries/veish.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000003",
+      "lemma": "draun",
+      "wortart": "nomen",
+      "de": "Vater",
+      "en": "father",
+      "status": "canonical",
+      "datei": "entries/draun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000004",
+      "lemma": "şirn",
+      "wortart": "nomen",
+      "de": "Kind",
+      "en": "child",
+      "status": "canonical",
+      "datei": "entries/shirn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000005",
+      "lemma": "aul",
+      "wortart": "nomen",
+      "de": "Wasser",
+      "en": "water",
+      "status": "canonical",
+      "datei": "entries/aul.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000006",
+      "lemma": "xerp",
+      "wortart": "nomen",
+      "de": "Feuer",
+      "en": "fire",
+      "status": "canonical",
+      "datei": "entries/xerp.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000007",
+      "lemma": "luiv",
+      "wortart": "nomen",
+      "de": "Sonne",
+      "en": "sun",
+      "status": "canonical",
+      "datei": "entries/luiv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000008",
+      "lemma": "grein",
+      "wortart": "nomen",
+      "de": "Erde",
+      "en": "earth",
+      "status": "canonical",
+      "datei": "entries/grein.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000009",
+      "lemma": "nauş",
+      "wortart": "nomen",
+      "de": "Zeit",
+      "en": "time",
+      "status": "canonical",
+      "datei": "entries/naush.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000010",
+      "lemma": "virn",
+      "wortart": "nomen",
+      "de": "Leben",
+      "en": "life",
+      "status": "canonical",
+      "datei": "entries/virn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000011",
+      "lemma": "moks",
+      "wortart": "nomen",
+      "de": "Tod",
+      "en": "death",
+      "status": "canonical",
+      "datei": "entries/moks.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000012",
+      "lemma": "eird",
+      "wortart": "nomen",
+      "de": "Welt",
+      "en": "world",
+      "status": "canonical",
+      "datei": "entries/eird.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000013",
+      "lemma": "şaul",
+      "wortart": "nomen",
+      "de": "Name",
+      "en": "name",
+      "status": "canonical",
+      "datei": "entries/shaul.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000014",
+      "lemma": "taiv",
+      "wortart": "nomen",
+      "de": "Sprache",
+      "en": "language",
+      "status": "canonical",
+      "datei": "entries/taiv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000015",
+      "lemma": "breun",
+      "wortart": "nomen",
+      "de": "Haus",
+      "en": "house",
+      "status": "canonical",
+      "datei": "entries/breun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000016",
+      "lemma": "velkran",
+      "wortart": "nomen",
+      "de": "Freundschaft",
+      "en": "friendship",
+      "status": "canonical",
+      "datei": "entries/velkran.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000017",
+      "lemma": "soralm",
+      "wortart": "nomen",
+      "de": "Denkmal",
+      "en": "monument",
+      "status": "canonical",
+      "datei": "entries/soralm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000018",
+      "lemma": "prilm",
+      "wortart": "nomen",
+      "de": "Handwerk",
+      "en": "craft",
+      "status": "canonical",
+      "datei": "entries/prilm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000019",
+      "lemma": "valru",
+      "wortart": "nomen",
+      "de": "Mann",
+      "en": "man",
+      "status": "canonical",
+      "datei": "entries/valru.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000020",
+      "lemma": "velkra",
+      "wortart": "nomen",
+      "de": "Freund",
+      "en": "friend",
+      "status": "canonical",
+      "datei": "entries/velkra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000021",
+      "lemma": "zaldre",
+      "wortart": "nomen",
+      "de": "Tag",
+      "en": "day",
+      "status": "canonical",
+      "datei": "entries/zaldre.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000022",
+      "lemma": "melru",
+      "wortart": "nomen",
+      "de": "Wanderer",
+      "en": "wanderer",
+      "status": "canonical",
+      "datei": "entries/melru.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000023",
+      "lemma": "talru",
+      "wortart": "nomen",
+      "de": "Sprecher",
+      "en": "speaker",
+      "status": "canonical",
+      "datei": "entries/talru.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000024",
+      "lemma": "narku",
+      "wortart": "nomen",
+      "de": "Hund",
+      "en": "dog",
+      "status": "canonical",
+      "datei": "entries/narku.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000025",
+      "lemma": "larki",
+      "wortart": "nomen",
+      "de": "Stein",
+      "en": "stone",
+      "status": "canonical",
+      "datei": "entries/larki.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000026",
+      "lemma": "vlaiko",
+      "wortart": "nomen",
+      "de": "Wind",
+      "en": "wind",
+      "status": "canonical",
+      "datei": "entries/vlaiko.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000027",
+      "lemma": "vlenko",
+      "wortart": "nomen",
+      "de": "Vogel",
+      "en": "bird",
+      "status": "canonical",
+      "datei": "entries/vlenko.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000028",
+      "lemma": "vrondo",
+      "wortart": "nomen",
+      "de": "Berg",
+      "en": "mountain",
+      "status": "canonical",
+      "datei": "entries/vrondo.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000029",
+      "lemma": "luvandi",
+      "wortart": "nomen",
+      "de": "Fluss",
+      "en": "river",
+      "status": "canonical",
+      "datei": "entries/luvandi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000030",
+      "lemma": "navildo",
+      "wortart": "nomen",
+      "de": "Traum",
+      "en": "dream",
+      "status": "canonical",
+      "datei": "entries/navildo.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000031",
+      "lemma": "morda",
+      "wortart": "nomen",
+      "de": "Sturm",
+      "en": "storm",
+      "status": "canonical",
+      "datei": "entries/morda.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000032",
+      "lemma": "sarla",
+      "wortart": "nomen",
+      "de": "Frau",
+      "en": "woman",
+      "status": "canonical",
+      "datei": "entries/sarla.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000033",
+      "lemma": "prila",
+      "wortart": "nomen",
+      "de": "Hand",
+      "en": "hand",
+      "status": "canonical",
+      "datei": "entries/prila.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000034",
+      "lemma": "kavla",
+      "wortart": "nomen",
+      "de": "Stadt",
+      "en": "city",
+      "status": "canonical",
+      "datei": "entries/kavla.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000035",
+      "lemma": "zenlo",
+      "wortart": "nomen",
+      "de": "Blume",
+      "en": "flower",
+      "status": "canonical",
+      "datei": "entries/zenlo.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000036",
+      "lemma": "mela",
+      "wortart": "nomen",
+      "de": "Wanderin",
+      "en": "wanderer (f.)",
+      "status": "canonical",
+      "datei": "entries/mela.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000037",
+      "lemma": "tala",
+      "wortart": "nomen",
+      "de": "Sprecherin",
+      "en": "speaker (f.)",
+      "status": "canonical",
+      "datei": "entries/tala.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000038",
+      "lemma": "kirva",
+      "wortart": "nomen",
+      "de": "Nacht",
+      "en": "night",
+      "status": "canonical",
+      "datei": "entries/kirva.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000039",
+      "lemma": "melva",
+      "wortart": "nomen",
+      "de": "Straße",
+      "en": "street",
+      "status": "canonical",
+      "datei": "entries/melva.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000040",
+      "lemma": "gluvi",
+      "wortart": "nomen",
+      "de": "Flamme",
+      "en": "flame",
+      "status": "canonical",
+      "datei": "entries/gluvi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000041",
+      "lemma": "drovi",
+      "wortart": "nomen",
+      "de": "Wolke",
+      "en": "cloud",
+      "status": "canonical",
+      "datei": "entries/drovi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000042",
+      "lemma": "şonma",
+      "wortart": "nomen",
+      "de": "Stimme",
+      "en": "voice",
+      "status": "canonical",
+      "datei": "entries/shonma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000043",
+      "lemma": "soruma",
+      "wortart": "nomen",
+      "de": "Erinnerung",
+      "en": "memory",
+      "status": "canonical",
+      "datei": "entries/soruma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000044",
+      "lemma": "klerma",
+      "wortart": "nomen",
+      "de": "Freiheit",
+      "en": "freedom",
+      "status": "canonical",
+      "datei": "entries/klerma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000045",
+      "lemma": "taluma",
+      "wortart": "nomen",
+      "de": "Rede",
+      "en": "speech",
+      "status": "canonical",
+      "datei": "entries/taluma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000046",
+      "lemma": "meluma",
+      "wortart": "nomen",
+      "de": "Reise",
+      "en": "journey",
+      "status": "canonical",
+      "datei": "entries/meluma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000047",
+      "lemma": "milne",
+      "wortart": "nomen",
+      "de": "Auge",
+      "en": "eye",
+      "status": "canonical",
+      "datei": "entries/milne.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000048",
+      "lemma": "verno",
+      "wortart": "nomen",
+      "de": "Herz",
+      "en": "heart",
+      "status": "canonical",
+      "datei": "entries/verno.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000049",
+      "lemma": "melna",
+      "wortart": "nomen",
+      "de": "Weg",
+      "en": "way",
+      "status": "canonical",
+      "datei": "entries/melna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000050",
+      "lemma": "drovna",
+      "wortart": "nomen",
+      "de": "Wald",
+      "en": "forest",
+      "status": "canonical",
+      "datei": "entries/drovna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000051",
+      "lemma": "skelnu",
+      "wortart": "nomen",
+      "de": "Himmel",
+      "en": "sky",
+      "status": "canonical",
+      "datei": "entries/skelnu.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000052",
+      "lemma": "talna",
+      "wortart": "nomen",
+      "de": "Versammlungsort",
+      "en": "meeting place",
+      "status": "canonical",
+      "datei": "entries/talna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000053",
+      "lemma": "taisa",
+      "wortart": "nomen",
+      "de": "Wort",
+      "en": "word",
+      "status": "canonical",
+      "datei": "entries/taisa.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000054",
+      "lemma": "pliso",
+      "wortart": "nomen",
+      "de": "Feder",
+      "en": "feather",
+      "status": "canonical",
+      "datei": "entries/pliso.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000055",
+      "lemma": "brasi",
+      "wortart": "nomen",
+      "de": "Brot",
+      "en": "bread",
+      "status": "canonical",
+      "datei": "entries/brasi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000056",
+      "lemma": "vresto",
+      "wortart": "nomen",
+      "de": "Buch",
+      "en": "book",
+      "status": "canonical",
+      "datei": "entries/vresto.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000057",
+      "lemma": "melisto",
+      "wortart": "nomen",
+      "de": "Fahrzeug",
+      "en": "vehicle",
+      "status": "canonical",
+      "datei": "entries/melisto.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000058",
+      "lemma": "talisto",
+      "wortart": "nomen",
+      "de": "Instrument",
+      "en": "instrument",
+      "status": "canonical",
+      "datei": "entries/talisto.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000059",
+      "lemma": "veltu",
+      "wortart": "nomen",
+      "de": "Jahr",
+      "en": "year",
+      "status": "canonical",
+      "datei": "entries/veltu.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000060",
+      "lemma": "klaunuma",
+      "wortart": "nomen",
+      "de": "Wahrheit",
+      "en": "truth",
+      "status": "canonical",
+      "datei": "entries/klaunuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000061",
+      "lemma": "nestuma",
+      "wortart": "nomen",
+      "de": "Wille",
+      "en": "will",
+      "status": "canonical",
+      "datei": "entries/nestuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000062",
+      "lemma": "salvuma",
+      "wortart": "nomen",
+      "de": "Verlust",
+      "en": "loss",
+      "status": "canonical",
+      "datei": "entries/salvuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000063",
+      "lemma": "vaşnuma",
+      "wortart": "nomen",
+      "de": "Vergänglichkeit",
+      "en": "transience",
+      "status": "canonical",
+      "datei": "entries/vashnuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000064",
+      "lemma": "mirnuma",
+      "wortart": "nomen",
+      "de": "Entscheidung",
+      "en": "decision",
+      "status": "canonical",
+      "datei": "entries/mirnuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000065",
+      "lemma": "şauluma",
+      "wortart": "nomen",
+      "de": "Identität",
+      "en": "identity",
+      "status": "canonical",
+      "datei": "entries/shauluma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000066",
+      "lemma": "tarnuma",
+      "wortart": "nomen",
+      "de": "Konsequenz",
+      "en": "consequence",
+      "status": "canonical",
+      "datei": "entries/tarnuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000067",
+      "lemma": "saivuma",
+      "wortart": "nomen",
+      "de": "Liebe",
+      "en": "love",
+      "status": "canonical",
+      "datei": "entries/saivuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000068",
+      "lemma": "virnuma",
+      "wortart": "nomen",
+      "de": "Dasein",
+      "en": "existence",
+      "status": "canonical",
+      "datei": "entries/virnuma.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000069",
+      "lemma": "taivbreun",
+      "wortart": "nomen",
+      "de": "Schule",
+      "en": "school",
+      "status": "canonical",
+      "datei": "entries/taivbreun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000070",
+      "lemma": "aulmelna",
+      "wortart": "nomen",
+      "de": "Kanal",
+      "en": "canal",
+      "status": "canonical",
+      "datei": "entries/aulmelna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000071",
+      "lemma": "luivresto",
+      "wortart": "nomen",
+      "de": "Kalender",
+      "en": "calendar",
+      "status": "canonical",
+      "datei": "entries/luivresto.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000072",
+      "lemma": "milk",
+      "wortart": "verb",
+      "de": "sehen",
+      "en": "to see",
+      "status": "canonical",
+      "datei": "entries/milk.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000073",
+      "lemma": "zaub",
+      "wortart": "verb",
+      "de": "hören",
+      "en": "to hear",
+      "status": "canonical",
+      "datei": "entries/zaub.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000074",
+      "lemma": "tal",
+      "wortart": "verb",
+      "de": "sprechen",
+      "en": "to speak",
+      "status": "canonical",
+      "datei": "entries/tal.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000075",
+      "lemma": "nast",
+      "wortart": "verb",
+      "de": "essen",
+      "en": "to eat",
+      "status": "canonical",
+      "datei": "entries/nast.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000076",
+      "lemma": "prev",
+      "wortart": "verb",
+      "de": "trinken",
+      "en": "to drink",
+      "status": "canonical",
+      "datei": "entries/prev.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000077",
+      "lemma": "soñ",
+      "wortart": "verb",
+      "de": "schlafen",
+      "en": "to sleep",
+      "status": "canonical",
+      "datei": "entries/sonn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000078",
+      "lemma": "dremn",
+      "wortart": "verb",
+      "de": "denken",
+      "en": "to think",
+      "status": "canonical",
+      "datei": "entries/dremn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000079",
+      "lemma": "prens",
+      "wortart": "verb",
+      "de": "nehmen",
+      "en": "to take",
+      "status": "canonical",
+      "datei": "entries/prens.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000080",
+      "lemma": "saiv",
+      "wortart": "verb",
+      "de": "lieben",
+      "en": "to love",
+      "status": "canonical",
+      "datei": "entries/saiv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000081",
+      "lemma": "vlent",
+      "wortart": "verb",
+      "de": "laufen",
+      "en": "to run",
+      "status": "canonical",
+      "datei": "entries/vlent.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000082",
+      "lemma": "rusk",
+      "wortart": "verb",
+      "de": "schreiben",
+      "en": "to write",
+      "status": "canonical",
+      "datei": "entries/rusk.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000083",
+      "lemma": "leşn",
+      "wortart": "verb",
+      "de": "lesen",
+      "en": "to read",
+      "status": "canonical",
+      "datei": "entries/leshn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000084",
+      "lemma": "traiv",
+      "wortart": "verb",
+      "de": "finden",
+      "en": "to find",
+      "status": "canonical",
+      "datei": "entries/traiv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000085",
+      "lemma": "mald",
+      "wortart": "verb",
+      "de": "warten",
+      "en": "to wait",
+      "status": "canonical",
+      "datei": "entries/mald.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000086",
+      "lemma": "stan",
+      "wortart": "verb",
+      "de": "bleiben",
+      "en": "to stay",
+      "status": "canonical",
+      "datei": "entries/stan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000087",
+      "lemma": "sor",
+      "wortart": "verb",
+      "de": "bewahren",
+      "en": "to preserve",
+      "status": "canonical",
+      "datei": "entries/sor.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000088",
+      "lemma": "salv",
+      "wortart": "verb",
+      "de": "verlieren (transitiv)",
+      "en": "to lose (transitive)",
+      "status": "canonical",
+      "datei": "entries/salv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000089",
+      "lemma": "vaşn",
+      "wortart": "verb",
+      "de": "vergehen (intransitiv)",
+      "en": "to pass away (intransitive)",
+      "status": "canonical",
+      "datei": "entries/vashn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000090",
+      "lemma": "mirn",
+      "wortart": "verb",
+      "de": "entscheiden",
+      "en": "to decide",
+      "status": "canonical",
+      "datei": "entries/mirn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000091",
+      "lemma": "tarn",
+      "wortart": "verb",
+      "de": "folgen",
+      "en": "to follow",
+      "status": "canonical",
+      "datei": "entries/tarn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000092",
+      "lemma": "valn",
+      "wortart": "verb",
+      "de": "können",
+      "en": "can, to be able to",
+      "status": "canonical",
+      "datei": "entries/valn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000093",
+      "lemma": "dolm",
+      "wortart": "verb",
+      "de": "müssen",
+      "en": "must, to have to",
+      "status": "canonical",
+      "datei": "entries/dolm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000094",
+      "lemma": "vlek",
+      "wortart": "verb",
+      "de": "dürfen",
+      "en": "may, to be allowed to",
+      "status": "canonical",
+      "datei": "entries/vlek.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000095",
+      "lemma": "tirn",
+      "wortart": "verb",
+      "de": "sollen",
+      "en": "shall, ought to",
+      "status": "canonical",
+      "datei": "entries/tirn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000096",
+      "lemma": "nest",
+      "wortart": "verb",
+      "de": "wollen",
+      "en": "to want",
+      "status": "canonical",
+      "datei": "entries/nest.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000097",
+      "lemma": "suvr",
+      "wortart": "verb",
+      "de": "mögen",
+      "en": "to like",
+      "status": "canonical",
+      "datei": "entries/suvr.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000098",
+      "lemma": "es",
+      "wortart": "verb",
+      "de": "sein",
+      "en": "to be",
+      "status": "canonical",
+      "datei": "entries/es.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000099",
+      "lemma": "nuv",
+      "wortart": "verb",
+      "de": "haben",
+      "en": "to have",
+      "status": "canonical",
+      "datei": "entries/nuv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000100",
+      "lemma": "vurn",
+      "wortart": "verb",
+      "de": "werden",
+      "en": "to become",
+      "status": "canonical",
+      "datei": "entries/vurn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000101",
+      "lemma": "mel",
+      "wortart": "verb",
+      "de": "gehen",
+      "en": "to go",
+      "status": "canonical",
+      "datei": "entries/mel.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000102",
+      "lemma": "vand",
+      "wortart": "verb",
+      "de": "kommen",
+      "en": "to come",
+      "status": "canonical",
+      "datei": "entries/vand.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000103",
+      "lemma": "narg",
+      "wortart": "verb",
+      "de": "machen",
+      "en": "to make",
+      "status": "canonical",
+      "datei": "entries/narg.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000104",
+      "lemma": "zav",
+      "wortart": "verb",
+      "de": "wissen",
+      "en": "to know",
+      "status": "canonical",
+      "datei": "entries/zav.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000105",
+      "lemma": "dalv",
+      "wortart": "verb",
+      "de": "geben",
+      "en": "to give",
+      "status": "canonical",
+      "datei": "entries/dalv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000106",
+      "lemma": "vlaid",
+      "wortart": "adjektiv",
+      "de": "groß",
+      "en": "big",
+      "status": "canonical",
+      "datei": "entries/vlaid.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000107",
+      "lemma": "nirm",
+      "wortart": "adjektiv",
+      "de": "klein",
+      "en": "small",
+      "status": "canonical",
+      "datei": "entries/nirm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000108",
+      "lemma": "selv",
+      "wortart": "adjektiv",
+      "de": "gut",
+      "en": "good",
+      "status": "canonical",
+      "datei": "entries/selv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000109",
+      "lemma": "morn",
+      "wortart": "adjektiv",
+      "de": "schlecht",
+      "en": "bad",
+      "status": "canonical",
+      "datei": "entries/morn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000110",
+      "lemma": "loşn",
+      "wortart": "adjektiv",
+      "de": "schön",
+      "en": "beautiful",
+      "status": "canonical",
+      "datei": "entries/loshn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000111",
+      "lemma": "granz",
+      "wortart": "adjektiv",
+      "de": "alt",
+      "en": "old",
+      "status": "canonical",
+      "datei": "entries/granz.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000112",
+      "lemma": "zirv",
+      "wortart": "adjektiv",
+      "de": "neu",
+      "en": "new",
+      "status": "canonical",
+      "datei": "entries/zirv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000113",
+      "lemma": "trelm",
+      "wortart": "adjektiv",
+      "de": "lang",
+      "en": "long",
+      "status": "canonical",
+      "datei": "entries/trelm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000114",
+      "lemma": "misn",
+      "wortart": "adjektiv",
+      "de": "kurz",
+      "en": "short",
+      "status": "canonical",
+      "datei": "entries/misn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000115",
+      "lemma": "velm",
+      "wortart": "adjektiv",
+      "de": "warm",
+      "en": "warm",
+      "status": "canonical",
+      "datei": "entries/velm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000116",
+      "lemma": "girn",
+      "wortart": "adjektiv",
+      "de": "kalt",
+      "en": "cold",
+      "status": "canonical",
+      "datei": "entries/girn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000117",
+      "lemma": "luid",
+      "wortart": "adjektiv",
+      "de": "hell",
+      "en": "bright",
+      "status": "canonical",
+      "datei": "entries/luid.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000118",
+      "lemma": "şaln",
+      "wortart": "adjektiv",
+      "de": "dunkel",
+      "en": "dark",
+      "status": "canonical",
+      "datei": "entries/shaln.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000119",
+      "lemma": "xarn",
+      "wortart": "adjektiv",
+      "de": "stark",
+      "en": "strong",
+      "status": "canonical",
+      "datei": "entries/xarn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000120",
+      "lemma": "vresn",
+      "wortart": "adjektiv",
+      "de": "schwach",
+      "en": "weak",
+      "status": "canonical",
+      "datei": "entries/vresn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000121",
+      "lemma": "zilv",
+      "wortart": "adjektiv",
+      "de": "schnell",
+      "en": "fast",
+      "status": "canonical",
+      "datei": "entries/zilv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000122",
+      "lemma": "tolm",
+      "wortart": "adjektiv",
+      "de": "langsam",
+      "en": "slow",
+      "status": "canonical",
+      "datei": "entries/tolm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000123",
+      "lemma": "klaun",
+      "wortart": "adjektiv",
+      "de": "wahr",
+      "en": "true",
+      "status": "canonical",
+      "datei": "entries/klaun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000124",
+      "lemma": "norv",
+      "wortart": "adjektiv",
+      "de": "falsch",
+      "en": "false",
+      "status": "canonical",
+      "datei": "entries/norv.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000125",
+      "lemma": "xan",
+      "wortart": "adjektiv",
+      "de": "kein",
+      "en": "no, none",
+      "status": "canonical",
+      "datei": "entries/xan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000126",
+      "lemma": "zva",
+      "wortart": "praeposition",
+      "de": "Praeposition mit dat",
+      "en": "preposition governing the dative",
+      "status": "canonical",
+      "datei": "entries/zva.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000127",
+      "lemma": "xun",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk",
+      "en": "preposition governing the accusative",
+      "status": "canonical",
+      "datei": "entries/xun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000128",
+      "lemma": "prai",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk",
+      "en": "preposition governing the accusative",
+      "status": "canonical",
+      "datei": "entries/prai.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000129",
+      "lemma": "dral",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk",
+      "en": "preposition governing the accusative",
+      "status": "canonical",
+      "datei": "entries/dral.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000130",
+      "lemma": "dun",
+      "wortart": "praeposition",
+      "de": "Praeposition mit dat",
+      "en": "preposition governing the dative",
+      "status": "canonical",
+      "datei": "entries/dun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000131",
+      "lemma": "ven",
+      "wortart": "praeposition",
+      "de": "Praeposition mit dat",
+      "en": "preposition governing the dative",
+      "status": "canonical",
+      "datei": "entries/ven.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000132",
+      "lemma": "nul",
+      "wortart": "praeposition",
+      "de": "Praeposition mit dat",
+      "en": "preposition governing the dative",
+      "status": "canonical",
+      "datei": "entries/nul.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000133",
+      "lemma": "gral",
+      "wortart": "praeposition",
+      "de": "Praeposition mit gen",
+      "en": "preposition governing the genitive",
+      "status": "canonical",
+      "datei": "entries/gral.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000134",
+      "lemma": "şlan",
+      "wortart": "praeposition",
+      "de": "Praeposition mit gen",
+      "en": "preposition governing the genitive",
+      "status": "canonical",
+      "datei": "entries/shlan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000135",
+      "lemma": "tel",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/tel.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000136",
+      "lemma": "kru",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/kru.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000137",
+      "lemma": "span",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/span.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000138",
+      "lemma": "drel",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/drel.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000139",
+      "lemma": "glem",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/glem.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000140",
+      "lemma": "traus",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/traus.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000141",
+      "lemma": "şlim",
+      "wortart": "praeposition",
+      "de": "Praeposition mit akk/dat",
+      "en": "preposition governing the accusative / dative",
+      "status": "canonical",
+      "datei": "entries/shlim.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000142",
+      "lemma": "ze",
+      "wortart": "konjunktion",
+      "de": "und",
+      "en": "and",
+      "status": "canonical",
+      "datei": "entries/ze.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000143",
+      "lemma": "vu",
+      "wortart": "konjunktion",
+      "de": "oder",
+      "en": "or",
+      "status": "canonical",
+      "datei": "entries/vu.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000144",
+      "lemma": "klas",
+      "wortart": "konjunktion",
+      "de": "aber",
+      "en": "but",
+      "status": "canonical",
+      "datei": "entries/klas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000145",
+      "lemma": "xer",
+      "wortart": "konjunktion",
+      "de": "denn",
+      "en": "for, because",
+      "status": "canonical",
+      "datei": "entries/xer.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000146",
+      "lemma": "fai",
+      "wortart": "konjunktion",
+      "de": "dass",
+      "en": "that",
+      "status": "canonical",
+      "datei": "entries/fai.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000147",
+      "lemma": "grali",
+      "wortart": "konjunktion",
+      "de": "weil",
+      "en": "because",
+      "status": "canonical",
+      "datei": "entries/grali.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000148",
+      "lemma": "tund",
+      "wortart": "konjunktion",
+      "de": "wenn",
+      "en": "if, when",
+      "status": "canonical",
+      "datei": "entries/tund.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000149",
+      "lemma": "şlani",
+      "wortart": "konjunktion",
+      "de": "obwohl",
+      "en": "although",
+      "status": "canonical",
+      "datei": "entries/shlani.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000150",
+      "lemma": "dremi",
+      "wortart": "konjunktion",
+      "de": "während",
+      "en": "while",
+      "status": "canonical",
+      "datei": "entries/dremi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000151",
+      "lemma": "glemi",
+      "wortart": "konjunktion",
+      "de": "bevor",
+      "en": "before",
+      "status": "canonical",
+      "datei": "entries/glemi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000152",
+      "lemma": "trausi",
+      "wortart": "konjunktion",
+      "de": "nachdem",
+      "en": "after",
+      "status": "canonical",
+      "datei": "entries/trausi.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000153",
+      "lemma": "kem",
+      "wortart": "pronomen",
+      "de": "wer",
+      "en": "who",
+      "status": "canonical",
+      "datei": "entries/kem.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000154",
+      "lemma": "kelt",
+      "wortart": "pronomen",
+      "de": "was",
+      "en": "what",
+      "status": "canonical",
+      "datei": "entries/kelt.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000155",
+      "lemma": "kur",
+      "wortart": "pronomen",
+      "de": "wo/wohin",
+      "en": "where / where to",
+      "status": "canonical",
+      "datei": "entries/kur.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000156",
+      "lemma": "kan",
+      "wortart": "pronomen",
+      "de": "wann",
+      "en": "when",
+      "status": "canonical",
+      "datei": "entries/kan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000157",
+      "lemma": "grais",
+      "wortart": "pronomen",
+      "de": "warum",
+      "en": "why",
+      "status": "canonical",
+      "datei": "entries/grais.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000158",
+      "lemma": "kolm",
+      "wortart": "pronomen",
+      "de": "wie",
+      "en": "how",
+      "status": "canonical",
+      "datei": "entries/kolm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000159",
+      "lemma": "kelra",
+      "wortart": "pronomen",
+      "de": "welch- (M)",
+      "en": "which (masculine)",
+      "status": "canonical",
+      "datei": "entries/kelra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000160",
+      "lemma": "kella",
+      "wortart": "pronomen",
+      "de": "welch- (F)",
+      "en": "which (feminine)",
+      "status": "canonical",
+      "datei": "entries/kella.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000161",
+      "lemma": "kelna",
+      "wortart": "pronomen",
+      "de": "welch- (N)",
+      "en": "which (neuter)",
+      "status": "canonical",
+      "datei": "entries/kelna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000162",
+      "lemma": "kilra",
+      "wortart": "pronomen",
+      "de": "dieser(m)",
+      "en": "this (m.)",
+      "status": "canonical",
+      "datei": "entries/kilra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000163",
+      "lemma": "killa",
+      "wortart": "pronomen",
+      "de": "diese(f)",
+      "en": "this (f.)",
+      "status": "canonical",
+      "datei": "entries/killa.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000164",
+      "lemma": "kilna",
+      "wortart": "pronomen",
+      "de": "dieses(n)",
+      "en": "this (n.)",
+      "status": "canonical",
+      "datei": "entries/kilna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000165",
+      "lemma": "dolra",
+      "wortart": "pronomen",
+      "de": "jener(m)",
+      "en": "that (m.)",
+      "status": "canonical",
+      "datei": "entries/dolra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000166",
+      "lemma": "dolla",
+      "wortart": "pronomen",
+      "de": "jene(f)",
+      "en": "that (f.)",
+      "status": "canonical",
+      "datei": "entries/dolla.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000167",
+      "lemma": "dolna",
+      "wortart": "pronomen",
+      "de": "jenes(n)",
+      "en": "that (n.)",
+      "status": "canonical",
+      "datei": "entries/dolna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000168",
+      "lemma": "kaun",
+      "wortart": "pronomen",
+      "de": "man (homonym: Mensch)",
+      "en": "one, people (homonym with kaun 'human being')",
+      "status": "canonical",
+      "datei": "entries/kaun__2.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000169",
+      "lemma": "kelsu",
+      "wortart": "pronomen",
+      "de": "jemand",
+      "en": "someone",
+      "status": "canonical",
+      "datei": "entries/kelsu.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000170",
+      "lemma": "xakaun",
+      "wortart": "pronomen",
+      "de": "niemand",
+      "en": "nobody",
+      "status": "canonical",
+      "datei": "entries/xakaun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000171",
+      "lemma": "kelte",
+      "wortart": "pronomen",
+      "de": "etwas",
+      "en": "something",
+      "status": "canonical",
+      "datei": "entries/kelte.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000172",
+      "lemma": "xakelte",
+      "wortart": "pronomen",
+      "de": "nichts",
+      "en": "nothing",
+      "status": "canonical",
+      "datei": "entries/xakelte.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000173",
+      "lemma": "se",
+      "wortart": "pronomen",
+      "de": "sich",
+      "en": "oneself",
+      "status": "canonical",
+      "datei": "entries/se.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000174",
+      "lemma": "fai",
+      "wortart": "pronomen",
+      "de": "der/die/das",
+      "en": "who, which, that",
+      "status": "canonical",
+      "datei": "entries/fai__2.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000175",
+      "lemma": "nel",
+      "wortart": "zahl",
+      "de": "Zahl 1",
+      "en": "number 1",
+      "status": "canonical",
+      "datei": "entries/nel.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000176",
+      "lemma": "dram",
+      "wortart": "zahl",
+      "de": "Zahl 2",
+      "en": "number 2",
+      "status": "canonical",
+      "datei": "entries/dram.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000177",
+      "lemma": "teln",
+      "wortart": "zahl",
+      "de": "Zahl 3",
+      "en": "number 3",
+      "status": "canonical",
+      "datei": "entries/teln.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000178",
+      "lemma": "kalm",
+      "wortart": "zahl",
+      "de": "Zahl 4",
+      "en": "number 4",
+      "status": "canonical",
+      "datei": "entries/kalm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000179",
+      "lemma": "mern",
+      "wortart": "zahl",
+      "de": "Zahl 5",
+      "en": "number 5",
+      "status": "canonical",
+      "datei": "entries/mern.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000180",
+      "lemma": "vesn",
+      "wortart": "zahl",
+      "de": "Zahl 6",
+      "en": "number 6",
+      "status": "canonical",
+      "datei": "entries/vesn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000181",
+      "lemma": "zerm",
+      "wortart": "zahl",
+      "de": "Zahl 7",
+      "en": "number 7",
+      "status": "canonical",
+      "datei": "entries/zerm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000182",
+      "lemma": "glon",
+      "wortart": "zahl",
+      "de": "Zahl 8",
+      "en": "number 8",
+      "status": "canonical",
+      "datei": "entries/glon.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000183",
+      "lemma": "pirn",
+      "wortart": "zahl",
+      "de": "Zahl 9",
+      "en": "number 9",
+      "status": "canonical",
+      "datei": "entries/pirn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000184",
+      "lemma": "xelm",
+      "wortart": "zahl",
+      "de": "Zahl 10",
+      "en": "number 10",
+      "status": "canonical",
+      "datei": "entries/xelm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000185",
+      "lemma": "munar",
+      "wortart": "zahl",
+      "de": "Zahl 100",
+      "en": "number 100",
+      "status": "canonical",
+      "datei": "entries/munar.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000186",
+      "lemma": "kraven",
+      "wortart": "zahl",
+      "de": "Zahl 1000",
+      "en": "number 1000",
+      "status": "canonical",
+      "datei": "entries/kraven.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000187",
+      "lemma": "xelmnel",
+      "wortart": "zahl",
+      "de": "Zahl 11",
+      "en": "number 11",
+      "status": "canonical",
+      "datei": "entries/xelmnel.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000188",
+      "lemma": "dramxelm",
+      "wortart": "zahl",
+      "de": "Zahl 20",
+      "en": "number 20",
+      "status": "canonical",
+      "datei": "entries/dramxelm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000189",
+      "lemma": "telnxelmmern",
+      "wortart": "zahl",
+      "de": "Zahl 35",
+      "en": "number 35",
+      "status": "canonical",
+      "datei": "entries/telnxelmmern.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000190",
+      "lemma": "nunda",
+      "wortart": "partikel",
+      "de": "heute",
+      "en": "today",
+      "status": "canonical",
+      "datei": "entries/nunda.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000191",
+      "lemma": "zirna",
+      "wortart": "partikel",
+      "de": "morgen",
+      "en": "tomorrow",
+      "status": "canonical",
+      "datei": "entries/zirna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000192",
+      "lemma": "granza",
+      "wortart": "partikel",
+      "de": "gestern",
+      "en": "yesterday",
+      "status": "canonical",
+      "datei": "entries/granza.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000193",
+      "lemma": "nun",
+      "wortart": "partikel",
+      "de": "jetzt",
+      "en": "now",
+      "status": "canonical",
+      "datei": "entries/nun.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000194",
+      "lemma": "dalvur",
+      "wortart": "partikel",
+      "de": "immer",
+      "en": "always",
+      "status": "canonical",
+      "datei": "entries/dalvur.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000195",
+      "lemma": "xanur",
+      "wortart": "partikel",
+      "de": "nie",
+      "en": "never",
+      "status": "canonical",
+      "datei": "entries/xanur.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000196",
+      "lemma": "kilur",
+      "wortart": "partikel",
+      "de": "hier",
+      "en": "here",
+      "status": "canonical",
+      "datei": "entries/kilur.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000197",
+      "lemma": "dolur",
+      "wortart": "partikel",
+      "de": "dort",
+      "en": "there",
+      "status": "canonical",
+      "datei": "entries/dolur.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000198",
+      "lemma": "vran",
+      "wortart": "partikel",
+      "de": "sehr",
+      "en": "very",
+      "status": "canonical",
+      "datei": "entries/vran.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000199",
+      "lemma": "skirm",
+      "wortart": "partikel",
+      "de": "wenig",
+      "en": "little, few",
+      "status": "canonical",
+      "datei": "entries/skirm.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000200",
+      "lemma": "ain",
+      "wortart": "partikel",
+      "de": "ja",
+      "en": "yes",
+      "status": "canonical",
+      "datei": "entries/ain.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000201",
+      "lemma": "xaus",
+      "wortart": "partikel",
+      "de": "nein",
+      "en": "no",
+      "status": "canonical",
+      "datei": "entries/xaus.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000202",
+      "lemma": "xa",
+      "wortart": "partikel",
+      "de": "nicht",
+      "en": "not",
+      "status": "canonical",
+      "datei": "entries/xa.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000203",
+      "lemma": "mai",
+      "wortart": "partikel",
+      "de": "würde",
+      "en": "would",
+      "status": "canonical",
+      "datei": "entries/mai.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000204",
+      "lemma": "kon",
+      "wortart": "partikel",
+      "de": "als",
+      "en": "than",
+      "status": "canonical",
+      "datei": "entries/kon.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000205",
+      "lemma": "zil",
+      "wortart": "partikel",
+      "de": "wie",
+      "en": "how",
+      "status": "canonical",
+      "datei": "entries/zil.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000206",
+      "lemma": "selvai",
+      "wortart": "partikel",
+      "de": "Hallo",
+      "en": "hello",
+      "status": "canonical",
+      "datei": "entries/selvai.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000207",
+      "lemma": "melai",
+      "wortart": "partikel",
+      "de": "Auf Wiedersehen",
+      "en": "goodbye",
+      "status": "canonical",
+      "datei": "entries/melai.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000208",
+      "lemma": "selves",
+      "wortart": "partikel",
+      "de": "Danke",
+      "en": "thank you",
+      "status": "canonical",
+      "datei": "entries/selves.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000209",
+      "lemma": "praum",
+      "wortart": "partikel",
+      "de": "Bitte",
+      "en": "please",
+      "status": "canonical",
+      "datei": "entries/praum.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000210",
+      "lemma": "lo",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-f nom",
+      "en": "personal pronoun, 3 sg. f, nominative",
+      "status": "canonical",
+      "datei": "entries/lo.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000211",
+      "lemma": "lon",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-f akk",
+      "en": "personal pronoun, 3 sg. f, accusative",
+      "status": "canonical",
+      "datei": "entries/lon.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000212",
+      "lemma": "los",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-f gen",
+      "en": "personal pronoun, 3 sg. f, genitive",
+      "status": "canonical",
+      "datei": "entries/los.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000213",
+      "lemma": "loş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-f dat",
+      "en": "personal pronoun, 3 sg. f, dative",
+      "status": "canonical",
+      "datei": "entries/losh.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000214",
+      "lemma": "no",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-n nom",
+      "en": "personal pronoun, 3 sg. n, nominative",
+      "status": "canonical",
+      "datei": "entries/no.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000215",
+      "lemma": "non",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-n akk",
+      "en": "personal pronoun, 3 sg. n, accusative",
+      "status": "canonical",
+      "datei": "entries/non.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000216",
+      "lemma": "nos",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-n gen",
+      "en": "personal pronoun, 3 sg. n, genitive",
+      "status": "canonical",
+      "datei": "entries/nos.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000217",
+      "lemma": "noş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-n dat",
+      "en": "personal pronoun, 3 sg. n, dative",
+      "status": "canonical",
+      "datei": "entries/nosh.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000218",
+      "lemma": "oñ",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3pl nom",
+      "en": "personal pronoun, 3 pl., nominative",
+      "status": "canonical",
+      "datei": "entries/onn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000219",
+      "lemma": "oñan",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3pl akk",
+      "en": "personal pronoun, 3 pl., accusative",
+      "status": "canonical",
+      "datei": "entries/onnan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000220",
+      "lemma": "oñas",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3pl gen",
+      "en": "personal pronoun, 3 pl., genitive",
+      "status": "canonical",
+      "datei": "entries/onnas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000221",
+      "lemma": "oñaş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3pl dat",
+      "en": "personal pronoun, 3 pl., dative",
+      "status": "canonical",
+      "datei": "entries/onnash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000222",
+      "lemma": "ro",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-m nom",
+      "en": "personal pronoun, 3 sg. m, nominative",
+      "status": "canonical",
+      "datei": "entries/ro.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000223",
+      "lemma": "ron",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-m akk",
+      "en": "personal pronoun, 3 sg. m, accusative",
+      "status": "canonical",
+      "datei": "entries/ron.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000224",
+      "lemma": "ros",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-m gen",
+      "en": "personal pronoun, 3 sg. m, genitive",
+      "status": "canonical",
+      "datei": "entries/ros.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000225",
+      "lemma": "roş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 3sg-m dat",
+      "en": "personal pronoun, 3 sg. m, dative",
+      "status": "canonical",
+      "datei": "entries/rosh.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000226",
+      "lemma": "vim",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1sg nom",
+      "en": "personal pronoun, 1 sg., nominative",
+      "status": "canonical",
+      "datei": "entries/vim.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000227",
+      "lemma": "vin",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1sg akk",
+      "en": "personal pronoun, 1 sg., accusative",
+      "status": "canonical",
+      "datei": "entries/vin.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000228",
+      "lemma": "vis",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1sg gen",
+      "en": "personal pronoun, 1 sg., genitive",
+      "status": "canonical",
+      "datei": "entries/vis.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000229",
+      "lemma": "viñ",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1pl nom",
+      "en": "personal pronoun, 1 pl., nominative",
+      "status": "canonical",
+      "datei": "entries/vinn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000230",
+      "lemma": "viñan",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1pl akk",
+      "en": "personal pronoun, 1 pl., accusative",
+      "status": "canonical",
+      "datei": "entries/vinnan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000231",
+      "lemma": "viñas",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1pl gen",
+      "en": "personal pronoun, 1 pl., genitive",
+      "status": "canonical",
+      "datei": "entries/vinnas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000232",
+      "lemma": "viñaş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1pl dat",
+      "en": "personal pronoun, 1 pl., dative",
+      "status": "canonical",
+      "datei": "entries/vinnash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000233",
+      "lemma": "viş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 1sg dat",
+      "en": "personal pronoun, 1 sg., dative",
+      "status": "canonical",
+      "datei": "entries/vish.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000234",
+      "lemma": "şen",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2sg akk",
+      "en": "personal pronoun, 2 sg., accusative",
+      "status": "canonical",
+      "datei": "entries/shen.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000235",
+      "lemma": "şes",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2sg gen",
+      "en": "personal pronoun, 2 sg., genitive",
+      "status": "canonical",
+      "datei": "entries/shes.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000236",
+      "lemma": "şet",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2sg nom",
+      "en": "personal pronoun, 2 sg., nominative",
+      "status": "canonical",
+      "datei": "entries/shet.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000237",
+      "lemma": "şevan",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2höfl akk",
+      "en": "personal pronoun, 2höfl, accusative",
+      "status": "canonical",
+      "datei": "entries/shevan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000238",
+      "lemma": "şevar",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2höfl nom",
+      "en": "personal pronoun, 2höfl, nominative",
+      "status": "canonical",
+      "datei": "entries/shevar.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000239",
+      "lemma": "şevas",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2höfl gen",
+      "en": "personal pronoun, 2höfl, genitive",
+      "status": "canonical",
+      "datei": "entries/shevas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000240",
+      "lemma": "şevaş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2höfl dat",
+      "en": "personal pronoun, 2höfl, dative",
+      "status": "canonical",
+      "datei": "entries/shevash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000241",
+      "lemma": "şeñ",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2pl nom",
+      "en": "personal pronoun, 2 pl., nominative",
+      "status": "canonical",
+      "datei": "entries/shenn.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000242",
+      "lemma": "şeñan",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2pl akk",
+      "en": "personal pronoun, 2 pl., accusative",
+      "status": "canonical",
+      "datei": "entries/shennan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000243",
+      "lemma": "şeñas",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2pl gen",
+      "en": "personal pronoun, 2 pl., genitive",
+      "status": "canonical",
+      "datei": "entries/shennas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000244",
+      "lemma": "şeñaş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2pl dat",
+      "en": "personal pronoun, 2 pl., dative",
+      "status": "canonical",
+      "datei": "entries/shennash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000245",
+      "lemma": "şeş",
+      "wortart": "pronomen",
+      "de": "Personalpronomen 2sg dat",
+      "en": "personal pronoun, 2 sg., dative",
+      "status": "canonical",
+      "datei": "entries/shesh.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000246",
+      "lemma": "vla",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt F nom sg",
+      "en": "indefinite article, feminine nominative singular",
+      "status": "canonical",
+      "datei": "entries/vla.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000247",
+      "lemma": "vlan",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt F akk sg",
+      "en": "indefinite article, feminine accusative singular",
+      "status": "canonical",
+      "datei": "entries/vlan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000248",
+      "lemma": "vlas",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt F gen sg",
+      "en": "indefinite article, feminine genitive singular",
+      "status": "canonical",
+      "datei": "entries/vlas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000249",
+      "lemma": "vlaş",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt F dat sg",
+      "en": "indefinite article, feminine dative singular",
+      "status": "canonical",
+      "datei": "entries/vlash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000250",
+      "lemma": "vna",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt N nom sg",
+      "en": "indefinite article, neuter nominative singular",
+      "status": "canonical",
+      "datei": "entries/vna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000251",
+      "lemma": "vnan",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt N akk sg",
+      "en": "indefinite article, neuter accusative singular",
+      "status": "canonical",
+      "datei": "entries/vnan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000252",
+      "lemma": "vnas",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt N gen sg",
+      "en": "indefinite article, neuter genitive singular",
+      "status": "canonical",
+      "datei": "entries/vnas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000253",
+      "lemma": "vnaş",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt N dat sg",
+      "en": "indefinite article, neuter dative singular",
+      "status": "canonical",
+      "datei": "entries/vnash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000254",
+      "lemma": "vra",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt M nom sg",
+      "en": "indefinite article, masculine nominative singular",
+      "status": "canonical",
+      "datei": "entries/vra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000255",
+      "lemma": "vran",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt M akk sg",
+      "en": "indefinite article, masculine accusative singular",
+      "status": "canonical",
+      "datei": "entries/vran__2.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000256",
+      "lemma": "vras",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt M gen sg",
+      "en": "indefinite article, masculine genitive singular",
+      "status": "canonical",
+      "datei": "entries/vras.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000257",
+      "lemma": "vraş",
+      "wortart": "artikel",
+      "de": "Artikel unbestimmt M dat sg",
+      "en": "indefinite article, masculine dative singular",
+      "status": "canonical",
+      "datei": "entries/vrash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000258",
+      "lemma": "xla",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F nom sg",
+      "en": "definite article, feminine nominative singular",
+      "status": "canonical",
+      "datei": "entries/xla.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000259",
+      "lemma": "xlan",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F akk sg",
+      "en": "definite article, feminine accusative singular",
+      "status": "canonical",
+      "datei": "entries/xlan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000260",
+      "lemma": "xlas",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F gen sg",
+      "en": "definite article, feminine genitive singular",
+      "status": "canonical",
+      "datei": "entries/xlas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000261",
+      "lemma": "xlañ",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F nom pl",
+      "en": "definite article, feminine nominative plural",
+      "status": "canonical",
+      "datei": "entries/xlann.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000262",
+      "lemma": "xlañan",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F akk pl",
+      "en": "definite article, feminine accusative plural",
+      "status": "canonical",
+      "datei": "entries/xlannan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000263",
+      "lemma": "xlañas",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F gen pl",
+      "en": "definite article, feminine genitive plural",
+      "status": "canonical",
+      "datei": "entries/xlannas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000264",
+      "lemma": "xlañaş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F dat pl",
+      "en": "definite article, feminine dative plural",
+      "status": "canonical",
+      "datei": "entries/xlannash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000265",
+      "lemma": "xlaş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt F dat sg",
+      "en": "definite article, feminine dative singular",
+      "status": "canonical",
+      "datei": "entries/xlash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000266",
+      "lemma": "xna",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N nom sg",
+      "en": "definite article, neuter nominative singular",
+      "status": "canonical",
+      "datei": "entries/xna.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000267",
+      "lemma": "xnan",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N akk sg",
+      "en": "definite article, neuter accusative singular",
+      "status": "canonical",
+      "datei": "entries/xnan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000268",
+      "lemma": "xnas",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N gen sg",
+      "en": "definite article, neuter genitive singular",
+      "status": "canonical",
+      "datei": "entries/xnas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000269",
+      "lemma": "xnañ",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N nom pl",
+      "en": "definite article, neuter nominative plural",
+      "status": "canonical",
+      "datei": "entries/xnann.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000270",
+      "lemma": "xnañan",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N akk pl",
+      "en": "definite article, neuter accusative plural",
+      "status": "canonical",
+      "datei": "entries/xnannan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000271",
+      "lemma": "xnañas",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N gen pl",
+      "en": "definite article, neuter genitive plural",
+      "status": "canonical",
+      "datei": "entries/xnannas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000272",
+      "lemma": "xnañaş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N dat pl",
+      "en": "definite article, neuter dative plural",
+      "status": "canonical",
+      "datei": "entries/xnannash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000273",
+      "lemma": "xnaş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt N dat sg",
+      "en": "definite article, neuter dative singular",
+      "status": "canonical",
+      "datei": "entries/xnash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000274",
+      "lemma": "xra",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M nom sg",
+      "en": "definite article, masculine nominative singular",
+      "status": "canonical",
+      "datei": "entries/xra.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000275",
+      "lemma": "xran",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M akk sg",
+      "en": "definite article, masculine accusative singular",
+      "status": "canonical",
+      "datei": "entries/xran.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000276",
+      "lemma": "xras",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M gen sg",
+      "en": "definite article, masculine genitive singular",
+      "status": "canonical",
+      "datei": "entries/xras.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000277",
+      "lemma": "xrañ",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M nom pl",
+      "en": "definite article, masculine nominative plural",
+      "status": "canonical",
+      "datei": "entries/xrann.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000278",
+      "lemma": "xrañan",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M akk pl",
+      "en": "definite article, masculine accusative plural",
+      "status": "canonical",
+      "datei": "entries/xrannan.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000279",
+      "lemma": "xrañas",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M gen pl",
+      "en": "definite article, masculine genitive plural",
+      "status": "canonical",
+      "datei": "entries/xrannas.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000280",
+      "lemma": "xrañaş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M dat pl",
+      "en": "definite article, masculine dative plural",
+      "status": "canonical",
+      "datei": "entries/xrannash.json"
+    },
+    {
+      "lexeme_id": "ORB-LEX-000281",
+      "lemma": "xraş",
+      "wortart": "artikel",
+      "de": "Artikel bestimmt M dat sg",
+      "en": "definite article, masculine dative singular",
+      "status": "canonical",
+      "datei": "entries/xrash.json"
+    }
+  ]
+}

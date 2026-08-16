@@ -1,6 +1,6 @@
 # ORBIS — Testkorpus 0.1 (Prüffassung)
 
-*150 Testsätze gegen die eingefrorene Referenzgrammatik `Orbis-Grammatik-0.9.3.md`. Die Grammatik wurde nicht verändert. Diese Prüffassung ersetzt den Chat-Entwurf `Orbis-Testkorpus-0.1.md` (der als Referenz erhalten bleibt) und korrigiert dort gefundene Fehler (u. a. Satz 48: \*loşna → loşnla).*
+*150 Testsätze gegen die eingefrorene Referenzgrammatik `Orbis-Grammatik-0.9.3.md`. Die Grammatik wurde nicht verändert. Diese Prüffassung ersetzt den Chat-Entwurf `archive/corpus/Orbis-Testkorpus-0.1.md` (der als Referenz erhalten bleibt) und korrigiert dort gefundene Fehler (u. a. Satz 48: \*loşna → loşnla).*
 
 **Ergebniswerte:** [OK] · [TESTPROBLEM] · [REGELLÜCKE] · [REGELKONFLIKT] · [REGELUNKLARHEIT]
 
@@ -3401,55 +3401,54 @@ Analyse:
 
 Träger ist der ausdrücklich markierte [TESTFORM]-Stamm **pren-** (phonotaktisch zulässig: pren = KKVK). Diese 45 Formen sind KEINE Wörter des Wortschatzes — sie existieren ausschließlich zum morphologischen Test von §7–§9. Erzeugt und geprüft mit `orbis_validator.py --tables`.
 
-| Klasse | Endung | Nom Sg | Akk Sg | Dat Sg | Gen Sg | Nom Pl | Akk Pl |
-|---|---|---|---|---|---|---|---|
-| M-A | -ra | prenra | prenran | prenraş | prenras | prenrañ | prenrañan |
-| M-A | -re | prenre | prenren | prenreş | prenres | prenreñ | prenreñen |
-| M-A | -ri | prenri | prenrin | prenriş | prenris | prenriñ | prenriñin |
-| M-A | -ro | prenro | prenron | prenroş | prenros | prenroñ | prenroñon |
-| M-A | -ru | prenru | prenrun | prenruş | prenrus | prenruñ | prenruñun |
-| M-B | -ka | prenka | prenkan | prenkaş | prenkas | prenkañ | prenkañan |
-| M-B | -ke | prenke | prenken | prenkeş | prenkes | prenkeñ | prenkeñen |
-| M-B | -ki | prenki | prenkin | prenkiş | prenkis | prenkiñ | prenkiñin |
-| M-B | -ko | prenko | prenkon | prenkoş | prenkos | prenkoñ | prenkoñon |
-| M-B | -ku | prenku | prenkun | prenkuş | prenkus | prenkuñ | prenkuñun |
-| M-C | -da | prenda | prendan | prendaş | prendas | prendañ | prendañan |
-| M-C | -de | prende | prenden | prendeş | prendes | prendeñ | prendeñen |
-| M-C | -di | prendi | prendin | prendiş | prendis | prendiñ | prendiñin |
-| M-C | -do | prendo | prendon | prendoş | prendos | prendoñ | prendoñon |
-| M-C | -du | prendu | prendun | prenduş | prendus | prenduñ | prenduñun |
-| F-A | -la | prenla | prenlan | prenlaş | prenlas | prenlañ | prenlañan |
-| F-A | -le | prenle | prenlen | prenleş | prenles | prenleñ | prenleñen |
-| F-A | -li | prenli | prenlin | prenliş | prenlis | prenliñ | prenliñin |
-| F-A | -lo | prenlo | prenlon | prenloş | prenlos | prenloñ | prenloñon |
-| F-A | -lu | prenlu | prenlun | prenluş | prenlus | prenluñ | prenluñun |
-| F-B | -va | prenva | prenvan | prenvaş | prenvas | prenvañ | prenvañan |
-| F-B | -ve | prenve | prenven | prenveş | prenves | prenveñ | prenveñen |
-| F-B | -vi | prenvi | prenvin | prenviş | prenvis | prenviñ | prenviñin |
-| F-B | -vo | prenvo | prenvon | prenvoş | prenvos | prenvoñ | prenvoñon |
-| F-B | -vu | prenvu | prenvun | prenvuş | prenvus | prenvuñ | prenvuñun |
-| F-C | -ma | prenma | prenman | prenmaş | prenmas | prenmañ | prenmañan |
-| F-C | -me | prenme | prenmen | prenmeş | prenmes | prenmeñ | prenmeñen |
-| F-C | -mi | prenmi | prenmin | prenmiş | prenmis | prenmiñ | prenmiñin |
-| F-C | -mo | prenmo | prenmon | prenmoş | prenmos | prenmoñ | prenmoñon |
-| F-C | -mu | prenmu | prenmun | prenmuş | prenmus | prenmuñ | prenmuñun |
-| N-A | -na | prenna | prennan | prennaş | prennas | prennañ | prennañan |
-| N-A | -ne | prenne | prennen | prenneş | prennes | prenneñ | prenneñen |
-| N-A | -ni | prenni | prennin | prenniş | prennis | prenniñ | prenniñin |
-| N-A | -no | prenno | prennon | prennoş | prennos | prennoñ | prennoñon |
-| N-A | -nu | prennu | prennun | prennuş | prennus | prennuñ | prennuñun |
-| N-B | -sa | prensa | prensan | prensaş | prensas | prensañ | prensañan |
-| N-B | -se | prense | prensen | prenseş | prenses | prenseñ | prenseñen |
-| N-B | -si | prensi | prensin | prensiş | prensis | prensiñ | prensiñin |
-| N-B | -so | prenso | prenson | prensoş | prensos | prensoñ | prensoñon |
-| N-B | -su | prensu | prensun | prensuş | prensus | prensuñ | prensuñun |
-| N-C | -ta | prenta | prentan | prentaş | prentas | prentañ | prentañan |
-| N-C | -te | prente | prenten | prenteş | prentes | prenteñ | prenteñen |
-| N-C | -ti | prenti | prentin | prentiş | prentis | prentiñ | prentiñin |
-| N-C | -to | prento | prenton | prentoş | prentos | prentoñ | prentoñon |
-| N-C | -tu | prentu | prentun | prentuş | prentus | prentuñ | prentuñun |
-
-Befund: Alle 45 Endungen deklinieren mechanisch fehlerfrei über alle vier Fälle und den Plural (Echovokal = Themavokal, U-09). Alle 270 erzeugten Formen sind §5-konform (maschinell geprüft); keine Kollision zwischen Endung und Marker.
+| Klasse | Endung | Nom Sg | Akk Sg | Dat Sg | Gen Sg | Nom Pl | Akk Pl | Dat Pl | Gen Pl |
+|---|---|---|---|---|---|---|---|---|---|
+| M-A | -ra | prenra | prenran | prenraş | prenras | prenrañ | prenrañan | prenrañaş | prenrañas |
+| M-A | -re | prenre | prenren | prenreş | prenres | prenreñ | prenreñen | prenreñeş | prenreñes |
+| M-A | -ri | prenri | prenrin | prenriş | prenris | prenriñ | prenriñin | prenriñiş | prenriñis |
+| M-A | -ro | prenro | prenron | prenroş | prenros | prenroñ | prenroñon | prenroñoş | prenroños |
+| M-A | -ru | prenru | prenrun | prenruş | prenrus | prenruñ | prenruñun | prenruñuş | prenruñus |
+| M-B | -ka | prenka | prenkan | prenkaş | prenkas | prenkañ | prenkañan | prenkañaş | prenkañas |
+| M-B | -ke | prenke | prenken | prenkeş | prenkes | prenkeñ | prenkeñen | prenkeñeş | prenkeñes |
+| M-B | -ki | prenki | prenkin | prenkiş | prenkis | prenkiñ | prenkiñin | prenkiñiş | prenkiñis |
+| M-B | -ko | prenko | prenkon | prenkoş | prenkos | prenkoñ | prenkoñon | prenkoñoş | prenkoños |
+| M-B | -ku | prenku | prenkun | prenkuş | prenkus | prenkuñ | prenkuñun | prenkuñuş | prenkuñus |
+| M-C | -da | prenda | prendan | prendaş | prendas | prendañ | prendañan | prendañaş | prendañas |
+| M-C | -de | prende | prenden | prendeş | prendes | prendeñ | prendeñen | prendeñeş | prendeñes |
+| M-C | -di | prendi | prendin | prendiş | prendis | prendiñ | prendiñin | prendiñiş | prendiñis |
+| M-C | -do | prendo | prendon | prendoş | prendos | prendoñ | prendoñon | prendoñoş | prendoños |
+| M-C | -du | prendu | prendun | prenduş | prendus | prenduñ | prenduñun | prenduñuş | prenduñus |
+| F-A | -la | prenla | prenlan | prenlaş | prenlas | prenlañ | prenlañan | prenlañaş | prenlañas |
+| F-A | -le | prenle | prenlen | prenleş | prenles | prenleñ | prenleñen | prenleñeş | prenleñes |
+| F-A | -li | prenli | prenlin | prenliş | prenlis | prenliñ | prenliñin | prenliñiş | prenliñis |
+| F-A | -lo | prenlo | prenlon | prenloş | prenlos | prenloñ | prenloñon | prenloñoş | prenloños |
+| F-A | -lu | prenlu | prenlun | prenluş | prenlus | prenluñ | prenluñun | prenluñuş | prenluñus |
+| F-B | -va | prenva | prenvan | prenvaş | prenvas | prenvañ | prenvañan | prenvañaş | prenvañas |
+| F-B | -ve | prenve | prenven | prenveş | prenves | prenveñ | prenveñen | prenveñeş | prenveñes |
+| F-B | -vi | prenvi | prenvin | prenviş | prenvis | prenviñ | prenviñin | prenviñiş | prenviñis |
+| F-B | -vo | prenvo | prenvon | prenvoş | prenvos | prenvoñ | prenvoñon | prenvoñoş | prenvoños |
+| F-B | -vu | prenvu | prenvun | prenvuş | prenvus | prenvuñ | prenvuñun | prenvuñuş | prenvuñus |
+| F-C | -ma | prenma | prenman | prenmaş | prenmas | prenmañ | prenmañan | prenmañaş | prenmañas |
+| F-C | -me | prenme | prenmen | prenmeş | prenmes | prenmeñ | prenmeñen | prenmeñeş | prenmeñes |
+| F-C | -mi | prenmi | prenmin | prenmiş | prenmis | prenmiñ | prenmiñin | prenmiñiş | prenmiñis |
+| F-C | -mo | prenmo | prenmon | prenmoş | prenmos | prenmoñ | prenmoñon | prenmoñoş | prenmoños |
+| F-C | -mu | prenmu | prenmun | prenmuş | prenmus | prenmuñ | prenmuñun | prenmuñuş | prenmuñus |
+| N-A | -na | prenna | prennan | prennaş | prennas | prennañ | prennañan | prennañaş | prennañas |
+| N-A | -ne | prenne | prennen | prenneş | prennes | prenneñ | prenneñen | prenneñeş | prenneñes |
+| N-A | -ni | prenni | prennin | prenniş | prennis | prenniñ | prenniñin | prenniñiş | prenniñis |
+| N-A | -no | prenno | prennon | prennoş | prennos | prennoñ | prennoñon | prennoñoş | prennoños |
+| N-A | -nu | prennu | prennun | prennuş | prennus | prennuñ | prennuñun | prennuñuş | prennuñus |
+| N-B | -sa | prensa | prensan | prensaş | prensas | prensañ | prensañan | prensañaş | prensañas |
+| N-B | -se | prense | prensen | prenseş | prenses | prenseñ | prenseñen | prenseñeş | prenseñes |
+| N-B | -si | prensi | prensin | prensiş | prensis | prensiñ | prensiñin | prensiñiş | prensiñis |
+| N-B | -so | prenso | prenson | prensoş | prensos | prensoñ | prensoñon | prensoñoş | prensoños |
+| N-B | -su | prensu | prensun | prensuş | prensus | prensuñ | prensuñun | prensuñuş | prensuñus |
+| N-C | -ta | prenta | prentan | prentaş | prentas | prentañ | prentañan | prentañaş | prentañas |
+| N-C | -te | prente | prenten | prenteş | prentes | prenteñ | prenteñen | prenteñeş | prenteñes |
+| N-C | -ti | prenti | prentin | prentiş | prentis | prentiñ | prentiñin | prentiñiş | prentiñis |
+| N-C | -to | prento | prenton | prentoş | prentos | prentoñ | prentoñon | prentoñoş | prentoños |
+| N-C | -tu | prentu | prentun | prentuş | prentus | prentuñ | prentuñun | prentuñuş | prentuñus |
+Befund: Alle 45 Endungen deklinieren mechanisch fehlerfrei über alle vier Fälle und den Plural (Echovokal = Themavokal, U-09). Alle 360 erzeugten Formen (45 Endungen × 8 = volle Kasus-/Numerus-Matrix) sind §5-konform (maschinell geprüft); keine Kollision zwischen Endung und Marker.
 
 ## ANHANG 2 — VERBPARADIGMEN (Stresstest J)
 
