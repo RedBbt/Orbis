@@ -1,0 +1,132 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md §26",
+  "erzeugt_von": "tools/migration/ (Phase A)",
+  "hinweis": "Maschinenlesbare Fassung der Schriftregeln aus §26. Keine neuen Zeichen, keine Festlegung offener Punkte. Glyphenformen selbst sind NICHT enthalten — sie existieren bisher nur als Konzeptbeschreibung in §26.",
+  "status": "provisional",
+  "silbenformel": {
+    "paragraph": "§26.1",
+    "bestandteile": [
+      "Kernkonsonant oder Vokaltraeger",
+      "optionaler zweiter Anfangskonsonant",
+      "Vokalzeichen",
+      "Coda 1 (optional)",
+      "Coda 2 (optional)",
+      "Satzabschluss (optional)"
+    ],
+    "max_onset": 2,
+    "max_coda": 2,
+    "deckungsgleich_mit": "§5 (Silbenstruktur der gesprochenen Sprache)"
+  },
+  "kernformen": {
+    "paragraph": "§26.2",
+    "anzahl": 20,
+    "zusammensetzung": {
+      "konsonanten": 19,
+      "vokaltraeger": 1
+    },
+    "hinweis": "20 Kernformen = 19 Konsonanten + 1 Vokaltraeger. §26.8 spricht faelschlich von '20 Konsonantentasten' — Befund U-10.",
+    "familien_anzahl": 8,
+    "konsonanten": [
+      "b",
+      "d",
+      "f",
+      "g",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "p",
+      "r",
+      "s",
+      "t",
+      "v",
+      "x",
+      "z",
+      "ç",
+      "ñ",
+      "ş"
+    ],
+    "vokaltraeger": {
+      "funktion": "traegt einen Vokal ohne vorangehenden Konsonanten",
+      "ist_konsonant": false
+    }
+  },
+  "vokalzeichen": {
+    "paragraph": "§26.4",
+    "inhaerent": "a",
+    "punktpositionen": [
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "diphthongschreibung": "Erstvokalzeichen + kleiner Zweitpunkt",
+    "schreibbare_diphthonge": [
+      "ai",
+      "au",
+      "ei",
+      "ui",
+      "eu",
+      "oi"
+    ],
+    "hinweis": "ou ist nicht schreibbar, solange §2.3 ihn offen fuehrt."
+  },
+  "coda": {
+    "paragraph": "§26.5–§26.6",
+    "coda1": "verkleinert unten rechts",
+    "coda2": "daneben, eine Stufe tiefer"
+  },
+  "abschlusszeichen": {
+    "paragraph": "§26.7",
+    "anzahl": 6,
+    "ebene": "eigene Ebene, von der Coda durch drei Kriterien getrennt"
+  },
+  "strichstaerke": {
+    "paragraph": "§26.9",
+    "status": "open",
+    "befund": "L-10",
+    "definiert": {
+      "duenn": [
+        "Vokalzeichen"
+      ],
+      "mittel": [
+        "l",
+        "r",
+        "m",
+        "n",
+        "ñ"
+      ],
+      "dick": [
+        "p",
+        "t",
+        "k",
+        "b",
+        "d",
+        "g"
+      ]
+    },
+    "undefiniert": [
+      "f",
+      "s",
+      "ş",
+      "x",
+      "v",
+      "z",
+      "j",
+      "ç"
+    ],
+    "hinweis": "8 der 19 Konsonanten haben keine Strichstaerke (7 Reibelaute + Affrikate)."
+  },
+  "tastatur": {
+    "paragraph": "§26.8",
+    "status": "blocked",
+    "befund": "L-09",
+    "hinweis": "Die Eingabereihenfolge ist beschrieben, die Rueckuebertragung aus der Lateinschreibung nicht: ohne Silbifizierungsregel bleiben 77 von 281 Grundformen mehrdeutig."
+  },
+  "offene_befunde": [
+    "L-09",
+    "L-10",
+    "U-10"
+  ]
+}

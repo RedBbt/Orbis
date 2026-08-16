@@ -1,0 +1,35 @@
+{
+  "status": "EXPERIMENTAL",
+  "kanonisch": false,
+  "warnung": "NICHT KANONISCH. Wortspuren sind eine Designidee, keine bestehende Orbis-Regel. Sie duerfen in keiner Grammatik-, Lexikon- oder Korpusdatei als geltendes System erscheinen und nicht mit Flexionsmorphemen vermischt werden (ORBIS_CONSTITUTION Art. 20).",
+  "ebene": "Evidenz und Sprecherperspektive — getrennt von Phonologie (Manus-Silben), Morphologie (Kasus/Numerus/Tempus/Person) und Pragmatik (Satzabschluesse)",
+  "konzepte": [
+    {
+      "id": "TRACE-EXP-001",
+      "arbeitsname": "Moeglichkeit / moegliche Zukunft",
+      "abgrenzung": "nicht identisch mit der Moeglichkeitsform mai (§16.2), die eine grammatische Partikel ist"
+    },
+    {
+      "id": "TRACE-EXP-002",
+      "arbeitsname": "Erinnerung / vergangene Erinnerung",
+      "abgrenzung": "nicht identisch mit dem Tempus Vergangenheit (§15)"
+    },
+    {
+      "id": "TRACE-EXP-003",
+      "arbeitsname": "gehoert / berichtet",
+      "abgrenzung": "keine Entsprechung in 0.9.3"
+    },
+    {
+      "id": "TRACE-EXP-004",
+      "arbeitsname": "selbst erlebt / direkt erfahren",
+      "abgrenzung": "keine Entsprechung in 0.9.3"
+    }
+  ],
+  "offene_fragen": [
+    "Sind Wortspuren Schriftzeichen, Morpheme oder eine eigene Ebene?",
+    "Gelten sie je Wort, je Satzglied oder je Satz?",
+    "Wie verhalten sie sich zu den sechs Satzabschluesse aus §26.7?",
+    "Sind sie obligatorisch oder fakultativ?"
+  ],
+  "entscheidung_noetig_durch": "Sprachdesigner (bisher kein ADR)"
+}
