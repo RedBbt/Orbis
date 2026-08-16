@@ -113,7 +113,7 @@ Satz 48: Xla loşna sarla talat.
 **130 von 130 bildbaren Orbis-Sätzen ohne automatischen Befund** (die 20 als Lücke/Konflikt/Unklarheit/Testproblem markierten Tests enthalten definitionsgemäß keinen prüfbaren Satz). 
 Kein Satz enthält eine unbekannte Wortform, einen Phonotaktikverstoß (jenseits K-01), eine Geminate, einen Präpositionskasus-Fehler oder eine NP-Inkongruenz.
 
-Zusätzlich wurden die 270 [TESTFORM]-Deklinationsformen des Anhangs (45 Endungen × 6 Formen) maschinell erzeugt und §5-geprüft: alle konform.
+Zusätzlich wurden die 360 [TESTFORM]-Deklinationsformen des Anhangs (45 Endungen × 8 Formen, volle Kasus-/Numerus-Matrix) maschinell erzeugt und §5-geprüft: alle konform.
 
 ## 6. Selbstvalidierung des Validators
 

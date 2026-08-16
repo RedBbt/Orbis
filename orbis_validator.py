@@ -19,6 +19,11 @@ Aufrufe:
   python3 orbis_validator.py --manus        Manus-Silbenzerlegung des Wortschatzes
   python3 orbis_validator.py --json DATEI   Testkorpus als JSON exportieren
   python3 orbis_validator.py --all          Gesamtlauf
+  python3 orbis_validator.py --strict       Befunde gegen orbis_baseline.json;
+                                            Exit 1 bei NEUEN Befunden (CI)
+  python3 orbis_validator.py --update-baseline  Baseline neu schreiben
+  python3 orbis_validator.py --sim-l09      Silbifizierungs-Simulation
+                                            (Entscheidungswerkzeug, KEINE Regel)
 """
 
 import sys, re, json, unicodedata
@@ -874,6 +879,7 @@ def run_corpus(path):
 TESTSTEM = "pren"   # [TESTFORM]-Stamm, rein morphologischer Träger
 
 def table_45():
+    """Vollmatrix: 45 Endungen x 8 Formen (4 Kasus Sg + 4 Kasus Pl) = 360."""
     rows = []
     for g in ("M", "F", "N"):
         for sub in ("A", "B", "C"):
@@ -885,7 +891,9 @@ def table_45():
                              decline_regular_noun(lemma, "dat", "sg"),
                              decline_regular_noun(lemma, "gen", "sg"),
                              decline_regular_noun(lemma, "nom", "pl"),
-                             decline_regular_noun(lemma, "akk", "pl")))
+                             decline_regular_noun(lemma, "akk", "pl"),
+                             decline_regular_noun(lemma, "dat", "pl"),
+                             decline_regular_noun(lemma, "gen", "pl")))
     return rows
 
 def table_verb(root):
@@ -957,10 +965,10 @@ def main(argv):
         print()
     if "--tables" in args:
         print("== 45 ENDUNGEN — [TESTFORM]-Stamm '" + TESTSTEM + "-' ==")
-        print("| Klasse | Endung | Nom Sg | Akk Sg | Dat Sg | Gen Sg | Nom Pl | Akk Pl |")
-        print("|---|---|---|---|---|---|---|---|")
-        for kl, end, nom, akk, dat, gen, npl, apl in table_45():
-            print(f"| {kl} | -{end} | {nom} | {akk} | {dat} | {gen} | {npl} | {apl} |")
+        print("| Klasse | Endung | Nom Sg | Akk Sg | Dat Sg | Gen Sg | Nom Pl | Akk Pl | Dat Pl | Gen Pl |")
+        print("|---|---|---|---|---|---|---|---|---|---|")
+        for kl, end, nom, akk, dat, gen, npl, apl, dpl, gpl in table_45():
+            print(f"| {kl} | -{end} | {nom} | {akk} | {dat} | {gen} | {npl} | {apl} | {dpl} | {gpl} |")
         print()
         print("== REGELMÄSSIGES VERB milk- (6 Personen × 3 Zeiten) ==")
         for t, p, f in table_verb("milk"): print(f"{t:5} {p:4} {f}")
@@ -980,6 +988,10 @@ def main(argv):
                 for p in parses[:6]: print("    " + fmt_parse(p))
         print(f"({amb} von {tot} Grundformen mehrdeutig zerlegbar)")
         print()
+    if "--strict" in args or "--update-baseline" in args:
+        return run_strict(update="--update-baseline" in args)
+    if "--sim-l09" in args:
+        return run_sim_l09()
     if "--json" in args:
         path = args[args.index("--json") + 1]
         data = []
@@ -987,6 +999,154 @@ def main(argv):
             data.append({"test": test_no, "orbis": s,
                          "auto_befunde": probs, "vk_woerter": vk})
         print(json.dumps(data, ensure_ascii=False, indent=1))
+    return 0
+
+
+# =========================================================================
+# TEIL 4 — STRICT-MODUS (CI-Baseline) UND L-09-SIMULATION
+# =========================================================================
+# Nachtrag Runde 2. Der Strict-Modus vergleicht die aktuellen Befunde mit
+# einer Baseline bekannter Befunde (orbis_baseline.json): bekannte Befunde
+# gelten als akzeptiert (dokumentiert im Audit), NEUE Befunde lassen den
+# Lauf mit Exit-Code 1 scheitern. Die L-09-Simulation ist ein reines
+# Entscheidungswerkzeug — sie legt KEINE Sprachregel fest.
+
+BASELINE_PATH = "orbis_baseline.json"
+
+def collect_findings(corpus_path=None):
+    """Alle automatischen Befunde als stabile Signaturstrings."""
+    sigs = set()
+    for kind, w, cat, msg in run_lexicon():
+        sigs.add(f"LEX|{kind}|{w}")
+    for ref, s, probs in run_examples():
+        for p in probs:
+            sigs.add(f"EX|{ref}|{p.split(':')[0].strip()}|{p.split(':',1)[1].strip()[:40]}")
+    if corpus_path:
+        for test_no, s, probs, vk in run_corpus(corpus_path):
+            for p in probs:
+                sigs.add(f"KORPUS|Test{test_no}|{p[:60]}")
+    # 360er-Matrix muss immer vollstaendig §5-konform sein
+    for row in table_45():
+        for f in row[2:]:
+            if phonotactics_verdict(f)[0] != "ok":
+                sigs.add(f"MATRIX|{f}|nicht §5-konform")
+    return sigs
+
+def run_strict(update=False, corpus_path="Orbis-Testkorpus-0_1.md"):
+    import os
+    current = collect_findings(corpus_path if os.path.exists(corpus_path) else None)
+    if update:
+        json.dump(sorted(current), open(BASELINE_PATH, "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        print(f"Baseline geschrieben: {len(current)} bekannte Befunde -> {BASELINE_PATH}")
+        return 0
+    try:
+        baseline = set(json.load(open(BASELINE_PATH, encoding="utf-8")))
+    except FileNotFoundError:
+        print(f"FEHLER: {BASELINE_PATH} fehlt. Mit --update-baseline erzeugen.")
+        return 1
+    new = sorted(current - baseline)
+    fixed = sorted(baseline - current)
+    print(f"Strict-Lauf: {len(current)} Befunde aktuell, {len(baseline)} in der Baseline.")
+    if fixed:
+        print(f"{len(fixed)} Baseline-Befunde nicht mehr vorhanden (behoben?):")
+        for s in fixed: print("  -", s)
+    if new:
+        print(f"NEUE BEFUNDE ({len(new)}) — nicht in der Baseline:")
+        for s in new: print("  -", s)
+        return 1
+    print("Keine neuen Befunde. OK.")
+    return 0
+
+# --- L-09: deterministische Silbifizierung (SIMULATION) -------------------
+def pref_syllabify(word, mode="max"):
+    """Deterministische Zerlegung nach Kandidatenregel:
+    1. Diphthong-Vorrang: an jeder Vokalstelle wird der laengste Nukleus
+       (Diphthong vor Einzelvokal) gewaehlt.
+    2. Onset-Zuweisung fuer jede Konsonantengruppe zwischen zwei Nuklei:
+       mode='max' -> maximal zulaessiger Onset der Folgesilbe (2 wenn in
+       §5.2-Liste, sonst 1); mode='min' -> genau 1 Konsonant als Onset,
+       Rest als Coda.
+    Wortinitiale Gruppe = ganz Onset, wortfinale Gruppe = ganz Coda.
+    Liefert (parse, fehler): parse als [(onset,nukleus,coda), ...] oder None."""
+    # Kette in Nuklei und Konsonantengruppen zerlegen (Diphthong-Vorrang)
+    units = []; i = 0
+    while i < len(word):
+        if word[i] in VOWELS:
+            if word[i:i+2] in DIPHTHONGS:
+                units.append(("V", word[i:i+2])); i += 2
+            else:
+                units.append(("V", word[i])); i += 1
+        elif word[i] in CONSONANTS:
+            j = i
+            while j < len(word) and word[j] in CONSONANTS: j += 1
+            units.append(("K", word[i:j])); i = j
+        else:
+            return None, f"fremdes Zeichen {word[i]!r}"
+    sylls = []; onset = ""
+    for idx, (kind, seg) in enumerate(units):
+        if kind == "K":
+            if idx == 0:
+                onset = seg
+                if len(onset) > 2 or (len(onset) == 2 and onset not in ONSETS2):
+                    return None, f"Anlautgruppe {onset!r} unzulaessig"
+            elif idx == len(units) - 1:
+                if not sylls: return None, "keine Silbe vor Endgruppe"
+                if len(seg) > 2: return None, f"Endgruppe {seg!r} zu lang"
+                if len(seg) == 2 and not coda_pair_ok(seg):
+                    return None, f"Endgruppe {seg!r} unzulaessig (§5.3)"
+                o, n, c = sylls[-1]
+                if c: return None, "Coda-Kollision"
+                sylls[-1] = (o, n, seg)
+            else:
+                take = 0
+                if mode == "max":
+                    if len(seg) >= 2 and seg[-2:] in ONSETS2: take = 2
+                    elif seg[-1] in CONSONANTS: take = 1
+                else:
+                    take = 1
+                coda = seg[:len(seg) - take]; onset = seg[len(seg) - take:]
+                if len(coda) > 2: return None, f"Restcoda {coda!r} zu lang"
+                if len(coda) == 2 and not coda_pair_ok(coda):
+                    return None, f"Restcoda {coda!r} unzulaessig (§5.3)"
+                if coda:
+                    o, n, c = sylls[-1]
+                    if c: return None, "Coda-Kollision"
+                    sylls[-1] = (o, n, coda)
+        else:
+            sylls.append((onset, seg, "")); onset = ""
+    if onset and not sylls:
+        return None, "kein Nukleus"
+    return sylls, None
+
+def run_sim_l09():
+    print("== L-09-SIMULATION (KEINE SPRACHREGEL) ==")
+    print("Kandidatenregel: Diphthong-Vorrang + Onset-Zuweisung.")
+    print("Variante A = Onset-Maximierung (§5.2-Cluster bevorzugt),")
+    print("Variante B = Minimal-Onset (genau 1 Konsonant, Rest Coda).\n")
+    stats = {"A": 0, "B": 0, "fail_A": [], "fail_B": [], "diff": []}
+    amb_resolved = 0; amb_total = 0
+    for w, cat, parses, verd in manus_report_data():
+        ambiguous = "AMBIGUITÄT" in verd
+        if ambiguous: amb_total += 1
+        pa, ea = pref_syllabify(w, "max")
+        pb, eb = pref_syllabify(w, "min")
+        if pa: stats["A"] += 1
+        else: stats["fail_A"].append((w, ea))
+        if pb: stats["B"] += 1
+        else: stats["fail_B"].append((w, eb))
+        if pa and ambiguous: amb_resolved += 1
+        if pa and pb and pa != pb:
+            stats["diff"].append((w, fmt_parse(pa).split("  ")[0], fmt_parse(pb).split("  ")[0]))
+    total = len(manus_report_data())
+    print(f"Variante A loest {stats['A']}/{total} Grundformen eindeutig; Fehlschlaege: {len(stats['fail_A'])}")
+    for w, e in stats["fail_A"]: print(f"   A-FAIL {w}: {e}")
+    print(f"Variante B loest {stats['B']}/{total}; Fehlschlaege: {len(stats['fail_B'])}")
+    for w, e in stats["fail_B"]: print(f"   B-FAIL {w}: {e}")
+    print(f"\nVon den {amb_total} bisher mehrdeutigen Formen loest Variante A: {amb_resolved}.")
+    print(f"\nFormen, bei denen A und B VERSCHIEDEN entscheiden ({len(stats['diff'])}) — hier liegt die eigentliche Designentscheidung:")
+    for w, a, b in stats["diff"]:
+        print(f"   {w}:  A {a}   |   B {b}")
     return 0
 
 if __name__ == "__main__":
