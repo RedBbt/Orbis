@@ -1,0 +1,117 @@
+{
+  "lexeme_id": "ORB-LEX-000031",
+  "lemma": "morda",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "wetter"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Sturm",
+    "definition": "Sturm. Regulaeres Nomen der Klasse M-C (Themavokal -a). (Migrierte Woerterbuchglosse aus §24.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "storm",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "M-C",
+    "unterklasse": "C",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "morda",
+      "akk_sg": "mordan",
+      "dat_sg": "mordaş",
+      "gen_sg": "mordas",
+      "nom_pl": "mordañ",
+      "akk_pl": "mordañan",
+      "dat_pl": "mordañaş",
+      "gen_pl": "mordañas"
+    },
+    "plural": "mordañ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "o",
+      "r",
+      "d",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "mor·da",
+      "mord·a"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000031"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.2"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "lexeme_id": "ORB-LEX-000113",
+  "lemma": "trelm",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "raum"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "lang",
+    "definition": "lang. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "long",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "trelmvi",
+      "superlativ": "trelmvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "trelmra",
+      "M_nom_pl": "trelmrañ",
+      "M_akk_sg": "trelmran",
+      "M_akk_pl": "trelmrañan",
+      "M_dat_sg": "trelmraş",
+      "M_dat_pl": "trelmrañaş",
+      "M_gen_sg": "trelmras",
+      "M_gen_pl": "trelmrañas",
+      "F_nom_sg": "trelmla",
+      "F_nom_pl": "trelmlañ",
+      "F_akk_sg": "trelmlan",
+      "F_akk_pl": "trelmlañan",
+      "F_dat_sg": "trelmlaş",
+      "F_dat_pl": "trelmlañaş",
+      "F_gen_sg": "trelmlas",
+      "F_gen_pl": "trelmlañas",
+      "N_nom_sg": "trelmna",
+      "N_nom_pl": "trelmnañ",
+      "N_akk_sg": "trelmnan",
+      "N_akk_pl": "trelmnañan",
+      "N_dat_sg": "trelmnaş",
+      "N_dat_pl": "trelmnañaş",
+      "N_gen_sg": "trelmnas",
+      "N_gen_pl": "trelmnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "r",
+      "e",
+      "l",
+      "m"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "trelm"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "trelm"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000113"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000114",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

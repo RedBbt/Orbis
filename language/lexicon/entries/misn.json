@@ -1,0 +1,135 @@
+{
+  "lexeme_id": "ORB-LEX-000114",
+  "lemma": "misn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "raum"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "kurz",
+    "definition": "kurz. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "short",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "misnvi",
+      "superlativ": "misnvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "misnra",
+      "M_nom_pl": "misnrañ",
+      "M_akk_sg": "misnran",
+      "M_akk_pl": "misnrañan",
+      "M_dat_sg": "misnraş",
+      "M_dat_pl": "misnrañaş",
+      "M_gen_sg": "misnras",
+      "M_gen_pl": "misnrañas",
+      "F_nom_sg": "misnla",
+      "F_nom_pl": "misnlañ",
+      "F_akk_sg": "misnlan",
+      "F_akk_pl": "misnlañan",
+      "F_dat_sg": "misnlaş",
+      "F_dat_pl": "misnlañaş",
+      "F_gen_sg": "misnlas",
+      "F_gen_pl": "misnlañas",
+      "N_nom_sg": "misna",
+      "N_nom_pl": "misnañ",
+      "N_akk_sg": "misnan",
+      "N_akk_pl": "misnañan",
+      "N_dat_sg": "misnaş",
+      "N_dat_pl": "misnañaş",
+      "N_gen_sg": "misnas",
+      "N_gen_pl": "misnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "i",
+      "s",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "misn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "misn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000114"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000113",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

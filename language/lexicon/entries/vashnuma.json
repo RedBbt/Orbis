@@ -1,0 +1,120 @@
+{
+  "lexeme_id": "ORB-LEX-000063",
+  "lemma": "vaşnuma",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "abstrakta"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Vergänglichkeit",
+    "definition": "Vergänglichkeit. Regulaeres Nomen der Klasse F-C (Themavokal -a). Abstraktum auf -uma (§21.1/§24.6). (Migrierte Woerterbuchglosse aus §24.6; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "transience",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "F-C",
+    "unterklasse": "C",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "vaşnuma",
+      "akk_sg": "vaşnuman",
+      "dat_sg": "vaşnumaş",
+      "gen_sg": "vaşnumas",
+      "nom_pl": "vaşnumañ",
+      "akk_pl": "vaşnumañan",
+      "dat_pl": "vaşnumañaş",
+      "gen_pl": "vaşnumañas"
+    },
+    "plural": "vaşnumañ",
+    "zaehlbarkeit": "unzaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "a",
+      "ş",
+      "n",
+      "u",
+      "m",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "vaş·nu·ma",
+      "vaş·num·a",
+      "vaşn·u·ma"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 3,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000063"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.6"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "lexeme_id": "ORB-LEX-000021",
+  "lemma": "zaldre",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "zeit"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Tag",
+    "definition": "Tag. Regulaeres Nomen der Klasse M-A (Themavokal -e). (Migrierte Woerterbuchglosse aus §24.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "day",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "M-A",
+    "unterklasse": "A",
+    "themavokal": "e",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "zaldre",
+      "akk_sg": "zaldren",
+      "dat_sg": "zaldreş",
+      "gen_sg": "zaldres",
+      "nom_pl": "zaldreñ",
+      "akk_pl": "zaldreñen",
+      "dat_pl": "zaldreñeş",
+      "gen_pl": "zaldreñes"
+    },
+    "plural": "zaldreñ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "z",
+      "a",
+      "l",
+      "d",
+      "r",
+      "e"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "zal·dre",
+      "zald·re"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000021"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.2"
+  }
+}

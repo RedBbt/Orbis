@@ -1,0 +1,116 @@
+{
+  "lexeme_id": "ORB-LEX-000001",
+  "lemma": "kaun",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kernwort",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "mensch"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Mensch",
+    "definition": "Mensch. Historisches Kernwort (M); dekliniert mit Bindevokal -e- im Singular und -ei im Plural (§10.3). (Migrierte Woerterbuchglosse aus §24.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "human being",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "kernwort",
+    "unterklasse": null,
+    "themavokal": null,
+    "deklination": "kernwort",
+    "kasusformen": {
+      "nom_sg": "kaun",
+      "akk_sg": "kaunen",
+      "dat_sg": "kauneş",
+      "gen_sg": "kaunes",
+      "nom_pl": "kaunei",
+      "akk_pl": "kaunein",
+      "dat_pl": "kauneiş",
+      "gen_pl": "kauneis"
+    },
+    "plural": "kaunei",
+    "zaehlbarkeit": "unbestimmt"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "k",
+      "a",
+      "u",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "kaun"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "kaun"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000001"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.1"
+  }
+}

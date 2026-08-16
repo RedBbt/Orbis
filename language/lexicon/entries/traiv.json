@@ -1,0 +1,132 @@
+{
+  "lexeme_id": "ORB-LEX-000084",
+  "lemma": "traiv",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "wahrnehmung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "finden",
+    "definition": "finden. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to find",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "traiv",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "traivex",
+    "partizip": "traivut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "traivam",
+        "2sg": "traivaş",
+        "3sg": "traivat",
+        "1pl": "traivamen",
+        "2pl": "traivaşen",
+        "3pl": "traivaten"
+      },
+      "vgh": {
+        "1sg": "traivom",
+        "2sg": "traivoş",
+        "3sg": "traivot",
+        "1pl": "traivomen",
+        "2pl": "traivoşen",
+        "3pl": "traivoten"
+      },
+      "fut": {
+        "1sg": "traivaim",
+        "2sg": "traivaiş",
+        "3sg": "traivait",
+        "1pl": "traivaimen",
+        "2pl": "traivaişen",
+        "3pl": "traivaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "r",
+      "a",
+      "i",
+      "v"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "traiv"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "traiv"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000084"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

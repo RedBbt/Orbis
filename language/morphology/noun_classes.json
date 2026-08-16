@@ -1,0 +1,265 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§6–§7",
+  "regel_id": "ORB-GRAM-MOR-002",
+  "status": "canonical",
+  "klassenkonsonanten": {
+    "M": {
+      "A": "r",
+      "B": "k",
+      "C": "d"
+    },
+    "F": {
+      "A": "l",
+      "B": "v",
+      "C": "m"
+    },
+    "N": {
+      "A": "n",
+      "B": "s",
+      "C": "t"
+    }
+  },
+  "themavokale": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u"
+  ],
+  "endungen": [
+    {
+      "endung": "da",
+      "genus": "M",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "de",
+      "genus": "M",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "di",
+      "genus": "M",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "do",
+      "genus": "M",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "du",
+      "genus": "M",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "ka",
+      "genus": "M",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ke",
+      "genus": "M",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ki",
+      "genus": "M",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ko",
+      "genus": "M",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ku",
+      "genus": "M",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "la",
+      "genus": "F",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "le",
+      "genus": "F",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "li",
+      "genus": "F",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "lo",
+      "genus": "F",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "lu",
+      "genus": "F",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ma",
+      "genus": "F",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "me",
+      "genus": "F",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "mi",
+      "genus": "F",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "mo",
+      "genus": "F",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "mu",
+      "genus": "F",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "na",
+      "genus": "N",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ne",
+      "genus": "N",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ni",
+      "genus": "N",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "no",
+      "genus": "N",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "nu",
+      "genus": "N",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ra",
+      "genus": "M",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "re",
+      "genus": "M",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ri",
+      "genus": "M",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ro",
+      "genus": "M",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "ru",
+      "genus": "M",
+      "unterklasse": "A"
+    },
+    {
+      "endung": "sa",
+      "genus": "N",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "se",
+      "genus": "N",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "si",
+      "genus": "N",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "so",
+      "genus": "N",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "su",
+      "genus": "N",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ta",
+      "genus": "N",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "te",
+      "genus": "N",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "ti",
+      "genus": "N",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "to",
+      "genus": "N",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "tu",
+      "genus": "N",
+      "unterklasse": "C"
+    },
+    {
+      "endung": "va",
+      "genus": "F",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "ve",
+      "genus": "F",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "vi",
+      "genus": "F",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "vo",
+      "genus": "F",
+      "unterklasse": "B"
+    },
+    {
+      "endung": "vu",
+      "genus": "F",
+      "unterklasse": "B"
+    }
+  ],
+  "anzahl_endungen": 45,
+  "merksatz": "r-k-d maennlich, l-v-m weiblich, n-s-t saechlich",
+  "unterklassen_bedeutung": {
+    "status": "open",
+    "hinweis": "§7.4: Tendenz; endgueltige Funktion [NOCH ZU ENTSCHEIDEN]"
+  }
+}

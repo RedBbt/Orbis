@@ -1,0 +1,82 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§24.8",
+  "regel_id": "ORB-GRAM-MOR-013",
+  "status": "canonical",
+  "befunde": [
+    "L-08",
+    "K-03"
+  ],
+  "kardinalzahlen": [
+    {
+      "lemma": "nel",
+      "wert": 1
+    },
+    {
+      "lemma": "dram",
+      "wert": 2
+    },
+    {
+      "lemma": "teln",
+      "wert": 3
+    },
+    {
+      "lemma": "kalm",
+      "wert": 4
+    },
+    {
+      "lemma": "mern",
+      "wert": 5
+    },
+    {
+      "lemma": "vesn",
+      "wert": 6
+    },
+    {
+      "lemma": "zerm",
+      "wert": 7
+    },
+    {
+      "lemma": "glon",
+      "wert": 8
+    },
+    {
+      "lemma": "pirn",
+      "wert": 9
+    },
+    {
+      "lemma": "xelm",
+      "wert": 10
+    },
+    {
+      "lemma": "munar",
+      "wert": 100
+    },
+    {
+      "lemma": "kraven",
+      "wert": 1000
+    }
+  ],
+  "komposita_belegt": [
+    {
+      "lemma": "xelmnel",
+      "wert": 11
+    },
+    {
+      "lemma": "dramxelm",
+      "wert": 20
+    },
+    {
+      "lemma": "telnxelmmern",
+      "wert": 35
+    }
+  ],
+  "ordinalzahl_infix": "ost",
+  "syntax": {
+    "status": "open",
+    "befund": "L-08",
+    "beschreibung": "Kongruenz und Numerus des gezaehlten Nomens ungeregelt."
+  }
+}

@@ -1,0 +1,4 @@
+39807b1b1e4876bb23d86507a53449ac  orbis_validator.py
+8bfec2c1810011225ddb870839b6da20  Orbis-Grammatik-0.9.3.md
+9084092a540cde1c04db924005d0fa66  Orbis-Testkorpus-0_1.md
+d0f94ce99d88cdaa84c9978e9b86ec47  Orbis-Testdaten.json

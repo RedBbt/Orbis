@@ -1,0 +1,129 @@
+{
+  "lexeme_id": "ORB-LEX-000099",
+  "lemma": "nuv",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "unregelmaessig",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "existenz"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "haben",
+    "definition": "haben. Unregelmaessiges Verb; die belegten Tabellen sind massgeblich, die Formelbeschreibung in §15.2 deckt sie nicht vollstaendig (U-01). (Migrierte Woerterbuchglosse aus §15.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to have",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "nuv",
+    "konjugationsklasse": "unregelmaessig",
+    "infinitiv": "nuvex",
+    "partizip": "nuvut",
+    "unregelmaessige_formen": {
+      "praesens": {
+        "1sg": "num",
+        "2sg": "nuş",
+        "3sg": "nut",
+        "1pl": "numen",
+        "2pl": "nuşen",
+        "3pl": "nuten"
+      },
+      "vergangenheit": {
+        "1sg": "novem",
+        "2sg": "noveş",
+        "3sg": "novet",
+        "1pl": "novemen",
+        "2pl": "noveşen",
+        "3pl": "noveten"
+      },
+      "zukunft": {
+        "1sg": "nuvaim",
+        "2sg": "nuvaiş",
+        "3sg": "nuvait",
+        "1pl": "nuvaimen",
+        "2pl": "nuvaişen",
+        "3pl": "nuvaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "n",
+      "u",
+      "v"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "nuv"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "nuv"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000099"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "U-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§15.2"
+  }
+}

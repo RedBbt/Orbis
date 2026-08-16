@@ -1,0 +1,136 @@
+{
+  "lexeme_id": "ORB-LEX-000123",
+  "lemma": "klaun",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "abstrakta"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "wahr",
+    "definition": "wahr. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "true",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "klaunvi",
+      "superlativ": "klaunvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "klaunra",
+      "M_nom_pl": "klaunrañ",
+      "M_akk_sg": "klaunran",
+      "M_akk_pl": "klaunrañan",
+      "M_dat_sg": "klaunraş",
+      "M_dat_pl": "klaunrañaş",
+      "M_gen_sg": "klaunras",
+      "M_gen_pl": "klaunrañas",
+      "F_nom_sg": "klaunla",
+      "F_nom_pl": "klaunlañ",
+      "F_akk_sg": "klaunlan",
+      "F_akk_pl": "klaunlañan",
+      "F_dat_sg": "klaunlaş",
+      "F_dat_pl": "klaunlañaş",
+      "F_gen_sg": "klaunlas",
+      "F_gen_pl": "klaunlañas",
+      "N_nom_sg": "klauna",
+      "N_nom_pl": "klaunañ",
+      "N_akk_sg": "klaunan",
+      "N_akk_pl": "klaunañan",
+      "N_dat_sg": "klaunaş",
+      "N_dat_pl": "klaunañaş",
+      "N_gen_sg": "klaunas",
+      "N_gen_pl": "klaunañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "k",
+      "l",
+      "a",
+      "u",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "klaun"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "klaun"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000123"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000124",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

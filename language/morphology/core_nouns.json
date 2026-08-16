@@ -1,0 +1,91 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§10.2–§10.3, §24.1",
+  "regel_id": "ORB-GRAM-MOR-004",
+  "status": "canonical",
+  "anzahl": 15,
+  "deklination": {
+    "singular": "Stamm + Bindevokal -e- + Kasusmarker (Nominativ endungslos)",
+    "plural": "Stamm + -ei- + Kasusmarker",
+    "hinweis": "Bindevokal immer -e- (aulan, eirdas sind ausdruecklich falsch)"
+  },
+  "woerter": [
+    {
+      "lemma": "kaun",
+      "genus": "M",
+      "bedeutung_de": "Mensch"
+    },
+    {
+      "lemma": "veiş",
+      "genus": "F",
+      "bedeutung_de": "Mutter"
+    },
+    {
+      "lemma": "draun",
+      "genus": "M",
+      "bedeutung_de": "Vater"
+    },
+    {
+      "lemma": "şirn",
+      "genus": "N",
+      "bedeutung_de": "Kind"
+    },
+    {
+      "lemma": "aul",
+      "genus": "N",
+      "bedeutung_de": "Wasser"
+    },
+    {
+      "lemma": "xerp",
+      "genus": "M",
+      "bedeutung_de": "Feuer"
+    },
+    {
+      "lemma": "luiv",
+      "genus": "F",
+      "bedeutung_de": "Sonne"
+    },
+    {
+      "lemma": "grein",
+      "genus": "F",
+      "bedeutung_de": "Erde"
+    },
+    {
+      "lemma": "nauş",
+      "genus": "F",
+      "bedeutung_de": "Zeit"
+    },
+    {
+      "lemma": "virn",
+      "genus": "N",
+      "bedeutung_de": "Leben"
+    },
+    {
+      "lemma": "moks",
+      "genus": "M",
+      "bedeutung_de": "Tod"
+    },
+    {
+      "lemma": "eird",
+      "genus": "F",
+      "bedeutung_de": "Welt"
+    },
+    {
+      "lemma": "şaul",
+      "genus": "M",
+      "bedeutung_de": "Name"
+    },
+    {
+      "lemma": "taiv",
+      "genus": "F",
+      "bedeutung_de": "Sprache"
+    },
+    {
+      "lemma": "breun",
+      "genus": "N",
+      "bedeutung_de": "Haus"
+    }
+  ]
+}

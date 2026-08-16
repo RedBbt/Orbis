@@ -1,0 +1,2 @@
+Strict-Lauf: 39 Befunde aktuell, 39 in der Baseline.
+Keine neuen Befunde. OK.

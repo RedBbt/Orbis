@@ -1,0 +1,274 @@
+== MANUS-SILBENZERLEGUNG (§26) ==
+aul (Kernwort-N): [MANUS-AMBIGUITÄT] 2 Zerlegungen (nur mit VK/VKK)
+    a·ul  ([|a|] [|u|l])
+    aul  ([|au|l])
+eird (Kernwort-F): [MANUS-AMBIGUITÄT] 2 Zerlegungen (nur mit VK/VKK)
+    e·ird  ([|e|] [|i|rd])
+    eird  ([|ei|rd])
+velkran (Nomen10%-N): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    vel·kran  ([v|e|l] [kr|a|n])
+    velk·ran  ([v|e|lk] [r|a|n])
+valru (Nomen-M-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    val·ru  ([v|a|l] [r|u|])
+    valr·u  ([v|a|lr] [|u|])
+velkra (Nomen-M-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    vel·kra  ([v|e|l] [kr|a|])
+    velk·ra  ([v|e|lk] [r|a|])
+zaldre (Nomen-M-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    zal·dre  ([z|a|l] [dr|e|])
+    zald·re  ([z|a|ld] [r|e|])
+melru (Nomen-M-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    mel·ru  ([m|e|l] [r|u|])
+    melr·u  ([m|e|lr] [|u|])
+talru (Nomen-M-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    tal·ru  ([t|a|l] [r|u|])
+    talr·u  ([t|a|lr] [|u|])
+narku (Nomen-M-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    nar·ku  ([n|a|r] [k|u|])
+    nark·u  ([n|a|rk] [|u|])
+larki (Nomen-M-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    lar·ki  ([l|a|r] [k|i|])
+    lark·i  ([l|a|rk] [|i|])
+vlaiko (Nomen-M-B): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    vla·i·ko  ([vl|a|] [|i|] [k|o|])
+    vlai·ko  ([vl|ai|] [k|o|])
+    vlaik·o  ([vl|ai|k] [|o|])
+luvandi (Nomen-M-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    lu·van·di  ([l|u|] [v|a|n] [d|i|])
+    lu·vand·i  ([l|u|] [v|a|nd] [|i|])
+navildo (Nomen-M-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    na·vil·do  ([n|a|] [v|i|l] [d|o|])
+    na·vild·o  ([n|a|] [v|i|ld] [|o|])
+morda (Nomen-M-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    mor·da  ([m|o|r] [d|a|])
+    mord·a  ([m|o|rd] [|a|])
+sarla (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    sar·la  ([s|a|r] [l|a|])
+    sarl·a  ([s|a|rl] [|a|])
+prila (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    pri·la  ([pr|i|] [l|a|])
+    pril·a  ([pr|i|l] [|a|])
+kavla (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    ka·vla  ([k|a|] [vl|a|])
+    kav·la  ([k|a|v] [l|a|])
+zenlo (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    zen·lo  ([z|e|n] [l|o|])
+    zenl·o  ([z|e|nl] [|o|])
+mela (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    me·la  ([m|e|] [l|a|])
+    mel·a  ([m|e|l] [|a|])
+tala (Nomen-F-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    ta·la  ([t|a|] [l|a|])
+    tal·a  ([t|a|l] [|a|])
+kirva (Nomen-F-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kir·va  ([k|i|r] [v|a|])
+    kirv·a  ([k|i|rv] [|a|])
+melva (Nomen-F-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    mel·va  ([m|e|l] [v|a|])
+    melv·a  ([m|e|lv] [|a|])
+gluvi (Nomen-F-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    glu·vi  ([gl|u|] [v|i|])
+    gluv·i  ([gl|u|v] [|i|])
+drovi (Nomen-F-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dro·vi  ([dr|o|] [v|i|])
+    drov·i  ([dr|o|v] [|i|])
+şonma (Nomen-F-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    şon·ma  ([ş|o|n] [m|a|])
+    şonm·a  ([ş|o|nm] [|a|])
+soruma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    so·ru·ma  ([s|o|] [r|u|] [m|a|])
+    so·rum·a  ([s|o|] [r|u|m] [|a|])
+    sor·u·ma  ([s|o|r] [|u|] [m|a|])
+taluma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    ta·lu·ma  ([t|a|] [l|u|] [m|a|])
+    ta·lum·a  ([t|a|] [l|u|m] [|a|])
+    tal·u·ma  ([t|a|l] [|u|] [m|a|])
+meluma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    me·lu·ma  ([m|e|] [l|u|] [m|a|])
+    me·lum·a  ([m|e|] [l|u|m] [|a|])
+    mel·u·ma  ([m|e|l] [|u|] [m|a|])
+milne (Nomen-N-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    mil·ne  ([m|i|l] [n|e|])
+    miln·e  ([m|i|ln] [|e|])
+verno (Nomen-N-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    ver·no  ([v|e|r] [n|o|])
+    vern·o  ([v|e|rn] [|o|])
+melna (Nomen-N-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    mel·na  ([m|e|l] [n|a|])
+    meln·a  ([m|e|ln] [|a|])
+drovna (Nomen-N-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dro·vna  ([dr|o|] [vn|a|])
+    drov·na  ([dr|o|v] [n|a|])
+talna (Nomen-N-A): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    tal·na  ([t|a|l] [n|a|])
+    taln·a  ([t|a|ln] [|a|])
+taisa (Nomen-N-B): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    ta·i·sa  ([t|a|] [|i|] [s|a|])
+    tai·sa  ([t|ai|] [s|a|])
+    tais·a  ([t|ai|s] [|a|])
+pliso (Nomen-N-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    pli·so  ([pl|i|] [s|o|])
+    plis·o  ([pl|i|s] [|o|])
+brasi (Nomen-N-B): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    bra·si  ([br|a|] [s|i|])
+    bras·i  ([br|a|s] [|i|])
+vresto (Nomen-N-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    vre·sto  ([vr|e|] [st|o|])
+    vres·to  ([vr|e|s] [t|o|])
+melisto (Nomen-N-C): [MANUS-AMBIGUITÄT] 4 Zerlegungen
+    me·li·sto  ([m|e|] [l|i|] [st|o|])
+    me·lis·to  ([m|e|] [l|i|s] [t|o|])
+    me·list·o  ([m|e|] [l|i|st] [|o|])
+    mel·i·sto  ([m|e|l] [|i|] [st|o|])
+talisto (Nomen-N-C): [MANUS-AMBIGUITÄT] 4 Zerlegungen
+    ta·li·sto  ([t|a|] [l|i|] [st|o|])
+    ta·lis·to  ([t|a|] [l|i|s] [t|o|])
+    ta·list·o  ([t|a|] [l|i|st] [|o|])
+    tal·i·sto  ([t|a|l] [|i|] [st|o|])
+veltu (Nomen-N-C): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    vel·tu  ([v|e|l] [t|u|])
+    velt·u  ([v|e|lt] [|u|])
+klaunuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 5 Zerlegungen
+    kla·u·nu·ma  ([kl|a|] [|u|] [n|u|] [m|a|])
+    kla·u·num·a  ([kl|a|] [|u|] [n|u|m] [|a|])
+    klau·nu·ma  ([kl|au|] [n|u|] [m|a|])
+    klau·num·a  ([kl|au|] [n|u|m] [|a|])
+    klaun·u·ma  ([kl|au|n] [|u|] [m|a|])
+nestuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 5 Zerlegungen
+    ne·stu·ma  ([n|e|] [st|u|] [m|a|])
+    ne·stum·a  ([n|e|] [st|u|m] [|a|])
+    nes·tu·ma  ([n|e|s] [t|u|] [m|a|])
+    nes·tum·a  ([n|e|s] [t|u|m] [|a|])
+    nest·u·ma  ([n|e|st] [|u|] [m|a|])
+salvuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    sal·vu·ma  ([s|a|l] [v|u|] [m|a|])
+    sal·vum·a  ([s|a|l] [v|u|m] [|a|])
+    salv·u·ma  ([s|a|lv] [|u|] [m|a|])
+vaşnuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    vaş·nu·ma  ([v|a|ş] [n|u|] [m|a|])
+    vaş·num·a  ([v|a|ş] [n|u|m] [|a|])
+    vaşn·u·ma  ([v|a|şn] [|u|] [m|a|])
+mirnuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    mir·nu·ma  ([m|i|r] [n|u|] [m|a|])
+    mir·num·a  ([m|i|r] [n|u|m] [|a|])
+    mirn·u·ma  ([m|i|rn] [|u|] [m|a|])
+şauluma (Nomen-F-C): [MANUS-AMBIGUITÄT] 5 Zerlegungen
+    şa·u·lu·ma  ([ş|a|] [|u|] [l|u|] [m|a|])
+    şa·u·lum·a  ([ş|a|] [|u|] [l|u|m] [|a|])
+    şau·lu·ma  ([ş|au|] [l|u|] [m|a|])
+    şau·lum·a  ([ş|au|] [l|u|m] [|a|])
+    şaul·u·ma  ([ş|au|l] [|u|] [m|a|])
+tarnuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    tar·nu·ma  ([t|a|r] [n|u|] [m|a|])
+    tar·num·a  ([t|a|r] [n|u|m] [|a|])
+    tarn·u·ma  ([t|a|rn] [|u|] [m|a|])
+saivuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 5 Zerlegungen
+    sa·i·vu·ma  ([s|a|] [|i|] [v|u|] [m|a|])
+    sa·i·vum·a  ([s|a|] [|i|] [v|u|m] [|a|])
+    sai·vu·ma  ([s|ai|] [v|u|] [m|a|])
+    sai·vum·a  ([s|ai|] [v|u|m] [|a|])
+    saiv·u·ma  ([s|ai|v] [|u|] [m|a|])
+virnuma (Nomen-F-C): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    vir·nu·ma  ([v|i|r] [n|u|] [m|a|])
+    vir·num·a  ([v|i|r] [n|u|m] [|a|])
+    virn·u·ma  ([v|i|rn] [|u|] [m|a|])
+aulmelna (Nomen-Komp-N): [MANUS-AMBIGUITÄT] 8 Zerlegungen (nur mit VK/VKK)
+    a·ul·mel·na  ([|a|] [|u|l] [m|e|l] [n|a|])
+    a·ul·meln·a  ([|a|] [|u|l] [m|e|ln] [|a|])
+    a·ulm·el·na  ([|a|] [|u|lm] [|e|l] [n|a|])
+    a·ulm·eln·a  ([|a|] [|u|lm] [|e|ln] [|a|])
+    aul·mel·na  ([|au|l] [m|e|l] [n|a|])
+    aul·meln·a  ([|au|l] [m|e|ln] [|a|])
+luivresto (Nomen-Komp-N): [MANUS-AMBIGUITÄT] 7 Zerlegungen
+    lu·i·vre·sto  ([l|u|] [|i|] [vr|e|] [st|o|])
+    lu·i·vres·to  ([l|u|] [|i|] [vr|e|s] [t|o|])
+    lui·vre·sto  ([l|ui|] [vr|e|] [st|o|])
+    lui·vres·to  ([l|ui|] [vr|e|s] [t|o|])
+    luiv·re·sto  ([l|ui|v] [r|e|] [st|o|])
+    luiv·res·to  ([l|ui|v] [r|e|s] [t|o|])
+suvr (Modalwurzel): NICHT ZERLEGBAR
+kelra (Fragewort-adj): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kel·ra  ([k|e|l] [r|a|])
+    kelr·a  ([k|e|lr] [|a|])
+kella (Fragewort-adj): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kel·la  ([k|e|l] [l|a|])
+    kell·a  ([k|e|ll] [|a|])
+kelna (Fragewort-adj): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kel·na  ([k|e|l] [n|a|])
+    keln·a  ([k|e|ln] [|a|])
+kilra (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kil·ra  ([k|i|l] [r|a|])
+    kilr·a  ([k|i|lr] [|a|])
+killa (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kil·la  ([k|i|l] [l|a|])
+    kill·a  ([k|i|ll] [|a|])
+kilna (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kil·na  ([k|i|l] [n|a|])
+    kiln·a  ([k|i|ln] [|a|])
+dolra (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dol·ra  ([d|o|l] [r|a|])
+    dolr·a  ([d|o|lr] [|a|])
+dolla (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dol·la  ([d|o|l] [l|a|])
+    doll·a  ([d|o|ll] [|a|])
+dolna (Demonstrativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dol·na  ([d|o|l] [n|a|])
+    doln·a  ([d|o|ln] [|a|])
+kelsu (Indefinit): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kel·su  ([k|e|l] [s|u|])
+    kels·u  ([k|e|ls] [|u|])
+kelte (Indefinit): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    kel·te  ([k|e|l] [t|e|])
+    kelt·e  ([k|e|lt] [|e|])
+xakelte (Indefinit): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    xa·kel·te  ([x|a|] [k|e|l] [t|e|])
+    xa·kelt·e  ([x|a|] [k|e|lt] [|e|])
+fai (Relativ): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    fa·i  ([f|a|] [|i|])
+    fai  ([f|ai|])
+prai (Präposition): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    pra·i  ([pr|a|] [|i|])
+    prai  ([pr|ai|])
+fai (Konj-sub): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    fa·i  ([f|a|] [|i|])
+    fai  ([f|ai|])
+grali (Konj-sub): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    gra·li  ([gr|a|] [l|i|])
+    gral·i  ([gr|a|l] [|i|])
+şlani (Konj-sub): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    şla·ni  ([şl|a|] [n|i|])
+    şlan·i  ([şl|a|n] [|i|])
+dremi (Konj-sub): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    dre·mi  ([dr|e|] [m|i|])
+    drem·i  ([dr|e|m] [|i|])
+glemi (Konj-sub): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    gle·mi  ([gl|e|] [m|i|])
+    glem·i  ([gl|e|m] [|i|])
+trausi (Konj-sub): [MANUS-AMBIGUITÄT] 3 Zerlegungen
+    tra·u·si  ([tr|a|] [|u|] [s|i|])
+    trau·si  ([tr|au|] [s|i|])
+    traus·i  ([tr|au|s] [|i|])
+nunda (Partikel/Adverb): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    nun·da  ([n|u|n] [d|a|])
+    nund·a  ([n|u|nd] [|a|])
+zirna (Partikel/Adverb): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    zir·na  ([z|i|r] [n|a|])
+    zirn·a  ([z|i|rn] [|a|])
+ain (Partikel/Adverb): [MANUS-AMBIGUITÄT] 2 Zerlegungen (nur mit VK/VKK)
+    a·in  ([|a|] [|i|n])
+    ain  ([|ai|n])
+mai (Partikel/Adverb): [MANUS-AMBIGUITÄT] 2 Zerlegungen
+    ma·i  ([m|a|] [|i|])
+    mai  ([m|ai|])
+selvai (Partikel/Adverb): [MANUS-AMBIGUITÄT] 4 Zerlegungen
+    sel·va·i  ([s|e|l] [v|a|] [|i|])
+    sel·vai  ([s|e|l] [v|ai|])
+    selv·a·i  ([s|e|lv] [|a|] [|i|])
+    selv·ai  ([s|e|lv] [|ai|])
+melai (Partikel/Adverb): [MANUS-AMBIGUITÄT] 4 Zerlegungen
+    me·la·i  ([m|e|] [l|a|] [|i|])
+    me·lai  ([m|e|] [l|ai|])
+    mel·a·i  ([m|e|l] [|a|] [|i|])
+    mel·ai  ([m|e|l] [|ai|])
+(77 von 281 Grundformen mehrdeutig zerlegbar)
+

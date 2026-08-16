@@ -1,0 +1,24 @@
+== L-09-SIMULATION (KEINE SPRACHREGEL) ==
+Kandidatenregel: Diphthong-Vorrang + Onset-Zuweisung.
+Variante A = Onset-Maximierung (§5.2-Cluster bevorzugt),
+Variante B = Minimal-Onset (genau 1 Konsonant, Rest Coda).
+
+Variante A loest 280/281 Grundformen eindeutig; Fehlschlaege: 1
+   A-FAIL suvr: Endgruppe 'vr' unzulaessig (§5.3)
+Variante B loest 279/281; Fehlschlaege: 2
+   B-FAIL taivbreun: Restcoda 'vb' unzulaessig (§5.3)
+   B-FAIL suvr: Endgruppe 'vr' unzulaessig (§5.3)
+
+Von den 77 bisher mehrdeutigen Formen loest Variante A: 77.
+
+Formen, bei denen A und B VERSCHIEDEN entscheiden (10) — hier liegt die eigentliche Designentscheidung:
+   velkran:  A vel·kran   |   B velk·ran
+   velkra:  A vel·kra   |   B velk·ra
+   zaldre:  A zal·dre   |   B zald·re
+   kavla:  A ka·vla   |   B kav·la
+   drovna:  A dro·vna   |   B drov·na
+   vresto:  A vre·sto   |   B vres·to
+   melisto:  A me·li·sto   |   B me·lis·to
+   talisto:  A ta·li·sto   |   B ta·lis·to
+   nestuma:  A ne·stu·ma   |   B nes·tu·ma
+   luivresto:  A lui·vre·sto   |   B luiv·res·to

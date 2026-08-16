@@ -1,0 +1,122 @@
+{
+  "lexeme_id": "ORB-LEX-000065",
+  "lemma": "şauluma",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "abstrakta"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Identität",
+    "definition": "Identität. Regulaeres Nomen der Klasse F-C (Themavokal -a). Abstraktum auf -uma (§21.1/§24.6). (Migrierte Woerterbuchglosse aus §24.6; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "identity",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "F-C",
+    "unterklasse": "C",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "şauluma",
+      "akk_sg": "şauluman",
+      "dat_sg": "şaulumaş",
+      "gen_sg": "şaulumas",
+      "nom_pl": "şaulumañ",
+      "akk_pl": "şaulumañan",
+      "dat_pl": "şaulumañaş",
+      "gen_pl": "şaulumañas"
+    },
+    "plural": "şaulumañ",
+    "zaehlbarkeit": "unzaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "ş",
+      "a",
+      "u",
+      "l",
+      "u",
+      "m",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "şa·u·lu·ma",
+      "şa·u·lum·a",
+      "şau·lu·ma",
+      "şau·lum·a",
+      "şaul·u·ma"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 5,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000065"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.6"
+  }
+}

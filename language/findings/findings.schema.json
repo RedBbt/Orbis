@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RedBbt/Orbis/language/findings/findings.schema.json",
+  "title": "Orbis Befundregister",
+  "type": "object",
+  "required": ["findings"],
+  "properties": {
+    "quelle": { "type": "string" },
+    "erzeugt_von": { "type": "string" },
+    "hinweis": { "type": "string" },
+    "status_werte": { "type": "array", "items": { "type": "string" } },
+    "anzahl": { "type": "integer" },
+    "nach_prioritaet": { "type": "object" },
+    "nach_typ": { "type": "object" },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "typ", "prioritaet", "status", "titel_de", "description_de"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[KLUW]-[0-9]{2}$" },
+          "global_id": { "type": "string", "pattern": "^ORB-FIND-" },
+          "typ": { "enum": ["conflict", "gap", "unclear", "lexical_gap", "lexical_collision"] },
+          "typ_label_de": { "type": "string" },
+          "prioritaet": { "enum": ["P0", "P1", "P2", "P3", "P4"] },
+          "status": { "enum": ["open", "accepted", "resolved", "deferred", "wont_fix"] },
+          "titel_de": { "type": "string" },
+          "description_de": { "type": "string" },
+          "description_en": { "type": ["string", "null"] },
+          "affected_rules": { "type": "array", "items": { "type": "string" } },
+          "affected_words": { "type": "array", "items": { "type": "string" } },
+          "affected_sentences": { "type": "array", "items": { "type": "string" } },
+          "introduced_version": { "type": ["string", "null"] },
+          "resolved_version": { "type": ["string", "null"] },
+          "decision_id": { "type": ["string", "null"] },
+          "quelle": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

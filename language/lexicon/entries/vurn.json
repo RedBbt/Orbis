@@ -1,0 +1,130 @@
+{
+  "lexeme_id": "ORB-LEX-000100",
+  "lemma": "vurn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "unregelmaessig",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "existenz"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "werden",
+    "definition": "werden. Unregelmaessiges Verb; die belegten Tabellen sind massgeblich, die Formelbeschreibung in §15.2 deckt sie nicht vollstaendig (U-01). (Migrierte Woerterbuchglosse aus §15.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to become",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "vurn",
+    "konjugationsklasse": "unregelmaessig",
+    "infinitiv": "vurnex",
+    "partizip": "vurnut",
+    "unregelmaessige_formen": {
+      "praesens": {
+        "1sg": "vurm",
+        "2sg": "vurş",
+        "3sg": "vurt",
+        "1pl": "vurmen",
+        "2pl": "vurşen",
+        "3pl": "vurten"
+      },
+      "vergangenheit": {
+        "1sg": "vorem",
+        "2sg": "voreş",
+        "3sg": "voret",
+        "1pl": "voremen",
+        "2pl": "voreşen",
+        "3pl": "voreten"
+      },
+      "zukunft": {
+        "1sg": "vurnaim",
+        "2sg": "vurnaiş",
+        "3sg": "vurnait",
+        "1pl": "vurnaimen",
+        "2pl": "vurnaişen",
+        "3pl": "vurnaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "u",
+      "r",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "vurn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "vurn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000100"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "U-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§15.2"
+  }
+}

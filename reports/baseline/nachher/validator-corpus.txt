@@ -1,0 +1,4 @@
+== KORPUSPRÜFUNG Orbis-Testkorpus-0_1.md ==
+(130 von 130 Orbis-Sätzen ohne automatischen Befund)
+MANUELLE_PRÜFUNG: V2/Verbklammer/Endstellung, Kongruenz über Distanz, Genitiv-Stellung, Semantik — nicht algorithmisch entschieden.
+

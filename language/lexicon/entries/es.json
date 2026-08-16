@@ -1,0 +1,129 @@
+{
+  "lexeme_id": "ORB-LEX-000098",
+  "lemma": "es",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "unregelmaessig",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "existenz"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "sein",
+    "definition": "sein. Unregelmaessiges Verb; die belegten Tabellen sind massgeblich, die Formelbeschreibung in §15.2 deckt sie nicht vollstaendig (U-01). (Migrierte Woerterbuchglosse aus §15.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to be",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "es",
+    "konjugationsklasse": "unregelmaessig",
+    "infinitiv": "esex",
+    "partizip": "esut",
+    "unregelmaessige_formen": {
+      "praesens": {
+        "1sg": "em",
+        "2sg": "eş",
+        "3sg": "est",
+        "1pl": "emen",
+        "2pl": "eşen",
+        "3pl": "esten"
+      },
+      "vergangenheit": {
+        "1sg": "vom",
+        "2sg": "voş",
+        "3sg": "vot",
+        "1pl": "vomen",
+        "2pl": "voşen",
+        "3pl": "voten"
+      },
+      "zukunft": {
+        "1sg": "vaim",
+        "2sg": "vaiş",
+        "3sg": "vait",
+        "1pl": "vaimen",
+        "2pl": "vaişen",
+        "3pl": "vaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "e",
+      "s"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "es"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "es"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000098"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "U-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§15.2"
+  }
+}

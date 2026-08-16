@@ -1,0 +1,29 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Werkzeuge pruefen strikt gegen die gelistete Menge und melden Abweichungen als K-01, statt die Liste stillschweigend zu erweitern.",
+  "paragraph": "§5.1",
+  "regel_id": "ORB-GRAM-PHON-005",
+  "status": "conflict",
+  "befunde": [
+    "K-01"
+  ],
+  "in_grammatik_gelistet": [
+    "KKV",
+    "KKVK",
+    "KV",
+    "KVK",
+    "KVKK",
+    "V"
+  ],
+  "faktisch_benoetigt_aber_nicht_gelistet": [
+    "VK",
+    "VKK",
+    "KKVKK"
+  ],
+  "konflikt": {
+    "befund": "K-01",
+    "beschreibung": "Der eingefrorene Wortschatz und die Beispielsaetze der Grammatik verwenden VK/VKK (aul, eird, est, ain, oñ) und KKVKK (granz, trelm, vresn, skirm, prilm, prens-, dremn-, vlent-). §5.1 fuehrt diese Formen nicht.",
+    "aufloesung": "offen — Designerentscheidung (Redaktionskandidat fuer 0.9.4)"
+  }
+}

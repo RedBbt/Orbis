@@ -1,0 +1,97 @@
+{
+  "lexeme_id": "ORB-LEX-000184",
+  "lemma": "xelm",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "zahl",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "COMMON",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "zahlen"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Zahl 10",
+    "definition": "Zahl 10. Kardinalzahl 10; Ordnungszahl mit Infix -ost- + Geschlechtsendung. Die Syntax der Kardinalzahlen ist ungeregelt (L-08). (Migrierte Woerterbuchglosse aus §24.8; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "number 10",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {},
+  "phonologie": {
+    "phonemfolge": [
+      "x",
+      "e",
+      "l",
+      "m"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "xelm"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "xelm"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-08",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.8"
+  }
+}

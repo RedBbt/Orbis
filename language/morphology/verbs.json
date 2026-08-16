@@ -1,0 +1,122 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§14–§15",
+  "regel_id": "ORB-GRAM-MOR-009",
+  "status": "canonical",
+  "aufbau": "Wurzel + Tempusvokal + Personendung",
+  "tempusvokale": {
+    "präs": "a",
+    "vgh": "o",
+    "fut": "ai"
+  },
+  "personendungen": {
+    "1sg": "m",
+    "2sg": "ş",
+    "3sg": "t",
+    "1pl": "men",
+    "2pl": "şen",
+    "3pl": "ten"
+  },
+  "infinitiv_suffix": "ex",
+  "partizip_suffix": "ut",
+  "imperativ": {
+    "du": "bloße Wurzel",
+    "ihr": "-eñ",
+    "hoeflich": "3. Pl. Praesens",
+    "stuetz_e": "bei nach §5.3 unzulaessiger Endgruppe (Suvre!)",
+    "unklarheit": {
+      "befund": "U-12",
+      "beschreibung": "Stuetz-e prueft §5.3, nicht §5.1; Dremn!/Prens!/Vlent! haetten KKVKK-Form."
+    }
+  },
+  "vorsilben": [
+    "şu",
+    "re",
+    "dra",
+    "su"
+  ],
+  "regulaere_wurzeln": [
+    {
+      "wurzel": "milk",
+      "bedeutung_de": "sehen"
+    },
+    {
+      "wurzel": "zaub",
+      "bedeutung_de": "hören"
+    },
+    {
+      "wurzel": "tal",
+      "bedeutung_de": "sprechen"
+    },
+    {
+      "wurzel": "nast",
+      "bedeutung_de": "essen"
+    },
+    {
+      "wurzel": "prev",
+      "bedeutung_de": "trinken"
+    },
+    {
+      "wurzel": "soñ",
+      "bedeutung_de": "schlafen"
+    },
+    {
+      "wurzel": "dremn",
+      "bedeutung_de": "denken"
+    },
+    {
+      "wurzel": "prens",
+      "bedeutung_de": "nehmen"
+    },
+    {
+      "wurzel": "saiv",
+      "bedeutung_de": "lieben"
+    },
+    {
+      "wurzel": "vlent",
+      "bedeutung_de": "laufen"
+    },
+    {
+      "wurzel": "rusk",
+      "bedeutung_de": "schreiben"
+    },
+    {
+      "wurzel": "leşn",
+      "bedeutung_de": "lesen"
+    },
+    {
+      "wurzel": "traiv",
+      "bedeutung_de": "finden"
+    },
+    {
+      "wurzel": "mald",
+      "bedeutung_de": "warten"
+    },
+    {
+      "wurzel": "stan",
+      "bedeutung_de": "bleiben"
+    },
+    {
+      "wurzel": "sor",
+      "bedeutung_de": "bewahren"
+    },
+    {
+      "wurzel": "salv",
+      "bedeutung_de": "verlieren (transitiv)"
+    },
+    {
+      "wurzel": "vaşn",
+      "bedeutung_de": "vergehen (intransitiv)"
+    },
+    {
+      "wurzel": "mirn",
+      "bedeutung_de": "entscheiden"
+    },
+    {
+      "wurzel": "tarn",
+      "bedeutung_de": "folgen"
+    }
+  ]
+}

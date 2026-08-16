@@ -1,0 +1,99 @@
+{
+  "lexeme_id": "ORB-LEX-000233",
+  "lemma": "viş",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "pronomen",
+  "grammatische_kategorie": "personal",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "grammatik"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Personalpronomen 1sg dat",
+    "definition": "Personalpronomen 1sg dat. Vollstaendig dekliniert (§13.1); der Genitiv dient zugleich als nachgestelltes Possessiv (§13.3). (Migrierte Woerterbuchglosse aus §13.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "personal pronoun, 1 sg., dative",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "kasusformen": {
+      "dat": "viş"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "i",
+      "ş"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "viş"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "viş"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§13.1"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§11",
+  "regel_id": "ORB-GRAM-MOR-006",
+  "status": "canonical",
+  "aufbau": "Bestimmtheitszeichen (x- bestimmt / v- unbestimmt) + Geschlechtskonsonant der A-Reihe (r/l/n) + -a + Kasusmarker",
+  "geschlechtskonsonanten": {
+    "M": "r",
+    "F": "l",
+    "N": "n"
+  },
+  "kein_unbestimmter_plural": true,
+  "zeigt_nur_genus": "Der Artikel zeigt nie die Unterklasse (§11.3, immer A-Reihe).",
+  "formen": [
+    {
+      "form": "vla",
+      "bestimmtheit": "unbestimmt",
+      "genus": "F",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "vlan",
+      "bestimmtheit": "unbestimmt",
+      "genus": "F",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "vlas",
+      "bestimmtheit": "unbestimmt",
+      "genus": "F",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "vlaş",
+      "bestimmtheit": "unbestimmt",
+      "genus": "F",
+      "kasus": "dat",
+      "numerus": "sg"
+    },
+    {
+      "form": "vna",
+      "bestimmtheit": "unbestimmt",
+      "genus": "N",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "vnan",
+      "bestimmtheit": "unbestimmt",
+      "genus": "N",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "vnas",
+      "bestimmtheit": "unbestimmt",
+      "genus": "N",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "vnaş",
+      "bestimmtheit": "unbestimmt",
+      "genus": "N",
+      "kasus": "dat",
+      "numerus": "sg"
+    },
+    {
+      "form": "vra",
+      "bestimmtheit": "unbestimmt",
+      "genus": "M",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "vran",
+      "bestimmtheit": "unbestimmt",
+      "genus": "M",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "vras",
+      "bestimmtheit": "unbestimmt",
+      "genus": "M",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "vraş",
+      "bestimmtheit": "unbestimmt",
+      "genus": "M",
+      "kasus": "dat",
+      "numerus": "sg"
+    },
+    {
+      "form": "xla",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "xlan",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "xlas",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "xlañ",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "nom",
+      "numerus": "pl"
+    },
+    {
+      "form": "xlañan",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "akk",
+      "numerus": "pl"
+    },
+    {
+      "form": "xlañas",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "gen",
+      "numerus": "pl"
+    },
+    {
+      "form": "xlañaş",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "dat",
+      "numerus": "pl"
+    },
+    {
+      "form": "xlaş",
+      "bestimmtheit": "bestimmt",
+      "genus": "F",
+      "kasus": "dat",
+      "numerus": "sg"
+    },
+    {
+      "form": "xna",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "xnan",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "xnas",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "xnañ",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "nom",
+      "numerus": "pl"
+    },
+    {
+      "form": "xnañan",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "akk",
+      "numerus": "pl"
+    },
+    {
+      "form": "xnañas",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "gen",
+      "numerus": "pl"
+    },
+    {
+      "form": "xnañaş",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "dat",
+      "numerus": "pl"
+    },
+    {
+      "form": "xnaş",
+      "bestimmtheit": "bestimmt",
+      "genus": "N",
+      "kasus": "dat",
+      "numerus": "sg"
+    },
+    {
+      "form": "xra",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "nom",
+      "numerus": "sg"
+    },
+    {
+      "form": "xran",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "akk",
+      "numerus": "sg"
+    },
+    {
+      "form": "xras",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "gen",
+      "numerus": "sg"
+    },
+    {
+      "form": "xrañ",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "nom",
+      "numerus": "pl"
+    },
+    {
+      "form": "xrañan",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "akk",
+      "numerus": "pl"
+    },
+    {
+      "form": "xrañas",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "gen",
+      "numerus": "pl"
+    },
+    {
+      "form": "xrañaş",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "dat",
+      "numerus": "pl"
+    },
+    {
+      "form": "xraş",
+      "bestimmtheit": "bestimmt",
+      "genus": "M",
+      "kasus": "dat",
+      "numerus": "sg"
+    }
+  ]
+}

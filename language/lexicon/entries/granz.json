@@ -1,0 +1,137 @@
+{
+  "lexeme_id": "ORB-LEX-000111",
+  "lemma": "granz",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "zeit"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "alt",
+    "definition": "alt. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "old",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "granzvi",
+      "superlativ": "granzvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "granzra",
+      "M_nom_pl": "granzrañ",
+      "M_akk_sg": "granzran",
+      "M_akk_pl": "granzrañan",
+      "M_dat_sg": "granzraş",
+      "M_dat_pl": "granzrañaş",
+      "M_gen_sg": "granzras",
+      "M_gen_pl": "granzrañas",
+      "F_nom_sg": "granzla",
+      "F_nom_pl": "granzlañ",
+      "F_akk_sg": "granzlan",
+      "F_akk_pl": "granzlañan",
+      "F_dat_sg": "granzlaş",
+      "F_dat_pl": "granzlañaş",
+      "F_gen_sg": "granzlas",
+      "F_gen_pl": "granzlañas",
+      "N_nom_sg": "granzna",
+      "N_nom_pl": "granznañ",
+      "N_akk_sg": "granznan",
+      "N_akk_pl": "granznañan",
+      "N_dat_sg": "granznaş",
+      "N_dat_pl": "granznañaş",
+      "N_gen_sg": "granznas",
+      "N_gen_pl": "granznañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "g",
+      "r",
+      "a",
+      "n",
+      "z"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "granz"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": [
+      "granz"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000111"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000112",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

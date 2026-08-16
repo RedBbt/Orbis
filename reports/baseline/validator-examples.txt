@@ -1,0 +1,39 @@
+== BEISPIELSÄTZE DER GRAMMATIK ==
+§12.2  Lo loşn est.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§12.2  Xna breun granz stanat.
+    -> granz: nur mit KKVKK parsebar — §5.1 nennt diese Form nicht
+§12.3  Ro vlaidvi est kon vim.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§12.3  Lo loşn est zil luiv.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§11.3  xlan eirden
+    -> eirden: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§16.2  Tund vim vra vlaidra valru mai em, mai traivam vim xlan eirden.
+    -> em: nur mit VK parsebar — §5.1 nennt diese Form nicht
+    -> eirden: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§16.3  Xna breun şunargut est.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§18.2  Kellan sarlan milkoş?
+    -> kellan: Geminate ll
+§19  Vim em tel xlaş kavlaş.
+    -> em: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§25.1  Vim xa valnam soñex, grali xla kirva vran luid est.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§25.1  Tund vim vra vlaidra valru mai em, mai traivam vim xlan eirden.
+    -> em: nur mit VK parsebar — §5.1 nennt diese Form nicht
+    -> eirden: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§25.1  Xna breun granz stanat, klas xla kavla zirv vurt.
+    -> granz: nur mit KKVKK parsebar — §5.1 nennt diese Form nicht
+§25.1  Xnan melnan traivamen viñ, tund xla luiv luid est.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§25.2  Vra melru molet dral xrañan trelmrañan zaldreñen.
+    -> trelmrañan: nur mit KKVKK parsebar — §5.1 nennt diese Form nicht
+§25.2  Ze ro dremnot: Kilna est xna traivute.
+    -> est: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§25.2  Tel xraş navildoş milkot ro xlan luiven xlas eirdes.
+    -> eirdes: nur mit VK parsebar — §5.1 nennt diese Form nicht
+§24.8  xelmnel dramxelm telnxelmmern
+    -> telnxelmmern: Geminate mm
+(54 von 71 Beispielen ohne Befund)
+

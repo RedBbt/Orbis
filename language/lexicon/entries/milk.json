@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000072",
+  "lemma": "milk",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "wahrnehmung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "sehen",
+    "definition": "sehen. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to see",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "milk",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "milkex",
+    "partizip": "milkut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "milkam",
+        "2sg": "milkaş",
+        "3sg": "milkat",
+        "1pl": "milkamen",
+        "2pl": "milkaşen",
+        "3pl": "milkaten"
+      },
+      "vgh": {
+        "1sg": "milkom",
+        "2sg": "milkoş",
+        "3sg": "milkot",
+        "1pl": "milkomen",
+        "2pl": "milkoşen",
+        "3pl": "milkoten"
+      },
+      "fut": {
+        "1sg": "milkaim",
+        "2sg": "milkaiş",
+        "3sg": "milkait",
+        "1pl": "milkaimen",
+        "2pl": "milkaişen",
+        "3pl": "milkaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "i",
+      "l",
+      "k"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "milk"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "milk"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000072"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

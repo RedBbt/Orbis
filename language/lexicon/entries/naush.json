@@ -1,0 +1,116 @@
+{
+  "lexeme_id": "ORB-LEX-000009",
+  "lemma": "nauş",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kernwort",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "zeit"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Zeit",
+    "definition": "Zeit. Historisches Kernwort (F); dekliniert mit Bindevokal -e- im Singular und -ei im Plural (§10.3). (Migrierte Woerterbuchglosse aus §24.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "time",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "kernwort",
+    "unterklasse": null,
+    "themavokal": null,
+    "deklination": "kernwort",
+    "kasusformen": {
+      "nom_sg": "nauş",
+      "akk_sg": "nauşen",
+      "dat_sg": "nauşeş",
+      "gen_sg": "nauşes",
+      "nom_pl": "nauşei",
+      "akk_pl": "nauşein",
+      "dat_pl": "nauşeiş",
+      "gen_pl": "nauşeis"
+    },
+    "plural": "nauşei",
+    "zaehlbarkeit": "unbestimmt"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "n",
+      "a",
+      "u",
+      "ş"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "nauş"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "nauş"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000009"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.1"
+  }
+}

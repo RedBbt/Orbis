@@ -1,0 +1,116 @@
+{
+  "lexeme_id": "ORB-LEX-000006",
+  "lemma": "xerp",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kernwort",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "natur"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Feuer",
+    "definition": "Feuer. Historisches Kernwort (M); dekliniert mit Bindevokal -e- im Singular und -ei im Plural (§10.3). (Migrierte Woerterbuchglosse aus §24.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "fire",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "kernwort",
+    "unterklasse": null,
+    "themavokal": null,
+    "deklination": "kernwort",
+    "kasusformen": {
+      "nom_sg": "xerp",
+      "akk_sg": "xerpen",
+      "dat_sg": "xerpeş",
+      "gen_sg": "xerpes",
+      "nom_pl": "xerpei",
+      "akk_pl": "xerpein",
+      "dat_pl": "xerpeiş",
+      "gen_pl": "xerpeis"
+    },
+    "plural": "xerpei",
+    "zaehlbarkeit": "unbestimmt"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "x",
+      "e",
+      "r",
+      "p"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "xerp"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "xerp"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000006"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.1"
+  }
+}

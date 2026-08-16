@@ -1,0 +1,74 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§20",
+  "regel_id": "ORB-GRAM-SYN-002",
+  "status": "canonical",
+  "befunde": [
+    "U-07"
+  ],
+  "nebenordnend": [
+    {
+      "lemma": "ze",
+      "bedeutung_de": "und",
+      "stellung": "Hauptsatzstellung"
+    },
+    {
+      "lemma": "vu",
+      "bedeutung_de": "oder",
+      "stellung": "Hauptsatzstellung"
+    },
+    {
+      "lemma": "klas",
+      "bedeutung_de": "aber",
+      "stellung": "Hauptsatzstellung"
+    },
+    {
+      "lemma": "xer",
+      "bedeutung_de": "denn",
+      "stellung": "Hauptsatzstellung"
+    }
+  ],
+  "unterordnend": [
+    {
+      "lemma": "fai",
+      "bedeutung_de": "dass",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "grali",
+      "bedeutung_de": "weil",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "tund",
+      "bedeutung_de": "wenn",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "şlani",
+      "bedeutung_de": "obwohl",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "dremi",
+      "bedeutung_de": "während",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "glemi",
+      "bedeutung_de": "bevor",
+      "stellung": "Verbendstellung"
+    },
+    {
+      "lemma": "trausi",
+      "bedeutung_de": "nachdem",
+      "stellung": "Verbendstellung"
+    }
+  ],
+  "unklarheit": {
+    "befund": "U-07",
+    "beschreibung": "Die Behauptung 'systematisch aus Praepositionen + -i abgeleitet' trifft auf dremi, tund und fai nicht zu."
+  }
+}

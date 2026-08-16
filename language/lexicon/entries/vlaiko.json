@@ -1,0 +1,119 @@
+{
+  "lexeme_id": "ORB-LEX-000026",
+  "lemma": "vlaiko",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "wetter"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Wind",
+    "definition": "Wind. Regulaeres Nomen der Klasse M-B (Themavokal -o). (Migrierte Woerterbuchglosse aus §24.2; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "wind",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "M",
+    "klasse": "M-B",
+    "unterklasse": "B",
+    "themavokal": "o",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "vlaiko",
+      "akk_sg": "vlaikon",
+      "dat_sg": "vlaikoş",
+      "gen_sg": "vlaikos",
+      "nom_pl": "vlaikoñ",
+      "akk_pl": "vlaikoñon",
+      "dat_pl": "vlaikoñoş",
+      "gen_pl": "vlaikoños"
+    },
+    "plural": "vlaikoñ",
+    "zaehlbarkeit": "zaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "l",
+      "a",
+      "i",
+      "k",
+      "o"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "vla·i·ko",
+      "vlai·ko",
+      "vlaik·o"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 3,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000026"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.2"
+  }
+}

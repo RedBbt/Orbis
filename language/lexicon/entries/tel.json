@@ -1,0 +1,100 @@
+{
+  "lexeme_id": "ORB-LEX-000135",
+  "lemma": "tel",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "praeposition",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "VERY_COMMON",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "grammatik"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Praeposition mit akk/dat",
+    "definition": "Praeposition mit akk/dat. Wechselpraeposition; verlangt akk, dat (Dativ bei Ort, Akkusativ bei Richtung). (Migrierte Woerterbuchglosse aus §19; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "preposition governing the accusative / dative",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "rektion": [
+      "akk",
+      "dat"
+    ]
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "e",
+      "l"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "tel"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "tel"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§19"
+  }
+}

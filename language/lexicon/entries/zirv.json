@@ -1,0 +1,135 @@
+{
+  "lexeme_id": "ORB-LEX-000112",
+  "lemma": "zirv",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "zeit"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "neu",
+    "definition": "neu. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "new",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "zirvi",
+      "superlativ": "zirvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "zirvra",
+      "M_nom_pl": "zirvrañ",
+      "M_akk_sg": "zirvran",
+      "M_akk_pl": "zirvrañan",
+      "M_dat_sg": "zirvraş",
+      "M_dat_pl": "zirvrañaş",
+      "M_gen_sg": "zirvras",
+      "M_gen_pl": "zirvrañas",
+      "F_nom_sg": "zirvla",
+      "F_nom_pl": "zirvlañ",
+      "F_akk_sg": "zirvlan",
+      "F_akk_pl": "zirvlañan",
+      "F_dat_sg": "zirvlaş",
+      "F_dat_pl": "zirvlañaş",
+      "F_gen_sg": "zirvlas",
+      "F_gen_pl": "zirvlañas",
+      "N_nom_sg": "zirvna",
+      "N_nom_pl": "zirvnañ",
+      "N_akk_sg": "zirvnan",
+      "N_akk_pl": "zirvnañan",
+      "N_dat_sg": "zirvnaş",
+      "N_dat_pl": "zirvnañaş",
+      "N_gen_sg": "zirvnas",
+      "N_gen_pl": "zirvnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "z",
+      "i",
+      "r",
+      "v"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "zirv"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "zirv"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000112"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000111",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

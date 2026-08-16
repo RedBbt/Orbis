@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RedBbt/Orbis/language/corpus/sentence.schema.json",
+  "title": "Orbis Korpussatz",
+  "description": "Ein Korpussatz traegt Orbis, Deutsch (semantische Autoritaet) und Englisch (abgeleitet) sowie die vollstaendige grammatische Analyse. Saetze, die nach den Regeln von 0.9.3 nicht eindeutig bildbar sind, tragen orbis=null und einen Befund.",
+  "type": "object",
+  "required": ["id", "status", "de", "syntax", "qualitaet"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^ORB-SENT-[0-9]{6}$" },
+    "legacy_nummer": { "type": ["integer", "null"], "description": "Testnummer im Testkorpus 0.1." },
+    "status": {
+      "enum": ["canonical", "open", "conflict", "unclear", "testproblem", "draft"],
+      "description": "canonical = nach 0.9.3 eindeutig bildbar; open/conflict/unclear = Befund verhindert eine kanonische Form."
+    },
+    "orbis": { "type": ["string", "null"], "description": "null, wenn nicht eindeutig bildbar." },
+    "de": { "type": "string", "minLength": 1, "description": "Deutsche Quelle. Semantische Autoritaet." },
+    "en": { "type": ["string", "null"], "description": "Aus dem Deutschen abgeleitet." },
+    "en_status": { "enum": ["missing", "draft", "derived", "reviewed"], "default": "missing" },
+    "rollen": {
+      "type": "array",
+      "description": "Ein Satz kann mehrere Rollen haben (Test, Lernbeispiel, literarisch).",
+      "items": { "enum": ["test", "example", "learning", "dialogue", "literary", "spoken"] }
+    },
+    "kategorie": { "type": ["string", "null"], "description": "Testblock, z. B. 'genitiv', 'nebensatz'." },
+    "schwierigkeit": { "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2", "unbestimmt"] },
+    "themenbereich": { "type": ["string", "null"] },
+    "syntax": {
+      "type": "object", "required": ["typ"], "additionalProperties": false,
+      "properties": {
+        "typ": { "type": "string", "description": "z. B. 'hauptsatz', 'hauptsatz+nebensatz'." },
+        "muster": { "type": ["string", "null"], "description": "Abstraktes Satzmuster, z. B. 'SUBJ-VFIN-OBJ'." },
+        "v2": { "type": ["boolean", "null"] },
+        "nebensatz": { "type": ["boolean", "null"] },
+        "verbklammer": { "type": ["boolean", "null"] },
+        "wortstellung_regel": { "type": ["string", "null"], "description": "Regel-ID, z. B. ORB-GRAM-SYN-010." },
+        "satzglieder": { "type": ["array", "null"], "items": { "type": "string" } },
+        "subjekt": { "type": ["string", "null"] },
+        "finites_verb": { "type": ["string", "null"] },
+        "objekte": { "type": "array", "items": { "type": "string" } },
+        "kasus": { "type": "array", "items": { "type": "string" } },
+        "tempus": { "type": ["string", "null"] },
+        "person": { "type": ["string", "null"] },
+        "numerus": { "type": ["string", "null"] }
+      }
+    },
+    "lexeme": { "type": "array", "items": { "type": "string" },
+      "description": "Verwendete Lexeme als ORB-LEX-IDs (soweit aufloesbar)." },
+    "regeln": { "type": "array", "items": { "type": "string" },
+      "description": "Verwendete Regeln als Paragraphen und/oder Regel-IDs." },
+    "qualitaet": {
+      "type": "object", "required": ["validatorstatus"], "additionalProperties": false,
+      "properties": {
+        "validatorstatus": { "enum": ["ok", "befund", "nicht_pruefbar", "ungeprueft"] },
+        "befunde": { "type": "array", "items": { "type": "string" } },
+        "ergebnis_testkorpus": { "type": ["string", "null"],
+          "description": "Originalmarker aus Testkorpus 0.1, z. B. '[OK]'." },
+        "anmerkung": { "type": ["string", "null"] },
+        "letzte_pruefung": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

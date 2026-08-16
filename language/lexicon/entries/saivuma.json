@@ -1,0 +1,122 @@
+{
+  "lexeme_id": "ORB-LEX-000067",
+  "lemma": "saivuma",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "regulaer",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "gefuehle"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Liebe",
+    "definition": "Liebe. Regulaeres Nomen der Klasse F-C (Themavokal -a). Abstraktum auf -uma (§21.1/§24.6). (Migrierte Woerterbuchglosse aus §24.6; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "love",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "F",
+    "klasse": "F-C",
+    "unterklasse": "C",
+    "themavokal": "a",
+    "deklination": "regulaer",
+    "kasusformen": {
+      "nom_sg": "saivuma",
+      "akk_sg": "saivuman",
+      "dat_sg": "saivumaş",
+      "gen_sg": "saivumas",
+      "nom_pl": "saivumañ",
+      "akk_pl": "saivumañan",
+      "dat_pl": "saivumañaş",
+      "gen_pl": "saivumañas"
+    },
+    "plural": "saivumañ",
+    "zaehlbarkeit": "unzaehlbar"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "s",
+      "a",
+      "i",
+      "v",
+      "u",
+      "m",
+      "a"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "sa·i·vu·ma",
+      "sa·i·vum·a",
+      "sai·vu·ma",
+      "sai·vum·a",
+      "saiv·u·ma"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 5,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000067"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.6"
+  }
+}

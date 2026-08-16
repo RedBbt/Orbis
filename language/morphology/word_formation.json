@@ -1,0 +1,56 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§21",
+  "regel_id": "ORB-GRAM-MOR-012",
+  "status": "canonical",
+  "befunde": [
+    "K-02",
+    "K-03",
+    "U-08"
+  ],
+  "suffixe": {
+    "-ex": "Verb",
+    "-ru": "Person m",
+    "-la": "Person f",
+    "-na": "Ort",
+    "-isto": "Werkzeug",
+    "-vi": "Eigenschaft",
+    "-uma": "Abstraktum"
+  },
+  "vorsilben": {
+    "şu-": "Passiv",
+    "xa-": "Gegenteil",
+    "re-": "wieder",
+    "dra-": "ganz/hindurch",
+    "su-": "halb"
+  },
+  "zusammensetzung": {
+    "regel": "Bestimmungswort + Grundwort; Geschlecht und Klasse nach dem letzten Glied",
+    "unklarheit": {
+      "befund": "U-08",
+      "beschreibung": "Deklination bei Kernwort-Kopf (taivbreun) ungeregelt"
+    }
+  },
+  "fugenregel": {
+    "paragraph": "§21.4",
+    "regel": "Identische Konsonanten an der Morphemfuge verschmelzen; gilt fuer Zusammensetzungen, Ableitungen und Endungen.",
+    "konflikte": [
+      {
+        "befund": "K-02",
+        "formen": [
+          "killa",
+          "dolla",
+          "kella"
+        ]
+      },
+      {
+        "befund": "K-03",
+        "formen": [
+          "telnxelmmern"
+        ]
+      }
+    ]
+  }
+}

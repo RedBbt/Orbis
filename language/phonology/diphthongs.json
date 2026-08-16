@@ -1,0 +1,49 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§2.3",
+  "regel_id": "ORB-GRAM-PHON-002",
+  "status": "canonical",
+  "diphthonge": [
+    {
+      "form": "ai",
+      "status": "attested"
+    },
+    {
+      "form": "au",
+      "status": "attested"
+    },
+    {
+      "form": "ei",
+      "status": "attested"
+    },
+    {
+      "form": "ui",
+      "status": "attested"
+    },
+    {
+      "form": "eu",
+      "status": "attested",
+      "hinweis": "nur durch ein Wort belegt (breun)"
+    },
+    {
+      "form": "oi",
+      "status": "allowed",
+      "hinweis": "regulaer und schreibbar, derzeit unbelegt"
+    },
+    {
+      "form": "ou",
+      "status": "open",
+      "hinweis": "[NOCH ZU ENTSCHEIDEN] in 0.9.3 ausdruecklich offen — nicht verwenden, bis entschieden"
+    }
+  ],
+  "im_validator_aktiv": [
+    "ai",
+    "au",
+    "ei",
+    "ui",
+    "eu",
+    "oi"
+  ]
+}

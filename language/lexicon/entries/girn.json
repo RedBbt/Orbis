@@ -1,0 +1,135 @@
+{
+  "lexeme_id": "ORB-LEX-000116",
+  "lemma": "girn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "wetter"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "kalt",
+    "definition": "kalt. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "cold",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "girnvi",
+      "superlativ": "girnvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "girnra",
+      "M_nom_pl": "girnrañ",
+      "M_akk_sg": "girnran",
+      "M_akk_pl": "girnrañan",
+      "M_dat_sg": "girnraş",
+      "M_dat_pl": "girnrañaş",
+      "M_gen_sg": "girnras",
+      "M_gen_pl": "girnrañas",
+      "F_nom_sg": "girnla",
+      "F_nom_pl": "girnlañ",
+      "F_akk_sg": "girnlan",
+      "F_akk_pl": "girnlañan",
+      "F_dat_sg": "girnlaş",
+      "F_dat_pl": "girnlañaş",
+      "F_gen_sg": "girnlas",
+      "F_gen_pl": "girnlañas",
+      "N_nom_sg": "girna",
+      "N_nom_pl": "girnañ",
+      "N_akk_sg": "girnan",
+      "N_akk_pl": "girnañan",
+      "N_dat_sg": "girnaş",
+      "N_dat_pl": "girnañaş",
+      "N_gen_sg": "girnas",
+      "N_gen_pl": "girnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "g",
+      "i",
+      "r",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "girn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "girn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000116"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000115",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

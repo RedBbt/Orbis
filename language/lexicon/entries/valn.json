@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000092",
+  "lemma": "valn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "modalverb",
+  "register": "neutral",
+  "haeufigkeit": "VERY_COMMON",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "grammatik"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "können",
+    "definition": "können. Modalverb; steht auf Position 2, das Vollverb im Infinitiv am Satzende (Verbklammer §16.1). Der Vollverbgebrauch ohne Infinitiv ist ungeregelt (U-03); die Stellung im Nebensatz ist offen (K-05). (Migrierte Woerterbuchglosse aus §16.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "can, to be able to",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "valn",
+    "konjugationsklasse": "modal",
+    "infinitiv": "valnex",
+    "partizip": "valnut",
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "valnam",
+        "2sg": "valnaş",
+        "3sg": "valnat",
+        "1pl": "valnamen",
+        "2pl": "valnaşen",
+        "3pl": "valnaten"
+      },
+      "vgh": {
+        "1sg": "valnom",
+        "2sg": "valnoş",
+        "3sg": "valnot",
+        "1pl": "valnomen",
+        "2pl": "valnoşen",
+        "3pl": "valnoten"
+      },
+      "fut": {
+        "1sg": "valnaim",
+        "2sg": "valnaiş",
+        "3sg": "valnait",
+        "1pl": "valnaimen",
+        "2pl": "valnaişen",
+        "3pl": "valnaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "a",
+      "l",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "valn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "valn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000092"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-05",
+      "U-03",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§16.1"
+  }
+}

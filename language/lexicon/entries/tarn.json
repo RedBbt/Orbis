@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000091",
+  "lemma": "tarn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "vollverb",
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "bewegung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "folgen",
+    "definition": "folgen. Regelmaessige Verbwurzel; konjugiert mit Tempusvokal (-a- / -o- / -ai-) und Personendung (§14–§15). (Migrierte Woerterbuchglosse aus §24.5; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "to follow",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "tarn",
+    "konjugationsklasse": "regelmaessig",
+    "infinitiv": "tarnex",
+    "partizip": "tarnut",
+    "kasusformen": null,
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "tarnam",
+        "2sg": "tarnaş",
+        "3sg": "tarnat",
+        "1pl": "tarnamen",
+        "2pl": "tarnaşen",
+        "3pl": "tarnaten"
+      },
+      "vgh": {
+        "1sg": "tarnom",
+        "2sg": "tarnoş",
+        "3sg": "tarnot",
+        "1pl": "tarnomen",
+        "2pl": "tarnoşen",
+        "3pl": "tarnoten"
+      },
+      "fut": {
+        "1sg": "tarnaim",
+        "2sg": "tarnaiş",
+        "3sg": "tarnait",
+        "1pl": "tarnaimen",
+        "2pl": "tarnaişen",
+        "3pl": "tarnaiten"
+      }
+    },
+    "transitivitaet": null
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "a",
+      "r",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "tarn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "tarn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000091"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.5"
+  }
+}

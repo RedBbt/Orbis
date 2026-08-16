@@ -1,0 +1,135 @@
+{
+  "lexeme_id": "ORB-LEX-000109",
+  "lemma": "morn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "bewertung"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "schlecht",
+    "definition": "schlecht. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "bad",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "mornvi",
+      "superlativ": "mornvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "mornra",
+      "M_nom_pl": "mornrañ",
+      "M_akk_sg": "mornran",
+      "M_akk_pl": "mornrañan",
+      "M_dat_sg": "mornraş",
+      "M_dat_pl": "mornrañaş",
+      "M_gen_sg": "mornras",
+      "M_gen_pl": "mornrañas",
+      "F_nom_sg": "mornla",
+      "F_nom_pl": "mornlañ",
+      "F_akk_sg": "mornlan",
+      "F_akk_pl": "mornlañan",
+      "F_dat_sg": "mornlaş",
+      "F_dat_pl": "mornlañaş",
+      "F_gen_sg": "mornlas",
+      "F_gen_pl": "mornlañas",
+      "N_nom_sg": "morna",
+      "N_nom_pl": "mornañ",
+      "N_akk_sg": "mornan",
+      "N_akk_pl": "mornañan",
+      "N_dat_sg": "mornaş",
+      "N_dat_pl": "mornañaş",
+      "N_gen_sg": "mornas",
+      "N_gen_pl": "mornañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "m",
+      "o",
+      "r",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "morn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "morn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000109"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000108",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

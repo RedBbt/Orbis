@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RedBbt/Orbis/language/lexicon/concept.schema.json",
+  "title": "Orbis Bedeutungskonzept",
+  "description": "Ein Konzept ist eine sprachunabhaengige Bedeutungseinheit. Lexeme verweisen auf Konzepte; mehrere Lexeme koennen dasselbe oder ueberlappende Konzepte tragen (Grundlage der Synonymdifferenzierung). Deutsch ist die semantische Autoritaet.",
+  "type": "object",
+  "required": ["concept_id", "de", "domaene"],
+  "additionalProperties": false,
+  "properties": {
+    "concept_id": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" },
+    "de": {
+      "type": "object", "required": ["hauptdefinition"], "additionalProperties": false,
+      "properties": {
+        "label": { "type": ["string", "null"], "description": "Kurzbezeichnung des Konzepts." },
+        "hauptdefinition": { "type": "string", "minLength": 1 },
+        "abgrenzung": { "type": ["string", "null"], "description": "Wogegen sich das Konzept abgrenzt." }
+      }
+    },
+    "en": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "label": { "type": ["string", "null"] },
+        "definition": { "type": ["string", "null"] },
+        "status": { "enum": ["missing", "draft", "derived", "reviewed"], "default": "missing" }
+      }
+    },
+    "domaene": { "type": "string", "description": "Semantische Domaene, z. B. 'natur', 'zeit', 'mensch'." },
+    "oberbegriffe": { "type": "array", "items": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" } },
+    "unterbegriffe": { "type": "array", "items": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" } },
+    "verwandte": { "type": "array", "items": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" } },
+    "gegensaetze": { "type": "array", "items": { "type": "string", "pattern": "^ORB-CON-[0-9]{6}$" } },
+    "lexeme": {
+      "type": "array",
+      "description": "Rueckverweis auf realisierende Lexeme (redundant, aus entries generierbar).",
+      "items": { "type": "string", "pattern": "^ORB-LEX-[0-9]{6}$" }
+    },
+    "status": { "enum": ["draft", "canonical", "experimental", "deprecated"], "default": "draft" },
+    "quelle": { "type": ["string", "null"] }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§5, §26",
+  "regel_id": "ORB-GRAM-PHON-006",
+  "status": "open",
+  "befunde": [
+    "L-09"
+  ],
+  "regel": null,
+  "beschreibung": "Es existiert KEINE Silbifizierungs-Praeferenzregel. §5 legt erlaubte Silbenformen fest, aber nicht, wie eine Lautkette zerlegt wird.",
+  "auswirkung": "77 von 281 Grundformen sind mehrdeutig zerlegbar; blockiert einen deterministischen Manus-Composer.",
+  "simulationen": "tools/validator (--sim-l09) und tests/manus — Analysewerkzeuge, KEINE Sprachregeln."
+}

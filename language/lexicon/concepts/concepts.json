@@ -1,0 +1,3020 @@
+{
+  "anzahl": 131,
+  "quelle": "Orbis-Grammatik-0.9.3.md §24",
+  "hinweis": "Ein Konzept je dokumentierter Glosse. Feinere semantische Differenzierung ist Designerarbeit.",
+  "concepts": [
+    {
+      "concept_id": "ORB-CON-000001",
+      "de": {
+        "label": "Mensch",
+        "hauptdefinition": "Bedeutungskonzept „Mensch“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "human being",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "mensch",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000001"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000002",
+      "de": {
+        "label": "Mutter",
+        "hauptdefinition": "Bedeutungskonzept „Mutter“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "mother",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "familie",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000002"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000003",
+      "de": {
+        "label": "Vater",
+        "hauptdefinition": "Bedeutungskonzept „Vater“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "father",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "familie",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000003"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000004",
+      "de": {
+        "label": "Kind",
+        "hauptdefinition": "Bedeutungskonzept „Kind“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "child",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "familie",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000004"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000005",
+      "de": {
+        "label": "Wasser",
+        "hauptdefinition": "Bedeutungskonzept „Wasser“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "water",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000005"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000006",
+      "de": {
+        "label": "Feuer",
+        "hauptdefinition": "Bedeutungskonzept „Feuer“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "fire",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000006"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000007",
+      "de": {
+        "label": "Sonne",
+        "hauptdefinition": "Bedeutungskonzept „Sonne“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "sun",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000007"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000008",
+      "de": {
+        "label": "Erde",
+        "hauptdefinition": "Bedeutungskonzept „Erde“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "earth",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000008"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000009",
+      "de": {
+        "label": "Zeit",
+        "hauptdefinition": "Bedeutungskonzept „Zeit“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "time",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000009"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000010",
+      "de": {
+        "label": "Leben",
+        "hauptdefinition": "Bedeutungskonzept „Leben“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "life",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000010"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000011",
+      "de": {
+        "label": "Tod",
+        "hauptdefinition": "Bedeutungskonzept „Tod“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "death",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000011"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000012",
+      "de": {
+        "label": "Welt",
+        "hauptdefinition": "Bedeutungskonzept „Welt“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "world",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000012"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000013",
+      "de": {
+        "label": "Name",
+        "hauptdefinition": "Bedeutungskonzept „Name“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "name",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000013"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000014",
+      "de": {
+        "label": "Sprache",
+        "hauptdefinition": "Bedeutungskonzept „Sprache“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "language",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000014"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000015",
+      "de": {
+        "label": "Haus",
+        "hauptdefinition": "Bedeutungskonzept „Haus“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "house",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wohnen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000015"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000016",
+      "de": {
+        "label": "Freundschaft",
+        "hauptdefinition": "Bedeutungskonzept „Freundschaft“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "friendship",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "beziehungen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000016"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000017",
+      "de": {
+        "label": "Denkmal",
+        "hauptdefinition": "Bedeutungskonzept „Denkmal“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "monument",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kultur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000017"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000018",
+      "de": {
+        "label": "Handwerk",
+        "hauptdefinition": "Bedeutungskonzept „Handwerk“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "craft",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "arbeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000018"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000019",
+      "de": {
+        "label": "Mann",
+        "hauptdefinition": "Bedeutungskonzept „Mann“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "man",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "mensch",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000019"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000020",
+      "de": {
+        "label": "Freund",
+        "hauptdefinition": "Bedeutungskonzept „Freund“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "friend",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "beziehungen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000020"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000021",
+      "de": {
+        "label": "Tag",
+        "hauptdefinition": "Bedeutungskonzept „Tag“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "day",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000021"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000022",
+      "de": {
+        "label": "Wanderer",
+        "hauptdefinition": "Bedeutungskonzept „Wanderer“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "wanderer",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "mensch",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000022"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000023",
+      "de": {
+        "label": "Sprecher",
+        "hauptdefinition": "Bedeutungskonzept „Sprecher“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "speaker",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000023"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000024",
+      "de": {
+        "label": "Hund",
+        "hauptdefinition": "Bedeutungskonzept „Hund“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "dog",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "tiere",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000024"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000025",
+      "de": {
+        "label": "Stein",
+        "hauptdefinition": "Bedeutungskonzept „Stein“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "stone",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000025"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000026",
+      "de": {
+        "label": "Wind",
+        "hauptdefinition": "Bedeutungskonzept „Wind“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "wind",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wetter",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000026"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000027",
+      "de": {
+        "label": "Vogel",
+        "hauptdefinition": "Bedeutungskonzept „Vogel“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "bird",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "tiere",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000027"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000028",
+      "de": {
+        "label": "Berg",
+        "hauptdefinition": "Bedeutungskonzept „Berg“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "mountain",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000028"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000029",
+      "de": {
+        "label": "Fluss",
+        "hauptdefinition": "Bedeutungskonzept „Fluss“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "river",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000029"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000030",
+      "de": {
+        "label": "Traum",
+        "hauptdefinition": "Bedeutungskonzept „Traum“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "dream",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000030"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000031",
+      "de": {
+        "label": "Sturm",
+        "hauptdefinition": "Bedeutungskonzept „Sturm“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "storm",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wetter",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000031"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000032",
+      "de": {
+        "label": "Frau",
+        "hauptdefinition": "Bedeutungskonzept „Frau“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "woman",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "mensch",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000032"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000033",
+      "de": {
+        "label": "Hand",
+        "hauptdefinition": "Bedeutungskonzept „Hand“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "hand",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000033"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000034",
+      "de": {
+        "label": "Stadt",
+        "hauptdefinition": "Bedeutungskonzept „Stadt“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "city",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "gesellschaft",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000034"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000035",
+      "de": {
+        "label": "Blume",
+        "hauptdefinition": "Bedeutungskonzept „Blume“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "flower",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "pflanzen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000035"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000036",
+      "de": {
+        "label": "Wanderin",
+        "hauptdefinition": "Bedeutungskonzept „Wanderin“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "wanderer (f.)",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "mensch",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000036"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000037",
+      "de": {
+        "label": "Sprecherin",
+        "hauptdefinition": "Bedeutungskonzept „Sprecherin“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "speaker (f.)",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000037"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000038",
+      "de": {
+        "label": "Nacht",
+        "hauptdefinition": "Bedeutungskonzept „Nacht“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "night",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000038"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000039",
+      "de": {
+        "label": "Straße",
+        "hauptdefinition": "Bedeutungskonzept „Straße“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "street",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000039"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000040",
+      "de": {
+        "label": "Flamme",
+        "hauptdefinition": "Bedeutungskonzept „Flamme“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "flame",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000040"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000041",
+      "de": {
+        "label": "Wolke",
+        "hauptdefinition": "Bedeutungskonzept „Wolke“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "cloud",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wetter",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000041"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000042",
+      "de": {
+        "label": "Stimme",
+        "hauptdefinition": "Bedeutungskonzept „Stimme“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "voice",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000042"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000043",
+      "de": {
+        "label": "Erinnerung",
+        "hauptdefinition": "Bedeutungskonzept „Erinnerung“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "memory",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000043"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000044",
+      "de": {
+        "label": "Freiheit",
+        "hauptdefinition": "Bedeutungskonzept „Freiheit“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "freedom",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000044"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000045",
+      "de": {
+        "label": "Rede",
+        "hauptdefinition": "Bedeutungskonzept „Rede“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "speech",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000045"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000046",
+      "de": {
+        "label": "Reise",
+        "hauptdefinition": "Bedeutungskonzept „Reise“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "journey",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000046"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000047",
+      "de": {
+        "label": "Auge",
+        "hauptdefinition": "Bedeutungskonzept „Auge“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "eye",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000047"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000048",
+      "de": {
+        "label": "Herz",
+        "hauptdefinition": "Bedeutungskonzept „Herz“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "heart",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000048"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000049",
+      "de": {
+        "label": "Weg",
+        "hauptdefinition": "Bedeutungskonzept „Weg“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "way",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000049"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000050",
+      "de": {
+        "label": "Wald",
+        "hauptdefinition": "Bedeutungskonzept „Wald“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "forest",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000050"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000051",
+      "de": {
+        "label": "Himmel",
+        "hauptdefinition": "Bedeutungskonzept „Himmel“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "sky",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "natur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000051"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000052",
+      "de": {
+        "label": "Versammlungsort",
+        "hauptdefinition": "Bedeutungskonzept „Versammlungsort“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "meeting place",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "gesellschaft",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000052"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000053",
+      "de": {
+        "label": "Wort",
+        "hauptdefinition": "Bedeutungskonzept „Wort“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "word",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000053"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000054",
+      "de": {
+        "label": "Feder",
+        "hauptdefinition": "Bedeutungskonzept „Feder“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "feather",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "tiere",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000054"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000055",
+      "de": {
+        "label": "Brot",
+        "hauptdefinition": "Bedeutungskonzept „Brot“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "bread",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "essen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000055"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000056",
+      "de": {
+        "label": "Buch",
+        "hauptdefinition": "Bedeutungskonzept „Buch“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "book",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kultur",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000056"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000057",
+      "de": {
+        "label": "Fahrzeug",
+        "hauptdefinition": "Bedeutungskonzept „Fahrzeug“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "vehicle",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "transport",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000057"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000058",
+      "de": {
+        "label": "Instrument",
+        "hauptdefinition": "Bedeutungskonzept „Instrument“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "instrument",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "werkzeug",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000058"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000059",
+      "de": {
+        "label": "Jahr",
+        "hauptdefinition": "Bedeutungskonzept „Jahr“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "year",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000059"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000060",
+      "de": {
+        "label": "Wahrheit",
+        "hauptdefinition": "Bedeutungskonzept „Wahrheit“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "truth",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000060"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000061",
+      "de": {
+        "label": "Wille",
+        "hauptdefinition": "Bedeutungskonzept „Wille“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "will",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000061"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000062",
+      "de": {
+        "label": "Verlust",
+        "hauptdefinition": "Bedeutungskonzept „Verlust“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "loss",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000062"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000063",
+      "de": {
+        "label": "Vergänglichkeit",
+        "hauptdefinition": "Bedeutungskonzept „Vergänglichkeit“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "transience",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000063"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000064",
+      "de": {
+        "label": "Entscheidung",
+        "hauptdefinition": "Bedeutungskonzept „Entscheidung“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "decision",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000064"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000065",
+      "de": {
+        "label": "Identität",
+        "hauptdefinition": "Bedeutungskonzept „Identität“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "identity",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000065"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000066",
+      "de": {
+        "label": "Konsequenz",
+        "hauptdefinition": "Bedeutungskonzept „Konsequenz“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "consequence",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000066"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000067",
+      "de": {
+        "label": "Liebe",
+        "hauptdefinition": "Bedeutungskonzept „Liebe“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "love",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "gefuehle",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000067"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000068",
+      "de": {
+        "label": "Dasein",
+        "hauptdefinition": "Bedeutungskonzept „Dasein“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "existence",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000068"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000069",
+      "de": {
+        "label": "Schule",
+        "hauptdefinition": "Bedeutungskonzept „Schule“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "school",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "gesellschaft",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000069"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000070",
+      "de": {
+        "label": "Kanal",
+        "hauptdefinition": "Bedeutungskonzept „Kanal“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "canal",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000070"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000071",
+      "de": {
+        "label": "Kalender",
+        "hauptdefinition": "Bedeutungskonzept „Kalender“ (nomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "calendar",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000071"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000072",
+      "de": {
+        "label": "sehen",
+        "hauptdefinition": "Bedeutungskonzept „sehen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to see",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000072"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000073",
+      "de": {
+        "label": "hören",
+        "hauptdefinition": "Bedeutungskonzept „hören“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to hear",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000073"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000074",
+      "de": {
+        "label": "sprechen",
+        "hauptdefinition": "Bedeutungskonzept „sprechen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to speak",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000074"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000075",
+      "de": {
+        "label": "essen",
+        "hauptdefinition": "Bedeutungskonzept „essen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to eat",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "essen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000075"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000076",
+      "de": {
+        "label": "trinken",
+        "hauptdefinition": "Bedeutungskonzept „trinken“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to drink",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "essen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000076"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000077",
+      "de": {
+        "label": "schlafen",
+        "hauptdefinition": "Bedeutungskonzept „schlafen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to sleep",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000077"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000078",
+      "de": {
+        "label": "denken",
+        "hauptdefinition": "Bedeutungskonzept „denken“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to think",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000078"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000079",
+      "de": {
+        "label": "nehmen",
+        "hauptdefinition": "Bedeutungskonzept „nehmen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to take",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000079"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000080",
+      "de": {
+        "label": "lieben",
+        "hauptdefinition": "Bedeutungskonzept „lieben“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to love",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "gefuehle",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000080"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000081",
+      "de": {
+        "label": "laufen",
+        "hauptdefinition": "Bedeutungskonzept „laufen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to run",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000081"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000082",
+      "de": {
+        "label": "schreiben",
+        "hauptdefinition": "Bedeutungskonzept „schreiben“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to write",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000082"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000083",
+      "de": {
+        "label": "lesen",
+        "hauptdefinition": "Bedeutungskonzept „lesen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to read",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "kommunikation",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000083"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000084",
+      "de": {
+        "label": "finden",
+        "hauptdefinition": "Bedeutungskonzept „finden“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to find",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000084"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000085",
+      "de": {
+        "label": "warten",
+        "hauptdefinition": "Bedeutungskonzept „warten“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to wait",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000085"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000086",
+      "de": {
+        "label": "bleiben",
+        "hauptdefinition": "Bedeutungskonzept „bleiben“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to stay",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000086"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000087",
+      "de": {
+        "label": "bewahren",
+        "hauptdefinition": "Bedeutungskonzept „bewahren“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to preserve",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000087"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000088",
+      "de": {
+        "label": "verlieren (transitiv)",
+        "hauptdefinition": "Bedeutungskonzept „verlieren (transitiv)“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to lose (transitive)",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000088"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000089",
+      "de": {
+        "label": "vergehen (intransitiv)",
+        "hauptdefinition": "Bedeutungskonzept „vergehen (intransitiv)“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to pass away (intransitive)",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000089"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000090",
+      "de": {
+        "label": "entscheiden",
+        "hauptdefinition": "Bedeutungskonzept „entscheiden“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to decide",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000090"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000091",
+      "de": {
+        "label": "folgen",
+        "hauptdefinition": "Bedeutungskonzept „folgen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to follow",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000091"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000092",
+      "de": {
+        "label": "können",
+        "hauptdefinition": "Bedeutungskonzept „können“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "can, to be able to",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000092"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000093",
+      "de": {
+        "label": "müssen",
+        "hauptdefinition": "Bedeutungskonzept „müssen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "must, to have to",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000093"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000094",
+      "de": {
+        "label": "dürfen",
+        "hauptdefinition": "Bedeutungskonzept „dürfen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "may, to be allowed to",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000094"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000095",
+      "de": {
+        "label": "sollen",
+        "hauptdefinition": "Bedeutungskonzept „sollen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "shall, ought to",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000095"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000096",
+      "de": {
+        "label": "wollen",
+        "hauptdefinition": "Bedeutungskonzept „wollen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to want",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000096"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000097",
+      "de": {
+        "label": "mögen",
+        "hauptdefinition": "Bedeutungskonzept „mögen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to like",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000097"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000098",
+      "de": {
+        "label": "sein",
+        "hauptdefinition": "Bedeutungskonzept „sein“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to be",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000098"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000099",
+      "de": {
+        "label": "haben",
+        "hauptdefinition": "Bedeutungskonzept „haben“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to have",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000099"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000100",
+      "de": {
+        "label": "werden",
+        "hauptdefinition": "Bedeutungskonzept „werden“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to become",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "existenz",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000100"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000101",
+      "de": {
+        "label": "gehen",
+        "hauptdefinition": "Bedeutungskonzept „gehen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to go",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000101"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000102",
+      "de": {
+        "label": "kommen",
+        "hauptdefinition": "Bedeutungskonzept „kommen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to come",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000102"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000103",
+      "de": {
+        "label": "machen",
+        "hauptdefinition": "Bedeutungskonzept „machen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to make",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "arbeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000103"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000104",
+      "de": {
+        "label": "wissen",
+        "hauptdefinition": "Bedeutungskonzept „wissen“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to know",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "denken",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000104"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000105",
+      "de": {
+        "label": "geben",
+        "hauptdefinition": "Bedeutungskonzept „geben“ (verb), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "to give",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "beziehungen",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000105"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000106",
+      "de": {
+        "label": "groß",
+        "hauptdefinition": "Bedeutungskonzept „groß“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "big",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000106"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000107",
+      "de": {
+        "label": "klein",
+        "hauptdefinition": "Bedeutungskonzept „klein“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "small",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000107"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000108",
+      "de": {
+        "label": "gut",
+        "hauptdefinition": "Bedeutungskonzept „gut“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "good",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewertung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000108"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000109",
+      "de": {
+        "label": "schlecht",
+        "hauptdefinition": "Bedeutungskonzept „schlecht“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "bad",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewertung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000109"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000110",
+      "de": {
+        "label": "schön",
+        "hauptdefinition": "Bedeutungskonzept „schön“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "beautiful",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewertung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000110"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000111",
+      "de": {
+        "label": "alt",
+        "hauptdefinition": "Bedeutungskonzept „alt“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "old",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000111"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000112",
+      "de": {
+        "label": "neu",
+        "hauptdefinition": "Bedeutungskonzept „neu“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "new",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "zeit",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000112"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000113",
+      "de": {
+        "label": "lang",
+        "hauptdefinition": "Bedeutungskonzept „lang“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "long",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000113"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000114",
+      "de": {
+        "label": "kurz",
+        "hauptdefinition": "Bedeutungskonzept „kurz“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "short",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "raum",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000114"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000115",
+      "de": {
+        "label": "warm",
+        "hauptdefinition": "Bedeutungskonzept „warm“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "warm",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wetter",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000115"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000116",
+      "de": {
+        "label": "kalt",
+        "hauptdefinition": "Bedeutungskonzept „kalt“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "cold",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wetter",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000116"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000117",
+      "de": {
+        "label": "hell",
+        "hauptdefinition": "Bedeutungskonzept „hell“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "bright",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000117"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000118",
+      "de": {
+        "label": "dunkel",
+        "hauptdefinition": "Bedeutungskonzept „dunkel“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "dark",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "wahrnehmung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000118"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000119",
+      "de": {
+        "label": "stark",
+        "hauptdefinition": "Bedeutungskonzept „stark“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "strong",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000119"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000120",
+      "de": {
+        "label": "schwach",
+        "hauptdefinition": "Bedeutungskonzept „schwach“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "weak",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "koerper",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000120"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000121",
+      "de": {
+        "label": "schnell",
+        "hauptdefinition": "Bedeutungskonzept „schnell“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "fast",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000121"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000122",
+      "de": {
+        "label": "langsam",
+        "hauptdefinition": "Bedeutungskonzept „langsam“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "slow",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "bewegung",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000122"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000123",
+      "de": {
+        "label": "wahr",
+        "hauptdefinition": "Bedeutungskonzept „wahr“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "true",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000123"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000124",
+      "de": {
+        "label": "falsch",
+        "hauptdefinition": "Bedeutungskonzept „falsch“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "false",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "abstrakta",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000124"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000125",
+      "de": {
+        "label": "kein",
+        "hauptdefinition": "Bedeutungskonzept „kein“ (adjektiv), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "no, none",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000125"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000126",
+      "de": {
+        "label": "wer",
+        "hauptdefinition": "Bedeutungskonzept „wer“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "who",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000153"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000127",
+      "de": {
+        "label": "was",
+        "hauptdefinition": "Bedeutungskonzept „was“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "what",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000154"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000128",
+      "de": {
+        "label": "wo/wohin",
+        "hauptdefinition": "Bedeutungskonzept „wo/wohin“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "where / where to",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000155"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000129",
+      "de": {
+        "label": "wann",
+        "hauptdefinition": "Bedeutungskonzept „wann“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "when",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000156"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000130",
+      "de": {
+        "label": "warum",
+        "hauptdefinition": "Bedeutungskonzept „warum“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "why",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000157"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    },
+    {
+      "concept_id": "ORB-CON-000131",
+      "de": {
+        "label": "wie",
+        "hauptdefinition": "Bedeutungskonzept „wie“ (pronomen), migriert aus dem Woerterbuch der Grammatik 0.9.3.",
+        "abgrenzung": null
+      },
+      "en": {
+        "label": "how",
+        "definition": null,
+        "status": "derived"
+      },
+      "domaene": "grammatik",
+      "oberbegriffe": [],
+      "unterbegriffe": [],
+      "verwandte": [],
+      "gegensaetze": [],
+      "lexeme": [
+        "ORB-LEX-000158"
+      ],
+      "status": "draft",
+      "quelle": "Orbis-Grammatik-0.9.3.md §24"
+    }
+  ]
+}

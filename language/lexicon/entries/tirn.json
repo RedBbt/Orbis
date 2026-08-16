@@ -1,0 +1,131 @@
+{
+  "lexeme_id": "ORB-LEX-000095",
+  "lemma": "tirn",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "verb",
+  "grammatische_kategorie": "modalverb",
+  "register": "neutral",
+  "haeufigkeit": "VERY_COMMON",
+  "produktivitaet": "unbekannt",
+  "domaenen": [
+    "grammatik"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "sollen",
+    "definition": "sollen. Modalverb; steht auf Position 2, das Vollverb im Infinitiv am Satzende (Verbklammer §16.1). Der Vollverbgebrauch ohne Infinitiv ist ungeregelt (U-03); die Stellung im Nebensatz ist offen (K-05). (Migrierte Woerterbuchglosse aus §16.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "shall, ought to",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "verbwurzel": "tirn",
+    "konjugationsklasse": "modal",
+    "infinitiv": "tirnex",
+    "partizip": "tirnut",
+    "unregelmaessige_formen": {
+      "präs": {
+        "1sg": "tirnam",
+        "2sg": "tirnaş",
+        "3sg": "tirnat",
+        "1pl": "tirnamen",
+        "2pl": "tirnaşen",
+        "3pl": "tirnaten"
+      },
+      "vgh": {
+        "1sg": "tirnom",
+        "2sg": "tirnoş",
+        "3sg": "tirnot",
+        "1pl": "tirnomen",
+        "2pl": "tirnoşen",
+        "3pl": "tirnoten"
+      },
+      "fut": {
+        "1sg": "tirnaim",
+        "2sg": "tirnaiş",
+        "3sg": "tirnait",
+        "1pl": "tirnaimen",
+        "2pl": "tirnaişen",
+        "3pl": "tirnaiten"
+      }
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "t",
+      "i",
+      "r",
+      "n"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "tirn"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "tirn"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000095"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-05",
+      "U-03",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§16.1"
+  }
+}

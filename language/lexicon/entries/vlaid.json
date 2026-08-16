@@ -1,0 +1,136 @@
+{
+  "lexeme_id": "ORB-LEX-000106",
+  "lemma": "vlaid",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "adjektiv",
+  "grammatische_kategorie": null,
+  "register": "neutral",
+  "haeufigkeit": "UNRATED",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "raum"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "groß",
+    "definition": "groß. Attributiv dekliniert (Stamm + r/l/n + a + Marker), praedikativ in der Grundform (§12.1–§12.2); Adverb auf -un (§12.4). (Migrierte Woerterbuchglosse aus §24.7; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "big",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "steigerung": {
+      "komparativ": "vlaidvi",
+      "superlativ": "vlaidvax"
+    },
+    "kasusformen": {
+      "M_nom_sg": "vlaidra",
+      "M_nom_pl": "vlaidrañ",
+      "M_akk_sg": "vlaidran",
+      "M_akk_pl": "vlaidrañan",
+      "M_dat_sg": "vlaidraş",
+      "M_dat_pl": "vlaidrañaş",
+      "M_gen_sg": "vlaidras",
+      "M_gen_pl": "vlaidrañas",
+      "F_nom_sg": "vlaidla",
+      "F_nom_pl": "vlaidlañ",
+      "F_akk_sg": "vlaidlan",
+      "F_akk_pl": "vlaidlañan",
+      "F_dat_sg": "vlaidlaş",
+      "F_dat_pl": "vlaidlañaş",
+      "F_gen_sg": "vlaidlas",
+      "F_gen_pl": "vlaidlañas",
+      "N_nom_sg": "vlaidna",
+      "N_nom_pl": "vlaidnañ",
+      "N_akk_sg": "vlaidnan",
+      "N_akk_pl": "vlaidnañan",
+      "N_dat_sg": "vlaidnaş",
+      "N_dat_pl": "vlaidnañaş",
+      "N_gen_sg": "vlaidnas",
+      "N_gen_pl": "vlaidnañas"
+    }
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "v",
+      "l",
+      "a",
+      "i",
+      "d"
+    ],
+    "ipa": null,
+    "silbifizierung": [
+      "vlaid"
+    ],
+    "silbifizierung_kandidaten": null,
+    "betonung": null,
+    "phonotaktik_status": "ok"
+  },
+  "manus": {
+    "silben": [
+      "vlaid"
+    ],
+    "kompositionsdaten": null,
+    "status": "provisional",
+    "ambiguitaet": false,
+    "ambiguitaet_anzahl": null,
+    "befund": null
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000106"
+    ],
+    "synonyme": [],
+    "relationen": [
+      {
+        "typ": "antonym",
+        "ziel": "ORB-LEX-000107",
+        "anmerkung_de": "Gegensatzpaar aus dem Adjektivbestand §24.7."
+      }
+    ],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "ok",
+    "offene_befunde": [
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.7"
+  }
+}

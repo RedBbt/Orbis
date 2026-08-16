@@ -1,0 +1,116 @@
+{
+  "lexeme_id": "ORB-LEX-000005",
+  "lemma": "aul",
+  "status": "canonical",
+  "eingefuehrt_in": "grammar-0.9.3",
+  "letzte_aenderung": "2026-08-16",
+  "wortart": "nomen",
+  "grammatische_kategorie": "kernwort",
+  "register": "neutral",
+  "haeufigkeit": "CORE",
+  "produktivitaet": "produktiv",
+  "domaenen": [
+    "natur"
+  ],
+  "lernstufe": "unbestimmt",
+  "de": {
+    "short": "Wasser",
+    "definition": "Wasser. Historisches Kernwort (N); dekliniert mit Bindevokal -e- im Singular und -ei im Plural (§10.3). (Migrierte Woerterbuchglosse aus §24.1; ausformulierte Definition steht aus.)",
+    "alternativen": [],
+    "gebrauchshinweis": null
+  },
+  "en": {
+    "short": "water",
+    "definition": null,
+    "alternativen": [],
+    "usage_note": null,
+    "status": "derived"
+  },
+  "grammatik": {
+    "genus": "N",
+    "klasse": "kernwort",
+    "unterklasse": null,
+    "themavokal": null,
+    "deklination": "kernwort",
+    "kasusformen": {
+      "nom_sg": "aul",
+      "akk_sg": "aulen",
+      "dat_sg": "auleş",
+      "gen_sg": "aules",
+      "nom_pl": "aulei",
+      "akk_pl": "aulein",
+      "dat_pl": "auleiş",
+      "gen_pl": "auleis"
+    },
+    "plural": "aulei",
+    "zaehlbarkeit": "unbestimmt"
+  },
+  "phonologie": {
+    "phonemfolge": [
+      "a",
+      "u",
+      "l"
+    ],
+    "ipa": null,
+    "silbifizierung": null,
+    "silbifizierung_kandidaten": [
+      "a·ul",
+      "aul"
+    ],
+    "betonung": null,
+    "phonotaktik_status": "K-01"
+  },
+  "manus": {
+    "silben": null,
+    "kompositionsdaten": null,
+    "status": "blocked",
+    "ambiguitaet": true,
+    "ambiguitaet_anzahl": 2,
+    "befund": "L-09"
+  },
+  "semantik": {
+    "concept_ids": [
+      "ORB-CON-000005"
+    ],
+    "synonyme": [],
+    "relationen": [],
+    "konnotation": null,
+    "bedeutungsnuancen": []
+  },
+  "wortfamilie": {
+    "wurzel": null,
+    "family_id": null,
+    "abgeleitete": [],
+    "komposita": [],
+    "verwandte_wurzeln": []
+  },
+  "etymologie": {
+    "status": "unknown",
+    "proto_form": null,
+    "zwischenformen": [],
+    "lautgesetze": [],
+    "bedeutungsentwicklung": null,
+    "besonderheiten": null
+  },
+  "gebrauch": {
+    "kollokationen": [],
+    "typische_konstruktionen": [],
+    "typische_praepositionen": [],
+    "typische_objekte": [],
+    "typische_subjekte": [],
+    "stil": null,
+    "bereich": null
+  },
+  "beispiele": [],
+  "qualitaet": {
+    "geprueft": true,
+    "validatorstatus": "befund",
+    "offene_befunde": [
+      "K-01",
+      "L-09",
+      "W-04"
+    ],
+    "letzte_pruefung": "2026-08-16",
+    "quelle": "§24.1"
+  }
+}

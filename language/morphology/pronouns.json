@@ -1,0 +1,261 @@
+{
+  "quelle": "Orbis-Grammatik-0.9.3.md",
+  "erzeugt_von": "tools/migration/extract_language_data.py",
+  "hinweis": "Maschinenlesbare Fassung bestehender Regeln. Keine neuen Regeln. Bei Abweichung zur Grammatik gilt die Grammatik (Befund melden).",
+  "paragraph": "§13",
+  "regel_id": "ORB-GRAM-MOR-008",
+  "status": "canonical",
+  "befunde": [
+    "L-02",
+    "L-04",
+    "L-06"
+  ],
+  "personalpronomen": [
+    {
+      "form": "viñan",
+      "person": "1pl",
+      "kasus": "akk"
+    },
+    {
+      "form": "viñaş",
+      "person": "1pl",
+      "kasus": "dat"
+    },
+    {
+      "form": "viñas",
+      "person": "1pl",
+      "kasus": "gen"
+    },
+    {
+      "form": "viñ",
+      "person": "1pl",
+      "kasus": "nom"
+    },
+    {
+      "form": "vin",
+      "person": "1sg",
+      "kasus": "akk"
+    },
+    {
+      "form": "viş",
+      "person": "1sg",
+      "kasus": "dat"
+    },
+    {
+      "form": "vis",
+      "person": "1sg",
+      "kasus": "gen"
+    },
+    {
+      "form": "vim",
+      "person": "1sg",
+      "kasus": "nom"
+    },
+    {
+      "form": "şevan",
+      "person": "2höfl",
+      "kasus": "akk"
+    },
+    {
+      "form": "şevaş",
+      "person": "2höfl",
+      "kasus": "dat"
+    },
+    {
+      "form": "şevas",
+      "person": "2höfl",
+      "kasus": "gen"
+    },
+    {
+      "form": "şevar",
+      "person": "2höfl",
+      "kasus": "nom"
+    },
+    {
+      "form": "şeñan",
+      "person": "2pl",
+      "kasus": "akk"
+    },
+    {
+      "form": "şeñaş",
+      "person": "2pl",
+      "kasus": "dat"
+    },
+    {
+      "form": "şeñas",
+      "person": "2pl",
+      "kasus": "gen"
+    },
+    {
+      "form": "şeñ",
+      "person": "2pl",
+      "kasus": "nom"
+    },
+    {
+      "form": "şen",
+      "person": "2sg",
+      "kasus": "akk"
+    },
+    {
+      "form": "şeş",
+      "person": "2sg",
+      "kasus": "dat"
+    },
+    {
+      "form": "şes",
+      "person": "2sg",
+      "kasus": "gen"
+    },
+    {
+      "form": "şet",
+      "person": "2sg",
+      "kasus": "nom"
+    },
+    {
+      "form": "oñan",
+      "person": "3pl",
+      "kasus": "akk"
+    },
+    {
+      "form": "oñaş",
+      "person": "3pl",
+      "kasus": "dat"
+    },
+    {
+      "form": "oñas",
+      "person": "3pl",
+      "kasus": "gen"
+    },
+    {
+      "form": "oñ",
+      "person": "3pl",
+      "kasus": "nom"
+    },
+    {
+      "form": "lon",
+      "person": "3sg-f",
+      "kasus": "akk"
+    },
+    {
+      "form": "loş",
+      "person": "3sg-f",
+      "kasus": "dat"
+    },
+    {
+      "form": "los",
+      "person": "3sg-f",
+      "kasus": "gen"
+    },
+    {
+      "form": "lo",
+      "person": "3sg-f",
+      "kasus": "nom"
+    },
+    {
+      "form": "ron",
+      "person": "3sg-m",
+      "kasus": "akk"
+    },
+    {
+      "form": "roş",
+      "person": "3sg-m",
+      "kasus": "dat"
+    },
+    {
+      "form": "ros",
+      "person": "3sg-m",
+      "kasus": "gen"
+    },
+    {
+      "form": "ro",
+      "person": "3sg-m",
+      "kasus": "nom"
+    },
+    {
+      "form": "non",
+      "person": "3sg-n",
+      "kasus": "akk"
+    },
+    {
+      "form": "noş",
+      "person": "3sg-n",
+      "kasus": "dat"
+    },
+    {
+      "form": "nos",
+      "person": "3sg-n",
+      "kasus": "gen"
+    },
+    {
+      "form": "no",
+      "person": "3sg-n",
+      "kasus": "nom"
+    }
+  ],
+  "possessiv": {
+    "regel": "Genitiv des Personalpronomens, nachgestellt (§13.3)"
+  },
+  "hoeflichkeitsform": {
+    "pronomen": "şevar",
+    "kongruenz": "3. Person Plural (§13.2)"
+  },
+  "demonstrativa": {
+    "formen": {
+      "kilra": "dieser(m)",
+      "killa": "diese(f)",
+      "kilna": "dieses(n)",
+      "dolra": "jener(m)",
+      "dolla": "jene(f)",
+      "dolna": "jenes(n)"
+    },
+    "deklination": {
+      "status": "open",
+      "befund": "L-06"
+    }
+  },
+  "reflexiv": {
+    "formen": [
+      "se"
+    ],
+    "kasusformen": {
+      "status": "open",
+      "befund": "L-04"
+    },
+    "personenbereich": {
+      "status": "open",
+      "befund": "L-04"
+    }
+  },
+  "relativ": {
+    "formen": [
+      "fai"
+    ],
+    "satzbau": {
+      "status": "open",
+      "befund": "L-02"
+    },
+    "homonymie": "fai ist zugleich Konjunktion 'dass' (§20)"
+  },
+  "indefinita": {
+    "formen": {
+      "kaun": "man (homonym: Mensch)",
+      "kelsu": "jemand",
+      "xakaun": "niemand",
+      "kelte": "etwas",
+      "xakelte": "nichts"
+    },
+    "deklination": {
+      "status": "open",
+      "befund": "L-06"
+    }
+  },
+  "fugenkonflikt": {
+    "befund": "K-02",
+    "betroffen": [
+      "killa",
+      "dolla",
+      "kella"
+    ],
+    "beschreibung": "unverschmolzene l+l-Fuge gegen §21.4"
+  }
+}
