@@ -293,7 +293,7 @@ bleiben getrennt versioniert.
 |---|---|
 | §26 vollständig: Kernformen, Vokalpunkte, Coda, Abschlusszeichen | `MANUS.md` |
 | Feierliche Schriftform und ihre offenen Spiralregeln | `MAGNA.md` (§27) |
-| Silbenformen, Anlautgruppen, Coda-Bedingungen, K-01 und L-09 | `PHONOTAKTIK.md` (§5) |
+| Silbenformen, Anlautgruppen, Coda-Bedingungen, K-01 und L-09 | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
 | Kasusmarker und Paradigmen (*valru · valrun · valruş · valrus*) | `NOMEN.md` (§8–§10) |
 | Zerlegungstabelle aller 281 Grundformen | `Orbis-Manus-Schreibtest-0_1.md` |
 | Befund-IDs L-09, L-10, U-10, K-01 | `Orbis-Audit-0_1.md`, `language/findings/findings.json` |

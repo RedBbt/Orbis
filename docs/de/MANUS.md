@@ -20,9 +20,9 @@ Drei Vorbehalte gelten für das ganze Kapitel und werden hier benannt, nicht beh
 
 | Vorbehalt | Wirkung |
 |---|---|
-| **[REGELLÜCKE L-09]** | Es gibt keine Silbifizierungsregel. 77 von 281 Grundformen haben mehr als eine regelkonforme Manus-Schreibung (§11) |
-| **[REGELLÜCKE L-10]** | Für *f s ş x v z j ç* ist keine Strichstärke definiert (§10) |
-| **[REGELUNKLARHEIT U-10]** | §26.8 nennt „20 Konsonantentasten"; Orbis hat 19 Konsonanten (§9) |
+| **[REGELLÜCKE L-09]** | Es gibt keine Silbifizierungsregel. 77 von 281 Grundformen haben mehr als eine regelkonforme Manus-Schreibung (Abschnitt 11 dieser Datei) |
+| **[REGELLÜCKE L-10]** | Für *f s ş x v z j ç* ist keine Strichstärke definiert (Abschnitt 10 dieser Datei) |
+| **[REGELUNKLARHEIT U-10]** | §26.8 nennt „20 Konsonantentasten"; Orbis hat 19 Konsonanten (Abschnitt 9 dieser Datei) |
 
 ---
 
@@ -440,7 +440,7 @@ Zerlegung gilt — einschließlich der Sonderfälle *suvr-* und der Kompositions
 
 | Thema | Ort |
 |---|---|
-| Silbenformen, Anlautgruppen, Coda-Bedingungen, L-09 phonotaktisch | `PHONOTAKTIK.md` (§5) |
+| Silbenformen, Anlautgruppen, Coda-Bedingungen, L-09 phonotaktisch | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
 | Lautinventar, Klanggruppen, unbelegte Laute *j* und *ç* | `PHONOLOGIE.md` (§2, §3) |
 | Betonung und Lautung | `AUSSPRACHE.md` (§23) |
 | Feierliche Schriftform | `MAGNA.md` (§27) |

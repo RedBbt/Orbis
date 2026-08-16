@@ -218,7 +218,7 @@ finding ID for it; here it is only recorded, neither assessed nor closed.
 
 | Topic | Location |
 |---|---|
-| Syllable shapes, onset and coda clusters, syllable boundaries | `PHONOTACTICS.md` (§5) |
+| Syllable shapes, onset and coda clusters, syllable boundaries | `PHONOTACTICS.md` (Abschnitt 5 dieser Datei) |
 | Sound values, colloquial pronunciation, stress | `PRONUNCIATION.md` (§2, §4, §23) |
 | Sound laws and word derivation | `PROTO_ORBIS.md` (§22) |
 | Script signs for sounds and diphthongs | Grammar §26 (Orbis Manus) |
@@ -228,4 +228,4 @@ finding ID for it; here it is only recorded, neither assessed nor closed.
 
 *Source of all rule statements: `Orbis-Grammatik-0.9.3.md` (READ ONLY). Where this
 documentation and the grammar diverge, the grammar prevails. Where this English version
-and the German version diverge, the German version prevails (TRANSLATION_POLICY.md §1).*
+and the German version diverge, the German version prevails (TRANSLATION_POLICY.md, section 1).*

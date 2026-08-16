@@ -217,7 +217,7 @@ hier wird sie nur festgehalten, nicht bewertet und nicht geschlossen.
 
 | Thema | Ort |
 |---|---|
-| Silbenformen, Anfangs- und Endgruppen, Silbengrenzen | `PHONOTAKTIK.md` (§5) |
+| Silbenformen, Anfangs- und Endgruppen, Silbengrenzen | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
 | Lautwerte, Umgangsaussprache, Betonung | `AUSSPRACHE.md` (§2, §4, §23) |
 | Lautgesetze und Wortherleitung | `PROTO_ORBIS.md` (§22) |
 | Schriftzeichen für Laute und Diphthonge | Grammatik §26 (Orbis Manus) |

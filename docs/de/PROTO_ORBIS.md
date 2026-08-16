@@ -256,7 +256,7 @@ ausschließlich Standard-Orbis (§1.).
 | Thema | Ort |
 |---|---|
 | Lautinventar, §3.3 gegen §3.4/§3.5 | `PHONOLOGIE.md` (§2, §3) |
-| Silbenformen, Anfangs-/Endgruppen, K-01 | `PHONOTAKTIK.md` (§5) |
+| Silbenformen, Anfangs-/Endgruppen, K-01 | `PHONOTAKTIK.md` (Abschnitt 5 dieser Datei) |
 | Ebene A und B, Betonung, fehlende IPA-Zuordnung | `AUSSPRACHE.md` (§4, §23) |
 | Wortbildung, Vorsilben, Fugenregel (synchron) | Grammatik §21 |
 | Unregelmäßige Verben (Gesetz 6) | Grammatik §15.2 |
