@@ -56,5 +56,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 - Offene Befunde:
   - **K-01** — Silbenformenliste deckt den eigenen Wortschatz nicht
   - **L-09** — Keine Silbifizierungs-Praeferenzregel
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

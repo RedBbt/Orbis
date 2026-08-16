@@ -44,5 +44,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 - Offene Befunde:
   - **L-09** — Keine Silbifizierungs-Praeferenzregel
   - **U-07** — Ableitungsbehauptung bei Konjunktionen trifft nicht zu
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

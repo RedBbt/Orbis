@@ -23,6 +23,7 @@ Alle dokumentierten Regelkonflikte, Regellücken, Unklarheiten und Wortschatzbef
 | U-08 | REGELUNKLARHEIT | P2 | Deklination von Komposita mit Kernwort-Kopf | §21.3, §10 | open |
 | W-01 | WORTSCHATZLUECKE | P2 | Wortschatzluecken fuer Grundkommunikation | §24 | open |
 | W-02 | WORTSCHATZKOLLISION | P2 | Formkollision velkran | §10.1, §24.2 | open |
+| W-04 | DOKUMENTATIONSLUECKE | P2 | Lexikoneintraege ohne ausformulierte Definition | §24 | open |
 | K-01 | REGELKONFLIKT | P3 | Silbenformenliste deckt den eigenen Wortschatz nicht | §5.1, §5.3, §10.2, §15.2, §24, §25 | open |
 | K-02 | REGELKONFLIKT | P3 | Pronomenformen verletzen die Fugenregel | §13.4, §18.2, §21.4 | open |
 | K-03 | REGELKONFLIKT | P3 | Zahlkompositum verletzt die Fugenregel | §24.8, §21.4 | open |

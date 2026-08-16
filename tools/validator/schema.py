@@ -39,8 +39,9 @@ def check_json_wellformed():
     return fehler
 
 
-def check_lexicon():
+def check_lexicon(findings=None):
     fehler = []
+    findings = findings or set()
     idx_p = os.path.join(LANG, "lexicon", "index.json")
     idx = _load(idx_p)
     gesehen_id, gesehen_datei = {}, set()
@@ -83,6 +84,9 @@ def check_lexicon():
                 fehler.append(f"{wo}: Relation {rel['typ']} zeigt auf unbekanntes Lexem {ziel}")
             if ziel.startswith("ORB-CON-") and ziel not in concepts:
                 fehler.append(f"{wo}: Relation {rel['typ']} zeigt auf unbekanntes Konzept {ziel}")
+        for b in d.get("qualitaet", {}).get("offene_befunde", []):
+            if findings and b not in findings:
+                fehler.append(f"{wo}: unbekannte Befund-ID {b}")
         for syn in d.get("semantik", {}).get("synonyme", []):
             if not syn.get("bedeutungsunterschied_de"):
                 fehler.append(f"{wo}: Synonymrelation ohne Bedeutungsunterschied "
@@ -153,7 +157,9 @@ def run_schema(args):
     if alles:
         fehler += check_json_wellformed()
 
-    lex_fehler, eintraege, concepts = check_lexicon()
+    fin_ids = {f["id"] for f in
+               _load(os.path.join(LANG, "findings", "findings.json"))["findings"]}
+    lex_fehler, eintraege, concepts = check_lexicon(fin_ids)
     alle_lex = {d["lexeme_id"] for d in eintraege}
     cor_fehler, korpus = check_corpus(alle_lex)
     fin_fehler, findings = check_findings()

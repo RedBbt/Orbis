@@ -9,11 +9,11 @@
     "deferred",
     "wont_fix"
   ],
-  "anzahl": 32,
+  "anzahl": 33,
   "nach_prioritaet": {
     "P0": 0,
     "P1": 6,
-    "P2": 10,
+    "P2": 11,
     "P3": 16,
     "P4": 0
   },
@@ -22,7 +22,8 @@
     "gap": 10,
     "unclear": 14,
     "lexical_gap": 1,
-    "lexical_collision": 2
+    "lexical_collision": 2,
+    "documentation_gap": 1
   },
   "findings": [
     {
@@ -862,6 +863,26 @@
         "xer",
         "xerp"
       ],
+      "affected_sentences": [],
+      "introduced_version": "grammar-0.9.3",
+      "resolved_version": null,
+      "decision_id": null,
+      "quelle": "Orbis-Audit-0_1.md §A / Orbis-Testbericht-0_1.md"
+    },
+    {
+      "id": "W-04",
+      "global_id": "ORB-FIND-W-04",
+      "typ": "documentation_gap",
+      "typ_label_de": "DOKUMENTATIONSLUECKE",
+      "prioritaet": "P2",
+      "status": "open",
+      "titel_de": "Lexikoneintraege ohne ausformulierte Definition",
+      "description_de": "Die 281 migrierten Lexeme tragen die Woerterbuchglosse der Grammatik 0.9.3 plus strukturelle Angaben (Klasse, Ableitung, Fundstelle). Ausformulierte Definitionen, Bedeutungsnuancen, Kollokationen und Synonymabgrenzungen fehlen noch. Das ist kein Sprachbefund, sondern offene Redaktionsarbeit der Sprachdesigner; Werkzeuge duerfen Definitionen nicht selbst erfinden (ORBIS_CONSTITUTION Art. 6 und 16).",
+      "description_en": "The 281 migrated lexemes carry the dictionary gloss plus structural data; full definitions, nuances and collocations remain outstanding editorial work.",
+      "affected_rules": [
+        "§24"
+      ],
+      "affected_words": [],
       "affected_sentences": [],
       "introduced_version": "grammar-0.9.3",
       "resolved_version": null,

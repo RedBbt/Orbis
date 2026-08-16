@@ -78,5 +78,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 - Validatorstatus: befund
 - Offene Befunde:
   - **U-01** — §15.2-Formel deckt die eigenen Tabellen nicht
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

@@ -68,5 +68,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 
 - Validatorstatus: ok
 - Offene Befunde:
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

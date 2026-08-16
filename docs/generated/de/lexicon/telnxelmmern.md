@@ -37,5 +37,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 - Offene Befunde:
   - **K-03** — Zahlkompositum verletzt die Fugenregel
   - **L-08** — Syntax der Kardinalzahlen undefiniert
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

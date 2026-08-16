@@ -56,5 +56,5 @@ Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem kei
 - Offene Befunde:
   - **K-05** — Modalverb im Nebensatz: zwei Regeln beanspruchen das Satzende
   - **U-03** — Modalverb ohne Infinitiv ungeregelt
-  - **W-04**
+  - **W-04** — Lexikoneintraege ohne ausformulierte Definition
 - Letzte Prüfung: 2026-08-16

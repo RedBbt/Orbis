@@ -21,7 +21,7 @@
         "properties": {
           "id": { "type": "string", "pattern": "^[KLUW]-[0-9]{2}$" },
           "global_id": { "type": "string", "pattern": "^ORB-FIND-" },
-          "typ": { "enum": ["conflict", "gap", "unclear", "lexical_gap", "lexical_collision"] },
+          "typ": { "enum": ["conflict", "gap", "unclear", "lexical_gap", "lexical_collision", "documentation_gap"] },
           "typ_label_de": { "type": "string" },
           "prioritaet": { "enum": ["P0", "P1", "P2", "P3", "P4"] },
           "status": { "enum": ["open", "accepted", "resolved", "deferred", "wont_fix"] },

@@ -224,10 +224,21 @@ F = [
   ["§11","§13.4","§18.3","§20","§21.2","§24"],
   ["vran","kaun","fai","xa","nest","nast","tolm","dolm","şaln","şlan","kalm","kolm","xer","xerp"],
   []),
+ ("W-04","documentation_gap","P2",
+  "Lexikoneintraege ohne ausformulierte Definition",
+  "Die 281 migrierten Lexeme tragen die Woerterbuchglosse der Grammatik 0.9.3 plus "
+  "strukturelle Angaben (Klasse, Ableitung, Fundstelle). Ausformulierte Definitionen, "
+  "Bedeutungsnuancen, Kollokationen und Synonymabgrenzungen fehlen noch. Das ist kein "
+  "Sprachbefund, sondern offene Redaktionsarbeit der Sprachdesigner; Werkzeuge duerfen "
+  "Definitionen nicht selbst erfinden (ORBIS_CONSTITUTION Art. 6 und 16).",
+  "The 281 migrated lexemes carry the dictionary gloss plus structural data; full "
+  "definitions, nuances and collocations remain outstanding editorial work.",
+  ["\u00a724"], [], []),
 ]
 
 TYP_LABEL = {"conflict": "REGELKONFLIKT", "gap": "REGELLUECKE", "unclear": "REGELUNKLARHEIT",
-             "lexical_gap": "WORTSCHATZLUECKE", "lexical_collision": "WORTSCHATZKOLLISION"}
+             "lexical_gap": "WORTSCHATZLUECKE", "lexical_collision": "WORTSCHATZKOLLISION",
+             "documentation_gap": "DOKUMENTATIONSLUECKE"}
 
 def main():
     findings = []
