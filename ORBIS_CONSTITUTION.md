@@ -145,7 +145,7 @@ unsichtbar. Besonders empfindlich ist das Projekt an den Stellen, an denen ähnl
 unterschiedliche Gültigkeit haben. Umbenennungen im Zuge einer Restrukturierung sind erlaubt,
 aber immer als Migrationsschritt zu protokollieren.
 
-*Beispiel:* `Orbis-Testkorpus-0_1.md` (kanonisch, Unterstrich) und `Orbis-Testkorpus-0.1.md`
+*Beispiel:* `Orbis-Testkorpus-0_1.md` (kanonisch, Unterstrich) und `archive/corpus/Orbis-Testkorpus-0.1.md`
 (Archiv, Punkt) unterscheiden sich um ein Zeichen; die Befund-IDs K-01…K-05, L-01…L-10,
 U-01…U-14 und W-01 bleiben über Versionsgrenzen hinweg stabil.
 
@@ -175,7 +175,7 @@ aber Formen und Regeln, die bewusst verworfen wurden. Wer sie als Quelle verwend
 verworfene Festlegungen unbemerkt wieder ein. Archivierte Dateien werden deshalb erkennbar
 abgelegt und nicht mehr inhaltlich bearbeitet.
 
-*Beispiel:* `Orbis-Testkorpus-0.1.md` ist der archivierte Chat-Entwurf; maßgeblich ist
+*Beispiel:* `archive/corpus/Orbis-Testkorpus-0.1.md` ist der archivierte Chat-Entwurf; maßgeblich ist
 ausschließlich `Orbis-Testkorpus-0_1.md` mit 150 Tests. Archivstände liegen unter `archive/`
 bzw. `reports/baseline/`.
 

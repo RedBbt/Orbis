@@ -1,6 +1,6 @@
 # ORBIS — Testkorpus 0.1 (Prüffassung)
 
-*150 Testsätze gegen die eingefrorene Referenzgrammatik `Orbis-Grammatik-0.9.3.md`. Die Grammatik wurde nicht verändert. Diese Prüffassung ersetzt den Chat-Entwurf `Orbis-Testkorpus-0.1.md` (der als Referenz erhalten bleibt) und korrigiert dort gefundene Fehler (u. a. Satz 48: \*loşna → loşnla).*
+*150 Testsätze gegen die eingefrorene Referenzgrammatik `Orbis-Grammatik-0.9.3.md`. Die Grammatik wurde nicht verändert. Diese Prüffassung ersetzt den Chat-Entwurf `archive/corpus/Orbis-Testkorpus-0.1.md` (der als Referenz erhalten bleibt) und korrigiert dort gefundene Fehler (u. a. Satz 48: \*loşna → loşnla).*
 
 **Ergebniswerte:** [OK] · [TESTPROBLEM] · [REGELLÜCKE] · [REGELKONFLIKT] · [REGELUNKLARHEIT]
 

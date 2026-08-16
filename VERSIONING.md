@@ -173,7 +173,7 @@ Befundzahl wird im CHANGELOG vermerkt. Aktueller Stand: 39 bekannte Befunde.
 - **Ausnahme:** Die Referenzgrammatik traegt ihre Version mit **Punkten**:
   `Orbis-Grammatik-0.9.3.md`. Diese Ausnahme ist historisch und wird nicht
   nachtraeglich vereinheitlicht, weil die Datei eingefroren ist.
-- **Archivfassung:** `Orbis-Testkorpus-0.1.md` (mit Punkt) ist der archivierte
+- **Archivfassung:** `archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) ist der archivierte
   Chat-Entwurf. Er wird nicht bearbeitet und nicht als Quelle verwendet. Der
   Punkt im Namen ist hier kein Formatfehler, sondern das Unterscheidungsmerkmal
   zur kanonischen Fassung `Orbis-Testkorpus-0_1.md`.

@@ -220,7 +220,7 @@ guter Absicht und auch nicht als Nebenwirkung:
    Baseline zu verschieben, damit ein Lauf gruen wird, ist unzulaessig.
 10. **Umbenennungen** von Dateien, IDs, Regelnummern oder Feldnamen ohne dokumentierte
     Entscheidung (`ORBIS-VERF Art. 7`).
-11. **Bearbeitung von Archivdateien**: `Orbis-Testkorpus-0.1.md` (mit Punkt) und alles unter
+11. **Bearbeitung von Archivdateien**: `archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) und alles unter
     `archive/`.
 
 Wer eine solche Aenderung fuer noetig haelt, macht daraus einen **Befund** oder eine
@@ -320,7 +320,7 @@ ins Review — die CI faehrt `--strict`, den Korpuslauf und eine JSON-Ladepruefu
 - **Ausnahme 1:** Die Referenzgrammatik traegt ihre Version mit Punkten:
   `Orbis-Grammatik-0.9.3.md`. Historisch gewachsen und nicht nachtraeglich zu vereinheitlichen,
   weil die Datei eingefroren ist.
-- **Ausnahme 2:** `Orbis-Testkorpus-0.1.md` (mit Punkt) ist der archivierte Chat-Entwurf. Der
+- **Ausnahme 2:** `archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) ist der archivierte Chat-Entwurf. Der
   Punkt ist hier kein Formatfehler, sondern das Unterscheidungsmerkmal zur kanonischen Fassung
   mit Unterstrich. Die Archivfassung wird weder bearbeitet noch als Quelle verwendet.
 - Artefakte in `language/`, `script/`, `tools/`, `tests/`, `docs/` und `reports/` tragen die

@@ -1,0 +1,40 @@
+<!-- AUTO-GENERATED — DO NOT EDIT DIRECTLY -->
+<!-- Erzeugt von tools/documentation/build.py aus language/. Aenderungen gehoeren in die Daten, nicht in diese Datei. -->
+
+
+# dral
+
+**Praeposition mit akk** — Praeposition mit akk. feste Praeposition; verlangt akk. (Migrierte Woerterbuchglosse aus §19; ausformulierte Definition steht aus.)
+
+| Feld | Wert |
+|---|---|
+| ID | `ORB-LEX-000129` |
+| Wortart | praeposition |
+| Rektion | Akkusativ |
+| Status | canonical |
+| Häufigkeit | VERY_COMMON |
+| Domäne | grammatik |
+| Quelle | §19 |
+
+## Englisch
+
+**preposition governing the accusative**  
+*(Übersetzungsstatus: derived; abgeleitet aus der deutschen kanonischen Bedeutung)*
+
+## Lautung und Schrift
+
+- Phonemfolge: d · r · a · l
+- Silbifizierung: dral
+- Phonotaktik: ok
+- Orbis Manus: provisional
+
+## Etymologie
+
+Keine Herleitung dokumentiert. Die Referenzgrammatik nennt für dieses Lexem keine Proto-Orbis-Form; sie wird nicht rekonstruiert (Status: `unknown`).
+
+## Prüfstand
+
+- Validatorstatus: ok
+- Offene Befunde:
+  - **W-04**
+- Letzte Prüfung: 2026-08-16

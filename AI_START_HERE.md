@@ -65,7 +65,7 @@ Nie ohne expliziten Auftrag:
 - Offene Sprachfragen entscheiden oder Befunde durch Interpretation schliessen.
 - `--update-baseline` ausfuehren oder Befunde aus der Baseline entfernen.
 - Auf `main` committen; gearbeitet wird auf dem beauftragten Branch (`claude/aufgabe-bbjpbm`).
-- Archivierte Dateien wie `Orbis-Testkorpus-0.1.md` (mit Punkt) bearbeiten oder als Quelle verwenden.
+- Archivierte Dateien wie `archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) bearbeiten oder als Quelle verwenden.
 
 ## 6. Werkzeuge
 

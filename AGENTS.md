@@ -79,7 +79,7 @@ hat.
   `orbis_baseline.json` entfernen.
 - Auf `main` committen.
 - Archivierte Dateien bearbeiten oder als Quelle fuer den aktuellen Stand verwenden
-  (`Orbis-Testkorpus-0.1.md` mit Punkt, alles unter `archive/`).
+  (`archive/corpus/Orbis-Testkorpus-0.1.md` mit Punkt, alles unter `archive/`).
 - Experimentelles (Morphem-Ebene fuer Manus und Keyboard, Wortspuren) als bestehende
   Grammatik, bestehendes Lexikon oder bestehende Schrift darstellen (`ORBIS-VERF Art. 20`).
 
@@ -362,7 +362,7 @@ zustaendig — nicht der Editor.
 3. `git status` und `git diff` gelesen: Es ist genau das drin, was drin sein soll.
 4. Keine ungewollten Dateien: `__pycache__/`, Scratch-Dateien, Protokolle aus Probelaeufen.
 5. Kanonische und eingefrorene Dateien unberuehrt, sofern nicht ausdruecklich beauftragt —
-   insbesondere `Orbis-Grammatik-0.9.3.md`, `Orbis-Testkorpus-0.1.md`, `archive/*`.
+   insbesondere `Orbis-Grammatik-0.9.3.md`, `archive/corpus/Orbis-Testkorpus-0.1.md`, `archive/*`.
 6. Inhaltlich wirksame Aenderungen stehen im `CHANGELOG.md` (`ORBIS-VERF Art. 14`), mit
    Datum, Komponente und Verweis auf Befund oder Entscheidung.
 

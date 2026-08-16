@@ -27,4 +27,4 @@ Versionierung (Governance): Orbis Grammar (aktuell 0.9.3), Orbis Lexicon (0.x), 
 
 ### Hinzugefügt
 - `Orbis-Grammatik-0.9.3.md` als kanonische Referenzgrammatik eingecheckt (READ ONLY, eingefroren; Änderungen nur über eine künftige 0.9.4 durch die Sprachdesigner).
-- `Orbis-Testkorpus-0.1.md` (Chat-Entwurf) archiviert.
+- `archive/corpus/Orbis-Testkorpus-0.1.md` (Chat-Entwurf) archiviert.

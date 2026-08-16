@@ -108,7 +108,7 @@ parallel und werden gegen sie geprüft.
 |---|---|
 | `Orbis-Grammatik-0.9.3.md` | Kanonische Referenzgrammatik, READ ONLY, eingefroren; während der Migration nicht änderbar |
 | `Orbis-Testkorpus-0_1.md` | Kanonisches Testkorpus: 150 Tests mit Einzelbewertung |
-| `Orbis-Testkorpus-0.1.md` | ARCHIV: früher Chat-Entwurf des Korpus (nicht maßgeblich) |
+| `archive/corpus/Orbis-Testkorpus-0.1.md` | ARCHIV: früher Chat-Entwurf des Korpus (nicht maßgeblich) |
 | `Orbis-Audit-0_1.md` | Regelbasis und Befund-IDs (K-01…K-05, L-01…L-10, U-01…U-14) |
 | `Orbis-Validator-Bericht-0_1.md` | Protokoll der automatischen Validator-Läufe |
 | `Orbis-Testbericht-0_1.md` | Statistik, Priorisierung (P0–P4) und Gesamturteil |
@@ -119,7 +119,7 @@ parallel und werden gegen sie geprüft.
 | `decisions/Entscheidungsvorlage-0_9_4.md` | Aufbereitete Optionen für die 0.9.4-Designentscheidungen |
 
 Maßgeblich ist immer die Datei mit Unterstrich-Versionierung (`…-0_1.md`);
-`Orbis-Testkorpus-0.1.md` (mit Punkt) ist ausschließlich Archiv. Ausnahme der
+`archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) ist ausschließlich Archiv. Ausnahme der
 Namenskonvention ist die Grammatik, die ihre Version mit Punkten führt.
 
 ## Prüfergebnis (Kurzfassung)

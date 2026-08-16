@@ -44,3 +44,10 @@ def test_sim_l09_deckt_vier_strategien_ab():
         assert name in out
     assert "KEINE SPRACHREGEL" in out
     assert "77 der 281 Grundformen" in out
+
+
+def test_generierte_dokumentation_ist_aktuell():
+    """Doku-Generator: erzeugte Dateien muessen zu den Daten passen."""
+    r = subprocess.run([sys.executable, "-m", "tools.documentation", "build", "--check"],
+                       cwd=ROOT, capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout

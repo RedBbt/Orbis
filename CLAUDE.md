@@ -50,7 +50,7 @@ proto, findings), `tools/migration/`, `reports/baseline/`. Offen: `language/lexi
 - `Orbis-Grammatik-0.9.3.md` — eingefroren. Niemals aendern, auch nicht "still"
   (Tippfehler, Formatierung, Umbrueche). Neue Versionen (0.9.4 usw.) entstehen nur auf
   expliziten Auftrag der Sprachdesigner als **neue Datei**, nie durch Ueberschreiben.
-- `Orbis-Testkorpus-0.1.md` (mit Punkt) — archivierter Chat-Entwurf; nicht bearbeiten,
+- `archive/corpus/Orbis-Testkorpus-0.1.md` (mit Punkt) — archivierter Chat-Entwurf; nicht bearbeiten,
   nicht als Quelle verwenden. Kanonisch ist `Orbis-Testkorpus-0_1.md` (Unterstrich).
 - `archive/` — historische Fassungen, nur lesend. `reports/baseline/` — Messwerte vor der
   Migration, nicht nachtraeglich anpassen.
