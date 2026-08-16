@@ -1,0 +1,1726 @@
+{
+ "meta": {
+  "korpus": "Orbis-Testkorpus-0_1.md",
+  "referenz": "Orbis-Grammatik-0.9.3.md",
+  "tests_gesamt": 150,
+  "statistik": {
+   "[OK]": 130,
+   "[REGELLÜCKE]": 14,
+   "[REGELUNKLARHEIT]": 2,
+   "[REGELKONFLIKT]": 3,
+   "[TESTPROBLEM]": 1
+  },
+  "stabilitaetsquote_prozent": 86.7,
+  "befund_ids": "siehe Orbis-Audit-0_1.md §A und Orbis-Testbericht-0_1.md"
+ },
+ "tests": [
+  {
+   "test": 1,
+   "deutsch": "Der Mann geht.",
+   "orbis": "Xra valru melat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 2,
+   "deutsch": "Die Frau spricht.",
+   "orbis": "Xla sarla talat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 3,
+   "deutsch": "Das Kind schläft.",
+   "orbis": "Xna şirn soñat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 4,
+   "deutsch": "Der Hund läuft.",
+   "orbis": "Xra narku vlentat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 5,
+   "deutsch": "Ich komme.",
+   "orbis": "Vim vandam.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 6,
+   "deutsch": "Du wartest.",
+   "orbis": "Şet maldaş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 7,
+   "deutsch": "Wir bleiben.",
+   "orbis": "Viñ stanamen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 8,
+   "deutsch": "Ihr lest.",
+   "orbis": "Şeñ leşnaşen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 9,
+   "deutsch": "Sie schreiben.",
+   "orbis": "Oñ ruskaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "oñ"
+   ]
+  },
+  {
+   "test": 10,
+   "deutsch": "Der Wind kommt.",
+   "orbis": "Xra vlaiko vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 11,
+   "deutsch": "Der Sprecher spricht.",
+   "orbis": "Xra talru talat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 12,
+   "deutsch": "Das Wasser bleibt.",
+   "orbis": "Xna aul stanat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "aul"
+   ]
+  },
+  {
+   "test": 13,
+   "deutsch": "Der Vogel sieht.",
+   "orbis": "Xra vlenko milkat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 14,
+   "deutsch": "Die Nacht kommt.",
+   "orbis": "Xla kirva vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 15,
+   "deutsch": "Der Mensch denkt.",
+   "orbis": "Xra kaun dremnat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 16,
+   "deutsch": "Die Mutter wartet.",
+   "orbis": "Xla veiş maldat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 17,
+   "deutsch": "Das Buch bleibt.",
+   "orbis": "Xna vresto stanat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 18,
+   "deutsch": "Der Freund isst.",
+   "orbis": "Xra velkra nastat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 19,
+   "deutsch": "Die Wanderin geht.",
+   "orbis": "Xla mela melat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 20,
+   "deutsch": "Der Vater hört.",
+   "orbis": "Xra draun zaubat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 21,
+   "deutsch": "Ich sehe den Hund.",
+   "orbis": "Vim milkam xran narkun.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 22,
+   "deutsch": "Du siehst dich.",
+   "orbis": "Şet milkaş şen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Reflexivität der 1./2. Person über das Personalpronomen (deutsches Modell, §1 „Satzbau folgt eng dem Deutschen\"); ob se auch hier gelten soll, ist Teil von L-04. Formal bildbar.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 23,
+   "deutsch": "Die Mutter gibt dem Kind das Brot.",
+   "orbis": "Xla veiş dalvat xnaş şirneş xnan brasin.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 24,
+   "deutsch": "Wir schreiben ein Wort.",
+   "orbis": "Viñ ruskamen vnan taisan.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 25,
+   "deutsch": "Die Frau gibt dem Vater das Wasser.",
+   "orbis": "Xla sarla dalvat xraş drauneş xnan aulen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 26,
+   "deutsch": "Ich gebe dem Freund das Buch.",
+   "orbis": "Vim dalvam xraş velkraş xnan vreston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 27,
+   "deutsch": "Ich trinke das Wasser.",
+   "orbis": "Vim prevam xnan aulen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 28,
+   "deutsch": "Ich weiß den Namen.",
+   "orbis": "Vim zavam xran şaulen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 29,
+   "deutsch": "Sie liebt die Sprache.",
+   "orbis": "Lo saivat xlan taiven.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 30,
+   "deutsch": "Wir sehen die Sonne.",
+   "orbis": "Viñ milkamen xlan luiven.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 31,
+   "deutsch": "Ich warte auf der Straße.",
+   "orbis": "Vim maldam kru xlaş melvaş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 32,
+   "deutsch": "Ich sehe mich.",
+   "orbis": "Vim milkam vin.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Formal bildbar über das Personalpronomen. Ob 1./2. Person stattdessen se verwenden sollen, regelt §13.4 nicht — Personenbereich von se ist Teil von L-04.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 33,
+   "deutsch": "Er sieht sich.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-04",
+   "problem_beschreibung": "nicht eindeutig bildbar: Ro milkat se(?) — se hat keine Kasusformen; *sen ist nirgends definiert. Ro milkat ron hieße „er sieht ihn (einen anderen)\".",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 34,
+   "deutsch": "Ich gebe mir Zeit.",
+   "orbis": "Vim dalvam viş xlan nauşen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "1. Person über Personalpronomen bildbar (vgl. Test 032); L-04 berührt.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 35,
+   "deutsch": "Sie spricht über sich.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-04",
+   "problem_beschreibung": "nicht eindeutig bildbar: Lo talat span se(?) — span verlangt Dat oder Akk (§19); se hat weder Dativ- noch Akkusativform, und ob es unverändert nach Präpositionen stehen darf, ist nicht definiert.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 36,
+   "deutsch": "Das Haus des Mannes ist alt.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-01",
+   "problem_beschreibung": "nicht eindeutig bildbar: Xna breun xras valrus granz est (nachgestellt) ODER Xras valrus xna breun granz est (vorangestellt) — beide morphologisch korrekt; die Stellung des Genitivattributs ist nirgends festgelegt.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 37,
+   "deutsch": "Die Erinnerung der Zeit vergeht.",
+   "orbis": "Xla soruma xlas nauşes vaşnat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 38,
+   "deutsch": "Der Name der Frau ist schön.",
+   "orbis": "Xra şaul xlas sarlas loşn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 39,
+   "deutsch": "Das Buch meines Freundes ist neu.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-01",
+   "problem_beschreibung": "nicht eindeutig bildbar: Xna vresto xras velkras vis zirv est(?) — Stapelung Genitivattribut + nachgestelltes Possessiv (§13.3): ob vis hinter velkras oder hinter vresto steht und ob die Folge Kopf + Gen + Poss überhaupt so gebaut wird, ist ungeregelt.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 40,
+   "deutsch": "Die Flamme des Feuers ist warm.",
+   "orbis": "Xla gluvi xras xerpes velm est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 41,
+   "deutsch": "Der Weg des Lebens ist lang.",
+   "orbis": "Xna melna xnas virnes trelm est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "trelm",
+    "est"
+   ]
+  },
+  {
+   "test": 42,
+   "deutsch": "Der Tag des Todes kommt.",
+   "orbis": "Xra zaldre xras mokses vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 43,
+   "deutsch": "Das Wasser der Erde ist kalt.",
+   "orbis": "Xna aul xlas greines girn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "aul",
+    "est"
+   ]
+  },
+  {
+   "test": 44,
+   "deutsch": "Die Stimme des Menschen ist stark.",
+   "orbis": "Xla şonma xras kaunes xarn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 45,
+   "deutsch": "Die Sprache der Welt vergeht nicht.",
+   "orbis": "Xla taiv xlas eirdes xa vaşnat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "eirdes"
+   ]
+  },
+  {
+   "test": 46,
+   "deutsch": "Der große Berg ist alt.",
+   "orbis": "Xra vlaidra vrondo granz est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "granz",
+    "est"
+   ]
+  },
+  {
+   "test": 47,
+   "deutsch": "Ich sehe den kleinen Vogel.",
+   "orbis": "Vim milkam xran nirmran vlenkon.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 48,
+   "deutsch": "Die schöne Frau spricht.",
+   "orbis": "Xla loşnla sarla talat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Korrigiert gegenüber Chat-Korpus 0.1 Satz 48, der fälschlich *loşna* (= Neutrum-Form) schrieb — dort unentdeckter Kongruenzfehler.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 49,
+   "deutsch": "Wir gehen auf der langen Straße.",
+   "orbis": "Viñ melamen kru xlaş trelmlaş melvaş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "trelmlaş"
+   ]
+  },
+  {
+   "test": 50,
+   "deutsch": "Das dunkle Wasser ist kalt.",
+   "orbis": "Xna şalna aul girn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "aul",
+    "est"
+   ]
+  },
+  {
+   "test": 51,
+   "deutsch": "Das gefundene Buch ist alt.",
+   "orbis": null,
+   "ergebnis": "[REGELUNKLARHEIT]",
+   "befund_id": "U-02",
+   "problem_beschreibung": "nicht eindeutig bildbar: Xna traivutna vresto granz est(?) — das Partizip traivut (§14) müsste dafür wie ein Adjektiv dekliniert werden (traivut + -na); ob Partizipien attributiv stehen dürfen, regelt weder §12 noch §14.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 52,
+   "deutsch": "Ich lese ein neues Buch.",
+   "orbis": "Vim leşnam vnan zirvnan vreston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 53,
+   "deutsch": "Die kalte Nacht ist lang.",
+   "orbis": "Xla girnla kirva trelm est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "trelm",
+    "est"
+   ]
+  },
+  {
+   "test": 54,
+   "deutsch": "Er ist größer als ich.",
+   "orbis": "Ro vlaidvi est kon vim.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 55,
+   "deutsch": "Sie ist die schönste Frau.",
+   "orbis": "Lo xla loşnvaxla sarla est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Spannung zwischen §12.2-Muster (Prädikativ vor est) und §17.1 (V2) besteht schon in der Grammatik selbst (Lo loşn est = Verb an Position 3); als Beispielpraxis gewertet, Ergebnis unberührt. Wird im Testbericht unter U-13 geführt.",
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 56,
+   "deutsch": "Sie ist warm wie die Sonne.",
+   "orbis": "Lo velm est zil luiv.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 57,
+   "deutsch": "Der Mann wird stark.",
+   "orbis": "Xra valru xarn vurt.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 58,
+   "deutsch": "Wir warten in der dunklen Stadt.",
+   "orbis": "Viñ maldamen tel xlaş şalnlaş kavlaş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 59,
+   "deutsch": "Sie geht schnell.",
+   "orbis": "Lo melat zilvun.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 60,
+   "deutsch": "Die Erinnerung vergeht langsam.",
+   "orbis": null,
+   "ergebnis": "[REGELKONFLIKT]",
+   "befund_id": "K-04",
+   "problem_beschreibung": "nicht eindeutig entscheidbar: Nach §12.4 muss es „Xla soruma tolmun vaşnat\" heißen (Adverb = Grundform + -un). Der Referenzsatz §25.1 schreibt aber wörtlich „Xla soruma xlas nauşes vran tolm vaşnat\" — tolm OHNE -un in adverbialer Funktion. Zwei Belege, zwei Formen.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 61,
+   "deutsch": "Die Männer gehen.",
+   "orbis": "Xrañ valruñ melaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 62,
+   "deutsch": "Ich sehe die Hunde.",
+   "orbis": "Vim milkam xrañan narkuñun.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 63,
+   "deutsch": "Die Frauen sprechen.",
+   "orbis": "Xlañ sarlañ talaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 64,
+   "deutsch": "Wir geben den Kindern das Brot.",
+   "orbis": "Viñ dalvamen xnañaş şirneiş xnan brasin.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 65,
+   "deutsch": "Die Steine sind kalt.",
+   "orbis": "Xrañ larkiñ girn esten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 66,
+   "deutsch": "Die Mütter warten.",
+   "orbis": "Xlañ veişei maldaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 67,
+   "deutsch": "Ich lese die Bücher.",
+   "orbis": "Vim leşnam xnañan vrestoñon.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 68,
+   "deutsch": "Die Menschen bleiben.",
+   "orbis": "Xrañ kaunei stanaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 69,
+   "deutsch": "Wir hören die Sprachen.",
+   "orbis": "Viñ zaubamen xlañan taivein.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 70,
+   "deutsch": "Zwei Männer kommen.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-08",
+   "problem_beschreibung": "nicht eindeutig bildbar: Dram valruñ vandaten(?) — ob das gezählte Nomen im Plural steht, ob die Zahl kongruiert und ob ein Artikel nötig ist, regelt §24.8 nicht; kein Beispiel verwendet eine Kardinalzahl attributiv.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 71,
+   "deutsch": "Gehst du heute?",
+   "orbis": "Melaş şet nunda?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 72,
+   "deutsch": "Kommt der Vater?",
+   "orbis": "Vandat xra draun?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 73,
+   "deutsch": "Wer spricht?",
+   "orbis": "Kem talat?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 74,
+   "deutsch": "Wen siehst du?",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-03",
+   "problem_beschreibung": "nicht bildbar: §18.2 listet nur die Grundform kem. Ein Akkusativ (*kemen? *kemn?) ist nirgends definiert, Indeklinabilität ebenso wenig.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 75,
+   "deutsch": "Wem gibst du das Buch?",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-03",
+   "problem_beschreibung": "nicht bildbar: Dativ von kem (*kemeş?) ist nicht definiert.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 76,
+   "deutsch": "Wessen Buch liest du?",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-03",
+   "problem_beschreibung": "nicht bildbar: Genitiv von kem (*kemes?) ist nicht definiert; auch die attributive Verwendung eines Fragewort-Genitivs ist ungeregelt (hängt zusätzlich an L-01).",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 77,
+   "deutsch": "Wo wartet ihr?",
+   "orbis": "Kur maldaşen şeñ?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 78,
+   "deutsch": "Wie ist die Nacht?",
+   "orbis": "Kolm est xla kirva?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 79,
+   "deutsch": "Welches Buch liest du?",
+   "orbis": "Kelnan vreston leşnaş şet?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 80,
+   "deutsch": "Welchem Kind gibst du das Brot?",
+   "orbis": "Kelnaş şirneş dalvaş şet xnan brasin?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Belegt ist nur der Akkusativ (kellan §18.2); der Dativ folgt dem Adjektivparadigma §12.1 per Analogie. Grenzfall zu L-03 — als tragfähige Analogie [OK] gewertet, im Testbericht vermerkt.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 81,
+   "deutsch": "Ich gehe nicht.",
+   "orbis": "Vim xa melam.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 82,
+   "deutsch": "Er kommt nicht.",
+   "orbis": "Ro xa vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 83,
+   "deutsch": "Wir haben kein Haus.",
+   "orbis": "Viñ xa numen vnan breunen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": "Regelbasierte Form. Das Grammatikbeispiel §18.3 „Vim xa num **vna breun**\" lässt Artikel UND Kernwort im Objekt unmarkiert — das widerspricht §8/§10.3/§11 und wird als Befund U-14 im Testbericht geführt (Beispiel fehlerhaft oder ungeschriebene Regel). Der Testsatz selbst folgt den Paragraphen und ist eindeutig.",
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 84,
+   "deutsch": "Sie sieht den Hund nicht.",
+   "orbis": "Lo xa milkat xran narkun.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 85,
+   "deutsch": "Das Kind schläft nicht.",
+   "orbis": "Xna şirn xa soñat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 86,
+   "deutsch": "Kein Mann wartet.",
+   "orbis": "Xanra valru maldat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 87,
+   "deutsch": "Ich weiß es nicht.",
+   "orbis": "Vim xa zavam non.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 88,
+   "deutsch": "Niemand kommt.",
+   "orbis": "Xakaun vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 89,
+   "deutsch": "Wir gehen nicht in die Stadt.",
+   "orbis": "Viñ xa melamen tel xlan kavlan.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 90,
+   "deutsch": "Ich weiß, dass er nicht kommt.",
+   "orbis": "Vim zavam, fai ro xa vandat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 91,
+   "deutsch": "Ich weiß, dass du kommst.",
+   "orbis": "Vim zavam, fai şet vandaş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 92,
+   "deutsch": "Er wartet, weil die Nacht kalt ist.",
+   "orbis": "Ro maldat, grali xla kirva girn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 93,
+   "deutsch": "Wenn du gehst, bleibe ich.",
+   "orbis": "Tund şet melaş, stanam vim.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 94,
+   "deutsch": "Obwohl das Buch alt ist, lese ich es.",
+   "orbis": "Şlani xna vresto granz est, leşnam vim non.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "granz",
+    "est"
+   ]
+  },
+  {
+   "test": 95,
+   "deutsch": "Während wir warten, spricht der Mann.",
+   "orbis": "Dremi viñ maldamen, talat xra valru.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 96,
+   "deutsch": "Bevor die Sonne kommt, gehen wir.",
+   "orbis": "Glemi xla luiv vandat, melamen viñ.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 97,
+   "deutsch": "Nachdem er aß, schlief er.",
+   "orbis": "Trausi ro nastot, soñot ro.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 98,
+   "deutsch": "Ich weiß nicht, wo das Buch ist.",
+   "orbis": "Vim xa zavam, kur xna vresto est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 99,
+   "deutsch": "Ich warte, denn die Nacht ist kalt.",
+   "orbis": "Vim maldam, xer xla kirva girn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 100,
+   "deutsch": "Der Mann, der kommt, ist mein Freund.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-02",
+   "problem_beschreibung": "nicht bildbar: §13.4 nennt fai als Relativpronomen, aber es existiert keine Regel für Relativsätze: weder Verbstellung noch Kasus-/Genus-Kongruenz von fai sind definiert; zusätzlich kollidiert fai „der/die/das\" mit fai „dass\" (§20). *Xra valru, fai vandat, xra velkra vis est* wäre reine Spekulation.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 101,
+   "deutsch": "Die Frau, die ich sehe, spricht.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-02",
+   "problem_beschreibung": "nicht bildbar: fai müsste hier als Akkusativobjekt des Relativsatzes fungieren (*fain?*); keine Kasusformen, keine Struktur definiert (L-02).",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 102,
+   "deutsch": "Der Mann, dem ich das Buch gebe, wartet.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-02",
+   "problem_beschreibung": "nicht bildbar: Dativ des Relativpronomens (*faiş?*) nicht definiert (L-02).",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 103,
+   "deutsch": "Ich weiß, dass der Mann morgen in die Stadt gehen muss.",
+   "orbis": null,
+   "ergebnis": "[REGELKONFLIKT]",
+   "befund_id": "K-05",
+   "problem_beschreibung": "nicht eindeutig bildbar: Vim zavam, fai xra valru zirna tel xlan kavlan melex dolmat ODER … dolmat melex. §16.1 verlangt den Infinitiv „am Satzende\", §17.2 verlangt das finite Verb am Nebensatzende — beide Regeln beanspruchen dieselbe Position; kein Beispiel entscheidet.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 104,
+   "deutsch": "Sie sagt, dass sie kommt.",
+   "orbis": null,
+   "ergebnis": "[TESTPROBLEM]",
+   "befund_id": "W-01",
+   "problem_beschreibung": "nicht ohne Behelf bildbar: Es gibt kein Verb „sagen\". tal- ist als „sprechen\" definiert (§24.5); „Lo talat, fai lo vandat\" verschiebt die Bedeutung ohne Wörterbuchgrundlage. Kein Grammatikproblem, sondern eine Wortschatzlücke des Testkorpus.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 105,
+   "deutsch": "Er weiß, dass sie das Buch nicht lesen kann.",
+   "orbis": null,
+   "ergebnis": "[REGELKONFLIKT]",
+   "befund_id": "K-05",
+   "problem_beschreibung": "nicht eindeutig bildbar: Ro zavat, fai lo xnan vreston … — für das Endfeld konkurrieren xa + valnat (finit, §18.3+§17.2) und leşnex (§16.1): „… xa leşnex valnat\"? „… leşnex xa valnat\"? „… xa valnat leşnex\"? Reihenfolge ungeregelt (K-05), Position von xa relativ zum Infinitiv ebenfalls.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 106,
+   "deutsch": "Ich kann gehen.",
+   "orbis": "Vim valnam melex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 107,
+   "deutsch": "Du musst heute kommen.",
+   "orbis": "Şet dolmaş nunda vandex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 108,
+   "deutsch": "Er darf das Buch lesen.",
+   "orbis": "Ro vlekat xnan vreston leşnex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 109,
+   "deutsch": "Wir sollen warten.",
+   "orbis": "Viñ tirnamen maldex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 110,
+   "deutsch": "Sie will schlafen.",
+   "orbis": "Lo nestat soñex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 111,
+   "deutsch": "Ich mag das Wort.",
+   "orbis": null,
+   "ergebnis": "[REGELUNKLARHEIT]",
+   "befund_id": "U-03",
+   "problem_beschreibung": "nicht eindeutig bildbar: Vim suvram xnan taisan(?) — §16.1 definiert Modalverben nur in der Klammerkonstruktion mit Infinitiv. Ob sie als Vollverb mit direktem Objekt stehen dürfen, ist ungeregelt. (Chat-Korpus 0.1 Satz 111 wertete dies unmarkiert als ✓.)",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 112,
+   "deutsch": "Ihr könnt den Berg sehen.",
+   "orbis": "Şeñ valnaşen xran vrondon milkex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 113,
+   "deutsch": "Sie müssen die Stadt finden.",
+   "orbis": "Oñ dolmaten xlan kavlan traivex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "oñ"
+   ]
+  },
+  {
+   "test": 114,
+   "deutsch": "Können Sie mich hören?",
+   "orbis": "Valnaten şevar vin zaubex?",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 115,
+   "deutsch": "Das Kind darf nicht gehen.",
+   "orbis": "Xna şirn xa vlekat melex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 116,
+   "deutsch": "Ich ging.",
+   "orbis": "Vim molem.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 117,
+   "deutsch": "Du kamst.",
+   "orbis": "Şet vendeş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 118,
+   "deutsch": "Er sah den Hund.",
+   "orbis": "Ro milkot xran narkun.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 119,
+   "deutsch": "Wir wussten es.",
+   "orbis": "Viñ zovemen non.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 120,
+   "deutsch": "Sie gaben dem Kind das Brot.",
+   "orbis": "Oñ dolveten xnaş şirneş xnan brasin.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "oñ"
+   ]
+  },
+  {
+   "test": 121,
+   "deutsch": "Die Nacht war kalt.",
+   "orbis": "Xla kirva girn vot.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 122,
+   "deutsch": "Ich hatte ein Haus.",
+   "orbis": "Vim novem vnan breunen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 123,
+   "deutsch": "Der Mann machte das Fahrzeug.",
+   "orbis": "Xra valru norget xnan meliston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 124,
+   "deutsch": "Ihr wartetet.",
+   "orbis": "Şeñ maldoşen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 125,
+   "deutsch": "Wir wurden stark.",
+   "orbis": "Viñ voremen xarn.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 126,
+   "deutsch": "Ich werde gehen.",
+   "orbis": "Vim melaim.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 127,
+   "deutsch": "Du wirst kommen.",
+   "orbis": "Şet vandaiş.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 128,
+   "deutsch": "Er wird das Buch lesen.",
+   "orbis": "Ro leşnait xnan vreston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 129,
+   "deutsch": "Wir werden warten.",
+   "orbis": "Viñ maldaimen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 130,
+   "deutsch": "Sie werden das Fahrzeug machen.",
+   "orbis": "Oñ nargaiten xnan meliston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "oñ"
+   ]
+  },
+  {
+   "test": 131,
+   "deutsch": "Das Kind wird stark werden.",
+   "orbis": "Xna şirn vurnait xarn.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 132,
+   "deutsch": "Morgen werde ich schreiben.",
+   "orbis": "Zirna ruskaim vim.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 133,
+   "deutsch": "Ihr werdet stark sein.",
+   "orbis": "Şeñ vaişen xarn.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 134,
+   "deutsch": "Ich werde ein Haus haben.",
+   "orbis": "Vim nuvaim vnan breunen.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 135,
+   "deutsch": "Sie wird die Wahrheit wissen.",
+   "orbis": "Lo zavait xlan klaunuman.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 136,
+   "deutsch": "Das Haus wird gebaut.",
+   "orbis": "Xna breun şunargat.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 137,
+   "deutsch": "Das Haus wird vom Mann gebaut.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-05",
+   "problem_beschreibung": "nicht bildbar: Xna breun şunargat … (ven xraş valruş?) — wie der Agens ausgedrückt wird, definiert §16.3 nicht; keine Präposition ist dafür ausgewiesen.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 138,
+   "deutsch": "Das Buch wurde von der Frau gelesen.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-05",
+   "problem_beschreibung": "nicht bildbar: Xna vresto şuleşnot … — die Passiv-Vergangenheit selbst ist regulär bildbar (şu- + leşn- + -o- + -t), aber der Agens „von der Frau\" hat keine definierte Form (L-05).",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 139,
+   "deutsch": "Das Wort ist gesprochen.",
+   "orbis": "Xna taisa şutalut est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 140,
+   "deutsch": "Die Bücher werden gelesen.",
+   "orbis": "Xnañ vrestoñ şuleşnaten.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 141,
+   "deutsch": "Ich würde gehen.",
+   "orbis": "Vim mai melam.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 142,
+   "deutsch": "Wenn ich ein Haus hätte, würde ich bleiben.",
+   "orbis": "Tund vim vnan breunen mai num, mai stanam vim.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 143,
+   "deutsch": "Wenn die Nacht kalt wäre, würden wir warten.",
+   "orbis": "Tund xla kirva girn mai est, mai maldamen viñ.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  },
+  {
+   "test": 144,
+   "deutsch": "Er würde das Buch lesen.",
+   "orbis": "Ro mai leşnat xnan vreston.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 145,
+   "deutsch": "Ich könnte gehen.",
+   "orbis": "Vim mai valnam melex.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 146,
+   "deutsch": "Ich weiß, dass der große Mann dem Kind morgen das Brot geben wird.",
+   "orbis": "Vim zavam, fai xra vlaidra valru zirna xnaş şirneş xnan brasin dalvait.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 147,
+   "deutsch": "Obwohl die Nacht kalt war, gingen die Wanderer über den Berg.",
+   "orbis": "Şlani xla kirva girn vot, moleten xrañ melruñ span xran vrondon.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 148,
+   "deutsch": "Wenn du das Buch des Freundes liest, wirst du die Wahrheit finden.",
+   "orbis": "Tund şet xnan vreston xras velkras leşnaş, traivaiş şet xlan klaunuman.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 149,
+   "deutsch": "Der Mann, der gestern kam, gab dem Kind das Brot des Hauses.",
+   "orbis": null,
+   "ergebnis": "[REGELLÜCKE]",
+   "befund_id": "L-02",
+   "problem_beschreibung": "nicht bildbar: Der eingebettete Relativsatz („der gestern kam\") scheitert an L-02 (kein Relativsatzbau); der Rest (Xra valru … dolvet xnaş şirneş xnan brasin xnas breunes) wäre regulär, hängt beim Genitivattribut zusätzlich an L-01.",
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": []
+  },
+  {
+   "test": 150,
+   "deutsch": "Wir können nicht schlafen, weil der Sturm über der Stadt sehr stark ist.",
+   "orbis": "Viñ xa valnamen soñex, grali xra morda span xlaş kavlaş vran xarn est.",
+   "ergebnis": "[OK]",
+   "befund_id": null,
+   "problem_beschreibung": null,
+   "anmerkung": null,
+   "validator_befunde": [],
+   "k01_woerter": [
+    "est"
+   ]
+  }
+ ]
+}
