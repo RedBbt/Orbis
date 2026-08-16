@@ -524,7 +524,7 @@ Analyse:
 - Präpositionen: —
 - Wortstellung: V2 ✓; Dat vor Akk nach Beispielpraxis (U-05, ungeregelt)
 - Phonotaktik: §5-konform
-- verwendete Regeln: §8, §10.3, §11, §14, §17.1; deckungsgleich mit §25.1-Beispiel
+- verwendete Regeln: §8, §10.3, §11, §14, §17.1; strukturgleich mit dem §25.1-Beispiel (das dort im Präteritum dolvet steht, hier korrekt Präsens dalvat)
 - Ergebnis: [OK]
 
 ## Test 024
