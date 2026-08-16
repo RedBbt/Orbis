@@ -1,0 +1,24 @@
+name: Orbis CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validator strikt (Baseline-Vergleich)
+        run: python3 orbis_validator.py --strict
+
+      - name: Korpus-Regression
+        run: python3 orbis_validator.py --corpus Orbis-Testkorpus-0_1.md
+
+      - name: Testdaten-JSON pruefbar
+        run: python3 -c "import json; json.load(open('Orbis-Testdaten.json'))"
