@@ -28,6 +28,7 @@ Status: `vorbereitet` (Optionen liegen vor, niemand hat entschieden) · `entschi
 | ORB-ADR-0008 | Silbifizierungsregel (blockiert Orbis Manus und Tastatur) | L-09 | vorbereitet | (0.9.4) |
 | ORB-ADR-0009 | Formkollision velkran | W-02 | vorbereitet | (0.9.4) |
 | ORB-ADR-0010 | Redaktionskorrekturen der Referenzgrammatik | K-01, K-03, K-04, U-01, U-10 | vorbereitet | (0.9.4) |
+| ORB-ADR-0011 | Klangreform: Entlastung des Lautes x | — | vorbereitet | (0.9.4+) |
 
 Die inhaltliche Aufbereitung der Punkte 0002–0010 mit Optionen, Beispielsätzen und
 Folgekosten steht in `decisions/Entscheidungsvorlage-0_9_4.md`. Sobald die
